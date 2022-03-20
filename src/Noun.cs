@@ -9,36 +9,40 @@
 
     internal class Noun
     {
-        public Gender Gender { get; set; }
+        public string EnglishDescription { get; }
 
-        public string? SingularForm { get; set; }
+        public Gender Gender { get; }
 
-        public string? PluralForm { get; set; }
+        public string? GermanSingularForm { get; }
 
-        public Noun(string? singularForm, string? pluralForm)
+        public string? GermanPluralForm { get; }
+
+        public Noun(string englishDescription, string? germanSingularForm, string? germanPluralForm)
         {
-            if (singularForm == null && pluralForm == null)
-                throw new Exception("Singular form and plural form cannot be null at the same time.");
+            EnglishDescription = englishDescription;
 
-            if (singularForm != null)
-                (Gender, SingularForm) = ParseNounSingularForm(singularForm);
+            if (germanSingularForm == null && germanPluralForm == null)
+                throw new Exception("German singular and plural forms cannot be null at the same time.");
 
-            if (pluralForm != null)
-                PluralForm = ParseNounPluralForm(pluralForm);
+            if (germanSingularForm != null)
+                (Gender, GermanSingularForm) = ParseGermanSingularForm(germanSingularForm);
+
+            if (germanPluralForm != null)
+                GermanPluralForm = ParseGermanPluralForm(germanPluralForm);
         }
 
-        public static (Gender, string) ParseNounSingularForm(string data)
+        public static (Gender, string) ParseGermanSingularForm(string data)
         {
             string[] parts = data.Trim().Split(' ');
 
             if (parts.Length != 2)
-                throw new Exception("Invalid singular form format. Should be: [article] [noun]");
+                throw new Exception("Invalid german singular form format. Should be: [article] [noun]");
 
             string article = parts[0];
             string noun = parts[1];
 
             if (article != "der" && article != "die" && article != "das")
-                throw new Exception("Invalid singular form article.");
+                throw new Exception("Invalid german singular form article.");
 
             Gender gender = Gender.Masculine;
 
@@ -48,32 +52,32 @@
                 gender = Gender.Neuter;
 
             if (noun.Length < 2)
-                throw new Exception("Singular form needs to have at least 2 characters.");
+                throw new Exception("German singular form needs to have at least 2 characters.");
 
             if (noun.ToUpper()[0] != noun[0])
-                throw new Exception("Singular form needs to be capitalized.");
+                throw new Exception("German singular form needs to be capitalized.");
 
             return (gender, noun);
         }
 
-        public static string ParseNounPluralForm(string data)
+        public static string ParseGermanPluralForm(string data)
         {
             string[] parts = data.Trim().Split(' ');
 
             if (parts.Length != 2)
-                throw new Exception("Invalid plural form format. Should be: [article] [noun]");
+                throw new Exception("Invalid german plural form format. Should be: [article] [noun]");
 
             string article = parts[0];
             string noun = parts[1];
 
             if (article != "die")
-                throw new Exception("Invalid plural form article.");
+                throw new Exception("Invalid german plural form article.");
 
             if (noun.Length < 2)
-                throw new Exception("Plural form needs to have at least 2 characters.");
+                throw new Exception("German plural form needs to have at least 2 characters.");
 
             if (noun.ToUpper()[0] != noun[0])
-                throw new Exception("Plural form needs to be capitalized.");
+                throw new Exception("German plural form needs to be capitalized.");
 
             return data;
         }
