@@ -1,2 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace VocabularyTrainer2
+{
+    internal class Program
+    {
+        static void Main()
+        {
+            Console.Title = "Vocabulary Trainer 2";
+            Console.WriteLine("Hello World!");
+        }
+    }
+}
