@@ -10,23 +10,7 @@ namespace VocabularyTrainer2
             Console.Title = "Vocabulary Trainer 2";
 
             var nouns = ReadNounsFromCSVFile("data/Nouns.csv");
-            var flashcards = new List<Flashcard>();
-
-            foreach (var noun in nouns)
-            {
-                if (noun.GermanSingularForm != null)
-                {
-                    string question = $"{noun.EnglishDescription} (singular)";
-                    flashcards.Add(new Flashcard(question, $"{noun.Gender.ToArticle()} {noun.GermanSingularForm}"));
-                }
-
-                if (noun.GermanPluralForm != null)
-                {
-                    string question = $"{noun.EnglishDescription} (plural)";
-                    flashcards.Add(new Flashcard(question, $"die {noun.GermanPluralForm}"));
-                }
-            }
-
+            var flashcards = CreateFlashcards(nouns);
             var flashcard = flashcards[0];
 
             Utility.WriteLine($"Translate to german: '{flashcard.AskQuestion()}'");
@@ -68,6 +52,30 @@ namespace VocabularyTrainer2
             }
 
             return nouns;
+        }
+
+        static List<IFlashcardable> CreateFlashcards(List<Noun> nouns)
+        {
+            var flashcards = new List<IFlashcardable>();
+
+            foreach (var noun in nouns)
+            {
+                if (noun.GermanSingularForm != null)
+                {
+                    string question = $"{noun.EnglishDescription} (singular)";
+                    string answer = $"{noun.Gender.ToArticle()} {noun.GermanSingularForm}";
+                    flashcards.Add(new Flashcard(question, answer));
+                }
+
+                if (noun.GermanPluralForm != null)
+                {
+                    string question = $"{noun.EnglishDescription} (plural)";
+                    string answer = $"die {noun.GermanPluralForm}";
+                    flashcards.Add(new Flashcard(question, answer));
+                }
+            }
+
+            return flashcards;
         }
     }
 }
