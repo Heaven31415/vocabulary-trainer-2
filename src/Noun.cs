@@ -7,6 +7,20 @@
         Neuter
     }
 
+    internal static class Extensions
+    {
+        public static string ToArticle(this Gender gender)
+        {
+            return gender switch
+            {
+                Gender.Masculine => "der",
+                Gender.Feminine => "die",
+                Gender.Neuter => "das",
+                _ => throw new Exception("Invalid type of gender."),
+            };
+        }
+    }
+
     internal class Noun
     {
         public string EnglishDescription { get; }
