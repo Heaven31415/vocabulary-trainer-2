@@ -1,6 +1,4 @@
-﻿using CsvHelper;
-using System.Globalization;
-using System.Text.Encodings.Web;
+﻿using System.Text.Encodings.Web;
 using System.Text.Json;
 using System.Text.Unicode;
 
@@ -12,46 +10,15 @@ namespace VocabularyTrainer2
         {
             Console.Title = "Vocabulary Trainer 2";
 
+            /*
             var flashcards = LoadFlashcards("data/Flashcards.json");
             TestFlashcard(flashcards[0]);
+            */
 
-            /*
-            var nouns = ReadNounsFromCSVFile("data/Nouns.csv");
+            var nouns = CSV.ReadNounsFromCSVFile("data/Nouns.csv");
             var flashcards = CreateFlashcards(nouns);
             SaveFlashcards("data/Flashcards.json", flashcards);
-            */
         }
-
-        static List<Noun> ReadNounsFromCSVFile(string path)
-        {
-            var nouns = new List<Noun>();
-
-            using var reader = new StreamReader(path);
-            using var csv = new CsvReader(reader, CultureInfo.InvariantCulture);
-
-            csv.Read();
-            csv.ReadHeader();
-
-            while (csv.Read())
-            {
-                int id = csv.GetField<int>(0);
-                string englishDescription = csv.GetField(1);
-                string? germanSingularForm = csv.GetField(2);
-                string? germanPluralForm = csv.GetField(3);
-
-                if (string.IsNullOrEmpty(germanSingularForm))
-                    germanSingularForm = null;
-
-                if (string.IsNullOrEmpty(germanPluralForm))
-                    germanPluralForm = null;
-
-                var noun = new Noun(id, englishDescription, germanSingularForm, germanPluralForm);
-                nouns.Add(noun);
-            }
-
-            return nouns;
-        }
-
         static List<Flashcard> CreateFlashcards(List<Noun> nouns)
         {
             var flashcards = new List<Flashcard>();
