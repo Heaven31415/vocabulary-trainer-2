@@ -1,16 +1,14 @@
 ﻿namespace VocabularyTrainer2
 {
-    internal class RandomFlashcard : IFlashcardable
+    internal class RandomFlashcard : FlashcardBase
     {
         private readonly static Random random = new();
 
         private readonly List<string> questions;
         private readonly List<string> answers;
-        private DateTime lastTrainingTime;
-        private TimeSpan cooldown;
         private int index;
 
-        public RandomFlashcard(List<string> questions, List<string> answers)
+        public RandomFlashcard(int parentId, Type type, List<string> questions, List<string> answers) : base(parentId, type)
         {
             if (questions.Count == 0)
                 throw new Exception("At least 1 question is required.");
@@ -23,14 +21,10 @@
 
             this.questions = questions;
             this.answers = answers;
-            lastTrainingTime = DateTime.Now.AddDays(-1);
-            cooldown = TimeSpan.FromDays(1);
             index = random.Next(0, questions.Count);
         }
 
-        public string AskQuestion() => questions[index];
-
-        public (bool, string) GiveAnswer(string answer)
+        public override (bool, string) Answer(string answer)
         {
             lastTrainingTime = DateTime.Now;
 
@@ -50,6 +44,8 @@
             return (isCorrect, correctAnswer);
         }
 
-        public bool IsAvailable() => DateTime.Now > lastTrainingTime.Add(cooldown);
+        public override string Ask() => questions[index];
+
+        public override string ComputeHash() => Utility.ComputeHash($"{string.Join("", questions)}{string.Join("", answers)}");
     }
 }

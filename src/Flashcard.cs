@@ -1,23 +1,17 @@
 ﻿namespace VocabularyTrainer2
 {
-    internal class Flashcard : IFlashcardable
+    internal class Flashcard : FlashcardBase
     {
         private readonly string question;
         private readonly string answer;
-        private DateTime lastTrainingTime;
-        private TimeSpan cooldown;
 
-        public Flashcard(string question, string answer)
+        public Flashcard(int parentId, Type type, string question, string answer) : base(parentId, type)
         {
             this.question = question;
             this.answer = answer;
-            lastTrainingTime = DateTime.Now.AddDays(-1);
-            cooldown = TimeSpan.FromDays(1);
         }
 
-        public string AskQuestion() => question;
-
-        public (bool, string) GiveAnswer(string answer)
+        public override (bool, string) Answer(string answer)
         {
             lastTrainingTime = DateTime.Now;
 
@@ -32,6 +26,8 @@
             return (this.answer == answer, this.answer);
         }
 
-        public bool IsAvailable() => DateTime.Now > lastTrainingTime.Add(cooldown);
+        public override string Ask() => question;
+
+        public override string ComputeHash() => Utility.ComputeHash($"{question}{answer}");
     }
 }

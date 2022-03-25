@@ -43,9 +43,9 @@ namespace VocabularyTrainer2
             return nouns;
         }
 
-        static List<IFlashcardable> CreateFlashcards(List<Noun> nouns)
+        static List<FlashcardBase> CreateFlashcards(List<Noun> nouns)
         {
-            var flashcards = new List<IFlashcardable>();
+            var flashcards = new List<FlashcardBase>();
 
             foreach (var noun in nouns)
             {
@@ -53,27 +53,27 @@ namespace VocabularyTrainer2
                 {
                     string question = $"{noun.EnglishDescription} (singular)";
                     string answer = $"{noun.Gender.ToArticle()} {noun.GermanSingularForm}";
-                    flashcards.Add(new Flashcard(question, answer));
+                    flashcards.Add(new Flashcard(0, Type.NounSingularForm, question, answer));
                 }
 
                 if (noun.GermanPluralForm != null)
                 {
                     string question = $"{noun.EnglishDescription} (plural)";
                     string answer = $"die {noun.GermanPluralForm}";
-                    flashcards.Add(new Flashcard(question, answer));
+                    flashcards.Add(new Flashcard(0, Type.NounPluralForm, question, answer));
                 }
             }
 
             return flashcards;
         }
 
-        static void TestFlashcard(IFlashcardable flashcard)
+        static void TestFlashcard(FlashcardBase flashcard)
         {
-            Utility.WriteLine($"Translate to german: '{flashcard.AskQuestion()}'");
+            Utility.WriteLine($"Translate to german: '{flashcard.Ask()}'");
             Utility.Write("Answer: ");
             var answer = Utility.ReadLine();
 
-            var (isCorrect, correctAnswer) = flashcard.GiveAnswer(answer);
+            var (isCorrect, correctAnswer) = flashcard.Answer(answer);
 
             if (isCorrect)
                 Utility.WriteLine("You are correct!", ConsoleColor.Green);
