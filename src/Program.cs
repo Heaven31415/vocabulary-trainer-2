@@ -12,11 +12,17 @@ namespace VocabularyTrainer2
         {
             Console.Title = "Vocabulary Trainer 2";
 
+            var flashcards = LoadFlashcards("data/Flashcards.json");
+
+            TestFlashcard(flashcards[0]);
+
+            /*
             var nouns = ReadNounsFromCSVFile("data/Nouns.csv");
             var flashcards = CreateFlashcards(nouns);
             SaveFlashcards("data/Flashcards.json", flashcards);
 
             TestFlashcard(flashcards[0]);
+            */
         }
 
         static List<Noun> ReadNounsFromCSVFile(string path)
@@ -68,6 +74,34 @@ namespace VocabularyTrainer2
                     string answer = noun.GermanPluralForm;
                     flashcards.Add(new Flashcard(noun.Id, Type.NounPluralForm, question, answer));
                 }
+            }
+
+            return flashcards;
+        }
+
+        static List<FlashcardBase> LoadFlashcards(string path)
+        {
+            var json = File.ReadAllText(path);
+            var flashcardHelpers = JsonSerializer.Deserialize<List<FlashcardHelper>>(json);
+            var flashcards = new List<FlashcardBase>();
+
+            if (flashcardHelpers == null)
+                throw new Exception("Flashcard Helpers are null!");
+
+            foreach (var flashcardHelper in flashcardHelpers)
+            {
+                var parentId = flashcardHelper.ParentId;
+                var type = flashcardHelper.Type;
+                var question = flashcardHelper.Question;
+                var answer = flashcardHelper.Answer;
+
+                var flashcard = new Flashcard(parentId, type, question, answer)
+                {
+                    LastTrainingTime = flashcardHelper.LastTrainingTime,
+                    Cooldown = flashcardHelper.Cooldown
+                };
+
+                flashcards.Add(flashcard);
             }
 
             return flashcards;
