@@ -1,5 +1,8 @@
 ﻿using CsvHelper;
 using System.Globalization;
+using System.Text.Encodings.Web;
+using System.Text.Json;
+using System.Text.Unicode;
 
 namespace VocabularyTrainer2
 {
@@ -11,6 +14,15 @@ namespace VocabularyTrainer2
 
             var nouns = ReadNounsFromCSVFile("data/Nouns.csv");
             var flashcards = CreateFlashcards(nouns);
+
+            var options = new JsonSerializerOptions { 
+                Encoder = JavaScriptEncoder.Create(UnicodeRanges.All),
+                WriteIndented = true 
+            };
+
+            var json = JsonSerializer.Serialize(flashcards, options);
+            File.WriteAllText("data/Flashcards.json", json);
+
             TestFlashcard(flashcards[0]);
         }
 

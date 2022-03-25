@@ -1,4 +1,6 @@
-﻿namespace VocabularyTrainer2
+﻿using System.Text.Json.Serialization;
+
+namespace VocabularyTrainer2
 {
     internal enum Type
     {
@@ -22,6 +24,7 @@
             cooldown = TimeSpan.FromDays(1);
         }
 
+        [JsonIgnore]
         public bool IsAvailable => DateTime.Now > lastTrainingTime.Add(cooldown);
         public abstract string Ask();
         public abstract (bool, string) Answer(string answer);
