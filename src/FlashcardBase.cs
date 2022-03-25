@@ -5,7 +5,10 @@ namespace VocabularyTrainer2
     internal enum Type
     {
         NounSingularForm,
-        NounPluralForm
+        NounPluralForm,
+        AdjectivePositiveDegree,
+        AdjectiveComparativeDegree,
+        AdjectiveSuperlativeDegree
     }
 
     internal abstract class FlashcardBase

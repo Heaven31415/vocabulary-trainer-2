@@ -15,9 +15,13 @@ namespace VocabularyTrainer2
             TestFlashcard(flashcards[0]);
             */
 
-            var nouns = CSV.ReadNounsFromCSVFile("data/Nouns.csv");
-            var flashcards = CreateFlashcards(nouns);
-            SaveFlashcards("data/Flashcards.json", flashcards);
+            var nouns = CSV.ReadNounsFromFile("data/Nouns.csv");
+            var adjectives = CSV.ReadAdjectivesFromFile("data/Adjectives.csv");
+
+            var nounFlashcards = CreateFlashcards(nouns);
+            var adjectiveFlashcards = CreateFlashcards(adjectives);
+
+            SaveFlashcards("data/Flashcards.json", nounFlashcards.Concat(adjectiveFlashcards).ToList());
         }
         static List<Flashcard> CreateFlashcards(List<Noun> nouns)
         {
@@ -37,6 +41,36 @@ namespace VocabularyTrainer2
                     string question = $"{noun.EnglishDescription} (plural)";
                     string answer = noun.GermanPluralForm;
                     flashcards.Add(new Flashcard(noun.Id, Type.NounPluralForm, question, answer));
+                }
+            }
+
+            return flashcards;
+        }
+
+        static List<Flashcard> CreateFlashcards(List<Adjective> adjectives)
+        {
+            var flashcards = new List<Flashcard>();
+
+            foreach (var adjective in adjectives)
+            {
+                {
+                    string question = $"{adjective.EnglishDescription} (positive)";
+                    string answer = adjective.PositiveDegree;
+                    flashcards.Add(new Flashcard(adjective.Id, Type.AdjectivePositiveDegree, question, answer));
+                }
+                
+                if (!string.IsNullOrEmpty(adjective.ComparativeDegree))
+                {
+                    string question = $"{adjective.EnglishDescription} (comparative)";
+                    string answer = adjective.ComparativeDegree;
+                    flashcards.Add(new Flashcard(adjective.Id, Type.AdjectiveComparativeDegree, question, answer));
+                }
+
+                if (!string.IsNullOrEmpty(adjective.SuperlativeDegree))
+                {
+                    string question = $"{adjective.EnglishDescription} (superlative)";
+                    string answer = adjective.SuperlativeDegree;
+                    flashcards.Add(new Flashcard(adjective.Id, Type.AdjectiveSuperlativeDegree, question, answer));
                 }
             }
 
