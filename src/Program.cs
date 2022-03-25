@@ -82,11 +82,11 @@ namespace VocabularyTrainer2
 
         static void TestFlashcard(FlashcardBase flashcard)
         {
-            Utility.WriteLine($"Translate to german: '{flashcard.Ask()}'");
+            Utility.WriteLine($"Translate to german: '{flashcard.AskQuestion()}'");
             Utility.Write("Answer: ");
             var answer = Utility.ReadLine();
 
-            var (isCorrect, correctAnswer) = flashcard.Answer(answer);
+            var (isCorrect, correctAnswer) = flashcard.AnswerQuestion(answer);
 
             if (isCorrect)
                 Utility.WriteLine("You are correct!", ConsoleColor.Green);

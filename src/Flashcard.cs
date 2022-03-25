@@ -11,7 +11,7 @@
             this.answer = answer;
         }
 
-        public override (bool, string) Answer(string answer)
+        public override (bool, string) AnswerQuestion(string answer)
         {
             lastTrainingTime = DateTime.Now;
 
@@ -26,7 +26,7 @@
             return (this.answer == answer, this.answer);
         }
 
-        public override string Ask() => question;
+        public override string AskQuestion() => question;
 
         public override string ComputeHash() => Utility.ComputeHash($"{question}{answer}");
     }

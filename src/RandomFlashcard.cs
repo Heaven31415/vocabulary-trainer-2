@@ -24,7 +24,7 @@
             index = random.Next(0, questions.Count);
         }
 
-        public override (bool, string) Answer(string answer)
+        public override (bool, string) AnswerQuestion(string answer)
         {
             lastTrainingTime = DateTime.Now;
 
@@ -44,7 +44,7 @@
             return (isCorrect, correctAnswer);
         }
 
-        public override string Ask() => questions[index];
+        public override string AskQuestion() => questions[index];
 
         public override string ComputeHash() => Utility.ComputeHash($"{string.Join("", questions)}{string.Join("", answers)}");
     }

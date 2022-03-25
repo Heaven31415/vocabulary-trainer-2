@@ -26,8 +26,8 @@ namespace VocabularyTrainer2
 
         [JsonIgnore]
         public bool IsAvailable => DateTime.Now > lastTrainingTime.Add(cooldown);
-        public abstract string Ask();
-        public abstract (bool, string) Answer(string answer);
+        public abstract string AskQuestion();
+        public abstract (bool, string) AnswerQuestion(string answer);
         public abstract string ComputeHash();
     }
 }
