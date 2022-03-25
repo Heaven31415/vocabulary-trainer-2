@@ -13,15 +13,12 @@ namespace VocabularyTrainer2
             Console.Title = "Vocabulary Trainer 2";
 
             var flashcards = LoadFlashcards("data/Flashcards.json");
-
             TestFlashcard(flashcards[0]);
 
             /*
             var nouns = ReadNounsFromCSVFile("data/Nouns.csv");
             var flashcards = CreateFlashcards(nouns);
             SaveFlashcards("data/Flashcards.json", flashcards);
-
-            TestFlashcard(flashcards[0]);
             */
         }
 
@@ -55,9 +52,9 @@ namespace VocabularyTrainer2
             return nouns;
         }
 
-        static List<FlashcardBase> CreateFlashcards(List<Noun> nouns)
+        static List<Flashcard> CreateFlashcards(List<Noun> nouns)
         {
-            var flashcards = new List<FlashcardBase>();
+            var flashcards = new List<Flashcard>();
 
             foreach (var noun in nouns)
             {
@@ -79,11 +76,11 @@ namespace VocabularyTrainer2
             return flashcards;
         }
 
-        static List<FlashcardBase> LoadFlashcards(string path)
+        static List<Flashcard> LoadFlashcards(string path)
         {
             var json = File.ReadAllText(path);
             var flashcardHelpers = JsonSerializer.Deserialize<List<FlashcardHelper>>(json);
-            var flashcards = new List<FlashcardBase>();
+            var flashcards = new List<Flashcard>();
 
             if (flashcardHelpers == null)
                 throw new Exception("Flashcard Helpers are null!");
@@ -107,20 +104,15 @@ namespace VocabularyTrainer2
             return flashcards;
         }
 
-        static void SaveFlashcards(string path, List<FlashcardBase> flashcards)
+        static void SaveFlashcards(string path, List<Flashcard> flashcards)
         {
-            var objects = new List<object>();
-
-            foreach (var flashcard in flashcards)
-                objects.Add(flashcard);
-
             var options = new JsonSerializerOptions
             {
                 Encoder = JavaScriptEncoder.Create(UnicodeRanges.All),
                 WriteIndented = true
             };
 
-            var json = JsonSerializer.Serialize(objects, options);
+            var json = JsonSerializer.Serialize(flashcards, options);
             File.WriteAllText(path, json);
         }
 
