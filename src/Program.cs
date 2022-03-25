@@ -26,9 +26,10 @@ namespace VocabularyTrainer2
 
             while (csv.Read())
             {
-                string englishDescription = csv.GetField(0);
-                string? germanSingularForm = csv.GetField(1);
-                string? germanPluralForm = csv.GetField(2);
+                int id = csv.GetField<int>(0);
+                string englishDescription = csv.GetField(1);
+                string? germanSingularForm = csv.GetField(2);
+                string? germanPluralForm = csv.GetField(3);
 
                 if (string.IsNullOrEmpty(germanSingularForm))
                     germanSingularForm = null;
@@ -36,7 +37,7 @@ namespace VocabularyTrainer2
                 if (string.IsNullOrEmpty(germanPluralForm))
                     germanPluralForm = null;
 
-                var noun = new Noun(englishDescription, germanSingularForm, germanPluralForm);
+                var noun = new Noun(id, englishDescription, germanSingularForm, germanPluralForm);
                 nouns.Add(noun);
             }
 
@@ -53,14 +54,14 @@ namespace VocabularyTrainer2
                 {
                     string question = $"{noun.EnglishDescription} (singular)";
                     string answer = $"{noun.Gender.ToArticle()} {noun.GermanSingularForm}";
-                    flashcards.Add(new Flashcard(0, Type.NounSingularForm, question, answer));
+                    flashcards.Add(new Flashcard(noun.Id, Type.NounSingularForm, question, answer));
                 }
 
                 if (noun.GermanPluralForm != null)
                 {
                     string question = $"{noun.EnglishDescription} (plural)";
                     string answer = $"die {noun.GermanPluralForm}";
-                    flashcards.Add(new Flashcard(0, Type.NounPluralForm, question, answer));
+                    flashcards.Add(new Flashcard(noun.Id, Type.NounPluralForm, question, answer));
                 }
             }
 

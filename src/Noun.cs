@@ -23,16 +23,15 @@
 
     internal class Noun
     {
+        public int Id { get; }
         public string EnglishDescription { get; }
-
         public Gender Gender { get; }
-
         public string? GermanSingularForm { get; }
-
         public string? GermanPluralForm { get; }
 
-        public Noun(string englishDescription, string? germanSingularForm, string? germanPluralForm)
+        public Noun(int id, string englishDescription, string? germanSingularForm, string? germanPluralForm)
         {
+            Id = id;
             EnglishDescription = englishDescription;
 
             if (germanSingularForm == null && germanPluralForm == null)
