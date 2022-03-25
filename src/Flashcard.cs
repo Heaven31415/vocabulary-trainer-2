@@ -2,32 +2,32 @@
 {
     internal class Flashcard : FlashcardBase
     {
-        private readonly string question;
-        private readonly string answer;
+        public string Question { get; set; }
+        public string Answer { get; set; }
 
         public Flashcard(int parentId, Type type, string question, string answer) : base(parentId, type)
         {
-            this.question = question;
-            this.answer = answer;
+            Question = question;
+            Answer = answer;
         }
 
         public override (bool, string) AnswerQuestion(string answer)
         {
-            lastTrainingTime = DateTime.Now;
+            LastTrainingTime = DateTime.Now;
 
-            if (this.answer == answer)
-                cooldown *= 2;
+            if (Answer == answer)
+                Cooldown *= 2;
             else
             {
-                if (cooldown.Days > 1)
-                    cooldown /= 2;
+                if (Cooldown.Days > 1)
+                    Cooldown /= 2;
             }
 
-            return (this.answer == answer, this.answer);
+            return (Answer == answer, Answer);
         }
 
-        public override string AskQuestion() => question;
+        public override string AskQuestion() => Question;
 
-        public override string ComputeHash() => Utility.ComputeHash($"{question}{answer}");
+        public override string ComputeHash() => Utility.ComputeHash($"{Question}{Answer}");
     }
 }

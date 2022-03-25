@@ -14,13 +14,17 @@ namespace VocabularyTrainer2
 
             var nouns = ReadNounsFromCSVFile("data/Nouns.csv");
             var flashcards = CreateFlashcards(nouns);
+            var objects = new List<object>();
+
+            foreach (var flashcard in flashcards)
+                objects.Add(flashcard);
 
             var options = new JsonSerializerOptions { 
                 Encoder = JavaScriptEncoder.Create(UnicodeRanges.All),
-                WriteIndented = true 
+                WriteIndented = true
             };
 
-            var json = JsonSerializer.Serialize(flashcards, options);
+            var json = JsonSerializer.Serialize<object>(objects, options);
             File.WriteAllText("data/Flashcards.json", json);
 
             TestFlashcard(flashcards[0]);
@@ -72,7 +76,7 @@ namespace VocabularyTrainer2
                 if (noun.GermanPluralForm != null)
                 {
                     string question = $"{noun.EnglishDescription} (plural)";
-                    string answer = $"die {noun.GermanPluralForm}";
+                    string answer = noun.GermanPluralForm;
                     flashcards.Add(new Flashcard(noun.Id, Type.NounPluralForm, question, answer));
                 }
             }

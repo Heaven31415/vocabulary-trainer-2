@@ -26,16 +26,16 @@
 
         public override (bool, string) AnswerQuestion(string answer)
         {
-            lastTrainingTime = DateTime.Now;
+            LastTrainingTime = DateTime.Now;
 
             var isCorrect = answers[index] == answer;
 
             if (isCorrect)
-                cooldown *= 2;
+                Cooldown *= 2;
             else
             {
-                if (cooldown.Days > 1)
-                    cooldown /= 2;
+                if (Cooldown.Days > 1)
+                    Cooldown /= 2;
             }
 
             var correctAnswer = answers[index];
