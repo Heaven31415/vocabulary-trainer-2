@@ -14,18 +14,7 @@ namespace VocabularyTrainer2
 
             var nouns = ReadNounsFromCSVFile("data/Nouns.csv");
             var flashcards = CreateFlashcards(nouns);
-            var objects = new List<object>();
-
-            foreach (var flashcard in flashcards)
-                objects.Add(flashcard);
-
-            var options = new JsonSerializerOptions { 
-                Encoder = JavaScriptEncoder.Create(UnicodeRanges.All),
-                WriteIndented = true
-            };
-
-            var json = JsonSerializer.Serialize<object>(objects, options);
-            File.WriteAllText("data/Flashcards.json", json);
+            SaveFlashcards("data/Flashcards.json", flashcards);
 
             TestFlashcard(flashcards[0]);
         }
@@ -82,6 +71,23 @@ namespace VocabularyTrainer2
             }
 
             return flashcards;
+        }
+
+        static void SaveFlashcards(string path, List<FlashcardBase> flashcards)
+        {
+            var objects = new List<object>();
+
+            foreach (var flashcard in flashcards)
+                objects.Add(flashcard);
+
+            var options = new JsonSerializerOptions
+            {
+                Encoder = JavaScriptEncoder.Create(UnicodeRanges.All),
+                WriteIndented = true
+            };
+
+            var json = JsonSerializer.Serialize(objects, options);
+            File.WriteAllText(path, json);
         }
 
         static void TestFlashcard(FlashcardBase flashcard)
