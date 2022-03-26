@@ -6,6 +6,7 @@
         {
             Console.Title = "Vocabulary Trainer 2";
 
+            UpdateFlashcardsFromCSV();
             Train();
         }
 
@@ -56,6 +57,26 @@
                 FlashcardRepository.SaveFlashcards("data/Flashcards.json", normalFlashcards);
                 FlashcardRepository.SaveRandomFlashcards("data/RandomFlashcards.json", randomFlashcards);
             }
+        }
+
+        static void UpdateFlashcardsFromCSV()
+        {
+            var verbs = CSV.ReadVerbsFromFile("data/Verbs.csv");
+            var nouns = CSV.ReadNounsFromFile("data/Nouns.csv");
+            var adjectives = CSV.ReadAdjectivesFromFile("data/Adjectives.csv");
+
+            var flashcards = FlashcardRepository.LoadFlashcards("data/Flashcards.json");
+
+            FlashcardRepository.UpdateFlashcards(verbs, flashcards);
+            FlashcardRepository.UpdateFlashcards(nouns, flashcards);
+            FlashcardRepository.UpdateFlashcards(adjectives, flashcards);
+
+            FlashcardRepository.SaveFlashcards("data/Flashcards.json", flashcards);
+
+            var randomFlashcards = new List<RandomFlashcard>();
+
+            FlashcardRepository.UpdateRandomFlashcards(verbs, randomFlashcards);
+            FlashcardRepository.SaveRandomFlashcards("data/RandomFlashcards.json", randomFlashcards);
         }
 
         static void BuildFlashcardsFromCSV()

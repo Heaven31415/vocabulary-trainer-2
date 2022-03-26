@@ -166,6 +166,67 @@ namespace VocabularyTrainer2
             return flashcards;
         }
 
+        public static void UpdateFlashcards(List<Noun> nouns, List<Flashcard> flashcards)
+        {
+            foreach (var noun in nouns)
+            {
+                if (noun.GermanSingularForm != null)
+                {
+                    var singularFormFlashcard = flashcards.Find(f => f.ParentId == noun.Id && f.Type == Type.NounSingularForm);
+
+                    string question = $"{noun.EnglishDescription} (singular)";
+                    string answer = $"{noun.Gender.ToArticle()} {noun.GermanSingularForm}";
+                    var flashcardCandidate = new Flashcard(noun.Id, Type.NounSingularForm, question, answer);
+
+                    if (singularFormFlashcard == null)
+                        flashcards.Add(flashcardCandidate);
+                    else
+                    {
+                        if (singularFormFlashcard.ComputeHash() != flashcardCandidate.ComputeHash())
+                        {
+                            singularFormFlashcard.Question = flashcardCandidate.Question;
+                            singularFormFlashcard.Answer = flashcardCandidate.Answer;
+                        }
+                    }
+                }
+
+                if (noun.GermanPluralForm != null)
+                {
+                    var pluralFormFlashcard = flashcards.Find(f => f.ParentId == noun.Id && f.Type == Type.NounPluralForm);
+
+                    string question = $"{noun.EnglishDescription} (plural)";
+                    string answer = noun.GermanPluralForm;
+                    var flashcardCandidate = new Flashcard(noun.Id, Type.NounPluralForm, question, answer);
+
+                    if (pluralFormFlashcard == null)
+                        flashcards.Add(flashcardCandidate);
+                    else
+                    {
+                        if (pluralFormFlashcard.ComputeHash() != flashcardCandidate.ComputeHash())
+                        {
+                            pluralFormFlashcard.Question = flashcardCandidate.Question;
+                            pluralFormFlashcard.Answer = flashcardCandidate.Answer;
+                        }
+                    }
+                }
+            }
+        }
+
+        public static void UpdateFlashcards(List<Adjective> adjectives, List<Flashcard> flashcards)
+        {
+            throw new NotImplementedException();
+        }
+
+        public static void UpdateFlashcards(List<Verb> verbs, List<Flashcard> flashcards)
+        {
+            throw new NotImplementedException();
+        }
+
+        public static void UpdateRandomFlashcards(List<Verb> verbs, List<RandomFlashcard> flashcards)
+        {
+            throw new NotImplementedException();
+        }
+
         public static List<Flashcard> LoadFlashcards(string path)
         {
             var json = File.ReadAllText(path);
