@@ -6,19 +6,29 @@
         {
             Console.Title = "Vocabulary Trainer 2";
 
-            /*
-            var flashcards = LoadFlashcards("data/Flashcards.json");
-            TestFlashcard(flashcards[0]);
-            */
-
             var verbs = CSV.ReadVerbsFromFile("data/Verbs.csv");
             var nouns = CSV.ReadNounsFromFile("data/Nouns.csv");
             var adjectives = CSV.ReadAdjectivesFromFile("data/Adjectives.csv");
 
+            var verbFlashcards = FlashcardRepository.CreateFlashcards(verbs);
             var nounFlashcards = FlashcardRepository.CreateFlashcards(nouns);
             var adjectiveFlashcards = FlashcardRepository.CreateFlashcards(adjectives);
 
-            FlashcardRepository.SaveFlashcards("data/Flashcards.json", nounFlashcards.Concat(adjectiveFlashcards).ToList());
+            var flashcards = new List<Flashcard>();
+
+            foreach (var flashcard in verbFlashcards)
+                flashcards.Add(flashcard);
+
+            foreach (var flashcard in nounFlashcards)
+                flashcards.Add(flashcard);
+
+            foreach (var flashcard in adjectiveFlashcards)
+                flashcards.Add(flashcard);
+
+            FlashcardRepository.SaveFlashcards("data/Flashcards.json", flashcards);
+
+            var verbRandomFlashcards = FlashcardRepository.CreateRandomFlashcards(verbs);
+            FlashcardRepository.SaveRandomFlashcards("data/RandomFlashcards.json", verbRandomFlashcards);
         }
 
         static void TestFlashcard(FlashcardBase flashcard)

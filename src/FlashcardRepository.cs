@@ -60,6 +60,16 @@ namespace VocabularyTrainer2
             return flashcards;
         }
 
+        public static List<Flashcard> CreateFlashcards(List<Verb> verbs)
+        {
+            throw new NotImplementedException();
+        }
+
+        public static List<RandomFlashcard> CreateRandomFlashcards(List<Verb> verbs)
+        {
+            throw new NotImplementedException();
+        }
+
         public static List<Flashcard> LoadFlashcards(string path)
         {
             var json = File.ReadAllText(path);
@@ -98,6 +108,16 @@ namespace VocabularyTrainer2
 
             var json = JsonSerializer.Serialize(flashcards, options);
             File.WriteAllText(path, json);
+        }
+
+        public static List<RandomFlashcard> LoadRandomFlashcards(string path)
+        {
+            throw new NotImplementedException();
+        }
+
+        public static void SaveRandomFlashcards(string path, List<RandomFlashcard> flashcards)
+        {
+            throw new NotImplementedException();
         }
     }
 }
