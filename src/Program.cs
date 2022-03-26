@@ -6,6 +6,60 @@
         {
             Console.Title = "Vocabulary Trainer 2";
 
+            Train();
+        }
+
+        static void Train()
+        {
+            var normalFlashcards = FlashcardRepository.LoadFlashcards("data/Flashcards.json");
+            var randomFlashcards = FlashcardRepository.LoadRandomFlashcards("data/RandomFlashcards.json");
+            var flashcards = new List<FlashcardBase>();
+
+            foreach (var flashcard in normalFlashcards)
+                flashcards.Add(flashcard);
+
+            foreach (var flashcard in randomFlashcards)
+                flashcards.Add(flashcard);
+
+            var random = new Random();
+
+            while (true)
+            {
+                var availableFlashcards = flashcards.FindAll(f => f.IsAvailable);
+
+                if (availableFlashcards.Count == 0)
+                    break;
+
+                Utility.WriteLine($"Available flashcards: {availableFlashcards.Count}");
+                Utility.WriteLine();
+
+                var flashcard = availableFlashcards[random.Next(availableFlashcards.Count)];
+
+                Utility.WriteLine($"Translate to german: '{flashcard.AskQuestion()}'");
+                Utility.Write("Answer: ");
+                var answer = Utility.ReadLine();
+
+                var (isCorrect, correctAnswer) = flashcard.AnswerQuestion(answer);
+
+                Utility.WriteLine();
+
+                if (isCorrect)
+                    Utility.WriteLine("Correct!", ConsoleColor.Green);
+                else
+                    Utility.WriteLine($"Incorrect. The correct answer is: '{correctAnswer}'", ConsoleColor.Red);
+
+                Utility.WriteLine();
+                Utility.WriteLine("Press enter to continue...");
+                Utility.ReadLine();
+                Console.Clear();
+
+                FlashcardRepository.SaveFlashcards("data/Flashcards.json", normalFlashcards);
+                FlashcardRepository.SaveRandomFlashcards("data/RandomFlashcards.json", randomFlashcards);
+            }
+        }
+
+        static void BuildFlashcardsFromCSV()
+        {
             var verbs = CSV.ReadVerbsFromFile("data/Verbs.csv");
             var nouns = CSV.ReadNounsFromFile("data/Nouns.csv");
             var adjectives = CSV.ReadAdjectivesFromFile("data/Adjectives.csv");
@@ -29,20 +83,6 @@
 
             var verbRandomFlashcards = FlashcardRepository.CreateRandomFlashcards(verbs);
             FlashcardRepository.SaveRandomFlashcards("data/RandomFlashcards.json", verbRandomFlashcards);
-        }
-
-        static void TestFlashcard(FlashcardBase flashcard)
-        {
-            Utility.WriteLine($"Translate to german: '{flashcard.AskQuestion()}'");
-            Utility.Write("Answer: ");
-            var answer = Utility.ReadLine();
-
-            var (isCorrect, correctAnswer) = flashcard.AnswerQuestion(answer);
-
-            if (isCorrect)
-                Utility.WriteLine("You are correct!", ConsoleColor.Green);
-            else
-                Utility.WriteLine($"This is not correct. The correct answer is: '{correctAnswer}'", ConsoleColor.Red);
         }
     }
 }
