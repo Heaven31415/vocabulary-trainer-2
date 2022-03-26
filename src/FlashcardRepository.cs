@@ -208,7 +208,30 @@ namespace VocabularyTrainer2
 
         public static List<RandomFlashcard> LoadRandomFlashcards(string path)
         {
-            throw new NotImplementedException();
+            var json = File.ReadAllText(path);
+            var flashcardHelpers = JsonSerializer.Deserialize<List<RandomFlashcardHelper>>(json);
+            var flashcards = new List<RandomFlashcard>();
+
+            if (flashcardHelpers == null)
+                throw new Exception("Flashcard Helpers are null!");
+
+            foreach (var flashcardHelper in flashcardHelpers)
+            {
+                var parentId = flashcardHelper.ParentId;
+                var type = flashcardHelper.Type;
+                var questions = flashcardHelper.Questions;
+                var answers = flashcardHelper.Answers;
+
+                var flashcard = new RandomFlashcard(parentId, type, questions, answers)
+                {
+                    LastTrainingTime = flashcardHelper.LastTrainingTime,
+                    Cooldown = flashcardHelper.Cooldown
+                };
+
+                flashcards.Add(flashcard);
+            }
+
+            return flashcards;
         }
 
         public static void SaveRandomFlashcards(string path, List<RandomFlashcard> flashcards)
