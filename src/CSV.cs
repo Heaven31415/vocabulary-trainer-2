@@ -77,8 +77,10 @@ namespace VocabularyTrainer2
                 int id = csv.GetField<int>(0);
                 string englishDescription = csv.GetField(1);
                 string germanInfinitive = csv.GetField(2);
+                bool verified = csv.GetField<bool>(3);
 
-                verbs.Add(VerbExtractor.Extract(id, englishDescription, germanInfinitive));
+                if (verified)
+                    verbs.Add(VerbExtractor.Extract(id, englishDescription, germanInfinitive));
             }
 
             return verbs;
