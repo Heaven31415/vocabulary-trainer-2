@@ -120,7 +120,50 @@ namespace VocabularyTrainer2
 
         public static List<RandomFlashcard> CreateRandomFlashcards(List<Verb> verbs)
         {
-            throw new NotImplementedException();
+            var flashcards = new List<RandomFlashcard>();
+
+            foreach (var verb in verbs)
+            {
+                {
+                    var questions = new List<string>();
+                    var answers = new List<string>();
+
+                    questions.Add($"{verb.EnglishDescription} (Präsens, wir)");
+                    answers.Add(verb.Present[PersonalPronoun.FirstPlural]);
+
+                    questions.Add($"{verb.EnglishDescription} (Präsens, Sie)");
+                    answers.Add(verb.Present[PersonalPronoun.ThirdPlural]);
+
+                    flashcards.Add(new RandomFlashcard(verb.Id, Type.VerbPresentFirstOrThirdPlural, questions, answers));
+                }
+
+                {
+                    var questions = new List<string>();
+                    var answers = new List<string>();
+
+                    questions.Add($"{verb.EnglishDescription} (Perfekt, ich)");
+                    answers.Add(verb.Perfekt[PersonalPronoun.FirstSingular]);
+
+                    questions.Add($"{verb.EnglishDescription} (Perfekt, du)");
+                    answers.Add(verb.Perfekt[PersonalPronoun.SecondSingular]);
+
+                    questions.Add($"{verb.EnglishDescription} (Perfekt, er)");
+                    answers.Add(verb.Perfekt[PersonalPronoun.ThirdSingular]);
+
+                    questions.Add($"{verb.EnglishDescription} (Perfekt, wir)");
+                    answers.Add(verb.Perfekt[PersonalPronoun.FirstPlural]);
+
+                    questions.Add($"{verb.EnglishDescription} (Perfekt, ihr)");
+                    answers.Add(verb.Perfekt[PersonalPronoun.SecondPlural]);
+
+                    questions.Add($"{verb.EnglishDescription} (Perfekt, Sie)");
+                    answers.Add(verb.Perfekt[PersonalPronoun.ThirdPlural]);
+
+                    flashcards.Add(new RandomFlashcard(verb.Id, Type.VerbPerfekt, questions, answers));
+                }
+            }
+
+            return flashcards;
         }
 
         public static List<Flashcard> LoadFlashcards(string path)
@@ -170,7 +213,14 @@ namespace VocabularyTrainer2
 
         public static void SaveRandomFlashcards(string path, List<RandomFlashcard> flashcards)
         {
-            throw new NotImplementedException();
+            var options = new JsonSerializerOptions
+            {
+                Encoder = JavaScriptEncoder.Create(UnicodeRanges.All),
+                WriteIndented = true
+            };
+
+            var json = JsonSerializer.Serialize(flashcards, options);
+            File.WriteAllText(path, json);
         }
     }
 }
