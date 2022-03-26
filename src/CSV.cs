@@ -61,5 +61,27 @@ namespace VocabularyTrainer2
 
             return adjectives;
         }
+
+        public static List<Verb> ReadVerbsFromFile(string path)
+        {
+            var verbs = new List<Verb>();
+
+            using var reader = new StreamReader(path);
+            using var csv = new CsvReader(reader, CultureInfo.InvariantCulture);
+
+            csv.Read();
+            csv.ReadHeader();
+
+            while (csv.Read())
+            {
+                int id = csv.GetField<int>(0);
+                string englishDescription = csv.GetField(1);
+                string germanInfinitive = csv.GetField(2);
+
+                verbs.Add(VerbExtractor.Extract(id, englishDescription, germanInfinitive));
+            }
+
+            return verbs;
+        }
     }
 }
