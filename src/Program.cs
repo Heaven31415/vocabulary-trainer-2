@@ -35,7 +35,7 @@
 
                 var flashcard = availableFlashcards[random.Next(availableFlashcards.Count)];
 
-                Utility.WriteLine($"Translate to german: '{flashcard.AskQuestion()}'");
+                Utility.WriteLine($"Translate to German: '{flashcard.AskQuestion()}'");
                 Utility.Write("Answer: ");
                 var answer = Utility.ReadLine();
 
