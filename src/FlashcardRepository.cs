@@ -62,7 +62,60 @@ namespace VocabularyTrainer2
 
         public static List<Flashcard> CreateFlashcards(List<Verb> verbs)
         {
-            throw new NotImplementedException();
+            var flashcards = new List<Flashcard>();
+
+            foreach (var verb in verbs)
+            {
+                {
+                    string question = $"{verb.EnglishDescription} (Präsens, ich)";
+                    string answer = verb.Present[PersonalPronoun.FirstSingular];
+                    flashcards.Add(new Flashcard(verb.Id, Type.VerbPresentFirstSingular, question, answer));
+                }
+
+                {
+                    string question = $"{verb.EnglishDescription} (Präsens, du)";
+                    string answer = verb.Present[PersonalPronoun.SecondSingular];
+                    flashcards.Add(new Flashcard(verb.Id, Type.VerbPresentSecondSingular, question, answer));
+                }
+
+                {
+                    string question = $"{verb.EnglishDescription} (Präsens, er)";
+                    string answer = verb.Present[PersonalPronoun.ThirdSingular];
+                    flashcards.Add(new Flashcard(verb.Id, Type.VerbPresentThirdSingular, question, answer));
+                }
+
+                {
+                    string question = $"{verb.EnglishDescription} (Präsens, ihr)";
+                    string answer = verb.Present[PersonalPronoun.SecondPlural];
+                    flashcards.Add(new Flashcard(verb.Id, Type.VerbPresentSecondPlural, question, answer));
+                }
+
+                {
+                    string question = $"{verb.EnglishDescription} (Präteritum, ich)";
+                    string answer = verb.SimplePast[PersonalPronoun.FirstSingular];
+                    flashcards.Add(new Flashcard(verb.Id, Type.VerbSimplePastFirstSingular, question, answer));
+                }
+
+                {
+                    string question = $"{verb.EnglishDescription} (Präteritum, du)";
+                    string answer = verb.SimplePast[PersonalPronoun.SecondSingular];
+                    flashcards.Add(new Flashcard(verb.Id, Type.VerbSimplePastSecondSingular, question, answer));
+                }
+
+                {
+                    string question = $"{verb.EnglishDescription} (Präteritum, er)";
+                    string answer = verb.SimplePast[PersonalPronoun.ThirdSingular];
+                    flashcards.Add(new Flashcard(verb.Id, Type.VerbSimplePastThirdSingular, question, answer));
+                }
+
+                {
+                    string question = $"{verb.EnglishDescription} (Präteritum, ihr)";
+                    string answer = verb.SimplePast[PersonalPronoun.SecondPlural];
+                    flashcards.Add(new Flashcard(verb.Id, Type.VerbSimplePastSecondPlural, question, answer));
+                }
+            }
+
+            return flashcards;
         }
 
         public static List<RandomFlashcard> CreateRandomFlashcards(List<Verb> verbs)

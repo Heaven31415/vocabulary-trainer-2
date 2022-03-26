@@ -4,6 +4,17 @@ namespace VocabularyTrainer2
 {
     internal enum Type
     {
+        VerbPresentFirstSingular,
+        VerbPresentSecondSingular,
+        VerbPresentThirdSingular,
+        VerbPresentFirstOrThirdPlural,
+        VerbPresentSecondPlural,
+        VerbSimplePastFirstSingular,
+        VerbSimplePastSecondSingular,
+        VerbSimplePastThirdSingular,
+        VerbSimplePastFirstOrThirdPlural,
+        VerbSimplePastSecondPlural,
+        VerbPerfekt,
         NounSingularForm,
         NounPluralForm,
         AdjectivePositiveDegree,
