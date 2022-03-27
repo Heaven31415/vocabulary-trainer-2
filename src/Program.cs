@@ -73,7 +73,7 @@
 
             FlashcardRepository.SaveFlashcards("data/Flashcards.json", flashcards);
 
-            var randomFlashcards = new List<RandomFlashcard>();
+            var randomFlashcards = FlashcardRepository.LoadRandomFlashcards("data/RandomFlashcards.json");
 
             FlashcardRepository.UpdateRandomFlashcards(verbs, randomFlashcards);
             FlashcardRepository.SaveRandomFlashcards("data/RandomFlashcards.json", randomFlashcards);
