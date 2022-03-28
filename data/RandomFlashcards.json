@@ -1,0 +1,1752 @@
+[
+  {
+    "Questions": [
+      "to be (Präsens, wir)",
+      "to be (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir sind",
+      "Sie sind"
+    ],
+    "ParentId": 1,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-27T18:36:11.7802694+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to be (Präteritum, wir)",
+      "to be (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir waren",
+      "Sie waren"
+    ],
+    "ParentId": 1,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-27T18:37:27.8758461+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to be (Perfekt, ich)",
+      "to be (Perfekt, du)",
+      "to be (Perfekt, er)",
+      "to be (Perfekt, wir)",
+      "to be (Perfekt, ihr)",
+      "to be (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich bin gewesen",
+      "du bist gewesen",
+      "er ist gewesen",
+      "wir sind gewesen",
+      "ihr seid gewesen",
+      "Sie sind gewesen"
+    ],
+    "ParentId": 1,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-27T18:35:10.884821+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to call, to shout (Präsens, wir)",
+      "to call, to shout (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir rufen",
+      "Sie rufen"
+    ],
+    "ParentId": 4,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-27T18:36:08.0523417+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to call, to shout (Präteritum, wir)",
+      "to call, to shout (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir riefen",
+      "Sie riefen"
+    ],
+    "ParentId": 4,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-27T18:37:38.3797683+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to call, to shout (Perfekt, ich)",
+      "to call, to shout (Perfekt, du)",
+      "to call, to shout (Perfekt, er)",
+      "to call, to shout (Perfekt, wir)",
+      "to call, to shout (Perfekt, ihr)",
+      "to call, to shout (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe gerufen",
+      "du hast gerufen",
+      "er hat gerufen",
+      "wir haben gerufen",
+      "ihr habt gerufen",
+      "Sie haben gerufen"
+    ],
+    "ParentId": 4,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-27T18:34:59.3085235+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to sing (Präsens, wir)",
+      "to sing (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir singen",
+      "Sie singen"
+    ],
+    "ParentId": 7,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-27T18:34:16.6686781+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to sing (Präteritum, wir)",
+      "to sing (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir sangen",
+      "Sie sangen"
+    ],
+    "ParentId": 7,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-27T18:36:40.6200739+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to sing (Perfekt, ich)",
+      "to sing (Perfekt, du)",
+      "to sing (Perfekt, er)",
+      "to sing (Perfekt, wir)",
+      "to sing (Perfekt, ihr)",
+      "to sing (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe gesungen",
+      "du hast gesungen",
+      "er hat gesungen",
+      "wir haben gesungen",
+      "ihr habt gesungen",
+      "Sie haben gesungen"
+    ],
+    "ParentId": 7,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-27T18:37:02.9799372+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to dance (Präsens, wir)",
+      "to dance (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir tanzen",
+      "Sie tanzen"
+    ],
+    "ParentId": 10,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-27T18:34:02.5729046+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to dance (Präteritum, wir)",
+      "to dance (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir tanzten",
+      "Sie tanzten"
+    ],
+    "ParentId": 10,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-27T18:35:15.1324575+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to dance (Perfekt, ich)",
+      "to dance (Perfekt, du)",
+      "to dance (Perfekt, er)",
+      "to dance (Perfekt, wir)",
+      "to dance (Perfekt, ihr)",
+      "to dance (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe getanzt",
+      "du hast getanzt",
+      "er hat getanzt",
+      "wir haben getanzt",
+      "ihr habt getanzt",
+      "Sie haben getanzt"
+    ],
+    "ParentId": 10,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-27T18:33:55.9888042+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to lie (on the floor) (Präsens, wir)",
+      "to lie (on the floor) (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir liegen",
+      "Sie liegen"
+    ],
+    "ParentId": 13,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-27T18:37:41.7797516+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to lie (on the floor) (Präteritum, wir)",
+      "to lie (on the floor) (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir lagen",
+      "Sie lagen"
+    ],
+    "ParentId": 13,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-27T18:35:55.6522252+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to lie (on the floor) (Perfekt, ich)",
+      "to lie (on the floor) (Perfekt, du)",
+      "to lie (on the floor) (Perfekt, er)",
+      "to lie (on the floor) (Perfekt, wir)",
+      "to lie (on the floor) (Perfekt, ihr)",
+      "to lie (on the floor) (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe gelegen",
+      "du hast gelegen",
+      "er hat gelegen",
+      "wir haben gelegen",
+      "ihr habt gelegen",
+      "Sie haben gelegen"
+    ],
+    "ParentId": 13,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-28T20:00:18.4100559+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "to have (Präsens, wir)",
+      "to have (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir haben",
+      "Sie haben"
+    ],
+    "ParentId": 16,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-27T18:34:21.5808293+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to have (Präteritum, wir)",
+      "to have (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir hatten",
+      "Sie hatten"
+    ],
+    "ParentId": 16,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-27T18:35:38.964271+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to have (Perfekt, ich)",
+      "to have (Perfekt, du)",
+      "to have (Perfekt, er)",
+      "to have (Perfekt, wir)",
+      "to have (Perfekt, ihr)",
+      "to have (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe gehabt",
+      "du hast gehabt",
+      "er hat gehabt",
+      "wir haben gehabt",
+      "ihr habt gehabt",
+      "Sie haben gehabt"
+    ],
+    "ParentId": 16,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-27T18:34:28.8606834+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to think (Präsens, wir)",
+      "to think (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir denken",
+      "Sie denken"
+    ],
+    "ParentId": 19,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-27T18:36:35.1324608+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to think (Präteritum, wir)",
+      "to think (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir dachten",
+      "Sie dachten"
+    ],
+    "ParentId": 19,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-27T18:35:43.732376+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to think (Perfekt, ich)",
+      "to think (Perfekt, du)",
+      "to think (Perfekt, er)",
+      "to think (Perfekt, wir)",
+      "to think (Perfekt, ihr)",
+      "to think (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe gedacht",
+      "du hast gedacht",
+      "er hat gedacht",
+      "wir haben gedacht",
+      "ihr habt gedacht",
+      "Sie haben gedacht"
+    ],
+    "ParentId": 19,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-27T18:36:54.4760266+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to die (Präsens, wir)",
+      "to die (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir sterben",
+      "Sie sterben"
+    ],
+    "ParentId": 22,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-27T18:36:48.6759784+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to die (Präteritum, wir)",
+      "to die (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir starben",
+      "Sie starben"
+    ],
+    "ParentId": 22,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-27T18:37:35.3397373+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to die (Perfekt, ich)",
+      "to die (Perfekt, du)",
+      "to die (Perfekt, er)",
+      "to die (Perfekt, wir)",
+      "to die (Perfekt, ihr)",
+      "to die (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich bin gestorben",
+      "du bist gestorben",
+      "er ist gestorben",
+      "wir sind gestorben",
+      "ihr seid gestorben",
+      "Sie sind gestorben"
+    ],
+    "ParentId": 22,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-27T18:35:27.004521+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to live (Präsens, wir)",
+      "to live (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir leben",
+      "Sie leben"
+    ],
+    "ParentId": 25,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-27T18:37:24.3238498+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to live (Präteritum, wir)",
+      "to live (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir lebten",
+      "Sie lebten"
+    ],
+    "ParentId": 25,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-27T18:35:04.484652+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to live (Perfekt, ich)",
+      "to live (Perfekt, du)",
+      "to live (Perfekt, er)",
+      "to live (Perfekt, wir)",
+      "to live (Perfekt, ihr)",
+      "to live (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe gelebt",
+      "du hast gelebt",
+      "er hat gelebt",
+      "wir haben gelebt",
+      "ihr habt gelebt",
+      "Sie haben gelebt"
+    ],
+    "ParentId": 25,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-27T18:34:51.892918+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to see (Präsens, wir)",
+      "to see (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir sehen",
+      "Sie sehen"
+    ],
+    "ParentId": 28,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-27T18:34:45.4527368+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to see (Präteritum, wir)",
+      "to see (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir sahen",
+      "Sie sahen"
+    ],
+    "ParentId": 28,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-27T18:36:00.3963115+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to see (Perfekt, ich)",
+      "to see (Perfekt, du)",
+      "to see (Perfekt, er)",
+      "to see (Perfekt, wir)",
+      "to see (Perfekt, ihr)",
+      "to see (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe gesehen",
+      "du hast gesehen",
+      "er hat gesehen",
+      "wir haben gesehen",
+      "ihr habt gesehen",
+      "Sie haben gesehen"
+    ],
+    "ParentId": 28,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-27T18:35:49.4284803+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to fetch, to get (Präsens, wir)",
+      "to fetch, to get (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir holen",
+      "Sie holen"
+    ],
+    "ParentId": 166,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-27T18:36:44.9481345+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to fetch, to get (Präteritum, wir)",
+      "to fetch, to get (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir holten",
+      "Sie holten"
+    ],
+    "ParentId": 166,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-27T18:31:50.5179076+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to fetch, to get (Perfekt, ich)",
+      "to fetch, to get (Perfekt, du)",
+      "to fetch, to get (Perfekt, er)",
+      "to fetch, to get (Perfekt, wir)",
+      "to fetch, to get (Perfekt, ihr)",
+      "to fetch, to get (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe geholt",
+      "du hast geholt",
+      "er hat geholt",
+      "wir haben geholt",
+      "ihr habt geholt",
+      "Sie haben geholt"
+    ],
+    "ParentId": 166,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-27T18:37:32.0359036+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to learn (Präsens, wir)",
+      "to learn (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir lernen",
+      "Sie lernen"
+    ],
+    "ParentId": 205,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-27T18:37:21.2118858+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to learn (Präteritum, wir)",
+      "to learn (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir lernten",
+      "Sie lernten"
+    ],
+    "ParentId": 205,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-27T18:33:49.3815326+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to learn (Perfekt, ich)",
+      "to learn (Perfekt, du)",
+      "to learn (Perfekt, er)",
+      "to learn (Perfekt, wir)",
+      "to learn (Perfekt, ihr)",
+      "to learn (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe gelernt",
+      "du hast gelernt",
+      "er hat gelernt",
+      "wir haben gelernt",
+      "ihr habt gelernt",
+      "Sie haben gelernt"
+    ],
+    "ParentId": 205,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-27T18:36:30.3562414+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to ask (Präsens, wir)",
+      "to ask (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir fragen",
+      "Sie fragen"
+    ],
+    "ParentId": 31,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-27T19:53:28.0624732+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to ask (Präteritum, wir)",
+      "to ask (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir fragten",
+      "Sie fragten"
+    ],
+    "ParentId": 31,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-27T20:02:35.388016+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to ask (Perfekt, ich)",
+      "to ask (Perfekt, du)",
+      "to ask (Perfekt, er)",
+      "to ask (Perfekt, wir)",
+      "to ask (Perfekt, ihr)",
+      "to ask (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe gefragt",
+      "du hast gefragt",
+      "er hat gefragt",
+      "wir haben gefragt",
+      "ihr habt gefragt",
+      "Sie haben gefragt"
+    ],
+    "ParentId": 31,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-27T19:58:49.4209334+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to reply, to answer (Präsens, wir)",
+      "to reply, to answer (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir antworten",
+      "Sie antworten"
+    ],
+    "ParentId": 34,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-27T19:58:28.6290551+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to reply, to answer (Präteritum, wir)",
+      "to reply, to answer (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir antworteten",
+      "Sie antworteten"
+    ],
+    "ParentId": 34,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-27T20:54:37.9412757+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to reply, to answer (Perfekt, ich)",
+      "to reply, to answer (Perfekt, du)",
+      "to reply, to answer (Perfekt, er)",
+      "to reply, to answer (Perfekt, wir)",
+      "to reply, to answer (Perfekt, ihr)",
+      "to reply, to answer (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe geantwortet",
+      "du hast geantwortet",
+      "er hat geantwortet",
+      "wir haben geantwortet",
+      "ihr habt geantwortet",
+      "Sie haben geantwortet"
+    ],
+    "ParentId": 34,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-27T19:56:29.7816723+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to take (Präsens, wir)",
+      "to take (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir nehmen",
+      "Sie nehmen"
+    ],
+    "ParentId": 37,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-27T20:06:52.2666632+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to take (Präteritum, wir)",
+      "to take (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir nahmen",
+      "Sie nahmen"
+    ],
+    "ParentId": 37,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-27T19:35:38.8037216+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to take (Perfekt, ich)",
+      "to take (Perfekt, du)",
+      "to take (Perfekt, er)",
+      "to take (Perfekt, wir)",
+      "to take (Perfekt, ihr)",
+      "to take (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe genommen",
+      "du hast genommen",
+      "er hat genommen",
+      "wir haben genommen",
+      "ihr habt genommen",
+      "Sie haben genommen"
+    ],
+    "ParentId": 37,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-27T19:59:18.2369036+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to sleep (Präsens, wir)",
+      "to sleep (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir schlafen",
+      "Sie schlafen"
+    ],
+    "ParentId": 40,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-27T20:04:17.5714204+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to sleep (Präteritum, wir)",
+      "to sleep (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir schliefen",
+      "Sie schliefen"
+    ],
+    "ParentId": 40,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-27T20:54:47.1332258+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to sleep (Perfekt, ich)",
+      "to sleep (Perfekt, du)",
+      "to sleep (Perfekt, er)",
+      "to sleep (Perfekt, wir)",
+      "to sleep (Perfekt, ihr)",
+      "to sleep (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe geschlafen",
+      "du hast geschlafen",
+      "er hat geschlafen",
+      "wir haben geschlafen",
+      "ihr habt geschlafen",
+      "Sie haben geschlafen"
+    ],
+    "ParentId": 40,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-27T20:05:45.5870022+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to want (Präsens, wir)",
+      "to want (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir wollen",
+      "Sie wollen"
+    ],
+    "ParentId": 43,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-27T19:52:33.6307548+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to want (Präteritum, wir)",
+      "to want (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir wollten",
+      "Sie wollten"
+    ],
+    "ParentId": 43,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-27T19:52:02.8388199+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to want (Perfekt, ich)",
+      "to want (Perfekt, du)",
+      "to want (Perfekt, er)",
+      "to want (Perfekt, wir)",
+      "to want (Perfekt, ihr)",
+      "to want (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe gewollt",
+      "du hast gewollt",
+      "er hat gewollt",
+      "wir haben gewollt",
+      "ihr habt gewollt",
+      "Sie haben gewollt"
+    ],
+    "ParentId": 43,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-27T19:59:57.7646993+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to must (Präsens, wir)",
+      "to must (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir müssen",
+      "Sie müssen"
+    ],
+    "ParentId": 46,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-27T20:07:28.4025121+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to must (Präteritum, wir)",
+      "to must (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir mussten",
+      "Sie mussten"
+    ],
+    "ParentId": 46,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-27T20:08:30.9542484+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to must (Perfekt, ich)",
+      "to must (Perfekt, du)",
+      "to must (Perfekt, er)",
+      "to must (Perfekt, wir)",
+      "to must (Perfekt, ihr)",
+      "to must (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe gemusst",
+      "du hast gemusst",
+      "er hat gemusst",
+      "wir haben gemusst",
+      "ihr habt gemusst",
+      "Sie haben gemusst"
+    ],
+    "ParentId": 46,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-27T19:56:13.9097672+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to can (Präsens, wir)",
+      "to can (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir können",
+      "Sie können"
+    ],
+    "ParentId": 49,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-27T19:56:21.6536527+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to can (Präteritum, wir)",
+      "to can (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir konnten",
+      "Sie konnten"
+    ],
+    "ParentId": 49,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-27T20:54:20.2536741+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to can (Perfekt, ich)",
+      "to can (Perfekt, du)",
+      "to can (Perfekt, er)",
+      "to can (Perfekt, wir)",
+      "to can (Perfekt, ihr)",
+      "to can (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe gekonnt",
+      "du hast gekonnt",
+      "er hat gekonnt",
+      "wir haben gekonnt",
+      "ihr habt gekonnt",
+      "Sie haben gekonnt"
+    ],
+    "ParentId": 49,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-28T19:58:32.954244+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "to be called (Präsens, wir)",
+      "to be called (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir heißen",
+      "Sie heißen"
+    ],
+    "ParentId": 52,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-27T20:08:19.8102958+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to be called (Präteritum, wir)",
+      "to be called (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir hießen",
+      "Sie hießen"
+    ],
+    "ParentId": 52,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-27T20:54:53.9251511+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to be called (Perfekt, ich)",
+      "to be called (Perfekt, du)",
+      "to be called (Perfekt, er)",
+      "to be called (Perfekt, wir)",
+      "to be called (Perfekt, ihr)",
+      "to be called (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe geheißen",
+      "du hast geheißen",
+      "er hat geheißen",
+      "wir haben geheißen",
+      "ihr habt geheißen",
+      "Sie haben geheißen"
+    ],
+    "ParentId": 52,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-28T22:57:14.4522983+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to come (Präsens, wir)",
+      "to come (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir kommen",
+      "Sie kommen"
+    ],
+    "ParentId": 55,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-27T19:56:58.965451+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to come (Präteritum, wir)",
+      "to come (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir kamen",
+      "Sie kamen"
+    ],
+    "ParentId": 55,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-27T19:59:04.9569247+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to come (Perfekt, ich)",
+      "to come (Perfekt, du)",
+      "to come (Perfekt, er)",
+      "to come (Perfekt, wir)",
+      "to come (Perfekt, ihr)",
+      "to come (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich bin gekommen",
+      "du bist gekommen",
+      "er ist gekommen",
+      "wir sind gekommen",
+      "ihr seid gekommen",
+      "Sie sind gekommen"
+    ],
+    "ParentId": 55,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-27T20:04:10.9395003+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to live, to stay (Präsens, wir)",
+      "to live, to stay (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir wohnen",
+      "Sie wohnen"
+    ],
+    "ParentId": 58,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-28T22:56:36.0688882+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to live, to stay (Präteritum, wir)",
+      "to live, to stay (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir wohnten",
+      "Sie wohnten"
+    ],
+    "ParentId": 58,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-27T21:07:33.970088+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to live, to stay (Perfekt, ich)",
+      "to live, to stay (Perfekt, du)",
+      "to live, to stay (Perfekt, er)",
+      "to live, to stay (Perfekt, wir)",
+      "to live, to stay (Perfekt, ihr)",
+      "to live, to stay (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe gewohnt",
+      "du hast gewohnt",
+      "er hat gewohnt",
+      "wir haben gewohnt",
+      "ihr habt gewohnt",
+      "Sie haben gewohnt"
+    ],
+    "ParentId": 58,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-27T21:07:43.5775681+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to speak (Präsens, wir)",
+      "to speak (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir sprechen",
+      "Sie sprechen"
+    ],
+    "ParentId": 61,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-28T19:57:33.9783128+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to speak (Präteritum, wir)",
+      "to speak (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir sprachen",
+      "Sie sprachen"
+    ],
+    "ParentId": 61,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-27T21:12:47.7442043+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to speak (Perfekt, ich)",
+      "to speak (Perfekt, du)",
+      "to speak (Perfekt, er)",
+      "to speak (Perfekt, wir)",
+      "to speak (Perfekt, ihr)",
+      "to speak (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe gesprochen",
+      "du hast gesprochen",
+      "er hat gesprochen",
+      "wir haben gesprochen",
+      "ihr habt gesprochen",
+      "Sie haben gesprochen"
+    ],
+    "ParentId": 61,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-28T19:58:24.2423111+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to understand (Präsens, wir)",
+      "to understand (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir verstehen",
+      "Sie verstehen"
+    ],
+    "ParentId": 64,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-28T19:57:49.1944177+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to understand (Präteritum, wir)",
+      "to understand (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir verstanden",
+      "Sie verstanden"
+    ],
+    "ParentId": 64,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-28T19:53:53.0111679+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to understand (Perfekt, ich)",
+      "to understand (Perfekt, du)",
+      "to understand (Perfekt, er)",
+      "to understand (Perfekt, wir)",
+      "to understand (Perfekt, ihr)",
+      "to understand (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe verstanden",
+      "du hast verstanden",
+      "er hat verstanden",
+      "wir haben verstanden",
+      "ihr habt verstanden",
+      "Sie haben verstanden"
+    ],
+    "ParentId": 64,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-28T19:57:16.4903542+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to mean (Präsens, wir)",
+      "to mean (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir bedeuten",
+      "Sie bedeuten"
+    ],
+    "ParentId": 67,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-27T21:13:15.3280044+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to mean (Präteritum, wir)",
+      "to mean (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir bedeuteten",
+      "Sie bedeuteten"
+    ],
+    "ParentId": 67,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-27T21:12:52.2401541+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to mean (Perfekt, ich)",
+      "to mean (Perfekt, du)",
+      "to mean (Perfekt, er)",
+      "to mean (Perfekt, wir)",
+      "to mean (Perfekt, ihr)",
+      "to mean (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe bedeutet",
+      "du hast bedeutet",
+      "er hat bedeutet",
+      "wir haben bedeutet",
+      "ihr habt bedeutet",
+      "Sie haben bedeutet"
+    ],
+    "ParentId": 67,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-27T21:03:17.9634683+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to know (starts with w) (Präsens, wir)",
+      "to know (starts with w) (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir wissen",
+      "Sie wissen"
+    ],
+    "ParentId": 70,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-27T21:15:23.2233889+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to know (starts with w) (Präteritum, wir)",
+      "to know (starts with w) (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir wussten",
+      "Sie wussten"
+    ],
+    "ParentId": 70,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-27T21:13:37.9279445+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to know (starts with w) (Perfekt, ich)",
+      "to know (starts with w) (Perfekt, du)",
+      "to know (starts with w) (Perfekt, er)",
+      "to know (starts with w) (Perfekt, wir)",
+      "to know (starts with w) (Perfekt, ihr)",
+      "to know (starts with w) (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe gewusst",
+      "du hast gewusst",
+      "er hat gewusst",
+      "wir haben gewusst",
+      "ihr habt gewusst",
+      "Sie haben gewusst"
+    ],
+    "ParentId": 70,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-27T21:02:02.2835762+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to make, to do (Präsens, wir)",
+      "to make, to do (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir machen",
+      "Sie machen"
+    ],
+    "ParentId": 73,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-27T21:03:44.2746139+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to make, to do (Präteritum, wir)",
+      "to make, to do (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir machten",
+      "Sie machten"
+    ],
+    "ParentId": 73,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-27T21:05:12.3542574+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to make, to do (Perfekt, ich)",
+      "to make, to do (Perfekt, du)",
+      "to make, to do (Perfekt, er)",
+      "to make, to do (Perfekt, wir)",
+      "to make, to do (Perfekt, ihr)",
+      "to make, to do (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe gemacht",
+      "du hast gemacht",
+      "er hat gemacht",
+      "wir haben gemacht",
+      "ihr habt gemacht",
+      "Sie haben gemacht"
+    ],
+    "ParentId": 73,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-28T19:56:11.0424792+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to need (Präsens, wir)",
+      "to need (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir brauchen",
+      "Sie brauchen"
+    ],
+    "ParentId": 76,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-28T19:56:27.4824674+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to need (Präteritum, wir)",
+      "to need (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir brauchten",
+      "Sie brauchten"
+    ],
+    "ParentId": 76,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-28T19:57:37.5143188+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to need (Perfekt, ich)",
+      "to need (Perfekt, du)",
+      "to need (Perfekt, er)",
+      "to need (Perfekt, wir)",
+      "to need (Perfekt, ihr)",
+      "to need (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe gebraucht",
+      "du hast gebraucht",
+      "er hat gebraucht",
+      "wir haben gebraucht",
+      "ihr habt gebraucht",
+      "Sie haben gebraucht"
+    ],
+    "ParentId": 76,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-28T19:56:05.7065003+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to eat (Präsens, wir)",
+      "to eat (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir essen",
+      "Sie essen"
+    ],
+    "ParentId": 79,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-28T19:58:42.1062433+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to eat (Präteritum, wir)",
+      "to eat (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir aßen",
+      "Sie aßen"
+    ],
+    "ParentId": 79,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-27T21:07:37.3375839+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to eat (Perfekt, ich)",
+      "to eat (Perfekt, du)",
+      "to eat (Perfekt, er)",
+      "to eat (Perfekt, wir)",
+      "to eat (Perfekt, ihr)",
+      "to eat (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe gegessen",
+      "du hast gegessen",
+      "er hat gegessen",
+      "wir haben gegessen",
+      "ihr habt gegessen",
+      "Sie haben gegessen"
+    ],
+    "ParentId": 79,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-28T19:58:18.3862784+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to should (Präsens, wir)",
+      "to should (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir sollen",
+      "Sie sollen"
+    ],
+    "ParentId": 82,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-27T21:05:51.7620561+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to should (Präteritum, wir)",
+      "to should (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir sollten",
+      "Sie sollten"
+    ],
+    "ParentId": 82,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-27T21:04:59.642324+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to should (Perfekt, ich)",
+      "to should (Perfekt, du)",
+      "to should (Perfekt, er)",
+      "to should (Perfekt, wir)",
+      "to should (Perfekt, ihr)",
+      "to should (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe gesollt",
+      "du hast gesollt",
+      "er hat gesollt",
+      "wir haben gesollt",
+      "ihr habt gesollt",
+      "Sie haben gesollt"
+    ],
+    "ParentId": 82,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-28T19:54:52.6105982+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to address informally with du (Präsens, wir)",
+      "to address informally with du (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir duzen",
+      "Sie duzen"
+    ],
+    "ParentId": 85,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-28T23:23:56.377642+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to address informally with du (Präteritum, wir)",
+      "to address informally with du (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir duzten",
+      "Sie duzten"
+    ],
+    "ParentId": 85,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-28T23:22:55.4896864+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to address informally with du (Perfekt, ich)",
+      "to address informally with du (Perfekt, du)",
+      "to address informally with du (Perfekt, er)",
+      "to address informally with du (Perfekt, wir)",
+      "to address informally with du (Perfekt, ihr)",
+      "to address informally with du (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe geduzt",
+      "du hast geduzt",
+      "er hat geduzt",
+      "wir haben geduzt",
+      "ihr habt geduzt",
+      "Sie haben geduzt"
+    ],
+    "ParentId": 85,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-28T23:28:53.9131112+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to address formally with Sie (Präsens, wir)",
+      "to address formally with Sie (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir siezen",
+      "Sie siezen"
+    ],
+    "ParentId": 88,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-28T23:28:31.3931689+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to address formally with Sie (Präteritum, wir)",
+      "to address formally with Sie (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir siezten",
+      "Sie siezten"
+    ],
+    "ParentId": 88,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-28T23:29:11.3531238+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to address formally with Sie (Perfekt, ich)",
+      "to address formally with Sie (Perfekt, du)",
+      "to address formally with Sie (Perfekt, er)",
+      "to address formally with Sie (Perfekt, wir)",
+      "to address formally with Sie (Perfekt, ihr)",
+      "to address formally with Sie (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe gesiezt",
+      "du hast gesiezt",
+      "er hat gesiezt",
+      "wir haben gesiezt",
+      "ihr habt gesiezt",
+      "Sie haben gesiezt"
+    ],
+    "ParentId": 88,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-28T23:28:26.2572164+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to may (Präsens, wir)",
+      "to may (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir dürfen",
+      "Sie dürfen"
+    ],
+    "ParentId": 91,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-28T23:29:59.953012+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to may (Präteritum, wir)",
+      "to may (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir durften",
+      "Sie durften"
+    ],
+    "ParentId": 91,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-28T23:21:54.4339362+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "to may (Perfekt, ich)",
+      "to may (Perfekt, du)",
+      "to may (Perfekt, er)",
+      "to may (Perfekt, wir)",
+      "to may (Perfekt, ihr)",
+      "to may (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe gedurft",
+      "du hast gedurft",
+      "er hat gedurft",
+      "wir haben gedurft",
+      "ihr habt gedurft",
+      "Sie haben gedurft"
+    ],
+    "ParentId": 91,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-28T23:30:51.6569387+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to awake, to wake up (Präsens, wir)",
+      "to awake, to wake up (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir wachen auf",
+      "Sie wachen auf"
+    ],
+    "ParentId": 94,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-28T23:29:27.5450863+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to awake, to wake up (Präteritum, wir)",
+      "to awake, to wake up (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir wachten auf",
+      "Sie wachten auf"
+    ],
+    "ParentId": 94,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-28T23:23:34.649623+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to awake, to wake up (Perfekt, ich)",
+      "to awake, to wake up (Perfekt, du)",
+      "to awake, to wake up (Perfekt, er)",
+      "to awake, to wake up (Perfekt, wir)",
+      "to awake, to wake up (Perfekt, ihr)",
+      "to awake, to wake up (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich bin aufgewacht",
+      "du bist aufgewacht",
+      "er ist aufgewacht",
+      "wir sind aufgewacht",
+      "ihr seid aufgewacht",
+      "Sie sind aufgewacht"
+    ],
+    "ParentId": 94,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-28T23:20:59.522166+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to rise, to get up (Präsens, wir)",
+      "to rise, to get up (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir stehen auf",
+      "Sie stehen auf"
+    ],
+    "ParentId": 97,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-28T23:29:05.169029+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to rise, to get up (Präteritum, wir)",
+      "to rise, to get up (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir standen auf",
+      "Sie standen auf"
+    ],
+    "ParentId": 97,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-28T23:31:56.7290312+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to rise, to get up (Perfekt, ich)",
+      "to rise, to get up (Perfekt, du)",
+      "to rise, to get up (Perfekt, er)",
+      "to rise, to get up (Perfekt, wir)",
+      "to rise, to get up (Perfekt, ihr)",
+      "to rise, to get up (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich bin aufgestanden",
+      "du bist aufgestanden",
+      "er ist aufgestanden",
+      "wir sind aufgestanden",
+      "ihr seid aufgestanden",
+      "Sie sind aufgestanden"
+    ],
+    "ParentId": 97,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-28T23:28:05.2091447+02:00",
+    "Cooldown": "2.00:00:00"
+  }
+]
