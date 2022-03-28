@@ -2966,5 +2966,197 @@
     "Type": 9,
     "LastTrainingTime": "2022-03-28T23:25:21.0334456+02:00",
     "Cooldown": "2.00:00:00"
+  },
+  {
+    "Question": "to have breakfast (Präsens, ich)",
+    "Answer": "ich frühstücke",
+    "ParentId": 100,
+    "Type": 0,
+    "LastTrainingTime": "2022-03-29T01:54:01.2517016+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Question": "to have breakfast (Präsens, du)",
+    "Answer": "du frühstückst",
+    "ParentId": 100,
+    "Type": 1,
+    "LastTrainingTime": "2022-03-29T01:57:26.8512722+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Question": "to have breakfast (Präsens, er)",
+    "Answer": "er frühstückt",
+    "ParentId": 100,
+    "Type": 2,
+    "LastTrainingTime": "2022-03-29T01:55:03.5235246+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Question": "to have breakfast (Präsens, ihr)",
+    "Answer": "ihr frühstückt",
+    "ParentId": 100,
+    "Type": 4,
+    "LastTrainingTime": "2022-03-29T01:52:37.3238339+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Question": "to have breakfast (Präteritum, ich)",
+    "Answer": "ich frühstückte",
+    "ParentId": 100,
+    "Type": 5,
+    "LastTrainingTime": "2022-03-29T01:57:21.3233182+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Question": "to have breakfast (Präteritum, du)",
+    "Answer": "du frühstücktest",
+    "ParentId": 100,
+    "Type": 6,
+    "LastTrainingTime": "2022-03-29T01:55:16.7075139+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Question": "to have breakfast (Präteritum, er)",
+    "Answer": "er frühstückte",
+    "ParentId": 100,
+    "Type": 7,
+    "LastTrainingTime": "2022-03-29T01:52:02.55623+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Question": "to have breakfast (Präteritum, ihr)",
+    "Answer": "ihr frühstücktet",
+    "ParentId": 100,
+    "Type": 9,
+    "LastTrainingTime": "2022-03-29T01:56:24.4833757+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Question": "to start, to begin (Präsens, ich)",
+    "Answer": "ich beginne",
+    "ParentId": 103,
+    "Type": 0,
+    "LastTrainingTime": "2022-03-29T01:53:11.9397488+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Question": "to start, to begin (Präsens, du)",
+    "Answer": "du beginnst",
+    "ParentId": 103,
+    "Type": 1,
+    "LastTrainingTime": "2022-03-29T01:54:11.8915625+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Question": "to start, to begin (Präsens, er)",
+    "Answer": "er beginnt",
+    "ParentId": 103,
+    "Type": 2,
+    "LastTrainingTime": "2022-03-29T01:54:08.7155965+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Question": "to start, to begin (Präsens, ihr)",
+    "Answer": "ihr beginnt",
+    "ParentId": 103,
+    "Type": 4,
+    "LastTrainingTime": "2022-03-29T01:52:26.7077769+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Question": "to start, to begin (Präteritum, ich)",
+    "Answer": "ich begann",
+    "ParentId": 103,
+    "Type": 5,
+    "LastTrainingTime": "2022-03-29T01:53:15.6916918+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Question": "to start, to begin (Präteritum, du)",
+    "Answer": "du begannst",
+    "ParentId": 103,
+    "Type": 6,
+    "LastTrainingTime": "2022-03-29T01:52:44.4677262+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Question": "to start, to begin (Präteritum, er)",
+    "Answer": "er begann",
+    "ParentId": 103,
+    "Type": 7,
+    "LastTrainingTime": "2022-03-29T01:52:49.7798603+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Question": "to start, to begin (Präteritum, ihr)",
+    "Answer": "ihr begannt",
+    "ParentId": 103,
+    "Type": 9,
+    "LastTrainingTime": "2022-03-29T01:54:53.9315576+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Question": "to go, to walk (Präsens, ich)",
+    "Answer": "ich gehe",
+    "ParentId": 106,
+    "Type": 0,
+    "LastTrainingTime": "2022-03-29T01:54:15.1235633+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Question": "to go, to walk (Präsens, du)",
+    "Answer": "du gehst",
+    "ParentId": 106,
+    "Type": 1,
+    "LastTrainingTime": "2022-03-29T01:53:06.7237805+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Question": "to go, to walk (Präsens, er)",
+    "Answer": "er geht",
+    "ParentId": 106,
+    "Type": 2,
+    "LastTrainingTime": "2022-03-29T01:52:17.9158325+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Question": "to go, to walk (Präsens, ihr)",
+    "Answer": "ihr geht",
+    "ParentId": 106,
+    "Type": 4,
+    "LastTrainingTime": "2022-03-29T01:52:22.8197699+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Question": "to go, to walk (Präteritum, ich)",
+    "Answer": "ich ging",
+    "ParentId": 106,
+    "Type": 5,
+    "LastTrainingTime": "2022-03-29T01:53:56.3956539+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Question": "to go, to walk (Präteritum, du)",
+    "Answer": "du gingst",
+    "ParentId": 106,
+    "Type": 6,
+    "LastTrainingTime": "2022-03-29T01:55:41.7794779+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Question": "to go, to walk (Präteritum, er)",
+    "Answer": "er ging",
+    "ParentId": 106,
+    "Type": 7,
+    "LastTrainingTime": "2022-03-29T01:56:41.1714447+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "to go, to walk (Präteritum, ihr)",
+    "Answer": "ihr gingt",
+    "ParentId": 106,
+    "Type": 9,
+    "LastTrainingTime": "2022-03-29T01:53:23.5396784+02:00",
+    "Cooldown": "2.00:00:00"
   }
 ]
