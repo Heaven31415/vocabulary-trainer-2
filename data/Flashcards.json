@@ -4,8 +4,8 @@
     "Answer": "ich bin",
     "ParentId": 1,
     "Type": 0,
-    "LastTrainingTime": "2022-03-27T00:32:22.2444736+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:45:39.6685728+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to be (Präsens, du)",
@@ -28,16 +28,16 @@
     "Answer": "ihr seid",
     "ParentId": 1,
     "Type": 4,
-    "LastTrainingTime": "2022-03-27T00:17:58.870809+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:47:18.1484395+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to be (Präteritum, ich)",
     "Answer": "ich war",
     "ParentId": 1,
     "Type": 5,
-    "LastTrainingTime": "2022-03-27T00:33:37.5883621+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:43:41.8526281+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to be (Präteritum, du)",
@@ -60,8 +60,8 @@
     "Answer": "ihr wart",
     "ParentId": 1,
     "Type": 9,
-    "LastTrainingTime": "2022-03-27T00:16:12.0950377+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:43:38.3486865+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to call, to shout (Präsens, ich)",
@@ -76,8 +76,8 @@
     "Answer": "du rufst",
     "ParentId": 4,
     "Type": 1,
-    "LastTrainingTime": "2022-03-27T00:32:09.2284902+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:47:14.4842833+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to call, to shout (Präsens, er)",
@@ -92,8 +92,8 @@
     "Answer": "ihr ruft",
     "ParentId": 4,
     "Type": 4,
-    "LastTrainingTime": "2022-03-27T00:39:03.5155751+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:46:15.196416+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to call, to shout (Präteritum, ich)",
@@ -124,32 +124,32 @@
     "Answer": "ihr rieft",
     "ParentId": 4,
     "Type": 9,
-    "LastTrainingTime": "2022-03-27T00:35:49.7161337+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:45:19.3965736+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to sing (Präsens, ich)",
     "Answer": "ich singe",
     "ParentId": 7,
     "Type": 0,
-    "LastTrainingTime": "2022-03-27T00:35:06.292149+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:42:27.092885+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to sing (Präsens, du)",
     "Answer": "du singst",
     "ParentId": 7,
     "Type": 1,
-    "LastTrainingTime": "2022-03-27T00:18:17.9266324+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:45:24.5644631+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to sing (Präsens, er)",
     "Answer": "er singt",
     "ParentId": 7,
     "Type": 2,
-    "LastTrainingTime": "2022-03-27T00:45:12.1226059+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:43:55.3646126+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to sing (Präsens, ihr)",
@@ -164,8 +164,8 @@
     "Answer": "ich sang",
     "ParentId": 7,
     "Type": 5,
-    "LastTrainingTime": "2022-03-27T00:31:54.7645728+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:45:46.1964159+02:00",
+    "Cooldown": "1.00:00:00"
   },
   {
     "Question": "to sing (Präteritum, du)",
@@ -204,8 +204,8 @@
     "Answer": "du tanzt",
     "ParentId": 10,
     "Type": 1,
-    "LastTrainingTime": "2022-03-27T00:35:10.3881381+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:45:27.8684543+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to dance (Präsens, er)",
@@ -244,8 +244,8 @@
     "Answer": "er tanzte",
     "ParentId": 10,
     "Type": 7,
-    "LastTrainingTime": "2022-03-27T00:36:26.2919313+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:45:03.8128678+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to dance (Präteritum, ihr)",
@@ -372,8 +372,8 @@
     "Answer": "er hatte",
     "ParentId": 16,
     "Type": 7,
-    "LastTrainingTime": "2022-03-27T00:44:38.8027383+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:44:19.0286787+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to have (Präteritum, ihr)",
@@ -396,8 +396,8 @@
     "Answer": "du denkst",
     "ParentId": 19,
     "Type": 1,
-    "LastTrainingTime": "2022-03-27T00:12:45.7034046+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:46:24.196332+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to think (Präsens, er)",
@@ -460,8 +460,8 @@
     "Answer": "du stirbst",
     "ParentId": 22,
     "Type": 1,
-    "LastTrainingTime": "2022-03-27T00:34:36.6282202+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:46:45.0763283+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to die (Präsens, er)",
@@ -500,8 +500,8 @@
     "Answer": "er starb",
     "ParentId": 22,
     "Type": 7,
-    "LastTrainingTime": "2022-03-27T00:40:06.7793768+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:42:57.7887372+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to die (Präteritum, ihr)",
@@ -516,8 +516,8 @@
     "Answer": "ich lebe",
     "ParentId": 25,
     "Type": 0,
-    "LastTrainingTime": "2022-03-27T00:14:44.2791013+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:46:11.3484357+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to live (Präsens, du)",
@@ -532,16 +532,16 @@
     "Answer": "er lebt",
     "ParentId": 25,
     "Type": 2,
-    "LastTrainingTime": "2022-03-27T00:44:43.554681+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:46:37.2843638+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to live (Präsens, ihr)",
     "Answer": "ihr lebt",
     "ParentId": 25,
     "Type": 4,
-    "LastTrainingTime": "2022-03-27T00:26:55.3174131+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:42:20.4847752+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to live (Präteritum, ich)",
@@ -580,24 +580,24 @@
     "Answer": "ich sehe",
     "ParentId": 28,
     "Type": 0,
-    "LastTrainingTime": "2022-03-27T00:31:20.5487026+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:43:46.7006874+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to see (Präsens, du)",
     "Answer": "du siehst",
     "ParentId": 28,
     "Type": 1,
-    "LastTrainingTime": "2022-03-27T00:17:27.8148038+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:44:29.0445597+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to see (Präsens, er)",
     "Answer": "er sieht",
     "ParentId": 28,
     "Type": 2,
-    "LastTrainingTime": "2022-03-27T00:36:30.8359845+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:45:36.3166085+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to see (Präsens, ihr)",
@@ -612,8 +612,8 @@
     "Answer": "ich sah",
     "ParentId": 28,
     "Type": 5,
-    "LastTrainingTime": "2022-03-27T00:18:11.2867298+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:47:23.3563964+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to see (Präteritum, du)",
@@ -652,16 +652,16 @@
     "Answer": "du holst",
     "ParentId": 166,
     "Type": 1,
-    "LastTrainingTime": "2022-03-27T00:35:19.1481103+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:44:08.3325962+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to fetch, to get (Präsens, er)",
     "Answer": "er holt",
     "ParentId": 166,
     "Type": 2,
-    "LastTrainingTime": "2022-03-27T00:43:05.6589478+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:48:00.1322354+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to fetch, to get (Präsens, ihr)",
@@ -676,8 +676,8 @@
     "Answer": "ich holte",
     "ParentId": 166,
     "Type": 5,
-    "LastTrainingTime": "2022-03-27T00:36:18.7079427+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:44:58.4444878+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to fetch, to get (Präteritum, du)",
@@ -700,8 +700,8 @@
     "Answer": "ihr holtet",
     "ParentId": 166,
     "Type": 9,
-    "LastTrainingTime": "2022-03-27T00:29:16.0529985+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:45:58.1884194+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to learn (Präsens, ich)",
@@ -716,8 +716,8 @@
     "Answer": "du lernst",
     "ParentId": 205,
     "Type": 1,
-    "LastTrainingTime": "2022-03-27T00:13:49.2313143+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:47:46.9164456+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to learn (Präsens, er)",
@@ -788,8 +788,8 @@
     "Answer": "die Welt",
     "ParentId": 5,
     "Type": 11,
-    "LastTrainingTime": "2022-03-27T00:34:45.5641859+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:42:37.2687483+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "world (plural)",
@@ -868,8 +868,8 @@
     "Answer": "der Spatz",
     "ParentId": 20,
     "Type": 11,
-    "LastTrainingTime": "2022-03-27T00:31:09.6527244+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:46:48.6283059+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "sparrow (plural)",
@@ -884,8 +884,8 @@
     "Answer": "die Eltern",
     "ParentId": 23,
     "Type": 12,
-    "LastTrainingTime": "2022-03-27T00:33:30.6843599+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:42:54.2447502+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "water (singular)",
@@ -900,8 +900,8 @@
     "Answer": "die Alternative",
     "ParentId": 29,
     "Type": 11,
-    "LastTrainingTime": "2022-03-27T00:38:41.6676243+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:46:28.0523523+02:00",
+    "Cooldown": "1.00:00:00"
   },
   {
     "Question": "alternative (plural)",
@@ -924,8 +924,8 @@
     "Answer": "die Nummern",
     "ParentId": 32,
     "Type": 12,
-    "LastTrainingTime": "2022-03-27T00:18:06.7426379+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:45:07.3884987+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "telephone (singular)",
@@ -980,16 +980,16 @@
     "Answer": "die Schule",
     "ParentId": 44,
     "Type": 11,
-    "LastTrainingTime": "2022-03-27T00:13:43.4152919+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:43:49.9966408+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "school (plural)",
     "Answer": "die Schulen",
     "ParentId": 44,
     "Type": 12,
-    "LastTrainingTime": "2022-03-27T00:31:24.6286493+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:43:59.3486078+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "kitchen (singular)",
@@ -1012,8 +1012,8 @@
     "Answer": "der Vater",
     "ParentId": 50,
     "Type": 11,
-    "LastTrainingTime": "2022-03-27T00:39:57.3154315+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:45:10.8764761+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "father (plural)",
@@ -1028,8 +1028,8 @@
     "Answer": "der Tisch",
     "ParentId": 53,
     "Type": 11,
-    "LastTrainingTime": "2022-03-27T00:17:34.5908115+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:46:06.5803939+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "table (plural)",
@@ -1044,8 +1044,8 @@
     "Answer": "der Morgen",
     "ParentId": 56,
     "Type": 11,
-    "LastTrainingTime": "2022-03-27T00:41:29.5951654+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:44:12.996655+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "morning (plural)",
@@ -1100,8 +1100,8 @@
     "Answer": "die Brötchen",
     "ParentId": 65,
     "Type": 12,
-    "LastTrainingTime": "2022-03-27T00:16:18.814953+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:41:43.5891578+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "jam (singular)",
@@ -1124,8 +1124,8 @@
     "Answer": "die Zimtschnecke",
     "ParentId": 71,
     "Type": 11,
-    "LastTrainingTime": "2022-03-27T00:30:51.8527652+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:46:58.7004023+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "cinnamon bun (plural)",
@@ -1180,16 +1180,16 @@
     "Answer": "die Scheiben",
     "ParentId": 83,
     "Type": 12,
-    "LastTrainingTime": "2022-03-27T00:12:29.4958509+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:48:03.6523207+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "bread (singular)",
     "Answer": "das Brot",
     "ParentId": 86,
     "Type": 11,
-    "LastTrainingTime": "2022-03-27T00:43:10.6268952+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:46:34.244509+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "bread (plural)",
@@ -1204,8 +1204,8 @@
     "Answer": "der Schinken",
     "ParentId": 89,
     "Type": 11,
-    "LastTrainingTime": "2022-03-27T00:32:13.4765064+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:47:50.1084971+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "cheese (singular)",
@@ -1268,32 +1268,32 @@
     "Answer": "das Ei",
     "ParentId": 107,
     "Type": 11,
-    "LastTrainingTime": "2022-03-27T00:34:40.8602008+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:43:01.444715+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "egg (plural)",
     "Answer": "die Eier",
     "ParentId": 107,
     "Type": 12,
-    "LastTrainingTime": "2022-03-27T00:32:53.2124711+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:47:06.5564108+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "coffee (singular)",
     "Answer": "der Kaffee",
     "ParentId": 110,
     "Type": 11,
-    "LastTrainingTime": "2022-03-27T00:34:50.4682332+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:47:02.8684341+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "tea (singular)",
     "Answer": "der Tee",
     "ParentId": 113,
     "Type": 11,
-    "LastTrainingTime": "2022-03-27T00:14:00.1593156+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:45:14.5964971+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "juice (singular)",
@@ -1324,8 +1324,8 @@
     "Answer": "ganz",
     "ParentId": 3,
     "Type": 13,
-    "LastTrainingTime": "2022-03-27T00:35:37.9080127+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:45:33.1724763+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "happy (positive)",
@@ -1356,16 +1356,16 @@
     "Answer": "kalt",
     "ParentId": 9,
     "Type": 13,
-    "LastTrainingTime": "2022-03-27T00:16:53.1829282+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:45:42.9327181+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "cold (comparative)",
     "Answer": "kälter",
     "ParentId": 9,
     "Type": 14,
-    "LastTrainingTime": "2022-03-27T00:32:18.6605337+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:47:11.8283201+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "cold (superlative)",
@@ -1380,16 +1380,16 @@
     "Answer": "jung",
     "ParentId": 12,
     "Type": 13,
-    "LastTrainingTime": "2022-03-27T00:40:37.9713022+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:46:20.4283986+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "young (comparative)",
     "Answer": "jünger",
     "ParentId": 12,
     "Type": 14,
-    "LastTrainingTime": "2022-03-27T00:36:02.2840921+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:47:27.3404024+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "young (superlative)",
@@ -1436,8 +1436,8 @@
     "Answer": "wärmer",
     "ParentId": 18,
     "Type": 14,
-    "LastTrainingTime": "2022-03-27T00:36:11.3160877+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:46:03.4204253+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "warm (superlative)",
@@ -1468,8 +1468,8 @@
     "Answer": "am ruhigsten",
     "ParentId": 21,
     "Type": 15,
-    "LastTrainingTime": "2022-03-27T00:18:26.9906462+01:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T01:47:57.0682613+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "brief, short (positive)",
