@@ -1,4 +1,3 @@
-- Remove unused code 
 - Add more error checks
 - Make error messages more friendly
 - Add a simple config system
