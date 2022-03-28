@@ -78,32 +78,5 @@
             FlashcardRepository.UpdateRandomFlashcards(verbs, randomFlashcards);
             FlashcardRepository.SaveRandomFlashcards("data/RandomFlashcards.json", randomFlashcards);
         }
-
-        static void BuildFlashcardsFromCSV()
-        {
-            var verbs = CSV.ReadVerbsFromFile("data/Verbs.csv");
-            var nouns = CSV.ReadNounsFromFile("data/Nouns.csv");
-            var adjectives = CSV.ReadAdjectivesFromFile("data/Adjectives.csv");
-
-            var verbFlashcards = FlashcardRepository.CreateFlashcards(verbs);
-            var nounFlashcards = FlashcardRepository.CreateFlashcards(nouns);
-            var adjectiveFlashcards = FlashcardRepository.CreateFlashcards(adjectives);
-
-            var flashcards = new List<Flashcard>();
-
-            foreach (var flashcard in verbFlashcards)
-                flashcards.Add(flashcard);
-
-            foreach (var flashcard in nounFlashcards)
-                flashcards.Add(flashcard);
-
-            foreach (var flashcard in adjectiveFlashcards)
-                flashcards.Add(flashcard);
-
-            FlashcardRepository.SaveFlashcards("data/Flashcards.json", flashcards);
-
-            var verbRandomFlashcards = FlashcardRepository.CreateRandomFlashcards(verbs);
-            FlashcardRepository.SaveRandomFlashcards("data/RandomFlashcards.json", verbRandomFlashcards);
-        }
     }
 }
