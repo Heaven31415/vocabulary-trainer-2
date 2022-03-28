@@ -1,0 +1,10 @@
+- Remove unused code 
+- Add more error checks
+- Make error messages more friendly
+- Add a simple config system
+- Download CSV files automatically
+- Cache verbs to decrease startup time
+- Refactor already exisiting code
+- Add information about the number of verbs, nouns and adjectives
+- Create a "module" for statistics
+- Track files from data folder with git
