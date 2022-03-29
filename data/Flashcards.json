@@ -4182,5 +4182,93 @@
     "Type": 9,
     "LastTrainingTime": "2022-03-29T19:50:28.8700539+02:00",
     "Cooldown": "2.00:00:00"
+  },
+  {
+    "Question": "journey, trip (singular)",
+    "Answer": "die Reise",
+    "ParentId": 122,
+    "Type": 11,
+    "LastTrainingTime": "2022-03-30T00:51:16.5389504+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Question": "journey, trip (plural)",
+    "Answer": "die Reisen",
+    "ParentId": 122,
+    "Type": 12,
+    "LastTrainingTime": "2022-03-30T00:51:19.4270133+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Question": "unit, unity (singular)",
+    "Answer": "die Einheit",
+    "ParentId": 125,
+    "Type": 11,
+    "LastTrainingTime": "2022-03-30T00:51:04.9068873+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "unit, unity (plural)",
+    "Answer": "die Einheiten",
+    "ParentId": 125,
+    "Type": 12,
+    "LastTrainingTime": "2022-03-30T00:51:12.1712343+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Question": "hair (singular)",
+    "Answer": "das Haar",
+    "ParentId": 128,
+    "Type": 11,
+    "LastTrainingTime": "2022-03-30T00:50:59.8189612+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Question": "hair (plural)",
+    "Answer": "die Haare",
+    "ParentId": 128,
+    "Type": 12,
+    "LastTrainingTime": "2022-03-30T00:50:03.8911555+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Question": "proximity, vicinity (singular)",
+    "Answer": "die Nähe",
+    "ParentId": 131,
+    "Type": 11,
+    "LastTrainingTime": "2022-03-30T00:50:43.4271369+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Question": "principle (singular)",
+    "Answer": "das Prinzip",
+    "ParentId": 134,
+    "Type": 11,
+    "LastTrainingTime": "2022-03-30T00:50:50.0669655+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Question": "principle (plural)",
+    "Answer": "die Prinzipien",
+    "ParentId": 134,
+    "Type": 12,
+    "LastTrainingTime": "2022-03-30T00:49:46.8675181+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Question": "advantage (singular)",
+    "Answer": "der Vorteil",
+    "ParentId": 137,
+    "Type": 11,
+    "LastTrainingTime": "2022-03-30T00:50:28.2429013+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "advantage (plural)",
+    "Answer": "die Vorteile",
+    "ParentId": 137,
+    "Type": 12,
+    "LastTrainingTime": "2022-03-30T00:50:23.2910584+02:00",
+    "Cooldown": "2.00:00:00"
   }
 ]
