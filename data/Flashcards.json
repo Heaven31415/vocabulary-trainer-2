@@ -1492,8 +1492,8 @@
     "Answer": "am kürzesten",
     "ParentId": 24,
     "Type": 15,
-    "LastTrainingTime": "2022-03-28T19:53:10.5949174+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-03-29T21:38:30.6992461+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "to ask (Präsens, ich)",
@@ -1532,8 +1532,8 @@
     "Answer": "ich fragte",
     "ParentId": 31,
     "Type": 5,
-    "LastTrainingTime": "2022-03-27T20:54:41.9971947+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T21:41:22.5870749+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to ask (Präteritum, du)",
@@ -1612,8 +1612,8 @@
     "Answer": "er antwortete",
     "ParentId": 34,
     "Type": 7,
-    "LastTrainingTime": "2022-03-27T20:08:25.8422815+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T21:39:23.3791435+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to reply, to answer (Präteritum, ihr)",
@@ -1636,8 +1636,8 @@
     "Answer": "du nimmst",
     "ParentId": 37,
     "Type": 1,
-    "LastTrainingTime": "2022-03-27T20:04:47.4272406+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T21:46:31.4105104+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to take (Präsens, er)",
@@ -1668,8 +1668,8 @@
     "Answer": "du nahmst",
     "ParentId": 37,
     "Type": 6,
-    "LastTrainingTime": "2022-03-27T20:54:26.3581028+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T21:43:37.194725+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to take (Präteritum, er)",
@@ -1692,8 +1692,8 @@
     "Answer": "ich schlafe",
     "ParentId": 40,
     "Type": 0,
-    "LastTrainingTime": "2022-03-27T19:56:35.5255898+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T21:43:44.7868621+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to sleep (Präsens, du)",
@@ -1732,8 +1732,8 @@
     "Answer": "du schliefst",
     "ParentId": 40,
     "Type": 6,
-    "LastTrainingTime": "2022-03-27T20:55:00.9091249+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T21:39:11.1311817+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to sleep (Präteritum, er)",
@@ -1844,8 +1844,8 @@
     "Answer": "ihr müsst",
     "ParentId": 46,
     "Type": 4,
-    "LastTrainingTime": "2022-03-27T19:57:18.7093951+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T21:46:51.7464094+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to must (Präteritum, ich)",
@@ -1932,8 +1932,8 @@
     "Answer": "er konnte",
     "ParentId": 49,
     "Type": 7,
-    "LastTrainingTime": "2022-03-27T19:33:26.5161345+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T21:43:00.4187798+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to can (Präteritum, ihr)",
@@ -1956,8 +1956,8 @@
     "Answer": "du heißt",
     "ParentId": 52,
     "Type": 1,
-    "LastTrainingTime": "2022-03-27T19:55:01.2939948+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T21:46:42.5064127+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to be called (Präsens, er)",
@@ -1972,8 +1972,8 @@
     "Answer": "ihr heißt",
     "ParentId": 52,
     "Type": 4,
-    "LastTrainingTime": "2022-03-27T19:57:41.6613194+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T21:44:27.4746618+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to be called (Präteritum, ich)",
@@ -2004,8 +2004,8 @@
     "Answer": "ihr hießt",
     "ParentId": 52,
     "Type": 9,
-    "LastTrainingTime": "2022-03-27T20:02:55.3158565+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T21:42:34.2908299+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to come (Präsens, ich)",
@@ -2028,8 +2028,8 @@
     "Answer": "er kommt",
     "ParentId": 55,
     "Type": 2,
-    "LastTrainingTime": "2022-03-27T19:29:43.8134545+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T21:41:57.3468692+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to come (Präsens, ihr)",
@@ -2060,8 +2060,8 @@
     "Answer": "er kam",
     "ParentId": 55,
     "Type": 7,
-    "LastTrainingTime": "2022-03-27T20:55:04.1570857+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T21:50:48.8420051+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to come (Präteritum, ihr)",
@@ -2164,8 +2164,8 @@
     "Answer": "ihr sprecht",
     "ParentId": 61,
     "Type": 4,
-    "LastTrainingTime": "2022-03-27T21:01:14.9153789+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T21:49:30.2420965+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to speak (Präteritum, ich)",
@@ -2180,8 +2180,8 @@
     "Answer": "du sprachst",
     "ParentId": 61,
     "Type": 6,
-    "LastTrainingTime": "2022-03-27T21:03:40.1626904+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T21:42:02.5388953+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to speak (Präteritum, er)",
@@ -2204,8 +2204,8 @@
     "Answer": "ich verstehe",
     "ParentId": 64,
     "Type": 0,
-    "LastTrainingTime": "2022-03-27T21:05:07.6902944+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T21:47:39.5943081+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to understand (Präsens, du)",
@@ -2244,7 +2244,7 @@
     "Answer": "du verstandst",
     "ParentId": 64,
     "Type": 6,
-    "LastTrainingTime": "2022-03-28T19:55:12.8026575+02:00",
+    "LastTrainingTime": "2022-03-29T21:49:12.754217+02:00",
     "Cooldown": "1.00:00:00"
   },
   {
@@ -2260,7 +2260,7 @@
     "Answer": "ihr verstandet",
     "ParentId": 64,
     "Type": 9,
-    "LastTrainingTime": "2022-03-28T19:53:41.6108167+02:00",
+    "LastTrainingTime": "2022-03-29T21:38:14.0353212+02:00",
     "Cooldown": "1.00:00:00"
   },
   {
@@ -2268,8 +2268,8 @@
     "Answer": "ich bedeute",
     "ParentId": 67,
     "Type": 0,
-    "LastTrainingTime": "2022-03-27T21:03:56.7145731+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T21:47:05.1144107+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to mean (Präsens, du)",
@@ -2308,16 +2308,16 @@
     "Answer": "du bedeutetest",
     "ParentId": 67,
     "Type": 6,
-    "LastTrainingTime": "2022-03-27T21:12:29.6563108+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T21:36:42.5316698+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to mean (Präteritum, er)",
     "Answer": "er bedeutete",
     "ParentId": 67,
     "Type": 7,
-    "LastTrainingTime": "2022-03-27T21:13:21.7360239+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T21:48:28.0101747+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to mean (Präteritum, ihr)",
@@ -2332,8 +2332,8 @@
     "Answer": "ich weiß",
     "ParentId": 70,
     "Type": 0,
-    "LastTrainingTime": "2022-03-27T21:05:28.3702647+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T21:46:08.2024431+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to know (starts with w) (Präsens, du)",
@@ -2348,8 +2348,8 @@
     "Answer": "er weiß",
     "ParentId": 70,
     "Type": 2,
-    "LastTrainingTime": "2022-03-27T21:01:34.2033054+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T21:43:24.1147915+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to know (starts with w) (Präsens, ihr)",
@@ -2372,8 +2372,8 @@
     "Answer": "du wusstest",
     "ParentId": 70,
     "Type": 6,
-    "LastTrainingTime": "2022-03-27T21:13:49.1757839+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T21:42:45.9388303+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to know (starts with w) (Präteritum, er)",
@@ -2428,8 +2428,8 @@
     "Answer": "ich machte",
     "ParentId": 73,
     "Type": 5,
-    "LastTrainingTime": "2022-03-27T21:12:41.5442992+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T21:42:37.6027915+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to make, to do (Präteritum, du)",
@@ -2460,8 +2460,8 @@
     "Answer": "ich brauche",
     "ParentId": 76,
     "Type": 0,
-    "LastTrainingTime": "2022-03-27T21:05:37.8101298+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T21:44:12.5866691+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to need (Präsens, du)",
@@ -2484,8 +2484,8 @@
     "Answer": "ihr braucht",
     "ParentId": 76,
     "Type": 4,
-    "LastTrainingTime": "2022-03-27T21:13:41.5759082+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T21:46:04.9705073+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to need (Präteritum, ich)",
@@ -2524,8 +2524,8 @@
     "Answer": "ich esse",
     "ParentId": 79,
     "Type": 0,
-    "LastTrainingTime": "2022-03-27T21:03:47.8026269+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T21:49:26.8980996+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to eat (Präsens, du)",
@@ -2556,16 +2556,16 @@
     "Answer": "ich aß",
     "ParentId": 79,
     "Type": 5,
-    "LastTrainingTime": "2022-03-27T21:03:52.3547977+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T21:46:25.7464375+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to eat (Präteritum, du)",
     "Answer": "du aßest",
     "ParentId": 79,
     "Type": 6,
-    "LastTrainingTime": "2022-03-27T21:03:31.3547009+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T21:45:54.8824935+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to eat (Präteritum, er)",
@@ -2588,8 +2588,8 @@
     "Answer": "ich soll",
     "ParentId": 82,
     "Type": 0,
-    "LastTrainingTime": "2022-03-27T21:05:34.5061349+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T21:38:25.2513535+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to should (Präsens, du)",
@@ -2620,8 +2620,8 @@
     "Answer": "ich sollte",
     "ParentId": 82,
     "Type": 5,
-    "LastTrainingTime": "2022-03-27T21:02:05.8670991+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T21:49:33.1941249+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to should (Präteritum, du)",
@@ -3172,8 +3172,8 @@
     "Answer": "du sitzt",
     "ParentId": 109,
     "Type": 1,
-    "LastTrainingTime": "2022-03-28T19:40:43.8031626+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-03-29T21:41:39.7149592+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "to sit (Präsens, er)",
@@ -3212,8 +3212,8 @@
     "Answer": "er saß",
     "ParentId": 109,
     "Type": 7,
-    "LastTrainingTime": "2022-03-28T19:40:43.8031786+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-03-29T21:48:38.4662521+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "to sit (Präteritum, ihr)",
@@ -3228,16 +3228,16 @@
     "Answer": "ich lese",
     "ParentId": 112,
     "Type": 0,
-    "LastTrainingTime": "2022-03-28T19:40:43.8031852+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-03-29T21:43:16.0907608+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "to read (Präsens, du)",
     "Answer": "du liest",
     "ParentId": 112,
     "Type": 1,
-    "LastTrainingTime": "2022-03-28T19:40:43.8031884+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-03-29T21:44:19.9946741+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "to read (Präsens, er)",
@@ -3372,8 +3372,8 @@
     "Answer": "er merkt",
     "ParentId": 118,
     "Type": 2,
-    "LastTrainingTime": "2022-03-28T19:40:43.803245+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-03-29T21:38:05.5635959+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "to notice, to realize (Präsens, ihr)",
@@ -3428,8 +3428,8 @@
     "Answer": "du reagierst",
     "ParentId": 121,
     "Type": 1,
-    "LastTrainingTime": "2022-03-28T19:40:43.8032687+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-03-29T21:39:19.2912052+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "to react (Präsens, er)",
@@ -3484,8 +3484,8 @@
     "Answer": "ich fliege",
     "ParentId": 124,
     "Type": 0,
-    "LastTrainingTime": "2022-03-28T19:40:43.8032926+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-03-29T21:48:08.4501906+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "to fly (Präsens, du)",
@@ -3604,8 +3604,8 @@
     "Answer": "ihr versuchtet",
     "ParentId": 127,
     "Type": 9,
-    "LastTrainingTime": "2022-03-28T19:40:43.8033453+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-03-29T21:50:18.2180173+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "to look at (Präsens, ich)",
@@ -3628,15 +3628,15 @@
     "Answer": "er sieht an",
     "ParentId": 130,
     "Type": 2,
-    "LastTrainingTime": "2022-03-28T19:40:43.8033561+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-03-29T21:39:06.699258+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "to look at (Präsens, ihr)",
     "Answer": "ihr seht an",
     "ParentId": 130,
     "Type": 4,
-    "LastTrainingTime": "2022-03-28T19:40:43.8033596+02:00",
+    "LastTrainingTime": "2022-03-29T21:50:42.5780151+02:00",
     "Cooldown": "1.00:00:00"
   },
   {
@@ -3652,8 +3652,8 @@
     "Answer": "du sahst an",
     "ParentId": 130,
     "Type": 6,
-    "LastTrainingTime": "2022-03-28T19:40:43.8033669+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-03-29T21:43:20.8107814+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "to look at (Präteritum, er)",
@@ -3684,8 +3684,8 @@
     "Answer": "du landest",
     "ParentId": 133,
     "Type": 1,
-    "LastTrainingTime": "2022-03-28T19:40:43.8033813+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-03-29T21:39:16.075261+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "to land, to alight (Präsens, er)",
@@ -3796,7 +3796,7 @@
     "Answer": "ihr lieft los",
     "ParentId": 136,
     "Type": 9,
-    "LastTrainingTime": "2022-03-28T19:40:43.8034325+02:00",
+    "LastTrainingTime": "2022-03-29T21:50:25.8260527+02:00",
     "Cooldown": "1.00:00:00"
   },
   {
@@ -3964,8 +3964,8 @@
     "Answer": "ich übte",
     "ParentId": 145,
     "Type": 5,
-    "LastTrainingTime": "2022-03-28T19:40:43.8035123+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-03-29T21:41:32.4189634+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "to practice (Präteritum, du)",
@@ -4020,8 +4020,8 @@
     "Answer": "ihr guckt",
     "ParentId": 148,
     "Type": 4,
-    "LastTrainingTime": "2022-03-28T19:40:43.8035394+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-03-29T21:42:49.0748245+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "to peek, to look (Präteritum, ich)",
@@ -4116,8 +4116,8 @@
     "Answer": "ihr fuhrt",
     "ParentId": 151,
     "Type": 9,
-    "LastTrainingTime": "2022-03-28T19:40:43.8035875+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-03-29T21:44:42.650722+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "to talk (Präsens, ich)",
@@ -4172,8 +4172,8 @@
     "Answer": "er redete",
     "ParentId": 154,
     "Type": 7,
-    "LastTrainingTime": "2022-03-28T19:40:43.8036158+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-03-29T21:44:59.050592+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "to talk (Präteritum, ihr)",
