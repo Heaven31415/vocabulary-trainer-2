@@ -31,6 +31,7 @@
                 if (availableFlashcards.Count == 0)
                     break;
 
+                Utility.WriteLine($"Flashcards: {flashcards.Count}");
                 Utility.WriteLine($"Available flashcards: {availableFlashcards.Count}");
                 Utility.WriteLine();
 
