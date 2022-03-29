@@ -65,6 +65,7 @@ namespace VocabularyTrainer2
         public static List<Verb> ReadVerbsFromFile(string path)
         {
             var verbs = new List<Verb>();
+            var verbCache = new VerbCache("data/Verbs.json");
 
             using var reader = new StreamReader(path);
             using var csv = new CsvReader(reader, CultureInfo.InvariantCulture);
@@ -80,7 +81,7 @@ namespace VocabularyTrainer2
                 bool verified = csv.GetField<bool>(3);
 
                 if (verified)
-                    verbs.Add(VerbExtractor.Extract(id, englishDescription, germanInfinitive));
+                    verbs.Add(verbCache.Get(id, englishDescription, germanInfinitive));
             }
 
             return verbs;
