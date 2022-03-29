@@ -23,6 +23,7 @@
                 flashcards.Add(flashcard);
 
             var random = new Random();
+            var statistics = new Statistics("data/Statistics.json");
 
             while (true)
             {
@@ -49,6 +50,8 @@
                     Utility.WriteLine("Correct!", ConsoleColor.Green);
                 else
                     Utility.WriteLine($"Incorrect. The correct answer is: '{correctAnswer}'", ConsoleColor.Red);
+
+                statistics.OnQuestionAnswered(isCorrect);
 
                 Utility.WriteLine();
                 Utility.WriteLine("Press enter to continue...");
