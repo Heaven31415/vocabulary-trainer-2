@@ -60,8 +60,8 @@
     ],
     "ParentId": 4,
     "Type": 3,
-    "LastTrainingTime": "2022-03-27T18:36:08.0523417+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T19:50:14.7022147+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
@@ -96,8 +96,8 @@
     ],
     "ParentId": 4,
     "Type": 10,
-    "LastTrainingTime": "2022-03-27T18:34:59.3085235+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T19:50:45.4380259+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
@@ -110,8 +110,8 @@
     ],
     "ParentId": 7,
     "Type": 3,
-    "LastTrainingTime": "2022-03-27T18:34:16.6686781+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T19:45:14.3985745+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
@@ -124,8 +124,8 @@
     ],
     "ParentId": 7,
     "Type": 8,
-    "LastTrainingTime": "2022-03-27T18:36:40.6200739+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T20:17:35.195397+02:00",
+    "Cooldown": "1.00:00:00"
   },
   {
     "Questions": [
@@ -146,8 +146,8 @@
     ],
     "ParentId": 7,
     "Type": 10,
-    "LastTrainingTime": "2022-03-27T18:37:02.9799372+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T19:41:20.8552828+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
@@ -160,8 +160,8 @@
     ],
     "ParentId": 10,
     "Type": 3,
-    "LastTrainingTime": "2022-03-27T18:34:02.5729046+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T19:51:08.3420733+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
@@ -196,8 +196,8 @@
     ],
     "ParentId": 10,
     "Type": 10,
-    "LastTrainingTime": "2022-03-27T18:33:55.9888042+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T20:15:32.2915477+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
@@ -224,8 +224,8 @@
     ],
     "ParentId": 13,
     "Type": 8,
-    "LastTrainingTime": "2022-03-27T18:35:55.6522252+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T20:23:32.1466981+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
@@ -246,7 +246,7 @@
     ],
     "ParentId": 13,
     "Type": 10,
-    "LastTrainingTime": "2022-03-28T20:00:18.4100559+02:00",
+    "LastTrainingTime": "2022-03-29T20:58:13.1272651+02:00",
     "Cooldown": "1.00:00:00"
   },
   {
@@ -260,8 +260,8 @@
     ],
     "ParentId": 16,
     "Type": 3,
-    "LastTrainingTime": "2022-03-27T18:34:21.5808293+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T19:43:44.6227367+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
@@ -274,8 +274,8 @@
     ],
     "ParentId": 16,
     "Type": 8,
-    "LastTrainingTime": "2022-03-27T18:35:38.964271+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T20:16:01.6435119+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
@@ -296,8 +296,8 @@
     ],
     "ParentId": 16,
     "Type": 10,
-    "LastTrainingTime": "2022-03-27T18:34:28.8606834+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T19:44:13.9107465+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
@@ -310,8 +310,8 @@
     ],
     "ParentId": 19,
     "Type": 3,
-    "LastTrainingTime": "2022-03-27T18:36:35.1324608+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T20:17:57.7473102+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
@@ -324,8 +324,8 @@
     ],
     "ParentId": 19,
     "Type": 8,
-    "LastTrainingTime": "2022-03-27T18:35:43.732376+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T19:49:56.0061439+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
@@ -346,8 +346,8 @@
     ],
     "ParentId": 19,
     "Type": 10,
-    "LastTrainingTime": "2022-03-27T18:36:54.4760266+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T20:17:07.299364+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
@@ -360,8 +360,8 @@
     ],
     "ParentId": 22,
     "Type": 3,
-    "LastTrainingTime": "2022-03-27T18:36:48.6759784+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T20:17:39.7313002+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
@@ -374,8 +374,8 @@
     ],
     "ParentId": 22,
     "Type": 8,
-    "LastTrainingTime": "2022-03-27T18:37:35.3397373+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T20:49:01.8565611+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
@@ -424,8 +424,8 @@
     ],
     "ParentId": 25,
     "Type": 8,
-    "LastTrainingTime": "2022-03-27T18:35:04.484652+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T20:59:11.9191015+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
@@ -446,8 +446,8 @@
     ],
     "ParentId": 25,
     "Type": 10,
-    "LastTrainingTime": "2022-03-27T18:34:51.892918+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T19:46:35.9344604+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
@@ -460,8 +460,8 @@
     ],
     "ParentId": 28,
     "Type": 3,
-    "LastTrainingTime": "2022-03-27T18:34:45.4527368+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T20:58:38.6873392+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
@@ -474,8 +474,8 @@
     ],
     "ParentId": 28,
     "Type": 8,
-    "LastTrainingTime": "2022-03-27T18:36:00.3963115+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T20:55:00.167616+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
@@ -496,8 +496,8 @@
     ],
     "ParentId": 28,
     "Type": 10,
-    "LastTrainingTime": "2022-03-27T18:35:49.4284803+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T19:50:37.9260306+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
@@ -524,8 +524,8 @@
     ],
     "ParentId": 166,
     "Type": 8,
-    "LastTrainingTime": "2022-03-27T18:31:50.5179076+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T20:18:10.6352717+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
@@ -546,8 +546,8 @@
     ],
     "ParentId": 166,
     "Type": 10,
-    "LastTrainingTime": "2022-03-27T18:37:32.0359036+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T20:52:14.9280579+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
@@ -574,8 +574,8 @@
     ],
     "ParentId": 205,
     "Type": 8,
-    "LastTrainingTime": "2022-03-27T18:33:49.3815326+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T19:41:25.9749873+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
@@ -596,8 +596,8 @@
     ],
     "ParentId": 205,
     "Type": 10,
-    "LastTrainingTime": "2022-03-27T18:36:30.3562414+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T19:44:34.0546747+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
@@ -624,8 +624,8 @@
     ],
     "ParentId": 31,
     "Type": 8,
-    "LastTrainingTime": "2022-03-27T20:02:35.388016+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T20:59:04.7671623+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
@@ -646,8 +646,8 @@
     ],
     "ParentId": 31,
     "Type": 10,
-    "LastTrainingTime": "2022-03-27T19:58:49.4209334+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T20:17:11.7233841+02:00",
+    "Cooldown": "1.00:00:00"
   },
   {
     "Questions": [
@@ -660,8 +660,8 @@
     ],
     "ParentId": 34,
     "Type": 3,
-    "LastTrainingTime": "2022-03-27T19:58:28.6290551+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T20:55:30.8715741+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
@@ -696,8 +696,8 @@
     ],
     "ParentId": 34,
     "Type": 10,
-    "LastTrainingTime": "2022-03-27T19:56:29.7816723+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T20:18:33.6352818+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
@@ -710,8 +710,8 @@
     ],
     "ParentId": 37,
     "Type": 3,
-    "LastTrainingTime": "2022-03-27T20:06:52.2666632+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T20:22:08.0028686+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
@@ -724,8 +724,8 @@
     ],
     "ParentId": 37,
     "Type": 8,
-    "LastTrainingTime": "2022-03-27T19:35:38.8037216+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T19:48:13.6142892+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
@@ -760,8 +760,8 @@
     ],
     "ParentId": 40,
     "Type": 3,
-    "LastTrainingTime": "2022-03-27T20:04:17.5714204+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T20:53:57.4156622+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
@@ -796,8 +796,8 @@
     ],
     "ParentId": 40,
     "Type": 10,
-    "LastTrainingTime": "2022-03-27T20:05:45.5870022+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T20:22:50.4748238+02:00",
+    "Cooldown": "1.00:00:00"
   },
   {
     "Questions": [
@@ -810,8 +810,8 @@
     ],
     "ParentId": 43,
     "Type": 3,
-    "LastTrainingTime": "2022-03-27T19:52:33.6307548+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T20:59:01.6712797+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
@@ -824,8 +824,8 @@
     ],
     "ParentId": 43,
     "Type": 8,
-    "LastTrainingTime": "2022-03-27T19:52:02.8388199+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T20:19:10.6112225+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
@@ -860,8 +860,8 @@
     ],
     "ParentId": 46,
     "Type": 3,
-    "LastTrainingTime": "2022-03-27T20:07:28.4025121+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T20:19:13.8592121+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
@@ -874,8 +874,8 @@
     ],
     "ParentId": 46,
     "Type": 8,
-    "LastTrainingTime": "2022-03-27T20:08:30.9542484+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T20:22:30.8268784+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
@@ -910,8 +910,8 @@
     ],
     "ParentId": 49,
     "Type": 3,
-    "LastTrainingTime": "2022-03-27T19:56:21.6536527+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T20:59:23.0791814+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
@@ -946,8 +946,8 @@
     ],
     "ParentId": 49,
     "Type": 10,
-    "LastTrainingTime": "2022-03-28T19:58:32.954244+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-03-29T20:20:40.5470052+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Questions": [
@@ -1010,8 +1010,8 @@
     ],
     "ParentId": 55,
     "Type": 3,
-    "LastTrainingTime": "2022-03-27T19:56:58.965451+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T20:59:30.5831779+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
@@ -1046,8 +1046,8 @@
     ],
     "ParentId": 55,
     "Type": 10,
-    "LastTrainingTime": "2022-03-27T20:04:10.9395003+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T20:58:46.9192464+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
@@ -1897,6 +1897,806 @@
     "ParentId": 106,
     "Type": 10,
     "LastTrainingTime": "2022-03-29T01:54:21.8195889+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to sit (Präsens, wir)",
+      "to sit (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir sitzen",
+      "Sie sitzen"
+    ],
+    "ParentId": 109,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-29T20:20:01.6751151+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to sit (Präteritum, wir)",
+      "to sit (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir saßen",
+      "Sie saßen"
+    ],
+    "ParentId": 109,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-29T21:04:26.1347523+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to sit (Perfekt, ich)",
+      "to sit (Perfekt, du)",
+      "to sit (Perfekt, er)",
+      "to sit (Perfekt, wir)",
+      "to sit (Perfekt, ihr)",
+      "to sit (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe gesessen",
+      "du hast gesessen",
+      "er hat gesessen",
+      "wir haben gesessen",
+      "ihr habt gesessen",
+      "Sie haben gesessen"
+    ],
+    "ParentId": 109,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-28T19:40:43.8355139+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "to read (Präsens, wir)",
+      "to read (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir lesen",
+      "Sie lesen"
+    ],
+    "ParentId": 112,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-28T19:40:43.8355155+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "to read (Präteritum, wir)",
+      "to read (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir lasen",
+      "Sie lasen"
+    ],
+    "ParentId": 112,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-29T19:41:46.0549235+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to read (Perfekt, ich)",
+      "to read (Perfekt, du)",
+      "to read (Perfekt, er)",
+      "to read (Perfekt, wir)",
+      "to read (Perfekt, ihr)",
+      "to read (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe gelesen",
+      "du hast gelesen",
+      "er hat gelesen",
+      "wir haben gelesen",
+      "ihr habt gelesen",
+      "Sie haben gelesen"
+    ],
+    "ParentId": 112,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-28T19:40:43.8355185+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "to hear (Präsens, wir)",
+      "to hear (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir hören",
+      "Sie hören"
+    ],
+    "ParentId": 115,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-29T19:46:20.2224803+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to hear (Präteritum, wir)",
+      "to hear (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir hörten",
+      "Sie hörten"
+    ],
+    "ParentId": 115,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-29T21:04:35.6227291+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to hear (Perfekt, ich)",
+      "to hear (Perfekt, du)",
+      "to hear (Perfekt, er)",
+      "to hear (Perfekt, wir)",
+      "to hear (Perfekt, ihr)",
+      "to hear (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe gehört",
+      "du hast gehört",
+      "er hat gehört",
+      "wir haben gehört",
+      "ihr habt gehört",
+      "Sie haben gehört"
+    ],
+    "ParentId": 115,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-28T19:40:43.835523+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "to notice, to realize (Präsens, wir)",
+      "to notice, to realize (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir merken",
+      "Sie merken"
+    ],
+    "ParentId": 118,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-29T20:20:15.6190633+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to notice, to realize (Präteritum, wir)",
+      "to notice, to realize (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir merkten",
+      "Sie merkten"
+    ],
+    "ParentId": 118,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-29T20:53:49.8237367+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to notice, to realize (Perfekt, ich)",
+      "to notice, to realize (Perfekt, du)",
+      "to notice, to realize (Perfekt, er)",
+      "to notice, to realize (Perfekt, wir)",
+      "to notice, to realize (Perfekt, ihr)",
+      "to notice, to realize (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe gemerkt",
+      "du hast gemerkt",
+      "er hat gemerkt",
+      "wir haben gemerkt",
+      "ihr habt gemerkt",
+      "Sie haben gemerkt"
+    ],
+    "ParentId": 118,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-28T19:40:43.8355276+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "to react (Präsens, wir)",
+      "to react (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir reagieren",
+      "Sie reagieren"
+    ],
+    "ParentId": 121,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-28T19:40:43.8355296+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "to react (Präteritum, wir)",
+      "to react (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir reagierten",
+      "Sie reagierten"
+    ],
+    "ParentId": 121,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-29T20:59:27.5751855+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to react (Perfekt, ich)",
+      "to react (Perfekt, du)",
+      "to react (Perfekt, er)",
+      "to react (Perfekt, wir)",
+      "to react (Perfekt, ihr)",
+      "to react (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe reagiert",
+      "du hast reagiert",
+      "er hat reagiert",
+      "wir haben reagiert",
+      "ihr habt reagiert",
+      "Sie haben reagiert"
+    ],
+    "ParentId": 121,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-29T20:51:19.7519667+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to fly (Präsens, wir)",
+      "to fly (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir fliegen",
+      "Sie fliegen"
+    ],
+    "ParentId": 124,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-29T20:53:53.463703+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to fly (Präteritum, wir)",
+      "to fly (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir flogen",
+      "Sie flogen"
+    ],
+    "ParentId": 124,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-29T20:57:06.2154182+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to fly (Perfekt, ich)",
+      "to fly (Perfekt, du)",
+      "to fly (Perfekt, er)",
+      "to fly (Perfekt, wir)",
+      "to fly (Perfekt, ihr)",
+      "to fly (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich bin geflogen",
+      "du bist geflogen",
+      "er ist geflogen",
+      "wir sind geflogen",
+      "ihr seid geflogen",
+      "Sie sind geflogen"
+    ],
+    "ParentId": 124,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-29T20:17:02.8914586+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to attempt, to try (starts with v) (Präsens, wir)",
+      "to attempt, to try (starts with v) (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir versuchen",
+      "Sie versuchen"
+    ],
+    "ParentId": 127,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-28T19:40:43.8355395+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "to attempt, to try (starts with v) (Präteritum, wir)",
+      "to attempt, to try (starts with v) (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir versuchten",
+      "Sie versuchten"
+    ],
+    "ParentId": 127,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-29T19:44:54.7186508+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "to attempt, to try (starts with v) (Perfekt, ich)",
+      "to attempt, to try (starts with v) (Perfekt, du)",
+      "to attempt, to try (starts with v) (Perfekt, er)",
+      "to attempt, to try (starts with v) (Perfekt, wir)",
+      "to attempt, to try (starts with v) (Perfekt, ihr)",
+      "to attempt, to try (starts with v) (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe versucht",
+      "du hast versucht",
+      "er hat versucht",
+      "wir haben versucht",
+      "ihr habt versucht",
+      "Sie haben versucht"
+    ],
+    "ParentId": 127,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-28T19:40:43.8355427+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "to look at (Präsens, wir)",
+      "to look at (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir sehen an",
+      "Sie sehen an"
+    ],
+    "ParentId": 130,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-29T20:49:33.0241399+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to look at (Präteritum, wir)",
+      "to look at (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir sahen an",
+      "Sie sahen an"
+    ],
+    "ParentId": 130,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-28T19:40:43.8355459+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "to look at (Perfekt, ich)",
+      "to look at (Perfekt, du)",
+      "to look at (Perfekt, er)",
+      "to look at (Perfekt, wir)",
+      "to look at (Perfekt, ihr)",
+      "to look at (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe angesehen",
+      "du hast angesehen",
+      "er hat angesehen",
+      "wir haben angesehen",
+      "ihr habt angesehen",
+      "Sie haben angesehen"
+    ],
+    "ParentId": 130,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-28T19:40:43.8355481+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "to land, to alight (Präsens, wir)",
+      "to land, to alight (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir landen",
+      "Sie landen"
+    ],
+    "ParentId": 133,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-29T20:58:58.5912587+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to land, to alight (Präteritum, wir)",
+      "to land, to alight (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir landeten",
+      "Sie landeten"
+    ],
+    "ParentId": 133,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-29T20:56:50.7753812+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to land, to alight (Perfekt, ich)",
+      "to land, to alight (Perfekt, du)",
+      "to land, to alight (Perfekt, er)",
+      "to land, to alight (Perfekt, wir)",
+      "to land, to alight (Perfekt, ihr)",
+      "to land, to alight (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich bin gelandet",
+      "du bist gelandet",
+      "er ist gelandet",
+      "wir sind gelandet",
+      "ihr seid gelandet",
+      "Sie sind gelandet"
+    ],
+    "ParentId": 133,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-29T20:16:42.9074714+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to start running (Präsens, wir)",
+      "to start running (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir laufen los",
+      "Sie laufen los"
+    ],
+    "ParentId": 136,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-28T19:40:43.8355548+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "to start running (Präteritum, wir)",
+      "to start running (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir liefen los",
+      "Sie liefen los"
+    ],
+    "ParentId": 136,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-29T19:41:32.4069843+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to start running (Perfekt, ich)",
+      "to start running (Perfekt, du)",
+      "to start running (Perfekt, er)",
+      "to start running (Perfekt, wir)",
+      "to start running (Perfekt, ihr)",
+      "to start running (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich bin losgelaufen",
+      "du bist losgelaufen",
+      "er ist losgelaufen",
+      "wir sind losgelaufen",
+      "ihr seid losgelaufen",
+      "Sie sind losgelaufen"
+    ],
+    "ParentId": 136,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-28T19:40:43.8355582+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "to open (Präsens, wir)",
+      "to open (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir öffnen",
+      "Sie öffnen"
+    ],
+    "ParentId": 139,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-28T19:40:43.8355599+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "to open (Präteritum, wir)",
+      "to open (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir öffneten",
+      "Sie öffneten"
+    ],
+    "ParentId": 139,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-28T19:40:43.8355614+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "to open (Perfekt, ich)",
+      "to open (Perfekt, du)",
+      "to open (Perfekt, er)",
+      "to open (Perfekt, wir)",
+      "to open (Perfekt, ihr)",
+      "to open (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe geöffnet",
+      "du hast geöffnet",
+      "er hat geöffnet",
+      "wir haben geöffnet",
+      "ihr habt geöffnet",
+      "Sie haben geöffnet"
+    ],
+    "ParentId": 139,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-29T19:51:18.8379731+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to believe (Präsens, wir)",
+      "to believe (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir glauben",
+      "Sie glauben"
+    ],
+    "ParentId": 142,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-29T20:51:54.9759055+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to believe (Präteritum, wir)",
+      "to believe (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir glaubten",
+      "Sie glaubten"
+    ],
+    "ParentId": 142,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-29T20:22:41.5148489+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to believe (Perfekt, ich)",
+      "to believe (Perfekt, du)",
+      "to believe (Perfekt, er)",
+      "to believe (Perfekt, wir)",
+      "to believe (Perfekt, ihr)",
+      "to believe (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe geglaubt",
+      "du hast geglaubt",
+      "er hat geglaubt",
+      "wir haben geglaubt",
+      "ihr habt geglaubt",
+      "Sie haben geglaubt"
+    ],
+    "ParentId": 142,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-29T20:23:07.3388068+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to practice (Präsens, wir)",
+      "to practice (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir üben",
+      "Sie üben"
+    ],
+    "ParentId": 145,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-29T20:59:44.23918+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to practice (Präteritum, wir)",
+      "to practice (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir übten",
+      "Sie übten"
+    ],
+    "ParentId": 145,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-29T20:54:08.4316808+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to practice (Perfekt, ich)",
+      "to practice (Perfekt, du)",
+      "to practice (Perfekt, er)",
+      "to practice (Perfekt, wir)",
+      "to practice (Perfekt, ihr)",
+      "to practice (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe geübt",
+      "du hast geübt",
+      "er hat geübt",
+      "wir haben geübt",
+      "ihr habt geübt",
+      "Sie haben geübt"
+    ],
+    "ParentId": 145,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-29T20:19:21.5071634+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to peek, to look (Präsens, wir)",
+      "to peek, to look (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir gucken",
+      "Sie gucken"
+    ],
+    "ParentId": 148,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-29T20:19:01.755181+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to peek, to look (Präteritum, wir)",
+      "to peek, to look (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir guckten",
+      "Sie guckten"
+    ],
+    "ParentId": 148,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-29T20:21:33.3309112+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to peek, to look (Perfekt, ich)",
+      "to peek, to look (Perfekt, du)",
+      "to peek, to look (Perfekt, er)",
+      "to peek, to look (Perfekt, wir)",
+      "to peek, to look (Perfekt, ihr)",
+      "to peek, to look (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe geguckt",
+      "du hast geguckt",
+      "er hat geguckt",
+      "wir haben geguckt",
+      "ihr habt geguckt",
+      "Sie haben geguckt"
+    ],
+    "ParentId": 148,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-29T19:49:00.9022352+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to drive, to go (Präsens, wir)",
+      "to drive, to go (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir fahren",
+      "Sie fahren"
+    ],
+    "ParentId": 151,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-29T20:15:25.5476108+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to drive, to go (Präteritum, wir)",
+      "to drive, to go (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir fuhren",
+      "Sie fuhren"
+    ],
+    "ParentId": 151,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-29T19:51:00.1260693+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to drive, to go (Perfekt, ich)",
+      "to drive, to go (Perfekt, du)",
+      "to drive, to go (Perfekt, er)",
+      "to drive, to go (Perfekt, wir)",
+      "to drive, to go (Perfekt, ihr)",
+      "to drive, to go (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich bin gefahren",
+      "du bist gefahren",
+      "er ist gefahren",
+      "wir sind gefahren",
+      "ihr seid gefahren",
+      "Sie sind gefahren"
+    ],
+    "ParentId": 151,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-29T19:51:39.4299958+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to talk (Präsens, wir)",
+      "to talk (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir reden",
+      "Sie reden"
+    ],
+    "ParentId": 154,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-29T20:51:29.7440119+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to talk (Präteritum, wir)",
+      "to talk (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir redeten",
+      "Sie redeten"
+    ],
+    "ParentId": 154,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-29T20:54:48.767728+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "to talk (Perfekt, ich)",
+      "to talk (Perfekt, du)",
+      "to talk (Perfekt, er)",
+      "to talk (Perfekt, wir)",
+      "to talk (Perfekt, ihr)",
+      "to talk (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe geredet",
+      "du hast geredet",
+      "er hat geredet",
+      "wir haben geredet",
+      "ihr habt geredet",
+      "Sie haben geredet"
+    ],
+    "ParentId": 154,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-29T20:19:58.4591709+02:00",
     "Cooldown": "2.00:00:00"
   }
 ]

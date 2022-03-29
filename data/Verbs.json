@@ -1140,5 +1140,477 @@
       "SecondPlural": "ihr habt gelernt",
       "ThirdPlural": "Sie haben gelernt"
     }
+  },
+  "sitzen": {
+    "Id": 109,
+    "EnglishDescription": "to sit",
+    "Present": {
+      "FirstSingular": "ich sitze",
+      "SecondSingular": "du sitzt",
+      "ThirdSingular": "er sitzt",
+      "FirstPlural": "wir sitzen",
+      "SecondPlural": "ihr sitzt",
+      "ThirdPlural": "Sie sitzen"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich saß",
+      "SecondSingular": "du saßest",
+      "ThirdSingular": "er saß",
+      "FirstPlural": "wir saßen",
+      "SecondPlural": "ihr saßt",
+      "ThirdPlural": "Sie saßen"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich habe gesessen",
+      "SecondSingular": "du hast gesessen",
+      "ThirdSingular": "er hat gesessen",
+      "FirstPlural": "wir haben gesessen",
+      "SecondPlural": "ihr habt gesessen",
+      "ThirdPlural": "Sie haben gesessen"
+    }
+  },
+  "lesen": {
+    "Id": 112,
+    "EnglishDescription": "to read",
+    "Present": {
+      "FirstSingular": "ich lese",
+      "SecondSingular": "du liest",
+      "ThirdSingular": "er liest",
+      "FirstPlural": "wir lesen",
+      "SecondPlural": "ihr lest",
+      "ThirdPlural": "Sie lesen"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich las",
+      "SecondSingular": "du lasest",
+      "ThirdSingular": "er las",
+      "FirstPlural": "wir lasen",
+      "SecondPlural": "ihr last",
+      "ThirdPlural": "Sie lasen",
+      "6": "ich las",
+      "7": "du last",
+      "8": "er/sie/es las",
+      "9": "wir lasen",
+      "10": "ihr last",
+      "11": "Sie lasen"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich habe gelesen",
+      "SecondSingular": "du hast gelesen",
+      "ThirdSingular": "er hat gelesen",
+      "FirstPlural": "wir haben gelesen",
+      "SecondPlural": "ihr habt gelesen",
+      "ThirdPlural": "Sie haben gelesen"
+    }
+  },
+  "hören": {
+    "Id": 115,
+    "EnglishDescription": "to hear",
+    "Present": {
+      "FirstSingular": "ich höre",
+      "SecondSingular": "du hörst",
+      "ThirdSingular": "er hört",
+      "FirstPlural": "wir hören",
+      "SecondPlural": "ihr hört",
+      "ThirdPlural": "Sie hören"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich hörte",
+      "SecondSingular": "du hörtest",
+      "ThirdSingular": "er hörte",
+      "FirstPlural": "wir hörten",
+      "SecondPlural": "ihr hörtet",
+      "ThirdPlural": "Sie hörten"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich habe gehört",
+      "SecondSingular": "du hast gehört",
+      "ThirdSingular": "er hat gehört",
+      "FirstPlural": "wir haben gehört",
+      "SecondPlural": "ihr habt gehört",
+      "ThirdPlural": "Sie haben gehört"
+    }
+  },
+  "merken": {
+    "Id": 118,
+    "EnglishDescription": "to notice, to realize",
+    "Present": {
+      "FirstSingular": "ich merke",
+      "SecondSingular": "du merkst",
+      "ThirdSingular": "er merkt",
+      "FirstPlural": "wir merken",
+      "SecondPlural": "ihr merkt",
+      "ThirdPlural": "Sie merken"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich merkte",
+      "SecondSingular": "du merktest",
+      "ThirdSingular": "er merkte",
+      "FirstPlural": "wir merkten",
+      "SecondPlural": "ihr merktet",
+      "ThirdPlural": "Sie merkten"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich habe gemerkt",
+      "SecondSingular": "du hast gemerkt",
+      "ThirdSingular": "er hat gemerkt",
+      "FirstPlural": "wir haben gemerkt",
+      "SecondPlural": "ihr habt gemerkt",
+      "ThirdPlural": "Sie haben gemerkt"
+    }
+  },
+  "reagieren": {
+    "Id": 121,
+    "EnglishDescription": "to react",
+    "Present": {
+      "FirstSingular": "ich reagiere",
+      "SecondSingular": "du reagierst",
+      "ThirdSingular": "er reagiert",
+      "FirstPlural": "wir reagieren",
+      "SecondPlural": "ihr reagiert",
+      "ThirdPlural": "Sie reagieren"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich reagierte",
+      "SecondSingular": "du reagiertest",
+      "ThirdSingular": "er reagierte",
+      "FirstPlural": "wir reagierten",
+      "SecondPlural": "ihr reagiertet",
+      "ThirdPlural": "Sie reagierten"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich habe reagiert",
+      "SecondSingular": "du hast reagiert",
+      "ThirdSingular": "er hat reagiert",
+      "FirstPlural": "wir haben reagiert",
+      "SecondPlural": "ihr habt reagiert",
+      "ThirdPlural": "Sie haben reagiert"
+    }
+  },
+  "fliegen": {
+    "Id": 124,
+    "EnglishDescription": "to fly",
+    "Present": {
+      "FirstSingular": "ich fliege",
+      "SecondSingular": "du fliegst",
+      "ThirdSingular": "er fliegt",
+      "FirstPlural": "wir fliegen",
+      "SecondPlural": "ihr fliegt",
+      "ThirdPlural": "Sie fliegen"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich flog",
+      "SecondSingular": "du flogst",
+      "ThirdSingular": "er flog",
+      "FirstPlural": "wir flogen",
+      "SecondPlural": "ihr flogt",
+      "ThirdPlural": "Sie flogen"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich bin geflogen",
+      "SecondSingular": "du bist geflogen",
+      "ThirdSingular": "er ist geflogen",
+      "FirstPlural": "wir sind geflogen",
+      "SecondPlural": "ihr seid geflogen",
+      "ThirdPlural": "Sie sind geflogen",
+      "6": "ich habe geflogen",
+      "7": "du hast geflogen",
+      "8": "er/sie/es hat geflogen",
+      "9": "wir haben geflogen",
+      "10": "ihr habt geflogen",
+      "11": "Sie haben geflogen"
+    }
+  },
+  "versuchen": {
+    "Id": 127,
+    "EnglishDescription": "to attempt, to try (starts with v)",
+    "Present": {
+      "FirstSingular": "ich versuche",
+      "SecondSingular": "du versuchst",
+      "ThirdSingular": "er versucht",
+      "FirstPlural": "wir versuchen",
+      "SecondPlural": "ihr versucht",
+      "ThirdPlural": "Sie versuchen"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich versuchte",
+      "SecondSingular": "du versuchtest",
+      "ThirdSingular": "er versuchte",
+      "FirstPlural": "wir versuchten",
+      "SecondPlural": "ihr versuchtet",
+      "ThirdPlural": "Sie versuchten"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich habe versucht",
+      "SecondSingular": "du hast versucht",
+      "ThirdSingular": "er hat versucht",
+      "FirstPlural": "wir haben versucht",
+      "SecondPlural": "ihr habt versucht",
+      "ThirdPlural": "Sie haben versucht"
+    }
+  },
+  "ansehen": {
+    "Id": 130,
+    "EnglishDescription": "to look at",
+    "Present": {
+      "FirstSingular": "ich sehe an",
+      "SecondSingular": "du siehst an",
+      "ThirdSingular": "er sieht an",
+      "FirstPlural": "wir sehen an",
+      "SecondPlural": "ihr seht an",
+      "ThirdPlural": "Sie sehen an"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich sah an",
+      "SecondSingular": "du sahst an",
+      "ThirdSingular": "er sah an",
+      "FirstPlural": "wir sahen an",
+      "SecondPlural": "ihr saht an",
+      "ThirdPlural": "Sie sahen an"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich habe angesehen",
+      "SecondSingular": "du hast angesehen",
+      "ThirdSingular": "er hat angesehen",
+      "FirstPlural": "wir haben angesehen",
+      "SecondPlural": "ihr habt angesehen",
+      "ThirdPlural": "Sie haben angesehen"
+    }
+  },
+  "landen": {
+    "Id": 133,
+    "EnglishDescription": "to land, to alight",
+    "Present": {
+      "FirstSingular": "ich lande",
+      "SecondSingular": "du landest",
+      "ThirdSingular": "er landet",
+      "FirstPlural": "wir landen",
+      "SecondPlural": "ihr landet",
+      "ThirdPlural": "Sie landen"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich landete",
+      "SecondSingular": "du landetest",
+      "ThirdSingular": "er landete",
+      "FirstPlural": "wir landeten",
+      "SecondPlural": "ihr landetet",
+      "ThirdPlural": "Sie landeten"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich bin gelandet",
+      "SecondSingular": "du bist gelandet",
+      "ThirdSingular": "er ist gelandet",
+      "FirstPlural": "wir sind gelandet",
+      "SecondPlural": "ihr seid gelandet",
+      "ThirdPlural": "Sie sind gelandet"
+    }
+  },
+  "loslaufen": {
+    "Id": 136,
+    "EnglishDescription": "to start running",
+    "Present": {
+      "FirstSingular": "ich laufe los",
+      "SecondSingular": "du läufst los",
+      "ThirdSingular": "er läuft los",
+      "FirstPlural": "wir laufen los",
+      "SecondPlural": "ihr lauft los",
+      "ThirdPlural": "Sie laufen los"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich lief los",
+      "SecondSingular": "du liefst los",
+      "ThirdSingular": "er lief los",
+      "FirstPlural": "wir liefen los",
+      "SecondPlural": "ihr lieft los",
+      "ThirdPlural": "Sie liefen los"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich bin losgelaufen",
+      "SecondSingular": "du bist losgelaufen",
+      "ThirdSingular": "er ist losgelaufen",
+      "FirstPlural": "wir sind losgelaufen",
+      "SecondPlural": "ihr seid losgelaufen",
+      "ThirdPlural": "Sie sind losgelaufen",
+      "6": "ich habe losgelaufen",
+      "7": "du hast losgelaufen",
+      "8": "er/sie/es hat losgelaufen",
+      "9": "wir haben losgelaufen",
+      "10": "ihr habt losgelaufen",
+      "11": "Sie haben losgelaufen"
+    }
+  },
+  "öffnen": {
+    "Id": 139,
+    "EnglishDescription": "to open",
+    "Present": {
+      "FirstSingular": "ich öffne",
+      "SecondSingular": "du öffnest",
+      "ThirdSingular": "er öffnet",
+      "FirstPlural": "wir öffnen",
+      "SecondPlural": "ihr öffnet",
+      "ThirdPlural": "Sie öffnen"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich öffnete",
+      "SecondSingular": "du öffnetest",
+      "ThirdSingular": "er öffnete",
+      "FirstPlural": "wir öffneten",
+      "SecondPlural": "ihr öffnetet",
+      "ThirdPlural": "Sie öffneten"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich habe geöffnet",
+      "SecondSingular": "du hast geöffnet",
+      "ThirdSingular": "er hat geöffnet",
+      "FirstPlural": "wir haben geöffnet",
+      "SecondPlural": "ihr habt geöffnet",
+      "ThirdPlural": "Sie haben geöffnet"
+    }
+  },
+  "glauben": {
+    "Id": 142,
+    "EnglishDescription": "to believe",
+    "Present": {
+      "FirstSingular": "ich glaube",
+      "SecondSingular": "du glaubst",
+      "ThirdSingular": "er glaubt",
+      "FirstPlural": "wir glauben",
+      "SecondPlural": "ihr glaubt",
+      "ThirdPlural": "Sie glauben"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich glaubte",
+      "SecondSingular": "du glaubtest",
+      "ThirdSingular": "er glaubte",
+      "FirstPlural": "wir glaubten",
+      "SecondPlural": "ihr glaubtet",
+      "ThirdPlural": "Sie glaubten"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich habe geglaubt",
+      "SecondSingular": "du hast geglaubt",
+      "ThirdSingular": "er hat geglaubt",
+      "FirstPlural": "wir haben geglaubt",
+      "SecondPlural": "ihr habt geglaubt",
+      "ThirdPlural": "Sie haben geglaubt"
+    }
+  },
+  "üben": {
+    "Id": 145,
+    "EnglishDescription": "to practice",
+    "Present": {
+      "FirstSingular": "ich übe",
+      "SecondSingular": "du übst",
+      "ThirdSingular": "er übt",
+      "FirstPlural": "wir üben",
+      "SecondPlural": "ihr übt",
+      "ThirdPlural": "Sie üben"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich übte",
+      "SecondSingular": "du übtest",
+      "ThirdSingular": "er übte",
+      "FirstPlural": "wir übten",
+      "SecondPlural": "ihr übtet",
+      "ThirdPlural": "Sie übten"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich habe geübt",
+      "SecondSingular": "du hast geübt",
+      "ThirdSingular": "er hat geübt",
+      "FirstPlural": "wir haben geübt",
+      "SecondPlural": "ihr habt geübt",
+      "ThirdPlural": "Sie haben geübt"
+    }
+  },
+  "gucken": {
+    "Id": 148,
+    "EnglishDescription": "to peek, to look",
+    "Present": {
+      "FirstSingular": "ich gucke",
+      "SecondSingular": "du guckst",
+      "ThirdSingular": "er guckt",
+      "FirstPlural": "wir gucken",
+      "SecondPlural": "ihr guckt",
+      "ThirdPlural": "Sie gucken"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich guckte",
+      "SecondSingular": "du gucktest",
+      "ThirdSingular": "er guckte",
+      "FirstPlural": "wir guckten",
+      "SecondPlural": "ihr gucktet",
+      "ThirdPlural": "Sie guckten"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich habe geguckt",
+      "SecondSingular": "du hast geguckt",
+      "ThirdSingular": "er hat geguckt",
+      "FirstPlural": "wir haben geguckt",
+      "SecondPlural": "ihr habt geguckt",
+      "ThirdPlural": "Sie haben geguckt"
+    }
+  },
+  "fahren": {
+    "Id": 151,
+    "EnglishDescription": "to drive, to go",
+    "Present": {
+      "FirstSingular": "ich fahre",
+      "SecondSingular": "du fährst",
+      "ThirdSingular": "er fährt",
+      "FirstPlural": "wir fahren",
+      "SecondPlural": "ihr fahrt",
+      "ThirdPlural": "Sie fahren"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich fuhr",
+      "SecondSingular": "du fuhrst",
+      "ThirdSingular": "er fuhr",
+      "FirstPlural": "wir fuhren",
+      "SecondPlural": "ihr fuhrt",
+      "ThirdPlural": "Sie fuhren"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich bin gefahren",
+      "SecondSingular": "du bist gefahren",
+      "ThirdSingular": "er ist gefahren",
+      "FirstPlural": "wir sind gefahren",
+      "SecondPlural": "ihr seid gefahren",
+      "ThirdPlural": "Sie sind gefahren",
+      "6": "ich habe gefahren",
+      "7": "du hast gefahren",
+      "8": "er/sie/es hat gefahren",
+      "9": "wir haben gefahren",
+      "10": "ihr habt gefahren",
+      "11": "Sie haben gefahren"
+    }
+  },
+  "reden": {
+    "Id": 154,
+    "EnglishDescription": "to talk",
+    "Present": {
+      "FirstSingular": "ich rede",
+      "SecondSingular": "du redest",
+      "ThirdSingular": "er redet",
+      "FirstPlural": "wir reden",
+      "SecondPlural": "ihr redet",
+      "ThirdPlural": "Sie reden"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich redete",
+      "SecondSingular": "du redetest",
+      "ThirdSingular": "er redete",
+      "FirstPlural": "wir redeten",
+      "SecondPlural": "ihr redetet",
+      "ThirdPlural": "Sie redeten"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich habe geredet",
+      "SecondSingular": "du hast geredet",
+      "ThirdSingular": "er hat geredet",
+      "FirstPlural": "wir haben geredet",
+      "SecondPlural": "ihr habt geredet",
+      "ThirdPlural": "Sie haben geredet"
+    }
   }
 }
