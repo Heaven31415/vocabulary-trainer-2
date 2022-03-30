@@ -39,6 +39,8 @@ namespace VocabularyTrainer2
 
         [JsonIgnore]
         public bool IsAvailable => DateTime.Now > LastTrainingTime.Add(Cooldown);
+        [JsonIgnore]
+        public bool IsAvailableAtTheEndOfDay => DateTime.Today.AddDays(1) > LastTrainingTime.Add(Cooldown);
         public abstract string AskQuestion();
         public abstract (bool, string) AnswerQuestion(string answer);
         public abstract string ComputeHash();

@@ -1,4 +1,4 @@
-﻿namespace VocabularyTrainer2
+namespace VocabularyTrainer2
 {
     internal class Program
     {
@@ -24,6 +24,7 @@
 
             var random = new Random();
             var statistics = new Statistics("data/Statistics.json");
+            var availableAtTheEndOfDay = flashcards.FindAll(f => f.IsAvailableAtTheEndOfDay).Count;
 
             while (true)
             {
@@ -33,7 +34,8 @@
                     break;
 
                 Utility.WriteLine($"Flashcards: {flashcards.Count}");
-                Utility.WriteLine($"Available flashcards: {availableFlashcards.Count}");
+                Utility.WriteLine($"Available: {availableFlashcards.Count}");
+                Utility.WriteLine($"Available at the end of day: {availableAtTheEndOfDay}");
                 Utility.WriteLine();
 
                 var flashcard = availableFlashcards[random.Next(availableFlashcards.Count)];
