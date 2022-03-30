@@ -1,12 +1,12 @@
 Id,English Description,German Singular Form,German Plural Form,Source,,English Description Repetitions:,0
 2,country,das Land,die Länder,Jens & Jakob,,German Singular Form Repetitions:,0
 5,world,die Welt,die Welten,Jens & Jakob,,German Plural Form Repetitions:,0
-8,human,der Mensch,die Menschen,Jens & Jakob,,Number of nouns:,46
-11,"road, street",die Straße,die Straßen,Jens & Jakob,,Number of flashcards:,80
+8,human,der Mensch,die Menschen,Jens & Jakob,,Number of nouns:,54
+11,"road, street",die Straße,die Straßen,Jens & Jakob,,Number of flashcards:,96
 14,"ache, pain",der Schmerz,die Schmerzen,Jens & Jakob,,,
-17,hand,die Hand,die Hände,Jens & Jakob,,Number of masculine nouns:,15
-20,sparrow,der Spatz,die Spatzen,Jens & Jakob,,Number of feminine nouns:,21
-23,parent,,die Eltern,Jens & Jakob,,Number of neuter nouns:,9
+17,hand,die Hand,die Hände,Jens & Jakob,,Number of masculine nouns:,17
+20,sparrow,der Spatz,die Spatzen,Jens & Jakob,,Number of feminine nouns:,26
+23,parent,,die Eltern,Jens & Jakob,,Number of neuter nouns:,10
 26,water,das Wasser,,Jens & Jakob,,,
 29,alternative,die Alternative,die Alternativen,Jens & Jakob,,,
 32,number,die Nummer,die Nummern,Jens & Jakob,,,
@@ -45,3 +45,11 @@ Id,English Description,German Singular Form,German Plural Form,Source,,English D
 131,"proximity, vicinity",die Nähe,,Frequency Dictionary,,,
 134,principle,das Prinzip,die Prinzipien,Frequency Dictionary,,,
 137,advantage,der Vorteil,die Vorteile,Frequency Dictionary,,,
+140,"alteration, change",die Änderung,die Änderungen,Frequency Dictionary,,,
+143,exception,die Ausnahme,die Ausnahmen,Frequency Dictionary,,,
+146,"construction, building",der Bau,die Bauten,Frequency Dictionary,,,
+149,hobby,das Hobby,die Hobbys,Frequency Dictionary,,,
+152,conflict,der Konflikt,die Konflikte,Frequency Dictionary,,,
+155,"management, leadership, pipe",die Leitung,die Leitungen,Frequency Dictionary,,,
+158,"passion, desire",die Lust,die Lüste,Frequency Dictionary,,,
+161,majority,die Mehrheit,die Mehrheiten,Frequency Dictionary,,,
