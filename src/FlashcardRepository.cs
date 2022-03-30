@@ -6,7 +6,7 @@ namespace VocabularyTrainer2
 {
     internal class FlashcardRepository
     {
-        public static void UpdateFlashcards(List<Noun> nouns, List<Flashcard> flashcards)
+        public static void UpdateSingleFlashcards(List<Noun> nouns, List<SingleFlashcard> flashcards)
         {
             foreach (var noun in nouns)
             {
@@ -16,7 +16,7 @@ namespace VocabularyTrainer2
 
                     string question = $"{noun.EnglishDescription} (singular)";
                     string answer = $"{noun.Gender.ToArticle()} {noun.GermanSingularForm}";
-                    var flashcardCandidate = new Flashcard(noun.Id, Type.NounSingularForm, question, answer);
+                    var flashcardCandidate = new SingleFlashcard(noun.Id, Type.NounSingularForm, question, answer);
 
                     if (singularFormFlashcard == null)
                         flashcards.Add(flashcardCandidate);
@@ -36,7 +36,7 @@ namespace VocabularyTrainer2
 
                     string question = $"{noun.EnglishDescription} (plural)";
                     string answer = noun.GermanPluralForm;
-                    var flashcardCandidate = new Flashcard(noun.Id, Type.NounPluralForm, question, answer);
+                    var flashcardCandidate = new SingleFlashcard(noun.Id, Type.NounPluralForm, question, answer);
 
                     if (pluralFormFlashcard == null)
                         flashcards.Add(flashcardCandidate);
@@ -52,7 +52,7 @@ namespace VocabularyTrainer2
             }
         }
 
-        public static void UpdateFlashcards(List<Adjective> adjectives, List<Flashcard> flashcards)
+        public static void UpdateSingleFlashcards(List<Adjective> adjectives, List<SingleFlashcard> flashcards)
         {
             foreach (var adjective in adjectives)
             {
@@ -61,7 +61,7 @@ namespace VocabularyTrainer2
 
                     string question = $"{adjective.EnglishDescription} (positive)";
                     string answer = adjective.PositiveDegree;
-                    var flashcardCandidate = new Flashcard(adjective.Id, Type.AdjectivePositiveDegree, question, answer);
+                    var flashcardCandidate = new SingleFlashcard(adjective.Id, Type.AdjectivePositiveDegree, question, answer);
 
                     if (positiveDegreeFlashcard == null)
                         flashcards.Add(flashcardCandidate);
@@ -81,7 +81,7 @@ namespace VocabularyTrainer2
 
                     string question = $"{adjective.EnglishDescription} (comparative)";
                     string answer = adjective.ComparativeDegree;
-                    var flashcardCandidate = new Flashcard(adjective.Id, Type.AdjectiveComparativeDegree, question, answer);
+                    var flashcardCandidate = new SingleFlashcard(adjective.Id, Type.AdjectiveComparativeDegree, question, answer);
 
                     if (comparativeDegreeFlashcard == null)
                         flashcards.Add(flashcardCandidate);
@@ -101,7 +101,7 @@ namespace VocabularyTrainer2
 
                     string question = $"{adjective.EnglishDescription} (superlative)";
                     string answer = adjective.SuperlativeDegree;
-                    var flashcardCandidate = new Flashcard(adjective.Id, Type.AdjectiveSuperlativeDegree, question, answer);
+                    var flashcardCandidate = new SingleFlashcard(adjective.Id, Type.AdjectiveSuperlativeDegree, question, answer);
 
                     if (superlativeDegreeFlashcard == null)
                         flashcards.Add(flashcardCandidate);
@@ -117,7 +117,7 @@ namespace VocabularyTrainer2
             }
         }
 
-        public static void UpdateFlashcards(List<Verb> verbs, List<Flashcard> flashcards)
+        public static void UpdateSingleFlashcards(List<Verb> verbs, List<SingleFlashcard> flashcards)
         {
             foreach (var verb in verbs)
             {
@@ -126,7 +126,7 @@ namespace VocabularyTrainer2
 
                     string question = $"{verb.EnglishDescription} (Präsens, ich)";
                     string answer = verb.Present[PersonalPronoun.FirstSingular];
-                    var flashcardCandidate = new Flashcard(verb.Id, Type.VerbPresentFirstSingular, question, answer);
+                    var flashcardCandidate = new SingleFlashcard(verb.Id, Type.VerbPresentFirstSingular, question, answer);
 
                     if (presentFirstSingularFlashcard == null)
                         flashcards.Add(flashcardCandidate);
@@ -145,7 +145,7 @@ namespace VocabularyTrainer2
 
                     string question = $"{verb.EnglishDescription} (Präsens, du)";
                     string answer = verb.Present[PersonalPronoun.SecondSingular];
-                    var flashcardCandidate = new Flashcard(verb.Id, Type.VerbPresentSecondSingular, question, answer);
+                    var flashcardCandidate = new SingleFlashcard(verb.Id, Type.VerbPresentSecondSingular, question, answer);
 
                     if (presentSecondSingularFlashcard == null)
                         flashcards.Add(flashcardCandidate);
@@ -164,7 +164,7 @@ namespace VocabularyTrainer2
 
                     string question = $"{verb.EnglishDescription} (Präsens, er)";
                     string answer = verb.Present[PersonalPronoun.ThirdSingular];
-                    var flashcardCandidate = new Flashcard(verb.Id, Type.VerbPresentThirdSingular, question, answer);
+                    var flashcardCandidate = new SingleFlashcard(verb.Id, Type.VerbPresentThirdSingular, question, answer);
 
                     if (presentThirdSingularFlashcard == null)
                         flashcards.Add(flashcardCandidate);
@@ -183,7 +183,7 @@ namespace VocabularyTrainer2
 
                     string question = $"{verb.EnglishDescription} (Präsens, ihr)";
                     string answer = verb.Present[PersonalPronoun.SecondPlural];
-                    var flashcardCandidate = new Flashcard(verb.Id, Type.VerbPresentSecondPlural, question, answer);
+                    var flashcardCandidate = new SingleFlashcard(verb.Id, Type.VerbPresentSecondPlural, question, answer);
 
                     if (presentSecondPluralFlashcard == null)
                         flashcards.Add(flashcardCandidate);
@@ -202,7 +202,7 @@ namespace VocabularyTrainer2
 
                     string question = $"{verb.EnglishDescription} (Präteritum, ich)";
                     string answer = verb.SimplePast[PersonalPronoun.FirstSingular];
-                    var flashcardCandidate = new Flashcard(verb.Id, Type.VerbSimplePastFirstSingular, question, answer);
+                    var flashcardCandidate = new SingleFlashcard(verb.Id, Type.VerbSimplePastFirstSingular, question, answer);
 
                     if (simplePastFirstSingularFlashcard == null)
                         flashcards.Add(flashcardCandidate);
@@ -221,7 +221,7 @@ namespace VocabularyTrainer2
 
                     string question = $"{verb.EnglishDescription} (Präteritum, du)";
                     string answer = verb.SimplePast[PersonalPronoun.SecondSingular];
-                    var flashcardCandidate = new Flashcard(verb.Id, Type.VerbSimplePastSecondSingular, question, answer);
+                    var flashcardCandidate = new SingleFlashcard(verb.Id, Type.VerbSimplePastSecondSingular, question, answer);
 
                     if (simplePastSecondSingularFlashcard == null)
                         flashcards.Add(flashcardCandidate);
@@ -240,7 +240,7 @@ namespace VocabularyTrainer2
 
                     string question = $"{verb.EnglishDescription} (Präteritum, er)";
                     string answer = verb.SimplePast[PersonalPronoun.ThirdSingular];
-                    var flashcardCandidate = new Flashcard(verb.Id, Type.VerbSimplePastThirdSingular, question, answer);
+                    var flashcardCandidate = new SingleFlashcard(verb.Id, Type.VerbSimplePastThirdSingular, question, answer);
 
                     if (simplePastThirdSingularFlashcard == null)
                         flashcards.Add(flashcardCandidate);
@@ -259,7 +259,7 @@ namespace VocabularyTrainer2
 
                     string question = $"{verb.EnglishDescription} (Präteritum, ihr)";
                     string answer = verb.SimplePast[PersonalPronoun.SecondPlural];
-                    var flashcardCandidate = new Flashcard(verb.Id, Type.VerbSimplePastSecondPlural, question, answer);
+                    var flashcardCandidate = new SingleFlashcard(verb.Id, Type.VerbSimplePastSecondPlural, question, answer);
 
                     if (simplePastSecondPluralFlashcard == null)
                         flashcards.Add(flashcardCandidate);
@@ -371,11 +371,11 @@ namespace VocabularyTrainer2
             }
         }
 
-        public static List<Flashcard> LoadFlashcards(string path)
+        public static List<SingleFlashcard> LoadSingleFlashcards(string path)
         {
             var json = File.ReadAllText(path);
             var flashcardHelpers = JsonSerializer.Deserialize<List<FlashcardHelper>>(json);
-            var flashcards = new List<Flashcard>();
+            var flashcards = new List<SingleFlashcard>();
 
             if (flashcardHelpers == null)
                 throw new Exception("Flashcard Helpers are null!");
@@ -387,7 +387,7 @@ namespace VocabularyTrainer2
                 var question = flashcardHelper.Question;
                 var answer = flashcardHelper.Answer;
 
-                var flashcard = new Flashcard(parentId, type, question, answer)
+                var flashcard = new SingleFlashcard(parentId, type, question, answer)
                 {
                     LastTrainingTime = flashcardHelper.LastTrainingTime,
                     Cooldown = flashcardHelper.Cooldown
@@ -399,7 +399,7 @@ namespace VocabularyTrainer2
             return flashcards;
         }
 
-        public static void SaveFlashcards(string path, List<Flashcard> flashcards)
+        public static void SaveSingleFlashcards(string path, List<SingleFlashcard> flashcards)
         {
             var options = new JsonSerializerOptions
             {

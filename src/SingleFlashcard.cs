@@ -1,11 +1,11 @@
 ﻿namespace VocabularyTrainer2
 {
-    internal class Flashcard : FlashcardBase
+    internal class SingleFlashcard : FlashcardBase
     {
         public string Question { get; set; }
         public string Answer { get; set; }
 
-        public Flashcard(int parentId, Type type, string question, string answer) : base(parentId, type)
+        public SingleFlashcard(int parentId, Type type, string question, string answer) : base(parentId, type)
         {
             Question = question;
             Answer = answer;
