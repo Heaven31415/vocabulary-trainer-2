@@ -51,15 +51,12 @@
                 if (availableFlashcards.Count == 0)
                     break;
 
-                Utility.WriteLine($"Flashcards: {flashcards.Count}");
-                Utility.WriteLine($"Available: {availableFlashcards.Count}");
-                Utility.WriteLine($"Available at the end of day: {availableAtTheEndOfDay}");
+                Utility.WriteLine($"F<{flashcards.Count}> A<{availableFlashcards.Count}> A24<{availableAtTheEndOfDay}>");
                 Utility.WriteLine();
 
                 var flashcard = availableFlashcards[random.Next(availableFlashcards.Count)];
 
-                Utility.WriteLine($"Translate to German: '{flashcard.AskQuestion()}'");
-                Utility.Write("Answer: ");
+                Utility.Write($"Translate to German '{flashcard.AskQuestion()}': ");
                 var answer = Utility.ReadLine();
 
                 var (isCorrect, correctAnswer) = flashcard.AnswerQuestion(answer);
