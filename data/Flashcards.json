@@ -164,8 +164,8 @@
     "Answer": "ich sang",
     "ParentId": 7,
     "Type": 5,
-    "LastTrainingTime": "2022-03-29T01:45:46.1964159+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-03-30T18:55:30.2682795+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "to sing (Präteritum, du)",
@@ -900,8 +900,8 @@
     "Answer": "die Alternative",
     "ParentId": 29,
     "Type": 11,
-    "LastTrainingTime": "2022-03-29T01:46:28.0523523+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-03-30T18:55:23.8682526+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "alternative (plural)",
@@ -3148,8 +3148,8 @@
     "Answer": "er ging",
     "ParentId": 106,
     "Type": 7,
-    "LastTrainingTime": "2022-03-29T01:56:41.1714447+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-03-30T18:55:15.5486619+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "to go, to walk (Präteritum, ihr)",

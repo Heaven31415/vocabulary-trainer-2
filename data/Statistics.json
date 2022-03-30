@@ -6,9 +6,9 @@
     "SuccessRatio": 0.9375
   },
   "2022-03-30T00:00:00+02:00": {
-    "Answers": 48,
-    "GoodAnswers": 42,
+    "Answers": 51,
+    "GoodAnswers": 45,
     "BadAnswers": 6,
-    "SuccessRatio": 0.875
+    "SuccessRatio": 0.88235295
   }
 }
