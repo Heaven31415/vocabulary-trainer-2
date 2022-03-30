@@ -65,7 +65,7 @@ namespace VocabularyTrainer2
         public static List<Verb> ReadVerbsFromFile(string path)
         {
             var verbs = new List<Verb>();
-            var verbCache = new VerbCache("data/Verbs.json");
+            var verbCache = new VerbCache(Config.VerbCachePath);
 
             using var reader = new StreamReader(path);
             using var csv = new CsvReader(reader, CultureInfo.InvariantCulture);

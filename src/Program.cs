@@ -4,7 +4,7 @@
     {
         static void Main()
         {
-            Console.Title = "Vocabulary Trainer 2";
+            Console.Title = Config.ProgramName;
 
             UpdateFlashcardsFromCSV();
             Train();
@@ -12,26 +12,26 @@
 
         static void UpdateFlashcardsFromCSV()
         {
-            var verbs = CSV.ReadVerbsFromFile("data/Verbs.csv");
-            var nouns = CSV.ReadNounsFromFile("data/Nouns.csv");
-            var adjectives = CSV.ReadAdjectivesFromFile("data/Adjectives.csv");
+            var verbs = CSV.ReadVerbsFromFile(Config.VerbsPath);
+            var nouns = CSV.ReadNounsFromFile(Config.NounsPath);
+            var adjectives = CSV.ReadAdjectivesFromFile(Config.AdjectivesPath);
 
-            var singleFlashcards = FlashcardRepository.LoadSingleFlashcards("data/SingleFlashcards.json");
-            var multiFlashcards = FlashcardRepository.LoadMultiFlashcards("data/MultiFlashcards.json");
+            var singleFlashcards = FlashcardRepository.LoadSingleFlashcards(Config.SingleFlashcardsPath);
+            var multiFlashcards = FlashcardRepository.LoadMultiFlashcards(Config.MultiFlashcardsPath);
 
             FlashcardRepository.UpdateSingleFlashcards(verbs, singleFlashcards);
             FlashcardRepository.UpdateSingleFlashcards(nouns, singleFlashcards);
             FlashcardRepository.UpdateSingleFlashcards(adjectives, singleFlashcards);
             FlashcardRepository.UpdateMultiFlashcards(verbs, multiFlashcards);
 
-            FlashcardRepository.SaveSingleFlashcards("data/SingleFlashcards.json", singleFlashcards);
-            FlashcardRepository.SaveMultiFlashcards("data/MultiFlashcards.json", multiFlashcards);
+            FlashcardRepository.SaveSingleFlashcards(Config.SingleFlashcardsPath, singleFlashcards);
+            FlashcardRepository.SaveMultiFlashcards(Config.MultiFlashcardsPath, multiFlashcards);
         }
 
         static void Train()
         {
-            var singleFlashcards = FlashcardRepository.LoadSingleFlashcards("data/SingleFlashcards.json");
-            var multiFlashcards = FlashcardRepository.LoadMultiFlashcards("data/MultiFlashcards.json");
+            var singleFlashcards = FlashcardRepository.LoadSingleFlashcards(Config.SingleFlashcardsPath);
+            var multiFlashcards = FlashcardRepository.LoadMultiFlashcards(Config.MultiFlashcardsPath);
             var flashcards = new List<Flashcard>();
 
             foreach (var flashcard in singleFlashcards)
@@ -41,7 +41,7 @@
                 flashcards.Add(flashcard);
 
             var random = new Random();
-            var statistics = new Statistics("data/Statistics.json");
+            var statistics = new Statistics(Config.StatisticsPath);
             var availableAtTheEndOfDay = flashcards.FindAll(f => f.IsAvailableAtTheEndOfDay).Count;
 
             while (true)
@@ -78,8 +78,8 @@
                 Utility.ReadLine();
                 Console.Clear();
 
-                FlashcardRepository.SaveSingleFlashcards("data/SingleFlashcards.json", singleFlashcards);
-                FlashcardRepository.SaveMultiFlashcards("data/MultiFlashcards.json", multiFlashcards);
+                FlashcardRepository.SaveSingleFlashcards(Config.SingleFlashcardsPath, singleFlashcards);
+                FlashcardRepository.SaveMultiFlashcards(Config.MultiFlashcardsPath, multiFlashcards);
             }
         }
     }
