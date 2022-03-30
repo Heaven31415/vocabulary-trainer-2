@@ -1580,8 +1580,8 @@
     "Answer": "er antwortet",
     "ParentId": 34,
     "Type": 2,
-    "LastTrainingTime": "2022-03-28T22:57:04.2122917+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-30T22:59:28.9169512+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to reply, to answer (Präsens, ihr)",
@@ -1604,8 +1604,8 @@
     "Answer": "du antwortetest",
     "ParentId": 34,
     "Type": 6,
-    "LastTrainingTime": "2022-03-28T22:57:39.7563076+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-30T22:58:31.5732226+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to reply, to answer (Präteritum, er)",
@@ -1780,8 +1780,8 @@
     "Answer": "ihr wollt",
     "ParentId": 43,
     "Type": 4,
-    "LastTrainingTime": "2022-03-28T22:56:42.8765418+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-30T22:58:49.1812751+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to want (Präteritum, ich)",
@@ -2244,7 +2244,7 @@
     "Answer": "du verstandst",
     "ParentId": 64,
     "Type": 6,
-    "LastTrainingTime": "2022-03-29T21:49:12.754217+02:00",
+    "LastTrainingTime": "2022-03-30T22:59:55.4209704+02:00",
     "Cooldown": "1.00:00:00"
   },
   {
@@ -2260,8 +2260,8 @@
     "Answer": "ihr verstandet",
     "ParentId": 64,
     "Type": 9,
-    "LastTrainingTime": "2022-03-29T21:38:14.0353212+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-03-30T21:38:55.9327622+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "to mean (Präsens, ich)",
@@ -2324,8 +2324,8 @@
     "Answer": "ihr bedeutetet",
     "ParentId": 67,
     "Type": 9,
-    "LastTrainingTime": "2022-03-28T22:57:47.3724947+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-30T22:59:43.564926+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to know (starts with w) (Präsens, ich)",
@@ -3636,8 +3636,8 @@
     "Answer": "ihr seht an",
     "ParentId": 130,
     "Type": 4,
-    "LastTrainingTime": "2022-03-29T21:50:42.5780151+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-03-30T22:59:36.4849231+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "to look at (Präteritum, ich)",
@@ -3796,8 +3796,8 @@
     "Answer": "ihr lieft los",
     "ParentId": 136,
     "Type": 9,
-    "LastTrainingTime": "2022-03-29T21:50:25.8260527+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-03-30T22:59:14.2050165+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "to open (Präsens, ich)",
