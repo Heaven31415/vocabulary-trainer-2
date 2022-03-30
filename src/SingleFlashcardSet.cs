@@ -4,9 +4,9 @@ using System.Text.Unicode;
 
 namespace VocabularyTrainer2
 {
-    internal class FlashcardRepository
+    internal class SingleFlashcardSet
     {
-        public static void UpdateSingleFlashcards(List<Noun> nouns, List<SingleFlashcard> flashcards)
+        public static void Update(List<Noun> nouns, List<SingleFlashcard> flashcards)
         {
             foreach (var noun in nouns)
             {
@@ -52,7 +52,7 @@ namespace VocabularyTrainer2
             }
         }
 
-        public static void UpdateSingleFlashcards(List<Adjective> adjectives, List<SingleFlashcard> flashcards)
+        public static void Update(List<Adjective> adjectives, List<SingleFlashcard> flashcards)
         {
             foreach (var adjective in adjectives)
             {
@@ -117,7 +117,7 @@ namespace VocabularyTrainer2
             }
         }
 
-        public static void UpdateSingleFlashcards(List<Verb> verbs, List<SingleFlashcard> flashcards)
+        public static void Update(List<Verb> verbs, List<SingleFlashcard> flashcards)
         {
             foreach (var verb in verbs)
             {
@@ -275,103 +275,7 @@ namespace VocabularyTrainer2
             }
         }
 
-        public static void UpdateMultiFlashcards(List<Verb> verbs, List<MultiFlashcard> flashcards)
-        {
-            foreach (var verb in verbs)
-            {
-                {
-                    var presentFirstOrThirdPluralFlashcard = flashcards.Find(f => f.ParentId == verb.Id && f.Type == Type.VerbPresentFirstOrThirdPlural);
-
-                    var questions = new List<string>();
-                    var answers = new List<string>();
-
-                    questions.Add($"{verb.EnglishDescription} (Präsens, wir)");
-                    answers.Add(verb.Present[PersonalPronoun.FirstPlural]);
-
-                    questions.Add($"{verb.EnglishDescription} (Präsens, Sie)");
-                    answers.Add(verb.Present[PersonalPronoun.ThirdPlural]);
-
-                    var flashcardCandidate = new MultiFlashcard(verb.Id, Type.VerbPresentFirstOrThirdPlural, questions, answers);
-
-                    if (presentFirstOrThirdPluralFlashcard == null)
-                        flashcards.Add(flashcardCandidate);
-                    else
-                    {
-                        if (presentFirstOrThirdPluralFlashcard.ComputeHash() != flashcardCandidate.ComputeHash())
-                        {
-                            presentFirstOrThirdPluralFlashcard.Questions = flashcardCandidate.Questions;
-                            presentFirstOrThirdPluralFlashcard.Answers = flashcardCandidate.Answers;
-                        }
-                    }
-                }
-
-                {
-                    var simplePastFirstOrThirdPluralFlashcard = flashcards.Find(f => f.ParentId == verb.Id && f.Type == Type.VerbSimplePastFirstOrThirdPlural);
-
-                    var questions = new List<string>();
-                    var answers = new List<string>();
-
-                    questions.Add($"{verb.EnglishDescription} (Präteritum, wir)");
-                    answers.Add(verb.SimplePast[PersonalPronoun.FirstPlural]);
-
-                    questions.Add($"{verb.EnglishDescription} (Präteritum, Sie)");
-                    answers.Add(verb.SimplePast[PersonalPronoun.ThirdPlural]);
-
-                    var flashcardCandidate = new MultiFlashcard(verb.Id, Type.VerbSimplePastFirstOrThirdPlural, questions, answers);
-
-                    if (simplePastFirstOrThirdPluralFlashcard == null)
-                        flashcards.Add(flashcardCandidate);
-                    else
-                    {
-                        if (simplePastFirstOrThirdPluralFlashcard.ComputeHash() != flashcardCandidate.ComputeHash())
-                        {
-                            simplePastFirstOrThirdPluralFlashcard.Questions = flashcardCandidate.Questions;
-                            simplePastFirstOrThirdPluralFlashcard.Answers = flashcardCandidate.Answers;
-                        }
-                    }
-                }
-
-                {
-                    var perfektFlashcard = flashcards.Find(f => f.ParentId == verb.Id && f.Type == Type.VerbPerfekt);
-
-                    var questions = new List<string>();
-                    var answers = new List<string>();
-
-                    questions.Add($"{verb.EnglishDescription} (Perfekt, ich)");
-                    answers.Add(verb.Perfekt[PersonalPronoun.FirstSingular]);
-
-                    questions.Add($"{verb.EnglishDescription} (Perfekt, du)");
-                    answers.Add(verb.Perfekt[PersonalPronoun.SecondSingular]);
-
-                    questions.Add($"{verb.EnglishDescription} (Perfekt, er)");
-                    answers.Add(verb.Perfekt[PersonalPronoun.ThirdSingular]);
-
-                    questions.Add($"{verb.EnglishDescription} (Perfekt, wir)");
-                    answers.Add(verb.Perfekt[PersonalPronoun.FirstPlural]);
-
-                    questions.Add($"{verb.EnglishDescription} (Perfekt, ihr)");
-                    answers.Add(verb.Perfekt[PersonalPronoun.SecondPlural]);
-
-                    questions.Add($"{verb.EnglishDescription} (Perfekt, Sie)");
-                    answers.Add(verb.Perfekt[PersonalPronoun.ThirdPlural]);
-
-                    var flashcardCandidate = new MultiFlashcard(verb.Id, Type.VerbPerfekt, questions, answers);
-
-                    if (perfektFlashcard == null)
-                        flashcards.Add(flashcardCandidate);
-                    else
-                    {
-                        if (perfektFlashcard.ComputeHash() != flashcardCandidate.ComputeHash())
-                        {
-                            perfektFlashcard.Questions = flashcardCandidate.Questions;
-                            perfektFlashcard.Answers = flashcardCandidate.Answers;
-                        }
-                    }
-                }
-            }
-        }
-
-        public static List<SingleFlashcard> LoadSingleFlashcards(string path)
+        public static List<SingleFlashcard> Load(string path)
         {
             var json = File.ReadAllText(path);
             var flashcardHelpers = JsonSerializer.Deserialize<List<SingleFlashcardHelper>>(json);
@@ -399,47 +303,7 @@ namespace VocabularyTrainer2
             return flashcards;
         }
 
-        public static void SaveSingleFlashcards(string path, List<SingleFlashcard> flashcards)
-        {
-            var options = new JsonSerializerOptions
-            {
-                Encoder = JavaScriptEncoder.Create(UnicodeRanges.All),
-                WriteIndented = true
-            };
-
-            var json = JsonSerializer.Serialize(flashcards, options);
-            File.WriteAllText(path, json);
-        }
-
-        public static List<MultiFlashcard> LoadMultiFlashcards(string path)
-        {
-            var json = File.ReadAllText(path);
-            var flashcardHelpers = JsonSerializer.Deserialize<List<MultiFlashcardHelper>>(json);
-            var flashcards = new List<MultiFlashcard>();
-
-            if (flashcardHelpers == null)
-                throw new Exception("Flashcard Helpers are null!");
-
-            foreach (var flashcardHelper in flashcardHelpers)
-            {
-                var parentId = flashcardHelper.ParentId;
-                var type = flashcardHelper.Type;
-                var questions = flashcardHelper.Questions;
-                var answers = flashcardHelper.Answers;
-
-                var flashcard = new MultiFlashcard(parentId, type, questions, answers)
-                {
-                    LastTrainingTime = flashcardHelper.LastTrainingTime,
-                    Cooldown = flashcardHelper.Cooldown
-                };
-
-                flashcards.Add(flashcard);
-            }
-
-            return flashcards;
-        }
-
-        public static void SaveMultiFlashcards(string path, List<MultiFlashcard> flashcards)
+        public static void Save(string path, List<SingleFlashcard> flashcards)
         {
             var options = new JsonSerializerOptions
             {

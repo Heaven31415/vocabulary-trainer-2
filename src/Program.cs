@@ -16,22 +16,22 @@
             var nouns = CSV.ReadNounsFromFile(Config.NounsPath);
             var adjectives = CSV.ReadAdjectivesFromFile(Config.AdjectivesPath);
 
-            var singleFlashcards = FlashcardRepository.LoadSingleFlashcards(Config.SingleFlashcardsPath);
-            var multiFlashcards = FlashcardRepository.LoadMultiFlashcards(Config.MultiFlashcardsPath);
+            var singleFlashcards = SingleFlashcardSet.Load(Config.SingleFlashcardsPath);
+            var multiFlashcards = MultiFlashcardSet.Load(Config.MultiFlashcardsPath);
 
-            FlashcardRepository.UpdateSingleFlashcards(verbs, singleFlashcards);
-            FlashcardRepository.UpdateSingleFlashcards(nouns, singleFlashcards);
-            FlashcardRepository.UpdateSingleFlashcards(adjectives, singleFlashcards);
-            FlashcardRepository.UpdateMultiFlashcards(verbs, multiFlashcards);
+            SingleFlashcardSet.Update(verbs, singleFlashcards);
+            SingleFlashcardSet.Update(nouns, singleFlashcards);
+            SingleFlashcardSet.Update(adjectives, singleFlashcards);
+            MultiFlashcardSet.Update(verbs, multiFlashcards);
 
-            FlashcardRepository.SaveSingleFlashcards(Config.SingleFlashcardsPath, singleFlashcards);
-            FlashcardRepository.SaveMultiFlashcards(Config.MultiFlashcardsPath, multiFlashcards);
+            SingleFlashcardSet.Save(Config.SingleFlashcardsPath, singleFlashcards);
+            MultiFlashcardSet.Save(Config.MultiFlashcardsPath, multiFlashcards);
         }
 
         static void Train()
         {
-            var singleFlashcards = FlashcardRepository.LoadSingleFlashcards(Config.SingleFlashcardsPath);
-            var multiFlashcards = FlashcardRepository.LoadMultiFlashcards(Config.MultiFlashcardsPath);
+            var singleFlashcards = SingleFlashcardSet.Load(Config.SingleFlashcardsPath);
+            var multiFlashcards = MultiFlashcardSet.Load(Config.MultiFlashcardsPath);
             var flashcards = new List<Flashcard>();
 
             foreach (var flashcard in singleFlashcards)
@@ -78,8 +78,8 @@
                 Utility.ReadLine();
                 Console.Clear();
 
-                FlashcardRepository.SaveSingleFlashcards(Config.SingleFlashcardsPath, singleFlashcards);
-                FlashcardRepository.SaveMultiFlashcards(Config.MultiFlashcardsPath, multiFlashcards);
+                SingleFlashcardSet.Save(Config.SingleFlashcardsPath, singleFlashcards);
+                MultiFlashcardSet.Save(Config.MultiFlashcardsPath, multiFlashcards);
             }
         }
     }
