@@ -32,7 +32,7 @@
         {
             var singleFlashcards = FlashcardRepository.LoadSingleFlashcards("data/SingleFlashcards.json");
             var multiFlashcards = FlashcardRepository.LoadMultiFlashcards("data/MultiFlashcards.json");
-            var flashcards = new List<FlashcardBase>();
+            var flashcards = new List<Flashcard>();
 
             foreach (var flashcard in singleFlashcards)
                 flashcards.Add(flashcard);

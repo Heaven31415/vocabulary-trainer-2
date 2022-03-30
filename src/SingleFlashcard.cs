@@ -1,6 +1,6 @@
 ﻿namespace VocabularyTrainer2
 {
-    internal class SingleFlashcard : FlashcardBase
+    internal class SingleFlashcard : Flashcard
     {
         public string Question { get; set; }
         public string Answer { get; set; }

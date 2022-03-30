@@ -22,14 +22,14 @@ namespace VocabularyTrainer2
         AdjectiveSuperlativeDegree
     }
 
-    internal abstract class FlashcardBase
+    internal abstract class Flashcard
     {
         public int ParentId { get; set; }
         public Type Type { get; set; }
         public DateTime LastTrainingTime { get; set; }
         public TimeSpan Cooldown { get; set; }
 
-        protected FlashcardBase(int parentId, Type type)
+        protected Flashcard(int parentId, Type type)
         {
             ParentId = parentId;
             Type = type;

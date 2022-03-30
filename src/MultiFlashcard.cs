@@ -1,6 +1,6 @@
 ﻿namespace VocabularyTrainer2
 {
-    internal class MultiFlashcard : FlashcardBase
+    internal class MultiFlashcard : Flashcard
     {
         private readonly static Random random = new();
 
