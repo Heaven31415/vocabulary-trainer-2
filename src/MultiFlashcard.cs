@@ -1,6 +1,6 @@
 ﻿namespace VocabularyTrainer2
 {
-    internal class RandomFlashcard : FlashcardBase
+    internal class MultiFlashcard : FlashcardBase
     {
         private readonly static Random random = new();
 
@@ -8,7 +8,7 @@
         public List<string> Answers { get; set; }
         private int index;
 
-        public RandomFlashcard(int parentId, Type type, List<string> questions, List<string> answers) : base(parentId, type)
+        public MultiFlashcard(int parentId, Type type, List<string> questions, List<string> answers) : base(parentId, type)
         {
             if (questions.Count == 0)
                 throw new Exception("At least 1 question is required.");

@@ -1,6 +1,6 @@
 ﻿namespace VocabularyTrainer2
 {
-    internal class RandomFlashcardHelper
+    internal class MultiFlashcardHelper
     {
         public int ParentId { get; set; }
         public Type Type { get; set; }

@@ -17,27 +17,27 @@
             var adjectives = CSV.ReadAdjectivesFromFile("data/Adjectives.csv");
 
             var flashcards = FlashcardRepository.LoadFlashcards("data/Flashcards.json");
-            var randomFlashcards = FlashcardRepository.LoadRandomFlashcards("data/RandomFlashcards.json");
+            var multiFlashcards = FlashcardRepository.LoadMultiFlashcards("data/MultiFlashcards.json");
 
             FlashcardRepository.UpdateFlashcards(verbs, flashcards);
             FlashcardRepository.UpdateFlashcards(nouns, flashcards);
             FlashcardRepository.UpdateFlashcards(adjectives, flashcards);
-            FlashcardRepository.UpdateRandomFlashcards(verbs, randomFlashcards);
+            FlashcardRepository.UpdateMultiFlashcards(verbs, multiFlashcards);
 
             FlashcardRepository.SaveFlashcards("data/Flashcards.json", flashcards);
-            FlashcardRepository.SaveRandomFlashcards("data/RandomFlashcards.json", randomFlashcards);
+            FlashcardRepository.SaveMultiFlashcards("data/MultiFlashcards.json", multiFlashcards);
         }
 
         static void Train()
         {
             var normalFlashcards = FlashcardRepository.LoadFlashcards("data/Flashcards.json");
-            var randomFlashcards = FlashcardRepository.LoadRandomFlashcards("data/RandomFlashcards.json");
+            var multiFlashcards = FlashcardRepository.LoadMultiFlashcards("data/MultiFlashcards.json");
             var flashcards = new List<FlashcardBase>();
 
             foreach (var flashcard in normalFlashcards)
                 flashcards.Add(flashcard);
 
-            foreach (var flashcard in randomFlashcards)
+            foreach (var flashcard in multiFlashcards)
                 flashcards.Add(flashcard);
 
             var random = new Random();
@@ -79,7 +79,7 @@
                 Console.Clear();
 
                 FlashcardRepository.SaveFlashcards("data/Flashcards.json", normalFlashcards);
-                FlashcardRepository.SaveRandomFlashcards("data/RandomFlashcards.json", randomFlashcards);
+                FlashcardRepository.SaveMultiFlashcards("data/MultiFlashcards.json", multiFlashcards);
             }
         }
     }

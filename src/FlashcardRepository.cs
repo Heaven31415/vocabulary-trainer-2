@@ -275,7 +275,7 @@ namespace VocabularyTrainer2
             }
         }
 
-        public static void UpdateRandomFlashcards(List<Verb> verbs, List<RandomFlashcard> flashcards)
+        public static void UpdateMultiFlashcards(List<Verb> verbs, List<MultiFlashcard> flashcards)
         {
             foreach (var verb in verbs)
             {
@@ -291,7 +291,7 @@ namespace VocabularyTrainer2
                     questions.Add($"{verb.EnglishDescription} (Präsens, Sie)");
                     answers.Add(verb.Present[PersonalPronoun.ThirdPlural]);
 
-                    var flashcardCandidate = new RandomFlashcard(verb.Id, Type.VerbPresentFirstOrThirdPlural, questions, answers);
+                    var flashcardCandidate = new MultiFlashcard(verb.Id, Type.VerbPresentFirstOrThirdPlural, questions, answers);
 
                     if (presentFirstOrThirdPluralFlashcard == null)
                         flashcards.Add(flashcardCandidate);
@@ -317,7 +317,7 @@ namespace VocabularyTrainer2
                     questions.Add($"{verb.EnglishDescription} (Präteritum, Sie)");
                     answers.Add(verb.SimplePast[PersonalPronoun.ThirdPlural]);
 
-                    var flashcardCandidate = new RandomFlashcard(verb.Id, Type.VerbSimplePastFirstOrThirdPlural, questions, answers);
+                    var flashcardCandidate = new MultiFlashcard(verb.Id, Type.VerbSimplePastFirstOrThirdPlural, questions, answers);
 
                     if (simplePastFirstOrThirdPluralFlashcard == null)
                         flashcards.Add(flashcardCandidate);
@@ -355,7 +355,7 @@ namespace VocabularyTrainer2
                     questions.Add($"{verb.EnglishDescription} (Perfekt, Sie)");
                     answers.Add(verb.Perfekt[PersonalPronoun.ThirdPlural]);
 
-                    var flashcardCandidate = new RandomFlashcard(verb.Id, Type.VerbPerfekt, questions, answers);
+                    var flashcardCandidate = new MultiFlashcard(verb.Id, Type.VerbPerfekt, questions, answers);
 
                     if (perfektFlashcard == null)
                         flashcards.Add(flashcardCandidate);
@@ -411,11 +411,11 @@ namespace VocabularyTrainer2
             File.WriteAllText(path, json);
         }
 
-        public static List<RandomFlashcard> LoadRandomFlashcards(string path)
+        public static List<MultiFlashcard> LoadMultiFlashcards(string path)
         {
             var json = File.ReadAllText(path);
-            var flashcardHelpers = JsonSerializer.Deserialize<List<RandomFlashcardHelper>>(json);
-            var flashcards = new List<RandomFlashcard>();
+            var flashcardHelpers = JsonSerializer.Deserialize<List<MultiFlashcardHelper>>(json);
+            var flashcards = new List<MultiFlashcard>();
 
             if (flashcardHelpers == null)
                 throw new Exception("Flashcard Helpers are null!");
@@ -427,7 +427,7 @@ namespace VocabularyTrainer2
                 var questions = flashcardHelper.Questions;
                 var answers = flashcardHelper.Answers;
 
-                var flashcard = new RandomFlashcard(parentId, type, questions, answers)
+                var flashcard = new MultiFlashcard(parentId, type, questions, answers)
                 {
                     LastTrainingTime = flashcardHelper.LastTrainingTime,
                     Cooldown = flashcardHelper.Cooldown
@@ -439,7 +439,7 @@ namespace VocabularyTrainer2
             return flashcards;
         }
 
-        public static void SaveRandomFlashcards(string path, List<RandomFlashcard> flashcards)
+        public static void SaveMultiFlashcards(string path, List<MultiFlashcard> flashcards)
         {
             var options = new JsonSerializerOptions
             {
