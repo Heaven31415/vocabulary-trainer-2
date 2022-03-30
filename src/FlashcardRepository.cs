@@ -374,7 +374,7 @@ namespace VocabularyTrainer2
         public static List<SingleFlashcard> LoadSingleFlashcards(string path)
         {
             var json = File.ReadAllText(path);
-            var flashcardHelpers = JsonSerializer.Deserialize<List<FlashcardHelper>>(json);
+            var flashcardHelpers = JsonSerializer.Deserialize<List<SingleFlashcardHelper>>(json);
             var flashcards = new List<SingleFlashcard>();
 
             if (flashcardHelpers == null)
