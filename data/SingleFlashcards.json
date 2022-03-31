@@ -556,8 +556,8 @@
     "Answer": "du lebtest",
     "ParentId": 25,
     "Type": 6,
-    "LastTrainingTime": "2022-03-30T00:00:11.3891463+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-04-01T00:00:29.0004536+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to live (Präteritum, er)",
@@ -2244,8 +2244,8 @@
     "Answer": "du verstandst",
     "ParentId": 64,
     "Type": 6,
-    "LastTrainingTime": "2022-03-30T22:59:55.4209704+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-01T00:01:37.6477375+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "to understand (Präteritum, er)",
@@ -2516,8 +2516,8 @@
     "Answer": "ihr brauchtet",
     "ParentId": 76,
     "Type": 9,
-    "LastTrainingTime": "2022-03-29T23:59:41.3569924+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-04-01T00:04:36.8146649+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to eat (Präsens, ich)",
@@ -2692,7 +2692,7 @@
     "Answer": "du duztest",
     "ParentId": 85,
     "Type": 6,
-    "LastTrainingTime": "2022-03-30T23:43:27.2093997+02:00",
+    "LastTrainingTime": "2022-04-01T00:04:09.8467163+02:00",
     "Cooldown": "1.00:00:00"
   },
   {
@@ -2764,8 +2764,8 @@
     "Answer": "er siezte",
     "ParentId": 88,
     "Type": 7,
-    "LastTrainingTime": "2022-03-30T00:01:09.1647854+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-04-01T00:02:18.6554693+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to address formally with Sie (Präteritum, ihr)",
@@ -2916,8 +2916,8 @@
     "Answer": "du stehst auf",
     "ParentId": 97,
     "Type": 1,
-    "LastTrainingTime": "2022-03-30T23:49:49.0644569+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-01T00:02:10.5114806+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "to rise, to get up (Präsens, er)",
@@ -2956,8 +2956,8 @@
     "Answer": "er stand auf",
     "ParentId": 97,
     "Type": 7,
-    "LastTrainingTime": "2022-03-29T23:58:53.8690262+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-04-01T00:01:47.2156146+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to rise, to get up (Präteritum, ihr)",
@@ -3300,8 +3300,8 @@
     "Answer": "du hörst",
     "ParentId": 115,
     "Type": 1,
-    "LastTrainingTime": "2022-03-30T00:01:13.5088917+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-04-01T00:02:13.2234754+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to hear (Präsens, er)",
@@ -3412,8 +3412,8 @@
     "Answer": "ihr merktet",
     "ParentId": 118,
     "Type": 9,
-    "LastTrainingTime": "2022-03-30T00:00:03.30094+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-04-01T00:05:09.294389+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to react (Präsens, ich)",
@@ -3540,8 +3540,8 @@
     "Answer": "ihr flogt",
     "ParentId": 124,
     "Type": 9,
-    "LastTrainingTime": "2022-03-29T23:58:44.2690747+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-04-01T00:05:12.5023517+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to attempt, to try (starts with v) (Präsens, ich)",
@@ -3700,8 +3700,8 @@
     "Answer": "ihr landet",
     "ParentId": 133,
     "Type": 4,
-    "LastTrainingTime": "2022-03-29T23:58:34.4933851+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-04-01T00:03:04.3511842+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to land, to alight (Präteritum, ich)",
@@ -3756,8 +3756,8 @@
     "Answer": "er läuft los",
     "ParentId": 136,
     "Type": 2,
-    "LastTrainingTime": "2022-03-30T00:01:54.8847846+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-04-01T00:03:25.9190425+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to start running (Präsens, ihr)",
@@ -3940,8 +3940,8 @@
     "Answer": "du übst",
     "ParentId": 145,
     "Type": 1,
-    "LastTrainingTime": "2022-03-29T23:59:55.2209884+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-04-01T00:02:21.5754346+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "to practice (Präsens, er)",
@@ -4316,7 +4316,7 @@
     "Answer": "die Bauten",
     "ParentId": 146,
     "Type": 12,
-    "LastTrainingTime": "2022-03-30T23:44:21.6569377+02:00",
+    "LastTrainingTime": "2022-04-01T00:03:54.2468917+02:00",
     "Cooldown": "1.00:00:00"
   },
   {
@@ -4340,8 +4340,8 @@
     "Answer": "der Konflikt",
     "ParentId": 152,
     "Type": 11,
-    "LastTrainingTime": "2022-03-30T23:50:26.7843975+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-01T00:04:46.3665679+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "conflict (plural)",
@@ -4372,8 +4372,8 @@
     "Answer": "die Lust",
     "ParentId": 158,
     "Type": 11,
-    "LastTrainingTime": "2022-03-30T23:51:35.6642684+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-01T00:04:50.9425501+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "passion, desire (plural)",
