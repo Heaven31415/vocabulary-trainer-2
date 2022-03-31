@@ -4404,159 +4404,159 @@
     "Answer": "das Auto",
     "ParentId": 164,
     "Type": 11,
-    "LastTrainingTime": "2022-03-30T19:34:21.8333909+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-03-31T19:37:34.2937407+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "car (starts with A) (plural)",
     "Answer": "die Autos",
     "ParentId": 164,
     "Type": 12,
-    "LastTrainingTime": "2022-03-30T19:34:21.8333955+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-03-31T19:36:46.1341272+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "baby (singular)",
     "Answer": "das Baby",
     "ParentId": 167,
     "Type": 11,
-    "LastTrainingTime": "2022-03-30T19:34:21.8333998+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-03-31T19:37:21.4698578+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "baby (plural)",
     "Answer": "die Babys",
     "ParentId": 167,
     "Type": 12,
-    "LastTrainingTime": "2022-03-30T19:34:21.833404+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-03-31T19:36:50.542094+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "cinema (singular)",
     "Answer": "das Kino",
     "ParentId": 170,
     "Type": 11,
-    "LastTrainingTime": "2022-03-30T19:34:21.8334083+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-03-31T19:38:18.9655293+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "cinema (plural)",
     "Answer": "die Kinos",
     "ParentId": 170,
     "Type": 12,
-    "LastTrainingTime": "2022-03-30T19:34:21.8334125+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-03-31T19:38:49.813282+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "strike (by workers) (singular)",
     "Answer": "der Streik",
     "ParentId": 173,
     "Type": 11,
-    "LastTrainingTime": "2022-03-30T19:34:21.8334169+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-03-31T19:37:55.4297572+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "strike (by workers) (plural)",
     "Answer": "die Streiks",
     "ParentId": 173,
     "Type": 12,
-    "LastTrainingTime": "2022-03-30T19:34:21.8334211+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-03-31T19:37:18.1339052+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "hotel (singular)",
     "Answer": "das Hotel",
     "ParentId": 176,
     "Type": 11,
-    "LastTrainingTime": "2022-03-30T19:34:21.8334254+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-03-31T19:38:04.2215915+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "hotel (plural)",
     "Answer": "die Hotels",
     "ParentId": 176,
     "Type": 12,
-    "LastTrainingTime": "2022-03-30T19:34:21.8334297+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-03-31T19:38:06.9897081+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "park (singular)",
     "Answer": "der Park",
     "ParentId": 179,
     "Type": 11,
-    "LastTrainingTime": "2022-03-30T19:34:21.8334341+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-03-31T19:38:00.9016223+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "park (plural)",
     "Answer": "die Parks",
     "ParentId": 179,
     "Type": 12,
-    "LastTrainingTime": "2022-03-30T19:34:21.8334384+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-03-31T19:37:01.2299545+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "teacher (male) (singular)",
     "Answer": "der Lehrer",
     "ParentId": 182,
     "Type": 11,
-    "LastTrainingTime": "2022-03-30T19:34:21.8334428+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-03-31T19:36:23.1187789+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "teacher (male) (plural)",
     "Answer": "die Lehrer",
     "ParentId": 182,
     "Type": 12,
-    "LastTrainingTime": "2022-03-30T19:34:21.8334471+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-03-31T19:38:14.1815555+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "teacher (female) (singular)",
     "Answer": "die Lehrerin",
     "ParentId": 185,
     "Type": 11,
-    "LastTrainingTime": "2022-03-30T19:34:21.8334515+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-03-31T19:37:44.7337751+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "teacher (female) (plural)",
     "Answer": "die Lehrerinnen",
     "ParentId": 185,
     "Type": 12,
-    "LastTrainingTime": "2022-03-30T19:34:21.8334558+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-03-31T19:37:30.837857+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "car (starts with W) (singular)",
     "Answer": "der Wagen",
     "ParentId": 188,
     "Type": 11,
-    "LastTrainingTime": "2022-03-30T19:34:21.8334602+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-03-31T19:37:48.4056064+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "car (starts with W) (plural)",
     "Answer": "die Wagen",
     "ParentId": 188,
     "Type": 12,
-    "LastTrainingTime": "2022-03-30T19:34:21.8334646+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-03-31T19:36:54.9181328+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "uncle (singular)",
     "Answer": "der Onkel",
     "ParentId": 191,
     "Type": 11,
-    "LastTrainingTime": "2022-03-30T19:34:21.8334689+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-03-31T19:36:35.3101832+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "uncle (plural)",
     "Answer": "die Onkel",
     "ParentId": 191,
     "Type": 12,
-    "LastTrainingTime": "2022-03-30T19:34:21.8334732+02:00",
+    "LastTrainingTime": "2022-03-31T19:38:26.8694269+02:00",
     "Cooldown": "1.00:00:00"
   }
 ]
