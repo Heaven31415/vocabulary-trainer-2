@@ -10,5 +10,11 @@
     "GoodAnswers": 188,
     "BadAnswers": 19,
     "SuccessRatio": 0.90821254
+  },
+  "2022-03-31T00:00:00+02:00": {
+    "Answers": 38,
+    "GoodAnswers": 35,
+    "BadAnswers": 3,
+    "SuccessRatio": 0.92105263
   }
 }
