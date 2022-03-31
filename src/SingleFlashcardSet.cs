@@ -119,156 +119,80 @@ namespace VocabularyTrainer2
 
         public static void Update(List<Verb> verbs, List<SingleFlashcard> flashcards)
         {
+            var presentTypes = new List<Type> 
+            {
+                Type.VerbPresentFirstSingular,
+                Type.VerbPresentSecondSingular,
+                Type.VerbPresentThirdSingular,
+                Type.VerbPresentSecondPlural
+            };
+
+            var simplePastTypes = new List<Type>
+            {
+                Type.VerbSimplePastFirstSingular,
+                Type.VerbSimplePastSecondSingular,
+                Type.VerbSimplePastThirdSingular,
+                Type.VerbSimplePastSecondPlural
+            };
+
+            var personalPronouns = new List<PersonalPronoun>
+            {
+                PersonalPronoun.FirstSingular,
+                PersonalPronoun.SecondSingular,
+                PersonalPronoun.ThirdSingular,
+                PersonalPronoun.SecondPlural
+            };
+
+            var questionSuffixes = new List<string> { "ich", "du", "er", "ihr" };
+
             foreach (var verb in verbs)
             {
+                // Present
+                for (int i = 0; i < 4; i++)
                 {
-                    var presentFirstSingularFlashcard = flashcards.Find(f => f.ParentId == verb.Id && f.Type == Type.VerbPresentFirstSingular);
+                    var type = presentTypes[i];
+                    var personalPronoun = personalPronouns[i];
+                    var suffix = questionSuffixes[i];
 
-                    string question = $"{verb.EnglishDescription} (Präsens, ich)";
-                    string answer = verb.Present[PersonalPronoun.FirstSingular];
-                    var flashcardCandidate = new SingleFlashcard(verb.Id, Type.VerbPresentFirstSingular, question, answer);
+                    var flashcard = flashcards.Find(f => f.ParentId == verb.Id && f.Type == type);
 
-                    if (presentFirstSingularFlashcard == null)
+                    string question = $"{verb.EnglishDescription} (Präsens, {suffix})";
+                    string answer = verb.Present[personalPronoun];
+                    var flashcardCandidate = new SingleFlashcard(verb.Id, type, question, answer);
+
+                    if (flashcard == null)
                         flashcards.Add(flashcardCandidate);
                     else
                     {
-                        if (presentFirstSingularFlashcard.ComputeHash() != flashcardCandidate.ComputeHash())
+                        if (flashcard.ComputeHash() != flashcardCandidate.ComputeHash())
                         {
-                            presentFirstSingularFlashcard.Question = flashcardCandidate.Question;
-                            presentFirstSingularFlashcard.Answer = flashcardCandidate.Answer;
+                            flashcard.Question = flashcardCandidate.Question;
+                            flashcard.Answer = flashcardCandidate.Answer;
                         }
                     }
                 }
 
+                // Simple Past
+                for (int i = 0; i < 4; i++)
                 {
-                    var presentSecondSingularFlashcard = flashcards.Find(f => f.ParentId == verb.Id && f.Type == Type.VerbPresentSecondSingular);
+                    var type = simplePastTypes[i];
+                    var personalPronoun = personalPronouns[i];
+                    var suffix = questionSuffixes[i];
 
-                    string question = $"{verb.EnglishDescription} (Präsens, du)";
-                    string answer = verb.Present[PersonalPronoun.SecondSingular];
-                    var flashcardCandidate = new SingleFlashcard(verb.Id, Type.VerbPresentSecondSingular, question, answer);
+                    var flashcard = flashcards.Find(f => f.ParentId == verb.Id && f.Type == type);
 
-                    if (presentSecondSingularFlashcard == null)
+                    string question = $"{verb.EnglishDescription} (Präteritum, {suffix})";
+                    string answer = verb.SimplePast[personalPronoun];
+                    var flashcardCandidate = new SingleFlashcard(verb.Id, type, question, answer);
+
+                    if (flashcard == null)
                         flashcards.Add(flashcardCandidate);
                     else
                     {
-                        if (presentSecondSingularFlashcard.ComputeHash() != flashcardCandidate.ComputeHash())
+                        if (flashcard.ComputeHash() != flashcardCandidate.ComputeHash())
                         {
-                            presentSecondSingularFlashcard.Question = flashcardCandidate.Question;
-                            presentSecondSingularFlashcard.Answer = flashcardCandidate.Answer;
-                        }
-                    }
-                }
-
-                {
-                    var presentThirdSingularFlashcard = flashcards.Find(f => f.ParentId == verb.Id && f.Type == Type.VerbPresentThirdSingular);
-
-                    string question = $"{verb.EnglishDescription} (Präsens, er)";
-                    string answer = verb.Present[PersonalPronoun.ThirdSingular];
-                    var flashcardCandidate = new SingleFlashcard(verb.Id, Type.VerbPresentThirdSingular, question, answer);
-
-                    if (presentThirdSingularFlashcard == null)
-                        flashcards.Add(flashcardCandidate);
-                    else
-                    {
-                        if (presentThirdSingularFlashcard.ComputeHash() != flashcardCandidate.ComputeHash())
-                        {
-                            presentThirdSingularFlashcard.Question = flashcardCandidate.Question;
-                            presentThirdSingularFlashcard.Answer = flashcardCandidate.Answer;
-                        }
-                    }
-                }
-
-                {
-                    var presentSecondPluralFlashcard = flashcards.Find(f => f.ParentId == verb.Id && f.Type == Type.VerbPresentSecondPlural);
-
-                    string question = $"{verb.EnglishDescription} (Präsens, ihr)";
-                    string answer = verb.Present[PersonalPronoun.SecondPlural];
-                    var flashcardCandidate = new SingleFlashcard(verb.Id, Type.VerbPresentSecondPlural, question, answer);
-
-                    if (presentSecondPluralFlashcard == null)
-                        flashcards.Add(flashcardCandidate);
-                    else
-                    {
-                        if (presentSecondPluralFlashcard.ComputeHash() != flashcardCandidate.ComputeHash())
-                        {
-                            presentSecondPluralFlashcard.Question = flashcardCandidate.Question;
-                            presentSecondPluralFlashcard.Answer = flashcardCandidate.Answer;
-                        }
-                    }
-                }
-
-                {
-                    var simplePastFirstSingularFlashcard = flashcards.Find(f => f.ParentId == verb.Id && f.Type == Type.VerbSimplePastFirstSingular);
-
-                    string question = $"{verb.EnglishDescription} (Präteritum, ich)";
-                    string answer = verb.SimplePast[PersonalPronoun.FirstSingular];
-                    var flashcardCandidate = new SingleFlashcard(verb.Id, Type.VerbSimplePastFirstSingular, question, answer);
-
-                    if (simplePastFirstSingularFlashcard == null)
-                        flashcards.Add(flashcardCandidate);
-                    else
-                    {
-                        if (simplePastFirstSingularFlashcard.ComputeHash() != flashcardCandidate.ComputeHash())
-                        {
-                            simplePastFirstSingularFlashcard.Question = flashcardCandidate.Question;
-                            simplePastFirstSingularFlashcard.Answer = flashcardCandidate.Answer;
-                        }
-                    }
-                }
-
-                {
-                    var simplePastSecondSingularFlashcard = flashcards.Find(f => f.ParentId == verb.Id && f.Type == Type.VerbSimplePastSecondSingular);
-
-                    string question = $"{verb.EnglishDescription} (Präteritum, du)";
-                    string answer = verb.SimplePast[PersonalPronoun.SecondSingular];
-                    var flashcardCandidate = new SingleFlashcard(verb.Id, Type.VerbSimplePastSecondSingular, question, answer);
-
-                    if (simplePastSecondSingularFlashcard == null)
-                        flashcards.Add(flashcardCandidate);
-                    else
-                    {
-                        if (simplePastSecondSingularFlashcard.ComputeHash() != flashcardCandidate.ComputeHash())
-                        {
-                            simplePastSecondSingularFlashcard.Question = flashcardCandidate.Question;
-                            simplePastSecondSingularFlashcard.Answer = flashcardCandidate.Answer;
-                        }
-                    }
-                }
-
-                {
-                    var simplePastThirdSingularFlashcard = flashcards.Find(f => f.ParentId == verb.Id && f.Type == Type.VerbSimplePastThirdSingular);
-
-                    string question = $"{verb.EnglishDescription} (Präteritum, er)";
-                    string answer = verb.SimplePast[PersonalPronoun.ThirdSingular];
-                    var flashcardCandidate = new SingleFlashcard(verb.Id, Type.VerbSimplePastThirdSingular, question, answer);
-
-                    if (simplePastThirdSingularFlashcard == null)
-                        flashcards.Add(flashcardCandidate);
-                    else
-                    {
-                        if (simplePastThirdSingularFlashcard.ComputeHash() != flashcardCandidate.ComputeHash())
-                        {
-                            simplePastThirdSingularFlashcard.Question = flashcardCandidate.Question;
-                            simplePastThirdSingularFlashcard.Answer = flashcardCandidate.Answer;
-                        }
-                    }
-                }
-
-                {
-                    var simplePastSecondPluralFlashcard = flashcards.Find(f => f.ParentId == verb.Id && f.Type == Type.VerbSimplePastSecondPlural);
-
-                    string question = $"{verb.EnglishDescription} (Präteritum, ihr)";
-                    string answer = verb.SimplePast[PersonalPronoun.SecondPlural];
-                    var flashcardCandidate = new SingleFlashcard(verb.Id, Type.VerbSimplePastSecondPlural, question, answer);
-
-                    if (simplePastSecondPluralFlashcard == null)
-                        flashcards.Add(flashcardCandidate);
-                    else
-                    {
-                        if (simplePastSecondPluralFlashcard.ComputeHash() != flashcardCandidate.ComputeHash())
-                        {
-                            simplePastSecondPluralFlashcard.Question = flashcardCandidate.Question;
-                            simplePastSecondPluralFlashcard.Answer = flashcardCandidate.Answer;
+                            flashcard.Question = flashcardCandidate.Question;
+                            flashcard.Answer = flashcardCandidate.Answer;
                         }
                     }
                 }
