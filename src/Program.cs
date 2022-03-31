@@ -42,7 +42,6 @@
 
             var random = new Random();
             var statistics = new Statistics(Config.StatisticsPath);
-            var availableAtTheEndOfDay = flashcards.FindAll(f => f.IsAvailableAtTheEndOfDay).Count;
 
             while (true)
             {
@@ -50,6 +49,8 @@
 
                 if (availableFlashcards.Count == 0)
                     break;
+
+                var availableAtTheEndOfDay = flashcards.FindAll(f => f.IsAvailableAtTheEndOfDay).Count;
 
                 Utility.WriteLine($"F<{flashcards.Count}> A<{availableFlashcards.Count}> A24<{availableAtTheEndOfDay}>");
                 Utility.WriteLine();
