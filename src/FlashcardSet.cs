@@ -31,6 +31,8 @@
 
             foreach (var f in multiFlashcards)
                 flashcards.Add(f);
+
+            Save();
         }
 
         public int Available => flashcards.FindAll(f => f.IsAvailable).Count;
