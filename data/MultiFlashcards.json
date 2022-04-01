@@ -1,8 +1,8 @@
 [
   {
     "Questions": [
-      "to be (Präsens, wir)",
-      "to be (Präsens, Sie)"
+      "być (Präsens, wir)",
+      "być (Präsens, Sie)"
     ],
     "Answers": [
       "wir sind",
@@ -15,8 +15,8 @@
   },
   {
     "Questions": [
-      "to be (Präteritum, wir)",
-      "to be (Präteritum, Sie)"
+      "być (Präteritum, wir)",
+      "być (Präteritum, Sie)"
     ],
     "Answers": [
       "wir waren",
@@ -29,12 +29,12 @@
   },
   {
     "Questions": [
-      "to be (Perfekt, ich)",
-      "to be (Perfekt, du)",
-      "to be (Perfekt, er)",
-      "to be (Perfekt, wir)",
-      "to be (Perfekt, ihr)",
-      "to be (Perfekt, Sie)"
+      "być (Perfekt, ich)",
+      "być (Perfekt, du)",
+      "być (Perfekt, er)",
+      "być (Perfekt, wir)",
+      "być (Perfekt, ihr)",
+      "być (Perfekt, Sie)"
     ],
     "Answers": [
       "ich bin gewesen",
@@ -51,8 +51,8 @@
   },
   {
     "Questions": [
-      "to call, to shout (Präsens, wir)",
-      "to call, to shout (Präsens, Sie)"
+      "wołać, krzyczeć (Präsens, wir)",
+      "wołać, krzyczeć (Präsens, Sie)"
     ],
     "Answers": [
       "wir rufen",
@@ -65,8 +65,8 @@
   },
   {
     "Questions": [
-      "to call, to shout (Präteritum, wir)",
-      "to call, to shout (Präteritum, Sie)"
+      "wołać, krzyczeć (Präteritum, wir)",
+      "wołać, krzyczeć (Präteritum, Sie)"
     ],
     "Answers": [
       "wir riefen",
@@ -79,12 +79,12 @@
   },
   {
     "Questions": [
-      "to call, to shout (Perfekt, ich)",
-      "to call, to shout (Perfekt, du)",
-      "to call, to shout (Perfekt, er)",
-      "to call, to shout (Perfekt, wir)",
-      "to call, to shout (Perfekt, ihr)",
-      "to call, to shout (Perfekt, Sie)"
+      "wołać, krzyczeć (Perfekt, ich)",
+      "wołać, krzyczeć (Perfekt, du)",
+      "wołać, krzyczeć (Perfekt, er)",
+      "wołać, krzyczeć (Perfekt, wir)",
+      "wołać, krzyczeć (Perfekt, ihr)",
+      "wołać, krzyczeć (Perfekt, Sie)"
     ],
     "Answers": [
       "ich habe gerufen",
@@ -101,8 +101,8 @@
   },
   {
     "Questions": [
-      "to sing (Präsens, wir)",
-      "to sing (Präsens, Sie)"
+      "śpiewać (Präsens, wir)",
+      "śpiewać (Präsens, Sie)"
     ],
     "Answers": [
       "wir singen",
@@ -115,8 +115,8 @@
   },
   {
     "Questions": [
-      "to sing (Präteritum, wir)",
-      "to sing (Präteritum, Sie)"
+      "śpiewać (Präteritum, wir)",
+      "śpiewać (Präteritum, Sie)"
     ],
     "Answers": [
       "wir sangen",
@@ -129,12 +129,12 @@
   },
   {
     "Questions": [
-      "to sing (Perfekt, ich)",
-      "to sing (Perfekt, du)",
-      "to sing (Perfekt, er)",
-      "to sing (Perfekt, wir)",
-      "to sing (Perfekt, ihr)",
-      "to sing (Perfekt, Sie)"
+      "śpiewać (Perfekt, ich)",
+      "śpiewać (Perfekt, du)",
+      "śpiewać (Perfekt, er)",
+      "śpiewać (Perfekt, wir)",
+      "śpiewać (Perfekt, ihr)",
+      "śpiewać (Perfekt, Sie)"
     ],
     "Answers": [
       "ich habe gesungen",
@@ -151,8 +151,8 @@
   },
   {
     "Questions": [
-      "to dance (Präsens, wir)",
-      "to dance (Präsens, Sie)"
+      "tańczyć (Präsens, wir)",
+      "tańczyć (Präsens, Sie)"
     ],
     "Answers": [
       "wir tanzen",
@@ -165,8 +165,8 @@
   },
   {
     "Questions": [
-      "to dance (Präteritum, wir)",
-      "to dance (Präteritum, Sie)"
+      "tańczyć (Präteritum, wir)",
+      "tańczyć (Präteritum, Sie)"
     ],
     "Answers": [
       "wir tanzten",
@@ -179,12 +179,12 @@
   },
   {
     "Questions": [
-      "to dance (Perfekt, ich)",
-      "to dance (Perfekt, du)",
-      "to dance (Perfekt, er)",
-      "to dance (Perfekt, wir)",
-      "to dance (Perfekt, ihr)",
-      "to dance (Perfekt, Sie)"
+      "tańczyć (Perfekt, ich)",
+      "tańczyć (Perfekt, du)",
+      "tańczyć (Perfekt, er)",
+      "tańczyć (Perfekt, wir)",
+      "tańczyć (Perfekt, ihr)",
+      "tańczyć (Perfekt, Sie)"
     ],
     "Answers": [
       "ich habe getanzt",
@@ -201,8 +201,8 @@
   },
   {
     "Questions": [
-      "to lie (on the floor) (Präsens, wir)",
-      "to lie (on the floor) (Präsens, Sie)"
+      "leżeć (Präsens, wir)",
+      "leżeć (Präsens, Sie)"
     ],
     "Answers": [
       "wir liegen",
@@ -215,8 +215,8 @@
   },
   {
     "Questions": [
-      "to lie (on the floor) (Präteritum, wir)",
-      "to lie (on the floor) (Präteritum, Sie)"
+      "leżeć (Präteritum, wir)",
+      "leżeć (Präteritum, Sie)"
     ],
     "Answers": [
       "wir lagen",
@@ -229,12 +229,12 @@
   },
   {
     "Questions": [
-      "to lie (on the floor) (Perfekt, ich)",
-      "to lie (on the floor) (Perfekt, du)",
-      "to lie (on the floor) (Perfekt, er)",
-      "to lie (on the floor) (Perfekt, wir)",
-      "to lie (on the floor) (Perfekt, ihr)",
-      "to lie (on the floor) (Perfekt, Sie)"
+      "leżeć (Perfekt, ich)",
+      "leżeć (Perfekt, du)",
+      "leżeć (Perfekt, er)",
+      "leżeć (Perfekt, wir)",
+      "leżeć (Perfekt, ihr)",
+      "leżeć (Perfekt, Sie)"
     ],
     "Answers": [
       "ich habe gelegen",
@@ -251,8 +251,8 @@
   },
   {
     "Questions": [
-      "to have (Präsens, wir)",
-      "to have (Präsens, Sie)"
+      "mieć (Präsens, wir)",
+      "mieć (Präsens, Sie)"
     ],
     "Answers": [
       "wir haben",
@@ -265,8 +265,8 @@
   },
   {
     "Questions": [
-      "to have (Präteritum, wir)",
-      "to have (Präteritum, Sie)"
+      "mieć (Präteritum, wir)",
+      "mieć (Präteritum, Sie)"
     ],
     "Answers": [
       "wir hatten",
@@ -279,12 +279,12 @@
   },
   {
     "Questions": [
-      "to have (Perfekt, ich)",
-      "to have (Perfekt, du)",
-      "to have (Perfekt, er)",
-      "to have (Perfekt, wir)",
-      "to have (Perfekt, ihr)",
-      "to have (Perfekt, Sie)"
+      "mieć (Perfekt, ich)",
+      "mieć (Perfekt, du)",
+      "mieć (Perfekt, er)",
+      "mieć (Perfekt, wir)",
+      "mieć (Perfekt, ihr)",
+      "mieć (Perfekt, Sie)"
     ],
     "Answers": [
       "ich habe gehabt",
@@ -301,8 +301,8 @@
   },
   {
     "Questions": [
-      "to think (Präsens, wir)",
-      "to think (Präsens, Sie)"
+      "myśleć (Präsens, wir)",
+      "myśleć (Präsens, Sie)"
     ],
     "Answers": [
       "wir denken",
@@ -315,8 +315,8 @@
   },
   {
     "Questions": [
-      "to think (Präteritum, wir)",
-      "to think (Präteritum, Sie)"
+      "myśleć (Präteritum, wir)",
+      "myśleć (Präteritum, Sie)"
     ],
     "Answers": [
       "wir dachten",
@@ -329,12 +329,12 @@
   },
   {
     "Questions": [
-      "to think (Perfekt, ich)",
-      "to think (Perfekt, du)",
-      "to think (Perfekt, er)",
-      "to think (Perfekt, wir)",
-      "to think (Perfekt, ihr)",
-      "to think (Perfekt, Sie)"
+      "myśleć (Perfekt, ich)",
+      "myśleć (Perfekt, du)",
+      "myśleć (Perfekt, er)",
+      "myśleć (Perfekt, wir)",
+      "myśleć (Perfekt, ihr)",
+      "myśleć (Perfekt, Sie)"
     ],
     "Answers": [
       "ich habe gedacht",
@@ -351,8 +351,8 @@
   },
   {
     "Questions": [
-      "to die (Präsens, wir)",
-      "to die (Präsens, Sie)"
+      "umierać (Präsens, wir)",
+      "umierać (Präsens, Sie)"
     ],
     "Answers": [
       "wir sterben",
@@ -365,8 +365,8 @@
   },
   {
     "Questions": [
-      "to die (Präteritum, wir)",
-      "to die (Präteritum, Sie)"
+      "umierać (Präteritum, wir)",
+      "umierać (Präteritum, Sie)"
     ],
     "Answers": [
       "wir starben",
@@ -379,12 +379,12 @@
   },
   {
     "Questions": [
-      "to die (Perfekt, ich)",
-      "to die (Perfekt, du)",
-      "to die (Perfekt, er)",
-      "to die (Perfekt, wir)",
-      "to die (Perfekt, ihr)",
-      "to die (Perfekt, Sie)"
+      "umierać (Perfekt, ich)",
+      "umierać (Perfekt, du)",
+      "umierać (Perfekt, er)",
+      "umierać (Perfekt, wir)",
+      "umierać (Perfekt, ihr)",
+      "umierać (Perfekt, Sie)"
     ],
     "Answers": [
       "ich bin gestorben",
@@ -401,8 +401,8 @@
   },
   {
     "Questions": [
-      "to live (Präsens, wir)",
-      "to live (Präsens, Sie)"
+      "żyć (Präsens, wir)",
+      "żyć (Präsens, Sie)"
     ],
     "Answers": [
       "wir leben",
@@ -415,8 +415,8 @@
   },
   {
     "Questions": [
-      "to live (Präteritum, wir)",
-      "to live (Präteritum, Sie)"
+      "żyć (Präteritum, wir)",
+      "żyć (Präteritum, Sie)"
     ],
     "Answers": [
       "wir lebten",
@@ -429,12 +429,12 @@
   },
   {
     "Questions": [
-      "to live (Perfekt, ich)",
-      "to live (Perfekt, du)",
-      "to live (Perfekt, er)",
-      "to live (Perfekt, wir)",
-      "to live (Perfekt, ihr)",
-      "to live (Perfekt, Sie)"
+      "żyć (Perfekt, ich)",
+      "żyć (Perfekt, du)",
+      "żyć (Perfekt, er)",
+      "żyć (Perfekt, wir)",
+      "żyć (Perfekt, ihr)",
+      "żyć (Perfekt, Sie)"
     ],
     "Answers": [
       "ich habe gelebt",
@@ -451,8 +451,8 @@
   },
   {
     "Questions": [
-      "to see (Präsens, wir)",
-      "to see (Präsens, Sie)"
+      "widzieć (Präsens, wir)",
+      "widzieć (Präsens, Sie)"
     ],
     "Answers": [
       "wir sehen",
@@ -465,8 +465,8 @@
   },
   {
     "Questions": [
-      "to see (Präteritum, wir)",
-      "to see (Präteritum, Sie)"
+      "widzieć (Präteritum, wir)",
+      "widzieć (Präteritum, Sie)"
     ],
     "Answers": [
       "wir sahen",
@@ -479,12 +479,12 @@
   },
   {
     "Questions": [
-      "to see (Perfekt, ich)",
-      "to see (Perfekt, du)",
-      "to see (Perfekt, er)",
-      "to see (Perfekt, wir)",
-      "to see (Perfekt, ihr)",
-      "to see (Perfekt, Sie)"
+      "widzieć (Perfekt, ich)",
+      "widzieć (Perfekt, du)",
+      "widzieć (Perfekt, er)",
+      "widzieć (Perfekt, wir)",
+      "widzieć (Perfekt, ihr)",
+      "widzieć (Perfekt, Sie)"
     ],
     "Answers": [
       "ich habe gesehen",
@@ -501,8 +501,8 @@
   },
   {
     "Questions": [
-      "to fetch, to get (Präsens, wir)",
-      "to fetch, to get (Präsens, Sie)"
+      "przynosić (na h) (Präsens, wir)",
+      "przynosić (na h) (Präsens, Sie)"
     ],
     "Answers": [
       "wir holen",
@@ -515,8 +515,8 @@
   },
   {
     "Questions": [
-      "to fetch, to get (Präteritum, wir)",
-      "to fetch, to get (Präteritum, Sie)"
+      "przynosić (na h) (Präteritum, wir)",
+      "przynosić (na h) (Präteritum, Sie)"
     ],
     "Answers": [
       "wir holten",
@@ -529,12 +529,12 @@
   },
   {
     "Questions": [
-      "to fetch, to get (Perfekt, ich)",
-      "to fetch, to get (Perfekt, du)",
-      "to fetch, to get (Perfekt, er)",
-      "to fetch, to get (Perfekt, wir)",
-      "to fetch, to get (Perfekt, ihr)",
-      "to fetch, to get (Perfekt, Sie)"
+      "przynosić (na h) (Perfekt, ich)",
+      "przynosić (na h) (Perfekt, du)",
+      "przynosić (na h) (Perfekt, er)",
+      "przynosić (na h) (Perfekt, wir)",
+      "przynosić (na h) (Perfekt, ihr)",
+      "przynosić (na h) (Perfekt, Sie)"
     ],
     "Answers": [
       "ich habe geholt",
@@ -551,8 +551,8 @@
   },
   {
     "Questions": [
-      "to learn (Präsens, wir)",
-      "to learn (Präsens, Sie)"
+      "uczyć się (Präsens, wir)",
+      "uczyć się (Präsens, Sie)"
     ],
     "Answers": [
       "wir lernen",
@@ -565,8 +565,8 @@
   },
   {
     "Questions": [
-      "to learn (Präteritum, wir)",
-      "to learn (Präteritum, Sie)"
+      "uczyć się (Präteritum, wir)",
+      "uczyć się (Präteritum, Sie)"
     ],
     "Answers": [
       "wir lernten",
@@ -579,12 +579,12 @@
   },
   {
     "Questions": [
-      "to learn (Perfekt, ich)",
-      "to learn (Perfekt, du)",
-      "to learn (Perfekt, er)",
-      "to learn (Perfekt, wir)",
-      "to learn (Perfekt, ihr)",
-      "to learn (Perfekt, Sie)"
+      "uczyć się (Perfekt, ich)",
+      "uczyć się (Perfekt, du)",
+      "uczyć się (Perfekt, er)",
+      "uczyć się (Perfekt, wir)",
+      "uczyć się (Perfekt, ihr)",
+      "uczyć się (Perfekt, Sie)"
     ],
     "Answers": [
       "ich habe gelernt",
@@ -601,8 +601,8 @@
   },
   {
     "Questions": [
-      "to ask (Präsens, wir)",
-      "to ask (Präsens, Sie)"
+      "pytać (Präsens, wir)",
+      "pytać (Präsens, Sie)"
     ],
     "Answers": [
       "wir fragen",
@@ -615,8 +615,8 @@
   },
   {
     "Questions": [
-      "to ask (Präteritum, wir)",
-      "to ask (Präteritum, Sie)"
+      "pytać (Präteritum, wir)",
+      "pytać (Präteritum, Sie)"
     ],
     "Answers": [
       "wir fragten",
@@ -629,12 +629,12 @@
   },
   {
     "Questions": [
-      "to ask (Perfekt, ich)",
-      "to ask (Perfekt, du)",
-      "to ask (Perfekt, er)",
-      "to ask (Perfekt, wir)",
-      "to ask (Perfekt, ihr)",
-      "to ask (Perfekt, Sie)"
+      "pytać (Perfekt, ich)",
+      "pytać (Perfekt, du)",
+      "pytać (Perfekt, er)",
+      "pytać (Perfekt, wir)",
+      "pytać (Perfekt, ihr)",
+      "pytać (Perfekt, Sie)"
     ],
     "Answers": [
       "ich habe gefragt",
@@ -651,8 +651,8 @@
   },
   {
     "Questions": [
-      "to reply, to answer (Präsens, wir)",
-      "to reply, to answer (Präsens, Sie)"
+      "odpowiadać (Präsens, wir)",
+      "odpowiadać (Präsens, Sie)"
     ],
     "Answers": [
       "wir antworten",
@@ -665,8 +665,8 @@
   },
   {
     "Questions": [
-      "to reply, to answer (Präteritum, wir)",
-      "to reply, to answer (Präteritum, Sie)"
+      "odpowiadać (Präteritum, wir)",
+      "odpowiadać (Präteritum, Sie)"
     ],
     "Answers": [
       "wir antworteten",
@@ -679,12 +679,12 @@
   },
   {
     "Questions": [
-      "to reply, to answer (Perfekt, ich)",
-      "to reply, to answer (Perfekt, du)",
-      "to reply, to answer (Perfekt, er)",
-      "to reply, to answer (Perfekt, wir)",
-      "to reply, to answer (Perfekt, ihr)",
-      "to reply, to answer (Perfekt, Sie)"
+      "odpowiadać (Perfekt, ich)",
+      "odpowiadać (Perfekt, du)",
+      "odpowiadać (Perfekt, er)",
+      "odpowiadać (Perfekt, wir)",
+      "odpowiadać (Perfekt, ihr)",
+      "odpowiadać (Perfekt, Sie)"
     ],
     "Answers": [
       "ich habe geantwortet",
@@ -701,8 +701,8 @@
   },
   {
     "Questions": [
-      "to take (Präsens, wir)",
-      "to take (Präsens, Sie)"
+      "brać (Präsens, wir)",
+      "brać (Präsens, Sie)"
     ],
     "Answers": [
       "wir nehmen",
@@ -715,8 +715,8 @@
   },
   {
     "Questions": [
-      "to take (Präteritum, wir)",
-      "to take (Präteritum, Sie)"
+      "brać (Präteritum, wir)",
+      "brać (Präteritum, Sie)"
     ],
     "Answers": [
       "wir nahmen",
@@ -729,12 +729,12 @@
   },
   {
     "Questions": [
-      "to take (Perfekt, ich)",
-      "to take (Perfekt, du)",
-      "to take (Perfekt, er)",
-      "to take (Perfekt, wir)",
-      "to take (Perfekt, ihr)",
-      "to take (Perfekt, Sie)"
+      "brać (Perfekt, ich)",
+      "brać (Perfekt, du)",
+      "brać (Perfekt, er)",
+      "brać (Perfekt, wir)",
+      "brać (Perfekt, ihr)",
+      "brać (Perfekt, Sie)"
     ],
     "Answers": [
       "ich habe genommen",
@@ -751,8 +751,8 @@
   },
   {
     "Questions": [
-      "to sleep (Präsens, wir)",
-      "to sleep (Präsens, Sie)"
+      "spać (Präsens, wir)",
+      "spać (Präsens, Sie)"
     ],
     "Answers": [
       "wir schlafen",
@@ -765,8 +765,8 @@
   },
   {
     "Questions": [
-      "to sleep (Präteritum, wir)",
-      "to sleep (Präteritum, Sie)"
+      "spać (Präteritum, wir)",
+      "spać (Präteritum, Sie)"
     ],
     "Answers": [
       "wir schliefen",
@@ -779,12 +779,12 @@
   },
   {
     "Questions": [
-      "to sleep (Perfekt, ich)",
-      "to sleep (Perfekt, du)",
-      "to sleep (Perfekt, er)",
-      "to sleep (Perfekt, wir)",
-      "to sleep (Perfekt, ihr)",
-      "to sleep (Perfekt, Sie)"
+      "spać (Perfekt, ich)",
+      "spać (Perfekt, du)",
+      "spać (Perfekt, er)",
+      "spać (Perfekt, wir)",
+      "spać (Perfekt, ihr)",
+      "spać (Perfekt, Sie)"
     ],
     "Answers": [
       "ich habe geschlafen",
@@ -801,8 +801,8 @@
   },
   {
     "Questions": [
-      "to want (Präsens, wir)",
-      "to want (Präsens, Sie)"
+      "chcieć (Präsens, wir)",
+      "chcieć (Präsens, Sie)"
     ],
     "Answers": [
       "wir wollen",
@@ -815,8 +815,8 @@
   },
   {
     "Questions": [
-      "to want (Präteritum, wir)",
-      "to want (Präteritum, Sie)"
+      "chcieć (Präteritum, wir)",
+      "chcieć (Präteritum, Sie)"
     ],
     "Answers": [
       "wir wollten",
@@ -829,12 +829,12 @@
   },
   {
     "Questions": [
-      "to want (Perfekt, ich)",
-      "to want (Perfekt, du)",
-      "to want (Perfekt, er)",
-      "to want (Perfekt, wir)",
-      "to want (Perfekt, ihr)",
-      "to want (Perfekt, Sie)"
+      "chcieć (Perfekt, ich)",
+      "chcieć (Perfekt, du)",
+      "chcieć (Perfekt, er)",
+      "chcieć (Perfekt, wir)",
+      "chcieć (Perfekt, ihr)",
+      "chcieć (Perfekt, Sie)"
     ],
     "Answers": [
       "ich habe gewollt",
@@ -851,8 +851,8 @@
   },
   {
     "Questions": [
-      "to must (Präsens, wir)",
-      "to must (Präsens, Sie)"
+      "musieć (Präsens, wir)",
+      "musieć (Präsens, Sie)"
     ],
     "Answers": [
       "wir müssen",
@@ -865,8 +865,8 @@
   },
   {
     "Questions": [
-      "to must (Präteritum, wir)",
-      "to must (Präteritum, Sie)"
+      "musieć (Präteritum, wir)",
+      "musieć (Präteritum, Sie)"
     ],
     "Answers": [
       "wir mussten",
@@ -879,12 +879,12 @@
   },
   {
     "Questions": [
-      "to must (Perfekt, ich)",
-      "to must (Perfekt, du)",
-      "to must (Perfekt, er)",
-      "to must (Perfekt, wir)",
-      "to must (Perfekt, ihr)",
-      "to must (Perfekt, Sie)"
+      "musieć (Perfekt, ich)",
+      "musieć (Perfekt, du)",
+      "musieć (Perfekt, er)",
+      "musieć (Perfekt, wir)",
+      "musieć (Perfekt, ihr)",
+      "musieć (Perfekt, Sie)"
     ],
     "Answers": [
       "ich habe gemusst",
@@ -901,8 +901,8 @@
   },
   {
     "Questions": [
-      "to can (Präsens, wir)",
-      "to can (Präsens, Sie)"
+      "móc, potrafić (Präsens, wir)",
+      "móc, potrafić (Präsens, Sie)"
     ],
     "Answers": [
       "wir können",
@@ -915,8 +915,8 @@
   },
   {
     "Questions": [
-      "to can (Präteritum, wir)",
-      "to can (Präteritum, Sie)"
+      "móc, potrafić (Präteritum, wir)",
+      "móc, potrafić (Präteritum, Sie)"
     ],
     "Answers": [
       "wir konnten",
@@ -929,12 +929,12 @@
   },
   {
     "Questions": [
-      "to can (Perfekt, ich)",
-      "to can (Perfekt, du)",
-      "to can (Perfekt, er)",
-      "to can (Perfekt, wir)",
-      "to can (Perfekt, ihr)",
-      "to can (Perfekt, Sie)"
+      "móc, potrafić (Perfekt, ich)",
+      "móc, potrafić (Perfekt, du)",
+      "móc, potrafić (Perfekt, er)",
+      "móc, potrafić (Perfekt, wir)",
+      "móc, potrafić (Perfekt, ihr)",
+      "móc, potrafić (Perfekt, Sie)"
     ],
     "Answers": [
       "ich habe gekonnt",
@@ -951,8 +951,8 @@
   },
   {
     "Questions": [
-      "to be called (Präsens, wir)",
-      "to be called (Präsens, Sie)"
+      "nazywać się (Präsens, wir)",
+      "nazywać się (Präsens, Sie)"
     ],
     "Answers": [
       "wir heißen",
@@ -965,8 +965,8 @@
   },
   {
     "Questions": [
-      "to be called (Präteritum, wir)",
-      "to be called (Präteritum, Sie)"
+      "nazywać się (Präteritum, wir)",
+      "nazywać się (Präteritum, Sie)"
     ],
     "Answers": [
       "wir hießen",
@@ -979,12 +979,12 @@
   },
   {
     "Questions": [
-      "to be called (Perfekt, ich)",
-      "to be called (Perfekt, du)",
-      "to be called (Perfekt, er)",
-      "to be called (Perfekt, wir)",
-      "to be called (Perfekt, ihr)",
-      "to be called (Perfekt, Sie)"
+      "nazywać się (Perfekt, ich)",
+      "nazywać się (Perfekt, du)",
+      "nazywać się (Perfekt, er)",
+      "nazywać się (Perfekt, wir)",
+      "nazywać się (Perfekt, ihr)",
+      "nazywać się (Perfekt, Sie)"
     ],
     "Answers": [
       "ich habe geheißen",
@@ -1001,8 +1001,8 @@
   },
   {
     "Questions": [
-      "to come (Präsens, wir)",
-      "to come (Präsens, Sie)"
+      "przychodzić (Präsens, wir)",
+      "przychodzić (Präsens, Sie)"
     ],
     "Answers": [
       "wir kommen",
@@ -1015,8 +1015,8 @@
   },
   {
     "Questions": [
-      "to come (Präteritum, wir)",
-      "to come (Präteritum, Sie)"
+      "przychodzić (Präteritum, wir)",
+      "przychodzić (Präteritum, Sie)"
     ],
     "Answers": [
       "wir kamen",
@@ -1029,12 +1029,12 @@
   },
   {
     "Questions": [
-      "to come (Perfekt, ich)",
-      "to come (Perfekt, du)",
-      "to come (Perfekt, er)",
-      "to come (Perfekt, wir)",
-      "to come (Perfekt, ihr)",
-      "to come (Perfekt, Sie)"
+      "przychodzić (Perfekt, ich)",
+      "przychodzić (Perfekt, du)",
+      "przychodzić (Perfekt, er)",
+      "przychodzić (Perfekt, wir)",
+      "przychodzić (Perfekt, ihr)",
+      "przychodzić (Perfekt, Sie)"
     ],
     "Answers": [
       "ich bin gekommen",
@@ -1051,8 +1051,8 @@
   },
   {
     "Questions": [
-      "to live, to stay (Präsens, wir)",
-      "to live, to stay (Präsens, Sie)"
+      "mieszkać (Präsens, wir)",
+      "mieszkać (Präsens, Sie)"
     ],
     "Answers": [
       "wir wohnen",
@@ -1065,8 +1065,8 @@
   },
   {
     "Questions": [
-      "to live, to stay (Präteritum, wir)",
-      "to live, to stay (Präteritum, Sie)"
+      "mieszkać (Präteritum, wir)",
+      "mieszkać (Präteritum, Sie)"
     ],
     "Answers": [
       "wir wohnten",
@@ -1079,12 +1079,12 @@
   },
   {
     "Questions": [
-      "to live, to stay (Perfekt, ich)",
-      "to live, to stay (Perfekt, du)",
-      "to live, to stay (Perfekt, er)",
-      "to live, to stay (Perfekt, wir)",
-      "to live, to stay (Perfekt, ihr)",
-      "to live, to stay (Perfekt, Sie)"
+      "mieszkać (Perfekt, ich)",
+      "mieszkać (Perfekt, du)",
+      "mieszkać (Perfekt, er)",
+      "mieszkać (Perfekt, wir)",
+      "mieszkać (Perfekt, ihr)",
+      "mieszkać (Perfekt, Sie)"
     ],
     "Answers": [
       "ich habe gewohnt",
@@ -1101,8 +1101,8 @@
   },
   {
     "Questions": [
-      "to speak (Präsens, wir)",
-      "to speak (Präsens, Sie)"
+      "mówić (Präsens, wir)",
+      "mówić (Präsens, Sie)"
     ],
     "Answers": [
       "wir sprechen",
@@ -1115,8 +1115,8 @@
   },
   {
     "Questions": [
-      "to speak (Präteritum, wir)",
-      "to speak (Präteritum, Sie)"
+      "mówić (Präteritum, wir)",
+      "mówić (Präteritum, Sie)"
     ],
     "Answers": [
       "wir sprachen",
@@ -1129,12 +1129,12 @@
   },
   {
     "Questions": [
-      "to speak (Perfekt, ich)",
-      "to speak (Perfekt, du)",
-      "to speak (Perfekt, er)",
-      "to speak (Perfekt, wir)",
-      "to speak (Perfekt, ihr)",
-      "to speak (Perfekt, Sie)"
+      "mówić (Perfekt, ich)",
+      "mówić (Perfekt, du)",
+      "mówić (Perfekt, er)",
+      "mówić (Perfekt, wir)",
+      "mówić (Perfekt, ihr)",
+      "mówić (Perfekt, Sie)"
     ],
     "Answers": [
       "ich habe gesprochen",
@@ -1151,8 +1151,8 @@
   },
   {
     "Questions": [
-      "to understand (Präsens, wir)",
-      "to understand (Präsens, Sie)"
+      "rozumieć (Präsens, wir)",
+      "rozumieć (Präsens, Sie)"
     ],
     "Answers": [
       "wir verstehen",
@@ -1165,8 +1165,8 @@
   },
   {
     "Questions": [
-      "to understand (Präteritum, wir)",
-      "to understand (Präteritum, Sie)"
+      "rozumieć (Präteritum, wir)",
+      "rozumieć (Präteritum, Sie)"
     ],
     "Answers": [
       "wir verstanden",
@@ -1179,12 +1179,12 @@
   },
   {
     "Questions": [
-      "to understand (Perfekt, ich)",
-      "to understand (Perfekt, du)",
-      "to understand (Perfekt, er)",
-      "to understand (Perfekt, wir)",
-      "to understand (Perfekt, ihr)",
-      "to understand (Perfekt, Sie)"
+      "rozumieć (Perfekt, ich)",
+      "rozumieć (Perfekt, du)",
+      "rozumieć (Perfekt, er)",
+      "rozumieć (Perfekt, wir)",
+      "rozumieć (Perfekt, ihr)",
+      "rozumieć (Perfekt, Sie)"
     ],
     "Answers": [
       "ich habe verstanden",
@@ -1201,8 +1201,8 @@
   },
   {
     "Questions": [
-      "to mean (Präsens, wir)",
-      "to mean (Präsens, Sie)"
+      "znaczyć (Präsens, wir)",
+      "znaczyć (Präsens, Sie)"
     ],
     "Answers": [
       "wir bedeuten",
@@ -1215,8 +1215,8 @@
   },
   {
     "Questions": [
-      "to mean (Präteritum, wir)",
-      "to mean (Präteritum, Sie)"
+      "znaczyć (Präteritum, wir)",
+      "znaczyć (Präteritum, Sie)"
     ],
     "Answers": [
       "wir bedeuteten",
@@ -1229,12 +1229,12 @@
   },
   {
     "Questions": [
-      "to mean (Perfekt, ich)",
-      "to mean (Perfekt, du)",
-      "to mean (Perfekt, er)",
-      "to mean (Perfekt, wir)",
-      "to mean (Perfekt, ihr)",
-      "to mean (Perfekt, Sie)"
+      "znaczyć (Perfekt, ich)",
+      "znaczyć (Perfekt, du)",
+      "znaczyć (Perfekt, er)",
+      "znaczyć (Perfekt, wir)",
+      "znaczyć (Perfekt, ihr)",
+      "znaczyć (Perfekt, Sie)"
     ],
     "Answers": [
       "ich habe bedeutet",
@@ -1251,8 +1251,8 @@
   },
   {
     "Questions": [
-      "to know (starts with w) (Präsens, wir)",
-      "to know (starts with w) (Präsens, Sie)"
+      "wiedzieć (na w) (Präsens, wir)",
+      "wiedzieć (na w) (Präsens, Sie)"
     ],
     "Answers": [
       "wir wissen",
@@ -1265,8 +1265,8 @@
   },
   {
     "Questions": [
-      "to know (starts with w) (Präteritum, wir)",
-      "to know (starts with w) (Präteritum, Sie)"
+      "wiedzieć (na w) (Präteritum, wir)",
+      "wiedzieć (na w) (Präteritum, Sie)"
     ],
     "Answers": [
       "wir wussten",
@@ -1279,12 +1279,12 @@
   },
   {
     "Questions": [
-      "to know (starts with w) (Perfekt, ich)",
-      "to know (starts with w) (Perfekt, du)",
-      "to know (starts with w) (Perfekt, er)",
-      "to know (starts with w) (Perfekt, wir)",
-      "to know (starts with w) (Perfekt, ihr)",
-      "to know (starts with w) (Perfekt, Sie)"
+      "wiedzieć (na w) (Perfekt, ich)",
+      "wiedzieć (na w) (Perfekt, du)",
+      "wiedzieć (na w) (Perfekt, er)",
+      "wiedzieć (na w) (Perfekt, wir)",
+      "wiedzieć (na w) (Perfekt, ihr)",
+      "wiedzieć (na w) (Perfekt, Sie)"
     ],
     "Answers": [
       "ich habe gewusst",
@@ -1301,8 +1301,8 @@
   },
   {
     "Questions": [
-      "to make, to do (Präsens, wir)",
-      "to make, to do (Präsens, Sie)"
+      "robić (na m) (Präsens, wir)",
+      "robić (na m) (Präsens, Sie)"
     ],
     "Answers": [
       "wir machen",
@@ -1315,8 +1315,8 @@
   },
   {
     "Questions": [
-      "to make, to do (Präteritum, wir)",
-      "to make, to do (Präteritum, Sie)"
+      "robić (na m) (Präteritum, wir)",
+      "robić (na m) (Präteritum, Sie)"
     ],
     "Answers": [
       "wir machten",
@@ -1329,12 +1329,12 @@
   },
   {
     "Questions": [
-      "to make, to do (Perfekt, ich)",
-      "to make, to do (Perfekt, du)",
-      "to make, to do (Perfekt, er)",
-      "to make, to do (Perfekt, wir)",
-      "to make, to do (Perfekt, ihr)",
-      "to make, to do (Perfekt, Sie)"
+      "robić (na m) (Perfekt, ich)",
+      "robić (na m) (Perfekt, du)",
+      "robić (na m) (Perfekt, er)",
+      "robić (na m) (Perfekt, wir)",
+      "robić (na m) (Perfekt, ihr)",
+      "robić (na m) (Perfekt, Sie)"
     ],
     "Answers": [
       "ich habe gemacht",
@@ -1351,8 +1351,8 @@
   },
   {
     "Questions": [
-      "to need (Präsens, wir)",
-      "to need (Präsens, Sie)"
+      "potrzebować (Präsens, wir)",
+      "potrzebować (Präsens, Sie)"
     ],
     "Answers": [
       "wir brauchen",
@@ -1365,8 +1365,8 @@
   },
   {
     "Questions": [
-      "to need (Präteritum, wir)",
-      "to need (Präteritum, Sie)"
+      "potrzebować (Präteritum, wir)",
+      "potrzebować (Präteritum, Sie)"
     ],
     "Answers": [
       "wir brauchten",
@@ -1379,12 +1379,12 @@
   },
   {
     "Questions": [
-      "to need (Perfekt, ich)",
-      "to need (Perfekt, du)",
-      "to need (Perfekt, er)",
-      "to need (Perfekt, wir)",
-      "to need (Perfekt, ihr)",
-      "to need (Perfekt, Sie)"
+      "potrzebować (Perfekt, ich)",
+      "potrzebować (Perfekt, du)",
+      "potrzebować (Perfekt, er)",
+      "potrzebować (Perfekt, wir)",
+      "potrzebować (Perfekt, ihr)",
+      "potrzebować (Perfekt, Sie)"
     ],
     "Answers": [
       "ich habe gebraucht",
@@ -1401,8 +1401,8 @@
   },
   {
     "Questions": [
-      "to eat (Präsens, wir)",
-      "to eat (Präsens, Sie)"
+      "jeść (Präsens, wir)",
+      "jeść (Präsens, Sie)"
     ],
     "Answers": [
       "wir essen",
@@ -1415,8 +1415,8 @@
   },
   {
     "Questions": [
-      "to eat (Präteritum, wir)",
-      "to eat (Präteritum, Sie)"
+      "jeść (Präteritum, wir)",
+      "jeść (Präteritum, Sie)"
     ],
     "Answers": [
       "wir aßen",
@@ -1429,12 +1429,12 @@
   },
   {
     "Questions": [
-      "to eat (Perfekt, ich)",
-      "to eat (Perfekt, du)",
-      "to eat (Perfekt, er)",
-      "to eat (Perfekt, wir)",
-      "to eat (Perfekt, ihr)",
-      "to eat (Perfekt, Sie)"
+      "jeść (Perfekt, ich)",
+      "jeść (Perfekt, du)",
+      "jeść (Perfekt, er)",
+      "jeść (Perfekt, wir)",
+      "jeść (Perfekt, ihr)",
+      "jeść (Perfekt, Sie)"
     ],
     "Answers": [
       "ich habe gegessen",
@@ -1451,8 +1451,8 @@
   },
   {
     "Questions": [
-      "to should (Präsens, wir)",
-      "to should (Präsens, Sie)"
+      "mieć powinność (Präsens, wir)",
+      "mieć powinność (Präsens, Sie)"
     ],
     "Answers": [
       "wir sollen",
@@ -1465,8 +1465,8 @@
   },
   {
     "Questions": [
-      "to should (Präteritum, wir)",
-      "to should (Präteritum, Sie)"
+      "mieć powinność (Präteritum, wir)",
+      "mieć powinność (Präteritum, Sie)"
     ],
     "Answers": [
       "wir sollten",
@@ -1479,12 +1479,12 @@
   },
   {
     "Questions": [
-      "to should (Perfekt, ich)",
-      "to should (Perfekt, du)",
-      "to should (Perfekt, er)",
-      "to should (Perfekt, wir)",
-      "to should (Perfekt, ihr)",
-      "to should (Perfekt, Sie)"
+      "mieć powinność (Perfekt, ich)",
+      "mieć powinność (Perfekt, du)",
+      "mieć powinność (Perfekt, er)",
+      "mieć powinność (Perfekt, wir)",
+      "mieć powinność (Perfekt, ihr)",
+      "mieć powinność (Perfekt, Sie)"
     ],
     "Answers": [
       "ich habe gesollt",
@@ -1501,8 +1501,8 @@
   },
   {
     "Questions": [
-      "to address informally with du (Präsens, wir)",
-      "to address informally with du (Präsens, Sie)"
+      "zwracać się do kogoś na du (Präsens, wir)",
+      "zwracać się do kogoś na du (Präsens, Sie)"
     ],
     "Answers": [
       "wir duzen",
@@ -1515,8 +1515,8 @@
   },
   {
     "Questions": [
-      "to address informally with du (Präteritum, wir)",
-      "to address informally with du (Präteritum, Sie)"
+      "zwracać się do kogoś na du (Präteritum, wir)",
+      "zwracać się do kogoś na du (Präteritum, Sie)"
     ],
     "Answers": [
       "wir duzten",
@@ -1529,12 +1529,12 @@
   },
   {
     "Questions": [
-      "to address informally with du (Perfekt, ich)",
-      "to address informally with du (Perfekt, du)",
-      "to address informally with du (Perfekt, er)",
-      "to address informally with du (Perfekt, wir)",
-      "to address informally with du (Perfekt, ihr)",
-      "to address informally with du (Perfekt, Sie)"
+      "zwracać się do kogoś na du (Perfekt, ich)",
+      "zwracać się do kogoś na du (Perfekt, du)",
+      "zwracać się do kogoś na du (Perfekt, er)",
+      "zwracać się do kogoś na du (Perfekt, wir)",
+      "zwracać się do kogoś na du (Perfekt, ihr)",
+      "zwracać się do kogoś na du (Perfekt, Sie)"
     ],
     "Answers": [
       "ich habe geduzt",
@@ -1551,8 +1551,8 @@
   },
   {
     "Questions": [
-      "to address formally with Sie (Präsens, wir)",
-      "to address formally with Sie (Präsens, Sie)"
+      "zwracać się do kogoś na Sie (Präsens, wir)",
+      "zwracać się do kogoś na Sie (Präsens, Sie)"
     ],
     "Answers": [
       "wir siezen",
@@ -1565,8 +1565,8 @@
   },
   {
     "Questions": [
-      "to address formally with Sie (Präteritum, wir)",
-      "to address formally with Sie (Präteritum, Sie)"
+      "zwracać się do kogoś na Sie (Präteritum, wir)",
+      "zwracać się do kogoś na Sie (Präteritum, Sie)"
     ],
     "Answers": [
       "wir siezten",
@@ -1579,12 +1579,12 @@
   },
   {
     "Questions": [
-      "to address formally with Sie (Perfekt, ich)",
-      "to address formally with Sie (Perfekt, du)",
-      "to address formally with Sie (Perfekt, er)",
-      "to address formally with Sie (Perfekt, wir)",
-      "to address formally with Sie (Perfekt, ihr)",
-      "to address formally with Sie (Perfekt, Sie)"
+      "zwracać się do kogoś na Sie (Perfekt, ich)",
+      "zwracać się do kogoś na Sie (Perfekt, du)",
+      "zwracać się do kogoś na Sie (Perfekt, er)",
+      "zwracać się do kogoś na Sie (Perfekt, wir)",
+      "zwracać się do kogoś na Sie (Perfekt, ihr)",
+      "zwracać się do kogoś na Sie (Perfekt, Sie)"
     ],
     "Answers": [
       "ich habe gesiezt",
@@ -1601,8 +1601,8 @@
   },
   {
     "Questions": [
-      "to may (Präsens, wir)",
-      "to may (Präsens, Sie)"
+      "mieć pozwolenie (Präsens, wir)",
+      "mieć pozwolenie (Präsens, Sie)"
     ],
     "Answers": [
       "wir dürfen",
@@ -1615,8 +1615,8 @@
   },
   {
     "Questions": [
-      "to may (Präteritum, wir)",
-      "to may (Präteritum, Sie)"
+      "mieć pozwolenie (Präteritum, wir)",
+      "mieć pozwolenie (Präteritum, Sie)"
     ],
     "Answers": [
       "wir durften",
@@ -1629,12 +1629,12 @@
   },
   {
     "Questions": [
-      "to may (Perfekt, ich)",
-      "to may (Perfekt, du)",
-      "to may (Perfekt, er)",
-      "to may (Perfekt, wir)",
-      "to may (Perfekt, ihr)",
-      "to may (Perfekt, Sie)"
+      "mieć pozwolenie (Perfekt, ich)",
+      "mieć pozwolenie (Perfekt, du)",
+      "mieć pozwolenie (Perfekt, er)",
+      "mieć pozwolenie (Perfekt, wir)",
+      "mieć pozwolenie (Perfekt, ihr)",
+      "mieć pozwolenie (Perfekt, Sie)"
     ],
     "Answers": [
       "ich habe gedurft",
@@ -1651,8 +1651,8 @@
   },
   {
     "Questions": [
-      "to awake, to wake up (Präsens, wir)",
-      "to awake, to wake up (Präsens, Sie)"
+      "budzić się (Präsens, wir)",
+      "budzić się (Präsens, Sie)"
     ],
     "Answers": [
       "wir wachen auf",
@@ -1665,8 +1665,8 @@
   },
   {
     "Questions": [
-      "to awake, to wake up (Präteritum, wir)",
-      "to awake, to wake up (Präteritum, Sie)"
+      "budzić się (Präteritum, wir)",
+      "budzić się (Präteritum, Sie)"
     ],
     "Answers": [
       "wir wachten auf",
@@ -1679,12 +1679,12 @@
   },
   {
     "Questions": [
-      "to awake, to wake up (Perfekt, ich)",
-      "to awake, to wake up (Perfekt, du)",
-      "to awake, to wake up (Perfekt, er)",
-      "to awake, to wake up (Perfekt, wir)",
-      "to awake, to wake up (Perfekt, ihr)",
-      "to awake, to wake up (Perfekt, Sie)"
+      "budzić się (Perfekt, ich)",
+      "budzić się (Perfekt, du)",
+      "budzić się (Perfekt, er)",
+      "budzić się (Perfekt, wir)",
+      "budzić się (Perfekt, ihr)",
+      "budzić się (Perfekt, Sie)"
     ],
     "Answers": [
       "ich bin aufgewacht",
@@ -1701,8 +1701,8 @@
   },
   {
     "Questions": [
-      "to rise, to get up (Präsens, wir)",
-      "to rise, to get up (Präsens, Sie)"
+      "wstawać (Präsens, wir)",
+      "wstawać (Präsens, Sie)"
     ],
     "Answers": [
       "wir stehen auf",
@@ -1715,8 +1715,8 @@
   },
   {
     "Questions": [
-      "to rise, to get up (Präteritum, wir)",
-      "to rise, to get up (Präteritum, Sie)"
+      "wstawać (Präteritum, wir)",
+      "wstawać (Präteritum, Sie)"
     ],
     "Answers": [
       "wir standen auf",
@@ -1729,12 +1729,12 @@
   },
   {
     "Questions": [
-      "to rise, to get up (Perfekt, ich)",
-      "to rise, to get up (Perfekt, du)",
-      "to rise, to get up (Perfekt, er)",
-      "to rise, to get up (Perfekt, wir)",
-      "to rise, to get up (Perfekt, ihr)",
-      "to rise, to get up (Perfekt, Sie)"
+      "wstawać (Perfekt, ich)",
+      "wstawać (Perfekt, du)",
+      "wstawać (Perfekt, er)",
+      "wstawać (Perfekt, wir)",
+      "wstawać (Perfekt, ihr)",
+      "wstawać (Perfekt, Sie)"
     ],
     "Answers": [
       "ich bin aufgestanden",
@@ -1751,8 +1751,8 @@
   },
   {
     "Questions": [
-      "to have breakfast (Präsens, wir)",
-      "to have breakfast (Präsens, Sie)"
+      "jeść śniadanie (Präsens, wir)",
+      "jeść śniadanie (Präsens, Sie)"
     ],
     "Answers": [
       "wir frühstücken",
@@ -1765,8 +1765,8 @@
   },
   {
     "Questions": [
-      "to have breakfast (Präteritum, wir)",
-      "to have breakfast (Präteritum, Sie)"
+      "jeść śniadanie (Präteritum, wir)",
+      "jeść śniadanie (Präteritum, Sie)"
     ],
     "Answers": [
       "wir frühstückten",
@@ -1779,12 +1779,12 @@
   },
   {
     "Questions": [
-      "to have breakfast (Perfekt, ich)",
-      "to have breakfast (Perfekt, du)",
-      "to have breakfast (Perfekt, er)",
-      "to have breakfast (Perfekt, wir)",
-      "to have breakfast (Perfekt, ihr)",
-      "to have breakfast (Perfekt, Sie)"
+      "jeść śniadanie (Perfekt, ich)",
+      "jeść śniadanie (Perfekt, du)",
+      "jeść śniadanie (Perfekt, er)",
+      "jeść śniadanie (Perfekt, wir)",
+      "jeść śniadanie (Perfekt, ihr)",
+      "jeść śniadanie (Perfekt, Sie)"
     ],
     "Answers": [
       "ich habe gefrühstückt",
@@ -1801,8 +1801,8 @@
   },
   {
     "Questions": [
-      "to start, to begin (Präsens, wir)",
-      "to start, to begin (Präsens, Sie)"
+      "zaczynać (Präsens, wir)",
+      "zaczynać (Präsens, Sie)"
     ],
     "Answers": [
       "wir beginnen",
@@ -1815,8 +1815,8 @@
   },
   {
     "Questions": [
-      "to start, to begin (Präteritum, wir)",
-      "to start, to begin (Präteritum, Sie)"
+      "zaczynać (Präteritum, wir)",
+      "zaczynać (Präteritum, Sie)"
     ],
     "Answers": [
       "wir begannen",
@@ -1829,12 +1829,12 @@
   },
   {
     "Questions": [
-      "to start, to begin (Perfekt, ich)",
-      "to start, to begin (Perfekt, du)",
-      "to start, to begin (Perfekt, er)",
-      "to start, to begin (Perfekt, wir)",
-      "to start, to begin (Perfekt, ihr)",
-      "to start, to begin (Perfekt, Sie)"
+      "zaczynać (Perfekt, ich)",
+      "zaczynać (Perfekt, du)",
+      "zaczynać (Perfekt, er)",
+      "zaczynać (Perfekt, wir)",
+      "zaczynać (Perfekt, ihr)",
+      "zaczynać (Perfekt, Sie)"
     ],
     "Answers": [
       "ich habe begonnen",
@@ -1851,8 +1851,8 @@
   },
   {
     "Questions": [
-      "to go, to walk (Präsens, wir)",
-      "to go, to walk (Präsens, Sie)"
+      "iść (Präsens, wir)",
+      "iść (Präsens, Sie)"
     ],
     "Answers": [
       "wir gehen",
@@ -1865,8 +1865,8 @@
   },
   {
     "Questions": [
-      "to go, to walk (Präteritum, wir)",
-      "to go, to walk (Präteritum, Sie)"
+      "iść (Präteritum, wir)",
+      "iść (Präteritum, Sie)"
     ],
     "Answers": [
       "wir gingen",
@@ -1879,12 +1879,12 @@
   },
   {
     "Questions": [
-      "to go, to walk (Perfekt, ich)",
-      "to go, to walk (Perfekt, du)",
-      "to go, to walk (Perfekt, er)",
-      "to go, to walk (Perfekt, wir)",
-      "to go, to walk (Perfekt, ihr)",
-      "to go, to walk (Perfekt, Sie)"
+      "iść (Perfekt, ich)",
+      "iść (Perfekt, du)",
+      "iść (Perfekt, er)",
+      "iść (Perfekt, wir)",
+      "iść (Perfekt, ihr)",
+      "iść (Perfekt, Sie)"
     ],
     "Answers": [
       "ich bin gegangen",
@@ -1901,8 +1901,8 @@
   },
   {
     "Questions": [
-      "to sit (Präsens, wir)",
-      "to sit (Präsens, Sie)"
+      "siedzieć (Präsens, wir)",
+      "siedzieć (Präsens, Sie)"
     ],
     "Answers": [
       "wir sitzen",
@@ -1915,8 +1915,8 @@
   },
   {
     "Questions": [
-      "to sit (Präteritum, wir)",
-      "to sit (Präteritum, Sie)"
+      "siedzieć (Präteritum, wir)",
+      "siedzieć (Präteritum, Sie)"
     ],
     "Answers": [
       "wir saßen",
@@ -1929,12 +1929,12 @@
   },
   {
     "Questions": [
-      "to sit (Perfekt, ich)",
-      "to sit (Perfekt, du)",
-      "to sit (Perfekt, er)",
-      "to sit (Perfekt, wir)",
-      "to sit (Perfekt, ihr)",
-      "to sit (Perfekt, Sie)"
+      "siedzieć (Perfekt, ich)",
+      "siedzieć (Perfekt, du)",
+      "siedzieć (Perfekt, er)",
+      "siedzieć (Perfekt, wir)",
+      "siedzieć (Perfekt, ihr)",
+      "siedzieć (Perfekt, Sie)"
     ],
     "Answers": [
       "ich habe gesessen",
@@ -1951,8 +1951,8 @@
   },
   {
     "Questions": [
-      "to read (Präsens, wir)",
-      "to read (Präsens, Sie)"
+      "czytać (Präsens, wir)",
+      "czytać (Präsens, Sie)"
     ],
     "Answers": [
       "wir lesen",
@@ -1965,8 +1965,8 @@
   },
   {
     "Questions": [
-      "to read (Präteritum, wir)",
-      "to read (Präteritum, Sie)"
+      "czytać (Präteritum, wir)",
+      "czytać (Präteritum, Sie)"
     ],
     "Answers": [
       "wir lasen",
@@ -1979,12 +1979,12 @@
   },
   {
     "Questions": [
-      "to read (Perfekt, ich)",
-      "to read (Perfekt, du)",
-      "to read (Perfekt, er)",
-      "to read (Perfekt, wir)",
-      "to read (Perfekt, ihr)",
-      "to read (Perfekt, Sie)"
+      "czytać (Perfekt, ich)",
+      "czytać (Perfekt, du)",
+      "czytać (Perfekt, er)",
+      "czytać (Perfekt, wir)",
+      "czytać (Perfekt, ihr)",
+      "czytać (Perfekt, Sie)"
     ],
     "Answers": [
       "ich habe gelesen",
@@ -2001,8 +2001,8 @@
   },
   {
     "Questions": [
-      "to hear (Präsens, wir)",
-      "to hear (Präsens, Sie)"
+      "słyszeć (Präsens, wir)",
+      "słyszeć (Präsens, Sie)"
     ],
     "Answers": [
       "wir hören",
@@ -2015,8 +2015,8 @@
   },
   {
     "Questions": [
-      "to hear (Präteritum, wir)",
-      "to hear (Präteritum, Sie)"
+      "słyszeć (Präteritum, wir)",
+      "słyszeć (Präteritum, Sie)"
     ],
     "Answers": [
       "wir hörten",
@@ -2029,12 +2029,12 @@
   },
   {
     "Questions": [
-      "to hear (Perfekt, ich)",
-      "to hear (Perfekt, du)",
-      "to hear (Perfekt, er)",
-      "to hear (Perfekt, wir)",
-      "to hear (Perfekt, ihr)",
-      "to hear (Perfekt, Sie)"
+      "słyszeć (Perfekt, ich)",
+      "słyszeć (Perfekt, du)",
+      "słyszeć (Perfekt, er)",
+      "słyszeć (Perfekt, wir)",
+      "słyszeć (Perfekt, ihr)",
+      "słyszeć (Perfekt, Sie)"
     ],
     "Answers": [
       "ich habe gehört",
@@ -2051,8 +2051,8 @@
   },
   {
     "Questions": [
-      "to notice, to realize (Präsens, wir)",
-      "to notice, to realize (Präsens, Sie)"
+      "zauważać (Präsens, wir)",
+      "zauważać (Präsens, Sie)"
     ],
     "Answers": [
       "wir merken",
@@ -2065,8 +2065,8 @@
   },
   {
     "Questions": [
-      "to notice, to realize (Präteritum, wir)",
-      "to notice, to realize (Präteritum, Sie)"
+      "zauważać (Präteritum, wir)",
+      "zauważać (Präteritum, Sie)"
     ],
     "Answers": [
       "wir merkten",
@@ -2079,12 +2079,12 @@
   },
   {
     "Questions": [
-      "to notice, to realize (Perfekt, ich)",
-      "to notice, to realize (Perfekt, du)",
-      "to notice, to realize (Perfekt, er)",
-      "to notice, to realize (Perfekt, wir)",
-      "to notice, to realize (Perfekt, ihr)",
-      "to notice, to realize (Perfekt, Sie)"
+      "zauważać (Perfekt, ich)",
+      "zauważać (Perfekt, du)",
+      "zauważać (Perfekt, er)",
+      "zauważać (Perfekt, wir)",
+      "zauważać (Perfekt, ihr)",
+      "zauważać (Perfekt, Sie)"
     ],
     "Answers": [
       "ich habe gemerkt",
@@ -2101,8 +2101,8 @@
   },
   {
     "Questions": [
-      "to react (Präsens, wir)",
-      "to react (Präsens, Sie)"
+      "reagować (Präsens, wir)",
+      "reagować (Präsens, Sie)"
     ],
     "Answers": [
       "wir reagieren",
@@ -2115,8 +2115,8 @@
   },
   {
     "Questions": [
-      "to react (Präteritum, wir)",
-      "to react (Präteritum, Sie)"
+      "reagować (Präteritum, wir)",
+      "reagować (Präteritum, Sie)"
     ],
     "Answers": [
       "wir reagierten",
@@ -2129,12 +2129,12 @@
   },
   {
     "Questions": [
-      "to react (Perfekt, ich)",
-      "to react (Perfekt, du)",
-      "to react (Perfekt, er)",
-      "to react (Perfekt, wir)",
-      "to react (Perfekt, ihr)",
-      "to react (Perfekt, Sie)"
+      "reagować (Perfekt, ich)",
+      "reagować (Perfekt, du)",
+      "reagować (Perfekt, er)",
+      "reagować (Perfekt, wir)",
+      "reagować (Perfekt, ihr)",
+      "reagować (Perfekt, Sie)"
     ],
     "Answers": [
       "ich habe reagiert",
@@ -2151,8 +2151,8 @@
   },
   {
     "Questions": [
-      "to fly (Präsens, wir)",
-      "to fly (Präsens, Sie)"
+      "latać (Präsens, wir)",
+      "latać (Präsens, Sie)"
     ],
     "Answers": [
       "wir fliegen",
@@ -2165,8 +2165,8 @@
   },
   {
     "Questions": [
-      "to fly (Präteritum, wir)",
-      "to fly (Präteritum, Sie)"
+      "latać (Präteritum, wir)",
+      "latać (Präteritum, Sie)"
     ],
     "Answers": [
       "wir flogen",
@@ -2179,12 +2179,12 @@
   },
   {
     "Questions": [
-      "to fly (Perfekt, ich)",
-      "to fly (Perfekt, du)",
-      "to fly (Perfekt, er)",
-      "to fly (Perfekt, wir)",
-      "to fly (Perfekt, ihr)",
-      "to fly (Perfekt, Sie)"
+      "latać (Perfekt, ich)",
+      "latać (Perfekt, du)",
+      "latać (Perfekt, er)",
+      "latać (Perfekt, wir)",
+      "latać (Perfekt, ihr)",
+      "latać (Perfekt, Sie)"
     ],
     "Answers": [
       "ich bin geflogen",
@@ -2201,8 +2201,8 @@
   },
   {
     "Questions": [
-      "to attempt, to try (starts with v) (Präsens, wir)",
-      "to attempt, to try (starts with v) (Präsens, Sie)"
+      "próbować (na v) (Präsens, wir)",
+      "próbować (na v) (Präsens, Sie)"
     ],
     "Answers": [
       "wir versuchen",
@@ -2215,8 +2215,8 @@
   },
   {
     "Questions": [
-      "to attempt, to try (starts with v) (Präteritum, wir)",
-      "to attempt, to try (starts with v) (Präteritum, Sie)"
+      "próbować (na v) (Präteritum, wir)",
+      "próbować (na v) (Präteritum, Sie)"
     ],
     "Answers": [
       "wir versuchten",
@@ -2229,12 +2229,12 @@
   },
   {
     "Questions": [
-      "to attempt, to try (starts with v) (Perfekt, ich)",
-      "to attempt, to try (starts with v) (Perfekt, du)",
-      "to attempt, to try (starts with v) (Perfekt, er)",
-      "to attempt, to try (starts with v) (Perfekt, wir)",
-      "to attempt, to try (starts with v) (Perfekt, ihr)",
-      "to attempt, to try (starts with v) (Perfekt, Sie)"
+      "próbować (na v) (Perfekt, ich)",
+      "próbować (na v) (Perfekt, du)",
+      "próbować (na v) (Perfekt, er)",
+      "próbować (na v) (Perfekt, wir)",
+      "próbować (na v) (Perfekt, ihr)",
+      "próbować (na v) (Perfekt, Sie)"
     ],
     "Answers": [
       "ich habe versucht",
@@ -2251,8 +2251,8 @@
   },
   {
     "Questions": [
-      "to look at (Präsens, wir)",
-      "to look at (Präsens, Sie)"
+      "patrzeć (Präsens, wir)",
+      "patrzeć (Präsens, Sie)"
     ],
     "Answers": [
       "wir sehen an",
@@ -2265,8 +2265,8 @@
   },
   {
     "Questions": [
-      "to look at (Präteritum, wir)",
-      "to look at (Präteritum, Sie)"
+      "patrzeć (Präteritum, wir)",
+      "patrzeć (Präteritum, Sie)"
     ],
     "Answers": [
       "wir sahen an",
@@ -2279,12 +2279,12 @@
   },
   {
     "Questions": [
-      "to look at (Perfekt, ich)",
-      "to look at (Perfekt, du)",
-      "to look at (Perfekt, er)",
-      "to look at (Perfekt, wir)",
-      "to look at (Perfekt, ihr)",
-      "to look at (Perfekt, Sie)"
+      "patrzeć (Perfekt, ich)",
+      "patrzeć (Perfekt, du)",
+      "patrzeć (Perfekt, er)",
+      "patrzeć (Perfekt, wir)",
+      "patrzeć (Perfekt, ihr)",
+      "patrzeć (Perfekt, Sie)"
     ],
     "Answers": [
       "ich habe angesehen",
@@ -2301,8 +2301,8 @@
   },
   {
     "Questions": [
-      "to land, to alight (Präsens, wir)",
-      "to land, to alight (Präsens, Sie)"
+      "lądować (Präsens, wir)",
+      "lądować (Präsens, Sie)"
     ],
     "Answers": [
       "wir landen",
@@ -2315,8 +2315,8 @@
   },
   {
     "Questions": [
-      "to land, to alight (Präteritum, wir)",
-      "to land, to alight (Präteritum, Sie)"
+      "lądować (Präteritum, wir)",
+      "lądować (Präteritum, Sie)"
     ],
     "Answers": [
       "wir landeten",
@@ -2329,12 +2329,12 @@
   },
   {
     "Questions": [
-      "to land, to alight (Perfekt, ich)",
-      "to land, to alight (Perfekt, du)",
-      "to land, to alight (Perfekt, er)",
-      "to land, to alight (Perfekt, wir)",
-      "to land, to alight (Perfekt, ihr)",
-      "to land, to alight (Perfekt, Sie)"
+      "lądować (Perfekt, ich)",
+      "lądować (Perfekt, du)",
+      "lądować (Perfekt, er)",
+      "lądować (Perfekt, wir)",
+      "lądować (Perfekt, ihr)",
+      "lądować (Perfekt, Sie)"
     ],
     "Answers": [
       "ich bin gelandet",
@@ -2351,8 +2351,8 @@
   },
   {
     "Questions": [
-      "to start running (Präsens, wir)",
-      "to start running (Präsens, Sie)"
+      "zaczynać biec (Präsens, wir)",
+      "zaczynać biec (Präsens, Sie)"
     ],
     "Answers": [
       "wir laufen los",
@@ -2365,8 +2365,8 @@
   },
   {
     "Questions": [
-      "to start running (Präteritum, wir)",
-      "to start running (Präteritum, Sie)"
+      "zaczynać biec (Präteritum, wir)",
+      "zaczynać biec (Präteritum, Sie)"
     ],
     "Answers": [
       "wir liefen los",
@@ -2379,12 +2379,12 @@
   },
   {
     "Questions": [
-      "to start running (Perfekt, ich)",
-      "to start running (Perfekt, du)",
-      "to start running (Perfekt, er)",
-      "to start running (Perfekt, wir)",
-      "to start running (Perfekt, ihr)",
-      "to start running (Perfekt, Sie)"
+      "zaczynać biec (Perfekt, ich)",
+      "zaczynać biec (Perfekt, du)",
+      "zaczynać biec (Perfekt, er)",
+      "zaczynać biec (Perfekt, wir)",
+      "zaczynać biec (Perfekt, ihr)",
+      "zaczynać biec (Perfekt, Sie)"
     ],
     "Answers": [
       "ich bin losgelaufen",
@@ -2401,8 +2401,8 @@
   },
   {
     "Questions": [
-      "to open (Präsens, wir)",
-      "to open (Präsens, Sie)"
+      "otwierać (Präsens, wir)",
+      "otwierać (Präsens, Sie)"
     ],
     "Answers": [
       "wir öffnen",
@@ -2415,8 +2415,8 @@
   },
   {
     "Questions": [
-      "to open (Präteritum, wir)",
-      "to open (Präteritum, Sie)"
+      "otwierać (Präteritum, wir)",
+      "otwierać (Präteritum, Sie)"
     ],
     "Answers": [
       "wir öffneten",
@@ -2429,12 +2429,12 @@
   },
   {
     "Questions": [
-      "to open (Perfekt, ich)",
-      "to open (Perfekt, du)",
-      "to open (Perfekt, er)",
-      "to open (Perfekt, wir)",
-      "to open (Perfekt, ihr)",
-      "to open (Perfekt, Sie)"
+      "otwierać (Perfekt, ich)",
+      "otwierać (Perfekt, du)",
+      "otwierać (Perfekt, er)",
+      "otwierać (Perfekt, wir)",
+      "otwierać (Perfekt, ihr)",
+      "otwierać (Perfekt, Sie)"
     ],
     "Answers": [
       "ich habe geöffnet",
@@ -2451,8 +2451,8 @@
   },
   {
     "Questions": [
-      "to believe (Präsens, wir)",
-      "to believe (Präsens, Sie)"
+      "wierzyć (Präsens, wir)",
+      "wierzyć (Präsens, Sie)"
     ],
     "Answers": [
       "wir glauben",
@@ -2465,8 +2465,8 @@
   },
   {
     "Questions": [
-      "to believe (Präteritum, wir)",
-      "to believe (Präteritum, Sie)"
+      "wierzyć (Präteritum, wir)",
+      "wierzyć (Präteritum, Sie)"
     ],
     "Answers": [
       "wir glaubten",
@@ -2479,12 +2479,12 @@
   },
   {
     "Questions": [
-      "to believe (Perfekt, ich)",
-      "to believe (Perfekt, du)",
-      "to believe (Perfekt, er)",
-      "to believe (Perfekt, wir)",
-      "to believe (Perfekt, ihr)",
-      "to believe (Perfekt, Sie)"
+      "wierzyć (Perfekt, ich)",
+      "wierzyć (Perfekt, du)",
+      "wierzyć (Perfekt, er)",
+      "wierzyć (Perfekt, wir)",
+      "wierzyć (Perfekt, ihr)",
+      "wierzyć (Perfekt, Sie)"
     ],
     "Answers": [
       "ich habe geglaubt",
@@ -2501,8 +2501,8 @@
   },
   {
     "Questions": [
-      "to practice (Präsens, wir)",
-      "to practice (Präsens, Sie)"
+      "ćwiczyć (Präsens, wir)",
+      "ćwiczyć (Präsens, Sie)"
     ],
     "Answers": [
       "wir üben",
@@ -2515,8 +2515,8 @@
   },
   {
     "Questions": [
-      "to practice (Präteritum, wir)",
-      "to practice (Präteritum, Sie)"
+      "ćwiczyć (Präteritum, wir)",
+      "ćwiczyć (Präteritum, Sie)"
     ],
     "Answers": [
       "wir übten",
@@ -2529,12 +2529,12 @@
   },
   {
     "Questions": [
-      "to practice (Perfekt, ich)",
-      "to practice (Perfekt, du)",
-      "to practice (Perfekt, er)",
-      "to practice (Perfekt, wir)",
-      "to practice (Perfekt, ihr)",
-      "to practice (Perfekt, Sie)"
+      "ćwiczyć (Perfekt, ich)",
+      "ćwiczyć (Perfekt, du)",
+      "ćwiczyć (Perfekt, er)",
+      "ćwiczyć (Perfekt, wir)",
+      "ćwiczyć (Perfekt, ihr)",
+      "ćwiczyć (Perfekt, Sie)"
     ],
     "Answers": [
       "ich habe geübt",
@@ -2551,8 +2551,8 @@
   },
   {
     "Questions": [
-      "to peek, to look (Präsens, wir)",
-      "to peek, to look (Präsens, Sie)"
+      "gapić się (Präsens, wir)",
+      "gapić się (Präsens, Sie)"
     ],
     "Answers": [
       "wir gucken",
@@ -2565,8 +2565,8 @@
   },
   {
     "Questions": [
-      "to peek, to look (Präteritum, wir)",
-      "to peek, to look (Präteritum, Sie)"
+      "gapić się (Präteritum, wir)",
+      "gapić się (Präteritum, Sie)"
     ],
     "Answers": [
       "wir guckten",
@@ -2579,12 +2579,12 @@
   },
   {
     "Questions": [
-      "to peek, to look (Perfekt, ich)",
-      "to peek, to look (Perfekt, du)",
-      "to peek, to look (Perfekt, er)",
-      "to peek, to look (Perfekt, wir)",
-      "to peek, to look (Perfekt, ihr)",
-      "to peek, to look (Perfekt, Sie)"
+      "gapić się (Perfekt, ich)",
+      "gapić się (Perfekt, du)",
+      "gapić się (Perfekt, er)",
+      "gapić się (Perfekt, wir)",
+      "gapić się (Perfekt, ihr)",
+      "gapić się (Perfekt, Sie)"
     ],
     "Answers": [
       "ich habe geguckt",
@@ -2601,8 +2601,8 @@
   },
   {
     "Questions": [
-      "to drive, to go (Präsens, wir)",
-      "to drive, to go (Präsens, Sie)"
+      "jechać (Präsens, wir)",
+      "jechać (Präsens, Sie)"
     ],
     "Answers": [
       "wir fahren",
@@ -2615,8 +2615,8 @@
   },
   {
     "Questions": [
-      "to drive, to go (Präteritum, wir)",
-      "to drive, to go (Präteritum, Sie)"
+      "jechać (Präteritum, wir)",
+      "jechać (Präteritum, Sie)"
     ],
     "Answers": [
       "wir fuhren",
@@ -2629,12 +2629,12 @@
   },
   {
     "Questions": [
-      "to drive, to go (Perfekt, ich)",
-      "to drive, to go (Perfekt, du)",
-      "to drive, to go (Perfekt, er)",
-      "to drive, to go (Perfekt, wir)",
-      "to drive, to go (Perfekt, ihr)",
-      "to drive, to go (Perfekt, Sie)"
+      "jechać (Perfekt, ich)",
+      "jechać (Perfekt, du)",
+      "jechać (Perfekt, er)",
+      "jechać (Perfekt, wir)",
+      "jechać (Perfekt, ihr)",
+      "jechać (Perfekt, Sie)"
     ],
     "Answers": [
       "ich bin gefahren",
@@ -2651,8 +2651,8 @@
   },
   {
     "Questions": [
-      "to talk (Präsens, wir)",
-      "to talk (Präsens, Sie)"
+      "rozmawiać (Präsens, wir)",
+      "rozmawiać (Präsens, Sie)"
     ],
     "Answers": [
       "wir reden",
@@ -2665,8 +2665,8 @@
   },
   {
     "Questions": [
-      "to talk (Präteritum, wir)",
-      "to talk (Präteritum, Sie)"
+      "rozmawiać (Präteritum, wir)",
+      "rozmawiać (Präteritum, Sie)"
     ],
     "Answers": [
       "wir redeten",
@@ -2679,12 +2679,12 @@
   },
   {
     "Questions": [
-      "to talk (Perfekt, ich)",
-      "to talk (Perfekt, du)",
-      "to talk (Perfekt, er)",
-      "to talk (Perfekt, wir)",
-      "to talk (Perfekt, ihr)",
-      "to talk (Perfekt, Sie)"
+      "rozmawiać (Perfekt, ich)",
+      "rozmawiać (Perfekt, du)",
+      "rozmawiać (Perfekt, er)",
+      "rozmawiać (Perfekt, wir)",
+      "rozmawiać (Perfekt, ihr)",
+      "rozmawiać (Perfekt, Sie)"
     ],
     "Answers": [
       "ich habe geredet",
@@ -2698,5 +2698,1655 @@
     "Type": 10,
     "LastTrainingTime": "2022-03-31T20:20:17.7100813+02:00",
     "Cooldown": "4.00:00:00"
+  },
+  {
+    "Questions": [
+      "żreć (Präsens, wir)",
+      "żreć (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir fressen",
+      "Sie fressen"
+    ],
+    "ParentId": 157,
+    "Type": 3,
+    "LastTrainingTime": "2022-04-01T01:07:28.013481+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "żreć (Präteritum, wir)",
+      "żreć (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir fraßen",
+      "Sie fraßen"
+    ],
+    "ParentId": 157,
+    "Type": 8,
+    "LastTrainingTime": "2022-04-01T01:07:28.0134831+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "żreć (Perfekt, ich)",
+      "żreć (Perfekt, du)",
+      "żreć (Perfekt, er)",
+      "żreć (Perfekt, wir)",
+      "żreć (Perfekt, ihr)",
+      "żreć (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe gefressen",
+      "du hast gefressen",
+      "er hat gefressen",
+      "wir haben gefressen",
+      "ihr habt gefressen",
+      "Sie haben gefressen"
+    ],
+    "ParentId": 157,
+    "Type": 10,
+    "LastTrainingTime": "2022-04-01T01:07:28.0134856+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "pić (Präsens, wir)",
+      "pić (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir trinken",
+      "Sie trinken"
+    ],
+    "ParentId": 160,
+    "Type": 3,
+    "LastTrainingTime": "2022-04-01T01:07:28.0134876+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "pić (Präteritum, wir)",
+      "pić (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir tranken",
+      "Sie tranken"
+    ],
+    "ParentId": 160,
+    "Type": 8,
+    "LastTrainingTime": "2022-04-01T01:07:28.0134895+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "pić (Perfekt, ich)",
+      "pić (Perfekt, du)",
+      "pić (Perfekt, er)",
+      "pić (Perfekt, wir)",
+      "pić (Perfekt, ihr)",
+      "pić (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe getrunken",
+      "du hast getrunken",
+      "er hat getrunken",
+      "wir haben getrunken",
+      "ihr habt getrunken",
+      "Sie haben getrunken"
+    ],
+    "ParentId": 160,
+    "Type": 10,
+    "LastTrainingTime": "2022-04-01T01:07:28.0134916+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "dostawać (Präsens, wir)",
+      "dostawać (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir bekommen",
+      "Sie bekommen"
+    ],
+    "ParentId": 163,
+    "Type": 3,
+    "LastTrainingTime": "2022-04-01T01:07:28.0134935+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "dostawać (Präteritum, wir)",
+      "dostawać (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir bekamen",
+      "Sie bekamen"
+    ],
+    "ParentId": 163,
+    "Type": 8,
+    "LastTrainingTime": "2022-04-01T01:07:28.0134954+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "dostawać (Perfekt, ich)",
+      "dostawać (Perfekt, du)",
+      "dostawać (Perfekt, er)",
+      "dostawać (Perfekt, wir)",
+      "dostawać (Perfekt, ihr)",
+      "dostawać (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe bekommen",
+      "du hast bekommen",
+      "er hat bekommen",
+      "wir haben bekommen",
+      "ihr habt bekommen",
+      "Sie haben bekommen"
+    ],
+    "ParentId": 163,
+    "Type": 10,
+    "LastTrainingTime": "2022-04-01T01:07:28.0134976+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "studiować (Präsens, wir)",
+      "studiować (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir studieren",
+      "Sie studieren"
+    ],
+    "ParentId": 169,
+    "Type": 3,
+    "LastTrainingTime": "2022-04-01T01:07:28.0135219+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "studiować (Präteritum, wir)",
+      "studiować (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir studierten",
+      "Sie studierten"
+    ],
+    "ParentId": 169,
+    "Type": 8,
+    "LastTrainingTime": "2022-04-01T01:07:28.013524+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "studiować (Perfekt, ich)",
+      "studiować (Perfekt, du)",
+      "studiować (Perfekt, er)",
+      "studiować (Perfekt, wir)",
+      "studiować (Perfekt, ihr)",
+      "studiować (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe studiert",
+      "du hast studiert",
+      "er hat studiert",
+      "wir haben studiert",
+      "ihr habt studiert",
+      "Sie haben studiert"
+    ],
+    "ParentId": 169,
+    "Type": 10,
+    "LastTrainingTime": "2022-04-01T01:07:28.0135261+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "pracować (Präsens, wir)",
+      "pracować (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir arbeiten",
+      "Sie arbeiten"
+    ],
+    "ParentId": 172,
+    "Type": 3,
+    "LastTrainingTime": "2022-04-01T01:07:28.0135302+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "pracować (Präteritum, wir)",
+      "pracować (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir arbeiteten",
+      "Sie arbeiteten"
+    ],
+    "ParentId": 172,
+    "Type": 8,
+    "LastTrainingTime": "2022-04-01T01:07:28.0135322+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "pracować (Perfekt, ich)",
+      "pracować (Perfekt, du)",
+      "pracować (Perfekt, er)",
+      "pracować (Perfekt, wir)",
+      "pracować (Perfekt, ihr)",
+      "pracować (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe gearbeitet",
+      "du hast gearbeitet",
+      "er hat gearbeitet",
+      "wir haben gearbeitet",
+      "ihr habt gearbeitet",
+      "Sie haben gearbeitet"
+    ],
+    "ParentId": 172,
+    "Type": 10,
+    "LastTrainingTime": "2022-04-01T01:07:28.0135345+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "czekać (Präsens, wir)",
+      "czekać (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir warten",
+      "Sie warten"
+    ],
+    "ParentId": 175,
+    "Type": 3,
+    "LastTrainingTime": "2022-04-01T01:07:28.0135367+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "czekać (Präteritum, wir)",
+      "czekać (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir warteten",
+      "Sie warteten"
+    ],
+    "ParentId": 175,
+    "Type": 8,
+    "LastTrainingTime": "2022-04-01T01:07:28.0135386+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "czekać (Perfekt, ich)",
+      "czekać (Perfekt, du)",
+      "czekać (Perfekt, er)",
+      "czekać (Perfekt, wir)",
+      "czekać (Perfekt, ihr)",
+      "czekać (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe gewartet",
+      "du hast gewartet",
+      "er hat gewartet",
+      "wir haben gewartet",
+      "ihr habt gewartet",
+      "Sie haben gewartet"
+    ],
+    "ParentId": 175,
+    "Type": 10,
+    "LastTrainingTime": "2022-04-01T01:07:28.0135408+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "pokazywać (na z) (Präsens, wir)",
+      "pokazywać (na z) (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir zeigen",
+      "Sie zeigen"
+    ],
+    "ParentId": 178,
+    "Type": 3,
+    "LastTrainingTime": "2022-04-01T01:07:28.013543+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "pokazywać (na z) (Präteritum, wir)",
+      "pokazywać (na z) (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir zeigten",
+      "Sie zeigten"
+    ],
+    "ParentId": 178,
+    "Type": 8,
+    "LastTrainingTime": "2022-04-01T01:07:28.0135449+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "pokazywać (na z) (Perfekt, ich)",
+      "pokazywać (na z) (Perfekt, du)",
+      "pokazywać (na z) (Perfekt, er)",
+      "pokazywać (na z) (Perfekt, wir)",
+      "pokazywać (na z) (Perfekt, ihr)",
+      "pokazywać (na z) (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe gezeigt",
+      "du hast gezeigt",
+      "er hat gezeigt",
+      "wir haben gezeigt",
+      "ihr habt gezeigt",
+      "Sie haben gezeigt"
+    ],
+    "ParentId": 178,
+    "Type": 10,
+    "LastTrainingTime": "2022-04-01T01:07:28.0135472+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "sprzedawać (Präsens, wir)",
+      "sprzedawać (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir verkaufen",
+      "Sie verkaufen"
+    ],
+    "ParentId": 181,
+    "Type": 3,
+    "LastTrainingTime": "2022-04-01T01:07:28.0135493+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "sprzedawać (Präteritum, wir)",
+      "sprzedawać (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir verkauften",
+      "Sie verkauften"
+    ],
+    "ParentId": 181,
+    "Type": 8,
+    "LastTrainingTime": "2022-04-01T01:07:28.0135513+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "sprzedawać (Perfekt, ich)",
+      "sprzedawać (Perfekt, du)",
+      "sprzedawać (Perfekt, er)",
+      "sprzedawać (Perfekt, wir)",
+      "sprzedawać (Perfekt, ihr)",
+      "sprzedawać (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe verkauft",
+      "du hast verkauft",
+      "er hat verkauft",
+      "wir haben verkauft",
+      "ihr habt verkauft",
+      "Sie haben verkauft"
+    ],
+    "ParentId": 181,
+    "Type": 10,
+    "LastTrainingTime": "2022-04-01T01:07:28.0135536+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "iść dalej (Präsens, wir)",
+      "iść dalej (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir gehen weiter",
+      "Sie gehen weiter"
+    ],
+    "ParentId": 184,
+    "Type": 3,
+    "LastTrainingTime": "2022-04-01T01:07:28.0135556+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "iść dalej (Präteritum, wir)",
+      "iść dalej (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir gingen weiter",
+      "Sie gingen weiter"
+    ],
+    "ParentId": 184,
+    "Type": 8,
+    "LastTrainingTime": "2022-04-01T01:07:28.0135597+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "iść dalej (Perfekt, ich)",
+      "iść dalej (Perfekt, du)",
+      "iść dalej (Perfekt, er)",
+      "iść dalej (Perfekt, wir)",
+      "iść dalej (Perfekt, ihr)",
+      "iść dalej (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich bin weitergegangen",
+      "du bist weitergegangen",
+      "er ist weitergegangen",
+      "wir sind weitergegangen",
+      "ihr seid weitergegangen",
+      "Sie sind weitergegangen"
+    ],
+    "ParentId": 184,
+    "Type": 10,
+    "LastTrainingTime": "2022-04-01T01:07:28.0135621+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "pomagać (Präsens, wir)",
+      "pomagać (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir helfen",
+      "Sie helfen"
+    ],
+    "ParentId": 187,
+    "Type": 3,
+    "LastTrainingTime": "2022-04-01T01:07:28.0135641+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "pomagać (Präteritum, wir)",
+      "pomagać (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir halfen",
+      "Sie halfen"
+    ],
+    "ParentId": 187,
+    "Type": 8,
+    "LastTrainingTime": "2022-04-01T01:07:28.0135664+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "pomagać (Perfekt, ich)",
+      "pomagać (Perfekt, du)",
+      "pomagać (Perfekt, er)",
+      "pomagać (Perfekt, wir)",
+      "pomagać (Perfekt, ihr)",
+      "pomagać (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe geholfen",
+      "du hast geholfen",
+      "er hat geholfen",
+      "wir haben geholfen",
+      "ihr habt geholfen",
+      "Sie haben geholfen"
+    ],
+    "ParentId": 187,
+    "Type": 10,
+    "LastTrainingTime": "2022-04-01T01:07:28.0135688+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "rozglądać się (Präsens, wir)",
+      "rozglądać się (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir sehen um",
+      "Sie sehen um"
+    ],
+    "ParentId": 190,
+    "Type": 3,
+    "LastTrainingTime": "2022-04-01T01:07:28.013571+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "rozglądać się (Präteritum, wir)",
+      "rozglądać się (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir sahen um",
+      "Sie sahen um"
+    ],
+    "ParentId": 190,
+    "Type": 8,
+    "LastTrainingTime": "2022-04-01T01:07:28.013573+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "rozglądać się (Perfekt, ich)",
+      "rozglądać się (Perfekt, du)",
+      "rozglądać się (Perfekt, er)",
+      "rozglądać się (Perfekt, wir)",
+      "rozglądać się (Perfekt, ihr)",
+      "rozglądać się (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe umgesehen",
+      "du hast umgesehen",
+      "er hat umgesehen",
+      "wir haben umgesehen",
+      "ihr habt umgesehen",
+      "Sie haben umgesehen"
+    ],
+    "ParentId": 190,
+    "Type": 10,
+    "LastTrainingTime": "2022-04-01T01:07:28.0135754+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "znajdować (Präsens, wir)",
+      "znajdować (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir finden",
+      "Sie finden"
+    ],
+    "ParentId": 193,
+    "Type": 3,
+    "LastTrainingTime": "2022-04-01T01:07:28.0135776+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "znajdować (Präteritum, wir)",
+      "znajdować (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir fanden",
+      "Sie fanden"
+    ],
+    "ParentId": 193,
+    "Type": 8,
+    "LastTrainingTime": "2022-04-01T01:07:28.0135797+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "znajdować (Perfekt, ich)",
+      "znajdować (Perfekt, du)",
+      "znajdować (Perfekt, er)",
+      "znajdować (Perfekt, wir)",
+      "znajdować (Perfekt, ihr)",
+      "znajdować (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe gefunden",
+      "du hast gefunden",
+      "er hat gefunden",
+      "wir haben gefunden",
+      "ihr habt gefunden",
+      "Sie haben gefunden"
+    ],
+    "ParentId": 193,
+    "Type": 10,
+    "LastTrainingTime": "2022-04-01T01:07:28.0135825+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "próbować (na p) (Präsens, wir)",
+      "próbować (na p) (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir probieren",
+      "Sie probieren"
+    ],
+    "ParentId": 196,
+    "Type": 3,
+    "LastTrainingTime": "2022-04-01T01:07:28.0135846+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "próbować (na p) (Präteritum, wir)",
+      "próbować (na p) (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir probierten",
+      "Sie probierten"
+    ],
+    "ParentId": 196,
+    "Type": 8,
+    "LastTrainingTime": "2022-04-01T01:07:28.0135868+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "próbować (na p) (Perfekt, ich)",
+      "próbować (na p) (Perfekt, du)",
+      "próbować (na p) (Perfekt, er)",
+      "próbować (na p) (Perfekt, wir)",
+      "próbować (na p) (Perfekt, ihr)",
+      "próbować (na p) (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe probiert",
+      "du hast probiert",
+      "er hat probiert",
+      "wir haben probiert",
+      "ihr habt probiert",
+      "Sie haben probiert"
+    ],
+    "ParentId": 196,
+    "Type": 10,
+    "LastTrainingTime": "2022-04-01T01:07:28.0135914+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "pasować (Präsens, wir)",
+      "pasować (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir passen",
+      "Sie passen"
+    ],
+    "ParentId": 199,
+    "Type": 3,
+    "LastTrainingTime": "2022-04-01T01:07:28.0135938+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "pasować (Präteritum, wir)",
+      "pasować (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir passten",
+      "Sie passten"
+    ],
+    "ParentId": 199,
+    "Type": 8,
+    "LastTrainingTime": "2022-04-01T01:07:28.0135959+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "pasować (Perfekt, ich)",
+      "pasować (Perfekt, du)",
+      "pasować (Perfekt, er)",
+      "pasować (Perfekt, wir)",
+      "pasować (Perfekt, ihr)",
+      "pasować (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe gepasst",
+      "du hast gepasst",
+      "er hat gepasst",
+      "wir haben gepasst",
+      "ihr habt gepasst",
+      "Sie haben gepasst"
+    ],
+    "ParentId": 199,
+    "Type": 10,
+    "LastTrainingTime": "2022-04-01T01:07:28.0135984+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "kupować (Präsens, wir)",
+      "kupować (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir kaufen",
+      "Sie kaufen"
+    ],
+    "ParentId": 202,
+    "Type": 3,
+    "LastTrainingTime": "2022-04-01T01:07:28.0136007+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "kupować (Präteritum, wir)",
+      "kupować (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir kauften",
+      "Sie kauften"
+    ],
+    "ParentId": 202,
+    "Type": 8,
+    "LastTrainingTime": "2022-04-01T01:07:28.0136029+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "kupować (Perfekt, ich)",
+      "kupować (Perfekt, du)",
+      "kupować (Perfekt, er)",
+      "kupować (Perfekt, wir)",
+      "kupować (Perfekt, ihr)",
+      "kupować (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe gekauft",
+      "du hast gekauft",
+      "er hat gekauft",
+      "wir haben gekauft",
+      "ihr habt gekauft",
+      "Sie haben gekauft"
+    ],
+    "ParentId": 202,
+    "Type": 10,
+    "LastTrainingTime": "2022-04-01T01:07:28.0136057+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "śmiać się (Präsens, wir)",
+      "śmiać się (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir lachen",
+      "Sie lachen"
+    ],
+    "ParentId": 208,
+    "Type": 3,
+    "LastTrainingTime": "2022-04-01T01:07:28.0136292+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "śmiać się (Präteritum, wir)",
+      "śmiać się (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir lachten",
+      "Sie lachten"
+    ],
+    "ParentId": 208,
+    "Type": 8,
+    "LastTrainingTime": "2022-04-01T01:07:28.0136314+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "śmiać się (Perfekt, ich)",
+      "śmiać się (Perfekt, du)",
+      "śmiać się (Perfekt, er)",
+      "śmiać się (Perfekt, wir)",
+      "śmiać się (Perfekt, ihr)",
+      "śmiać się (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe gelacht",
+      "du hast gelacht",
+      "er hat gelacht",
+      "wir haben gelacht",
+      "ihr habt gelacht",
+      "Sie haben gelacht"
+    ],
+    "ParentId": 208,
+    "Type": 10,
+    "LastTrainingTime": "2022-04-01T01:07:28.0136339+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "pokazywać (na a) (Präsens, wir)",
+      "pokazywać (na a) (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir zeigen auf",
+      "Sie zeigen auf"
+    ],
+    "ParentId": 211,
+    "Type": 3,
+    "LastTrainingTime": "2022-04-01T01:07:28.0136366+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "pokazywać (na a) (Präteritum, wir)",
+      "pokazywać (na a) (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir zeigten auf",
+      "Sie zeigten auf"
+    ],
+    "ParentId": 211,
+    "Type": 8,
+    "LastTrainingTime": "2022-04-01T01:07:28.0136388+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "pokazywać (na a) (Perfekt, ich)",
+      "pokazywać (na a) (Perfekt, du)",
+      "pokazywać (na a) (Perfekt, er)",
+      "pokazywać (na a) (Perfekt, wir)",
+      "pokazywać (na a) (Perfekt, ihr)",
+      "pokazywać (na a) (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe aufgezeigt",
+      "du hast aufgezeigt",
+      "er hat aufgezeigt",
+      "wir haben aufgezeigt",
+      "ihr habt aufgezeigt",
+      "Sie haben aufgezeigt"
+    ],
+    "ParentId": 211,
+    "Type": 10,
+    "LastTrainingTime": "2022-04-01T01:07:28.0136432+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "motywować (Präsens, wir)",
+      "motywować (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir motivieren",
+      "Sie motivieren"
+    ],
+    "ParentId": 214,
+    "Type": 3,
+    "LastTrainingTime": "2022-04-01T01:07:28.0136455+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "motywować (Präteritum, wir)",
+      "motywować (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir motivierten",
+      "Sie motivierten"
+    ],
+    "ParentId": 214,
+    "Type": 8,
+    "LastTrainingTime": "2022-04-01T01:07:28.0136477+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "motywować (Perfekt, ich)",
+      "motywować (Perfekt, du)",
+      "motywować (Perfekt, er)",
+      "motywować (Perfekt, wir)",
+      "motywować (Perfekt, ihr)",
+      "motywować (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe motiviert",
+      "du hast motiviert",
+      "er hat motiviert",
+      "wir haben motiviert",
+      "ihr habt motiviert",
+      "Sie haben motiviert"
+    ],
+    "ParentId": 214,
+    "Type": 10,
+    "LastTrainingTime": "2022-04-01T01:07:28.0136501+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "biegać (Präsens, wir)",
+      "biegać (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir laufen",
+      "Sie laufen"
+    ],
+    "ParentId": 217,
+    "Type": 3,
+    "LastTrainingTime": "2022-04-01T01:07:28.0136523+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "biegać (Präteritum, wir)",
+      "biegać (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir liefen",
+      "Sie liefen"
+    ],
+    "ParentId": 217,
+    "Type": 8,
+    "LastTrainingTime": "2022-04-01T01:07:28.0136546+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "biegać (Perfekt, ich)",
+      "biegać (Perfekt, du)",
+      "biegać (Perfekt, er)",
+      "biegać (Perfekt, wir)",
+      "biegać (Perfekt, ihr)",
+      "biegać (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich bin gelaufen",
+      "du bist gelaufen",
+      "er ist gelaufen",
+      "wir sind gelaufen",
+      "ihr seid gelaufen",
+      "Sie sind gelaufen"
+    ],
+    "ParentId": 217,
+    "Type": 10,
+    "LastTrainingTime": "2022-04-01T01:07:28.0136571+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "ciągnąć (Präsens, wir)",
+      "ciągnąć (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir ziehen",
+      "Sie ziehen"
+    ],
+    "ParentId": 220,
+    "Type": 3,
+    "LastTrainingTime": "2022-04-01T01:07:28.0136594+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "ciągnąć (Präteritum, wir)",
+      "ciągnąć (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir zogen",
+      "Sie zogen"
+    ],
+    "ParentId": 220,
+    "Type": 8,
+    "LastTrainingTime": "2022-04-01T01:07:28.0136617+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "ciągnąć (Perfekt, ich)",
+      "ciągnąć (Perfekt, du)",
+      "ciągnąć (Perfekt, er)",
+      "ciągnąć (Perfekt, wir)",
+      "ciągnąć (Perfekt, ihr)",
+      "ciągnąć (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich bin gezogen",
+      "du bist gezogen",
+      "er ist gezogen",
+      "wir sind gezogen",
+      "ihr seid gezogen",
+      "Sie sind gezogen"
+    ],
+    "ParentId": 220,
+    "Type": 10,
+    "LastTrainingTime": "2022-04-01T01:07:28.0136641+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "ubierać się (Präsens, wir)",
+      "ubierać się (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir ziehen an",
+      "Sie ziehen an"
+    ],
+    "ParentId": 223,
+    "Type": 3,
+    "LastTrainingTime": "2022-04-01T01:07:28.0136666+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "ubierać się (Präteritum, wir)",
+      "ubierać się (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir zogen an",
+      "Sie zogen an"
+    ],
+    "ParentId": 223,
+    "Type": 8,
+    "LastTrainingTime": "2022-04-01T01:07:28.0136689+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "ubierać się (Perfekt, ich)",
+      "ubierać się (Perfekt, du)",
+      "ubierać się (Perfekt, er)",
+      "ubierać się (Perfekt, wir)",
+      "ubierać się (Perfekt, ihr)",
+      "ubierać się (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich bin angezogen",
+      "du bist angezogen",
+      "er ist angezogen",
+      "wir sind angezogen",
+      "ihr seid angezogen",
+      "Sie sind angezogen"
+    ],
+    "ParentId": 223,
+    "Type": 10,
+    "LastTrainingTime": "2022-04-01T01:07:28.0136715+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "rozbierać się (Präsens, wir)",
+      "rozbierać się (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir ziehen aus",
+      "Sie ziehen aus"
+    ],
+    "ParentId": 226,
+    "Type": 3,
+    "LastTrainingTime": "2022-04-01T01:07:28.0136738+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "rozbierać się (Präteritum, wir)",
+      "rozbierać się (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir zogen aus",
+      "Sie zogen aus"
+    ],
+    "ParentId": 226,
+    "Type": 8,
+    "LastTrainingTime": "2022-04-01T01:07:28.013679+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "rozbierać się (Perfekt, ich)",
+      "rozbierać się (Perfekt, du)",
+      "rozbierać się (Perfekt, er)",
+      "rozbierać się (Perfekt, wir)",
+      "rozbierać się (Perfekt, ihr)",
+      "rozbierać się (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich bin ausgezogen",
+      "du bist ausgezogen",
+      "er ist ausgezogen",
+      "wir sind ausgezogen",
+      "ihr seid ausgezogen",
+      "Sie sind ausgezogen"
+    ],
+    "ParentId": 226,
+    "Type": 10,
+    "LastTrainingTime": "2022-04-01T01:07:28.0136817+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "dawać (Präsens, wir)",
+      "dawać (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir geben",
+      "Sie geben"
+    ],
+    "ParentId": 229,
+    "Type": 3,
+    "LastTrainingTime": "2022-04-01T01:07:28.0136842+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "dawać (Präteritum, wir)",
+      "dawać (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir gaben",
+      "Sie gaben"
+    ],
+    "ParentId": 229,
+    "Type": 8,
+    "LastTrainingTime": "2022-04-01T01:07:28.0136866+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "dawać (Perfekt, ich)",
+      "dawać (Perfekt, du)",
+      "dawać (Perfekt, er)",
+      "dawać (Perfekt, wir)",
+      "dawać (Perfekt, ihr)",
+      "dawać (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe gegeben",
+      "du hast gegeben",
+      "er hat gegeben",
+      "wir haben gegeben",
+      "ihr habt gegeben",
+      "Sie haben gegeben"
+    ],
+    "ParentId": 229,
+    "Type": 10,
+    "LastTrainingTime": "2022-04-01T01:07:28.0136892+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "płacić (na z) (Präsens, wir)",
+      "płacić (na z) (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir zahlen",
+      "Sie zahlen"
+    ],
+    "ParentId": 232,
+    "Type": 3,
+    "LastTrainingTime": "2022-04-01T01:07:28.0136916+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "płacić (na z) (Präteritum, wir)",
+      "płacić (na z) (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir zahlten",
+      "Sie zahlten"
+    ],
+    "ParentId": 232,
+    "Type": 8,
+    "LastTrainingTime": "2022-04-01T01:07:28.0136939+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "płacić (na z) (Perfekt, ich)",
+      "płacić (na z) (Perfekt, du)",
+      "płacić (na z) (Perfekt, er)",
+      "płacić (na z) (Perfekt, wir)",
+      "płacić (na z) (Perfekt, ihr)",
+      "płacić (na z) (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe gezahlt",
+      "du hast gezahlt",
+      "er hat gezahlt",
+      "wir haben gezahlt",
+      "ihr habt gezahlt",
+      "Sie haben gezahlt"
+    ],
+    "ParentId": 232,
+    "Type": 10,
+    "LastTrainingTime": "2022-04-01T01:07:28.0136966+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "zamawiać (Präsens, wir)",
+      "zamawiać (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir bestellen",
+      "Sie bestellen"
+    ],
+    "ParentId": 235,
+    "Type": 3,
+    "LastTrainingTime": "2022-04-01T01:07:28.0136994+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "zamawiać (Präteritum, wir)",
+      "zamawiać (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir bestellten",
+      "Sie bestellten"
+    ],
+    "ParentId": 235,
+    "Type": 8,
+    "LastTrainingTime": "2022-04-01T01:07:28.0137018+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "zamawiać (Perfekt, ich)",
+      "zamawiać (Perfekt, du)",
+      "zamawiać (Perfekt, er)",
+      "zamawiać (Perfekt, wir)",
+      "zamawiać (Perfekt, ihr)",
+      "zamawiać (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe bestellt",
+      "du hast bestellt",
+      "er hat bestellt",
+      "wir haben bestellt",
+      "ihr habt bestellt",
+      "Sie haben bestellt"
+    ],
+    "ParentId": 235,
+    "Type": 10,
+    "LastTrainingTime": "2022-04-01T01:07:28.0137044+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "wiedzieć (na k) (Präsens, wir)",
+      "wiedzieć (na k) (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir kennen",
+      "Sie kennen"
+    ],
+    "ParentId": 238,
+    "Type": 3,
+    "LastTrainingTime": "2022-04-01T01:07:28.013707+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "wiedzieć (na k) (Präteritum, wir)",
+      "wiedzieć (na k) (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir kannten",
+      "Sie kannten"
+    ],
+    "ParentId": 238,
+    "Type": 8,
+    "LastTrainingTime": "2022-04-01T01:07:28.0137093+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "wiedzieć (na k) (Perfekt, ich)",
+      "wiedzieć (na k) (Perfekt, du)",
+      "wiedzieć (na k) (Perfekt, er)",
+      "wiedzieć (na k) (Perfekt, wir)",
+      "wiedzieć (na k) (Perfekt, ihr)",
+      "wiedzieć (na k) (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe gekannt",
+      "du hast gekannt",
+      "er hat gekannt",
+      "wir haben gekannt",
+      "ihr habt gekannt",
+      "Sie haben gekannt"
+    ],
+    "ParentId": 238,
+    "Type": 10,
+    "LastTrainingTime": "2022-04-01T01:07:28.0137137+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "lubić (Präsens, wir)",
+      "lubić (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir mögen",
+      "Sie mögen"
+    ],
+    "ParentId": 241,
+    "Type": 3,
+    "LastTrainingTime": "2022-04-01T01:07:28.0137162+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "lubić (Präteritum, wir)",
+      "lubić (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir mochten",
+      "Sie mochten"
+    ],
+    "ParentId": 241,
+    "Type": 8,
+    "LastTrainingTime": "2022-04-01T01:07:28.0137186+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "lubić (Perfekt, ich)",
+      "lubić (Perfekt, du)",
+      "lubić (Perfekt, er)",
+      "lubić (Perfekt, wir)",
+      "lubić (Perfekt, ihr)",
+      "lubić (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe gemocht",
+      "du hast gemocht",
+      "er hat gemocht",
+      "wir haben gemocht",
+      "ihr habt gemocht",
+      "Sie haben gemocht"
+    ],
+    "ParentId": 241,
+    "Type": 10,
+    "LastTrainingTime": "2022-04-01T01:07:28.0137214+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "przynosić (na b) (Präsens, wir)",
+      "przynosić (na b) (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir bringen",
+      "Sie bringen"
+    ],
+    "ParentId": 244,
+    "Type": 3,
+    "LastTrainingTime": "2022-04-01T01:07:28.0137239+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "przynosić (na b) (Präteritum, wir)",
+      "przynosić (na b) (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir brachten",
+      "Sie brachten"
+    ],
+    "ParentId": 244,
+    "Type": 8,
+    "LastTrainingTime": "2022-04-01T01:07:28.0137262+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "przynosić (na b) (Perfekt, ich)",
+      "przynosić (na b) (Perfekt, du)",
+      "przynosić (na b) (Perfekt, er)",
+      "przynosić (na b) (Perfekt, wir)",
+      "przynosić (na b) (Perfekt, ihr)",
+      "przynosić (na b) (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe gebracht",
+      "du hast gebracht",
+      "er hat gebracht",
+      "wir haben gebracht",
+      "ihr habt gebracht",
+      "Sie haben gebracht"
+    ],
+    "ParentId": 244,
+    "Type": 10,
+    "LastTrainingTime": "2022-04-01T01:07:28.013729+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "spotykać się (Präsens, wir)",
+      "spotykać się (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir treffen",
+      "Sie treffen"
+    ],
+    "ParentId": 247,
+    "Type": 3,
+    "LastTrainingTime": "2022-04-01T01:07:28.0137317+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "spotykać się (Präteritum, wir)",
+      "spotykać się (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir trafen",
+      "Sie trafen"
+    ],
+    "ParentId": 247,
+    "Type": 8,
+    "LastTrainingTime": "2022-04-01T01:07:28.0137341+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "spotykać się (Perfekt, ich)",
+      "spotykać się (Perfekt, du)",
+      "spotykać się (Perfekt, er)",
+      "spotykać się (Perfekt, wir)",
+      "spotykać się (Perfekt, ihr)",
+      "spotykać się (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe getroffen",
+      "du hast getroffen",
+      "er hat getroffen",
+      "wir haben getroffen",
+      "ihr habt getroffen",
+      "Sie haben getroffen"
+    ],
+    "ParentId": 247,
+    "Type": 10,
+    "LastTrainingTime": "2022-04-01T01:07:28.0137369+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "zastanawiać się (Präsens, wir)",
+      "zastanawiać się (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir überlegen",
+      "Sie überlegen"
+    ],
+    "ParentId": 250,
+    "Type": 3,
+    "LastTrainingTime": "2022-04-01T01:07:28.0137394+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "zastanawiać się (Präteritum, wir)",
+      "zastanawiać się (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir überlegten",
+      "Sie überlegten"
+    ],
+    "ParentId": 250,
+    "Type": 8,
+    "LastTrainingTime": "2022-04-01T01:07:28.0137419+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "zastanawiać się (Perfekt, ich)",
+      "zastanawiać się (Perfekt, du)",
+      "zastanawiać się (Perfekt, er)",
+      "zastanawiać się (Perfekt, wir)",
+      "zastanawiać się (Perfekt, ihr)",
+      "zastanawiać się (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe überlegt",
+      "du hast überlegt",
+      "er hat überlegt",
+      "wir haben überlegt",
+      "ihr habt überlegt",
+      "Sie haben überlegt"
+    ],
+    "ParentId": 250,
+    "Type": 10,
+    "LastTrainingTime": "2022-04-01T01:07:28.0137466+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "oddychać (Präsens, wir)",
+      "oddychać (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir atmen",
+      "Sie atmen"
+    ],
+    "ParentId": 253,
+    "Type": 3,
+    "LastTrainingTime": "2022-04-01T01:07:28.0137492+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "oddychać (Präteritum, wir)",
+      "oddychać (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir atmeten",
+      "Sie atmeten"
+    ],
+    "ParentId": 253,
+    "Type": 8,
+    "LastTrainingTime": "2022-04-01T01:07:28.0137516+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "oddychać (Perfekt, ich)",
+      "oddychać (Perfekt, du)",
+      "oddychać (Perfekt, er)",
+      "oddychać (Perfekt, wir)",
+      "oddychać (Perfekt, ihr)",
+      "oddychać (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe geatmet",
+      "du hast geatmet",
+      "er hat geatmet",
+      "wir haben geatmet",
+      "ihr habt geatmet",
+      "Sie haben geatmet"
+    ],
+    "ParentId": 253,
+    "Type": 10,
+    "LastTrainingTime": "2022-04-01T01:07:28.0137544+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "wdychać (Präsens, wir)",
+      "wdychać (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir atmen ein",
+      "Sie atmen ein"
+    ],
+    "ParentId": 256,
+    "Type": 3,
+    "LastTrainingTime": "2022-04-01T01:07:28.0137569+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "wdychać (Präteritum, wir)",
+      "wdychać (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir atmeten ein",
+      "Sie atmeten ein"
+    ],
+    "ParentId": 256,
+    "Type": 8,
+    "LastTrainingTime": "2022-04-01T01:07:28.0137594+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "wdychać (Perfekt, ich)",
+      "wdychać (Perfekt, du)",
+      "wdychać (Perfekt, er)",
+      "wdychać (Perfekt, wir)",
+      "wdychać (Perfekt, ihr)",
+      "wdychać (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe eingeatmet",
+      "du hast eingeatmet",
+      "er hat eingeatmet",
+      "wir haben eingeatmet",
+      "ihr habt eingeatmet",
+      "Sie haben eingeatmet"
+    ],
+    "ParentId": 256,
+    "Type": 10,
+    "LastTrainingTime": "2022-04-01T01:07:28.0137623+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "dzwonić (Präsens, wir)",
+      "dzwonić (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir läuten",
+      "Sie läuten"
+    ],
+    "ParentId": 259,
+    "Type": 3,
+    "LastTrainingTime": "2022-04-01T01:07:28.0137667+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "dzwonić (Präteritum, wir)",
+      "dzwonić (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir läuteten",
+      "Sie läuteten"
+    ],
+    "ParentId": 259,
+    "Type": 8,
+    "LastTrainingTime": "2022-04-01T01:07:28.0137695+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "dzwonić (Perfekt, ich)",
+      "dzwonić (Perfekt, du)",
+      "dzwonić (Perfekt, er)",
+      "dzwonić (Perfekt, wir)",
+      "dzwonić (Perfekt, ihr)",
+      "dzwonić (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe geläutet",
+      "du hast geläutet",
+      "er hat geläutet",
+      "wir haben geläutet",
+      "ihr habt geläutet",
+      "Sie haben geläutet"
+    ],
+    "ParentId": 259,
+    "Type": 10,
+    "LastTrainingTime": "2022-04-01T01:07:28.0137724+02:00",
+    "Cooldown": "1.00:00:00"
   }
 ]

@@ -1,7 +1,7 @@
 {
   "sein": {
     "Id": 1,
-    "EnglishDescription": "to be",
+    "EnglishDescription": "być",
     "Present": {
       "FirstSingular": "ich bin",
       "SecondSingular": "du bist",
@@ -29,7 +29,7 @@
   },
   "rufen": {
     "Id": 4,
-    "EnglishDescription": "to call, to shout",
+    "EnglishDescription": "wołać, krzyczeć",
     "Present": {
       "FirstSingular": "ich rufe",
       "SecondSingular": "du rufst",
@@ -57,7 +57,7 @@
   },
   "singen": {
     "Id": 7,
-    "EnglishDescription": "to sing",
+    "EnglishDescription": "śpiewać",
     "Present": {
       "FirstSingular": "ich singe",
       "SecondSingular": "du singst",
@@ -85,7 +85,7 @@
   },
   "tanzen": {
     "Id": 10,
-    "EnglishDescription": "to dance",
+    "EnglishDescription": "tańczyć",
     "Present": {
       "FirstSingular": "ich tanze",
       "SecondSingular": "du tanzt",
@@ -113,7 +113,7 @@
   },
   "liegen": {
     "Id": 13,
-    "EnglishDescription": "to lie (on the floor)",
+    "EnglishDescription": "leżeć",
     "Present": {
       "FirstSingular": "ich liege",
       "SecondSingular": "du liegst",
@@ -141,7 +141,7 @@
   },
   "haben": {
     "Id": 16,
-    "EnglishDescription": "to have",
+    "EnglishDescription": "mieć",
     "Present": {
       "FirstSingular": "ich habe",
       "SecondSingular": "du hast",
@@ -169,7 +169,7 @@
   },
   "denken": {
     "Id": 19,
-    "EnglishDescription": "to think",
+    "EnglishDescription": "myśleć",
     "Present": {
       "FirstSingular": "ich denke",
       "SecondSingular": "du denkst",
@@ -197,7 +197,7 @@
   },
   "sterben": {
     "Id": 22,
-    "EnglishDescription": "to die",
+    "EnglishDescription": "umierać",
     "Present": {
       "FirstSingular": "ich sterbe",
       "SecondSingular": "du stirbst",
@@ -225,7 +225,7 @@
   },
   "leben": {
     "Id": 25,
-    "EnglishDescription": "to live",
+    "EnglishDescription": "żyć",
     "Present": {
       "FirstSingular": "ich lebe",
       "SecondSingular": "du lebst",
@@ -253,7 +253,7 @@
   },
   "sehen": {
     "Id": 28,
-    "EnglishDescription": "to see",
+    "EnglishDescription": "widzieć",
     "Present": {
       "FirstSingular": "ich sehe",
       "SecondSingular": "du siehst",
@@ -281,7 +281,7 @@
   },
   "fragen": {
     "Id": 31,
-    "EnglishDescription": "to ask",
+    "EnglishDescription": "pytać",
     "Present": {
       "FirstSingular": "ich frage",
       "SecondSingular": "du fragst",
@@ -309,7 +309,7 @@
   },
   "antworten": {
     "Id": 34,
-    "EnglishDescription": "to reply, to answer",
+    "EnglishDescription": "odpowiadać",
     "Present": {
       "FirstSingular": "ich antworte",
       "SecondSingular": "du antwortest",
@@ -337,7 +337,7 @@
   },
   "nehmen": {
     "Id": 37,
-    "EnglishDescription": "to take",
+    "EnglishDescription": "brać",
     "Present": {
       "FirstSingular": "ich nehme",
       "SecondSingular": "du nimmst",
@@ -365,7 +365,7 @@
   },
   "schlafen": {
     "Id": 40,
-    "EnglishDescription": "to sleep",
+    "EnglishDescription": "spać",
     "Present": {
       "FirstSingular": "ich schlafe",
       "SecondSingular": "du schläfst",
@@ -393,7 +393,7 @@
   },
   "wollen": {
     "Id": 43,
-    "EnglishDescription": "to want",
+    "EnglishDescription": "chcieć",
     "Present": {
       "FirstSingular": "ich will",
       "SecondSingular": "du willst",
@@ -421,7 +421,7 @@
   },
   "müssen": {
     "Id": 46,
-    "EnglishDescription": "to must",
+    "EnglishDescription": "musieć",
     "Present": {
       "FirstSingular": "ich muss",
       "SecondSingular": "du musst",
@@ -467,7 +467,7 @@
   },
   "können": {
     "Id": 49,
-    "EnglishDescription": "to can",
+    "EnglishDescription": "móc, potrafić",
     "Present": {
       "FirstSingular": "ich kann",
       "SecondSingular": "du kannst",
@@ -495,7 +495,7 @@
   },
   "heißen": {
     "Id": 52,
-    "EnglishDescription": "to be called",
+    "EnglishDescription": "nazywać się",
     "Present": {
       "FirstSingular": "ich heiße",
       "SecondSingular": "du heißt",
@@ -535,7 +535,7 @@
   },
   "kommen": {
     "Id": 55,
-    "EnglishDescription": "to come",
+    "EnglishDescription": "przychodzić",
     "Present": {
       "FirstSingular": "ich komme",
       "SecondSingular": "du kommst",
@@ -563,7 +563,7 @@
   },
   "wohnen": {
     "Id": 58,
-    "EnglishDescription": "to live, to stay",
+    "EnglishDescription": "mieszkać",
     "Present": {
       "FirstSingular": "ich wohne",
       "SecondSingular": "du wohnst",
@@ -591,7 +591,7 @@
   },
   "sprechen": {
     "Id": 61,
-    "EnglishDescription": "to speak",
+    "EnglishDescription": "mówić",
     "Present": {
       "FirstSingular": "ich spreche",
       "SecondSingular": "du sprichst",
@@ -619,7 +619,7 @@
   },
   "verstehen": {
     "Id": 64,
-    "EnglishDescription": "to understand",
+    "EnglishDescription": "rozumieć",
     "Present": {
       "FirstSingular": "ich verstehe",
       "SecondSingular": "du verstehst",
@@ -653,7 +653,7 @@
   },
   "bedeuten": {
     "Id": 67,
-    "EnglishDescription": "to mean",
+    "EnglishDescription": "znaczyć",
     "Present": {
       "FirstSingular": "ich bedeute",
       "SecondSingular": "du bedeutest",
@@ -681,7 +681,7 @@
   },
   "wissen": {
     "Id": 70,
-    "EnglishDescription": "to know (starts with w)",
+    "EnglishDescription": "wiedzieć (na w)",
     "Present": {
       "FirstSingular": "ich weiß",
       "SecondSingular": "du weißt",
@@ -727,7 +727,7 @@
   },
   "machen": {
     "Id": 73,
-    "EnglishDescription": "to make, to do",
+    "EnglishDescription": "robić (na m)",
     "Present": {
       "FirstSingular": "ich mache",
       "SecondSingular": "du machst",
@@ -755,7 +755,7 @@
   },
   "brauchen": {
     "Id": 76,
-    "EnglishDescription": "to need",
+    "EnglishDescription": "potrzebować",
     "Present": {
       "FirstSingular": "ich brauche",
       "SecondSingular": "du brauchst",
@@ -783,7 +783,7 @@
   },
   "essen": {
     "Id": 79,
-    "EnglishDescription": "to eat",
+    "EnglishDescription": "jeść",
     "Present": {
       "FirstSingular": "ich esse",
       "SecondSingular": "du isst",
@@ -823,7 +823,7 @@
   },
   "sollen": {
     "Id": 82,
-    "EnglishDescription": "to should",
+    "EnglishDescription": "mieć powinność",
     "Present": {
       "FirstSingular": "ich soll",
       "SecondSingular": "du sollst",
@@ -851,7 +851,7 @@
   },
   "duzen": {
     "Id": 85,
-    "EnglishDescription": "to address informally with du",
+    "EnglishDescription": "zwracać się do kogoś na du",
     "Present": {
       "FirstSingular": "ich duze",
       "SecondSingular": "du duzt",
@@ -879,7 +879,7 @@
   },
   "siezen": {
     "Id": 88,
-    "EnglishDescription": "to address formally with Sie",
+    "EnglishDescription": "zwracać się do kogoś na Sie",
     "Present": {
       "FirstSingular": "ich sieze",
       "SecondSingular": "du siezt",
@@ -907,7 +907,7 @@
   },
   "dürfen": {
     "Id": 91,
-    "EnglishDescription": "to may",
+    "EnglishDescription": "mieć pozwolenie",
     "Present": {
       "FirstSingular": "ich darf",
       "SecondSingular": "du darfst",
@@ -935,7 +935,7 @@
   },
   "aufwachen": {
     "Id": 94,
-    "EnglishDescription": "to awake, to wake up",
+    "EnglishDescription": "budzić się",
     "Present": {
       "FirstSingular": "ich wache auf",
       "SecondSingular": "du wachst auf",
@@ -963,7 +963,7 @@
   },
   "aufstehen": {
     "Id": 97,
-    "EnglishDescription": "to rise, to get up",
+    "EnglishDescription": "wstawać",
     "Present": {
       "FirstSingular": "ich stehe auf",
       "SecondSingular": "du stehst auf",
@@ -1003,7 +1003,7 @@
   },
   "frühstücken": {
     "Id": 100,
-    "EnglishDescription": "to have breakfast",
+    "EnglishDescription": "jeść śniadanie",
     "Present": {
       "FirstSingular": "ich frühstücke",
       "SecondSingular": "du frühstückst",
@@ -1031,7 +1031,7 @@
   },
   "beginnen": {
     "Id": 103,
-    "EnglishDescription": "to start, to begin",
+    "EnglishDescription": "zaczynać",
     "Present": {
       "FirstSingular": "ich beginne",
       "SecondSingular": "du beginnst",
@@ -1059,7 +1059,7 @@
   },
   "gehen": {
     "Id": 106,
-    "EnglishDescription": "to go, to walk",
+    "EnglishDescription": "iść",
     "Present": {
       "FirstSingular": "ich gehe",
       "SecondSingular": "du gehst",
@@ -1085,65 +1085,9 @@
       "ThirdPlural": "Sie sind gegangen"
     }
   },
-  "holen": {
-    "Id": 166,
-    "EnglishDescription": "to fetch, to get",
-    "Present": {
-      "FirstSingular": "ich hole",
-      "SecondSingular": "du holst",
-      "ThirdSingular": "er holt",
-      "FirstPlural": "wir holen",
-      "SecondPlural": "ihr holt",
-      "ThirdPlural": "Sie holen"
-    },
-    "SimplePast": {
-      "FirstSingular": "ich holte",
-      "SecondSingular": "du holtest",
-      "ThirdSingular": "er holte",
-      "FirstPlural": "wir holten",
-      "SecondPlural": "ihr holtet",
-      "ThirdPlural": "Sie holten"
-    },
-    "Perfekt": {
-      "FirstSingular": "ich habe geholt",
-      "SecondSingular": "du hast geholt",
-      "ThirdSingular": "er hat geholt",
-      "FirstPlural": "wir haben geholt",
-      "SecondPlural": "ihr habt geholt",
-      "ThirdPlural": "Sie haben geholt"
-    }
-  },
-  "lernen": {
-    "Id": 205,
-    "EnglishDescription": "to learn",
-    "Present": {
-      "FirstSingular": "ich lerne",
-      "SecondSingular": "du lernst",
-      "ThirdSingular": "er lernt",
-      "FirstPlural": "wir lernen",
-      "SecondPlural": "ihr lernt",
-      "ThirdPlural": "Sie lernen"
-    },
-    "SimplePast": {
-      "FirstSingular": "ich lernte",
-      "SecondSingular": "du lerntest",
-      "ThirdSingular": "er lernte",
-      "FirstPlural": "wir lernten",
-      "SecondPlural": "ihr lerntet",
-      "ThirdPlural": "Sie lernten"
-    },
-    "Perfekt": {
-      "FirstSingular": "ich habe gelernt",
-      "SecondSingular": "du hast gelernt",
-      "ThirdSingular": "er hat gelernt",
-      "FirstPlural": "wir haben gelernt",
-      "SecondPlural": "ihr habt gelernt",
-      "ThirdPlural": "Sie haben gelernt"
-    }
-  },
   "sitzen": {
     "Id": 109,
-    "EnglishDescription": "to sit",
+    "EnglishDescription": "siedzieć",
     "Present": {
       "FirstSingular": "ich sitze",
       "SecondSingular": "du sitzt",
@@ -1171,7 +1115,7 @@
   },
   "lesen": {
     "Id": 112,
-    "EnglishDescription": "to read",
+    "EnglishDescription": "czytać",
     "Present": {
       "FirstSingular": "ich lese",
       "SecondSingular": "du liest",
@@ -1205,7 +1149,7 @@
   },
   "hören": {
     "Id": 115,
-    "EnglishDescription": "to hear",
+    "EnglishDescription": "słyszeć",
     "Present": {
       "FirstSingular": "ich höre",
       "SecondSingular": "du hörst",
@@ -1233,7 +1177,7 @@
   },
   "merken": {
     "Id": 118,
-    "EnglishDescription": "to notice, to realize",
+    "EnglishDescription": "zauważać",
     "Present": {
       "FirstSingular": "ich merke",
       "SecondSingular": "du merkst",
@@ -1261,7 +1205,7 @@
   },
   "reagieren": {
     "Id": 121,
-    "EnglishDescription": "to react",
+    "EnglishDescription": "reagować",
     "Present": {
       "FirstSingular": "ich reagiere",
       "SecondSingular": "du reagierst",
@@ -1289,7 +1233,7 @@
   },
   "fliegen": {
     "Id": 124,
-    "EnglishDescription": "to fly",
+    "EnglishDescription": "latać",
     "Present": {
       "FirstSingular": "ich fliege",
       "SecondSingular": "du fliegst",
@@ -1323,7 +1267,7 @@
   },
   "versuchen": {
     "Id": 127,
-    "EnglishDescription": "to attempt, to try (starts with v)",
+    "EnglishDescription": "próbować (na v)",
     "Present": {
       "FirstSingular": "ich versuche",
       "SecondSingular": "du versuchst",
@@ -1351,7 +1295,7 @@
   },
   "ansehen": {
     "Id": 130,
-    "EnglishDescription": "to look at",
+    "EnglishDescription": "patrzeć",
     "Present": {
       "FirstSingular": "ich sehe an",
       "SecondSingular": "du siehst an",
@@ -1379,7 +1323,7 @@
   },
   "landen": {
     "Id": 133,
-    "EnglishDescription": "to land, to alight",
+    "EnglishDescription": "lądować",
     "Present": {
       "FirstSingular": "ich lande",
       "SecondSingular": "du landest",
@@ -1407,7 +1351,7 @@
   },
   "loslaufen": {
     "Id": 136,
-    "EnglishDescription": "to start running",
+    "EnglishDescription": "zaczynać biec",
     "Present": {
       "FirstSingular": "ich laufe los",
       "SecondSingular": "du läufst los",
@@ -1441,7 +1385,7 @@
   },
   "öffnen": {
     "Id": 139,
-    "EnglishDescription": "to open",
+    "EnglishDescription": "otwierać",
     "Present": {
       "FirstSingular": "ich öffne",
       "SecondSingular": "du öffnest",
@@ -1469,7 +1413,7 @@
   },
   "glauben": {
     "Id": 142,
-    "EnglishDescription": "to believe",
+    "EnglishDescription": "wierzyć",
     "Present": {
       "FirstSingular": "ich glaube",
       "SecondSingular": "du glaubst",
@@ -1497,7 +1441,7 @@
   },
   "üben": {
     "Id": 145,
-    "EnglishDescription": "to practice",
+    "EnglishDescription": "ćwiczyć",
     "Present": {
       "FirstSingular": "ich übe",
       "SecondSingular": "du übst",
@@ -1525,7 +1469,7 @@
   },
   "gucken": {
     "Id": 148,
-    "EnglishDescription": "to peek, to look",
+    "EnglishDescription": "gapić się",
     "Present": {
       "FirstSingular": "ich gucke",
       "SecondSingular": "du guckst",
@@ -1553,7 +1497,7 @@
   },
   "fahren": {
     "Id": 151,
-    "EnglishDescription": "to drive, to go",
+    "EnglishDescription": "jechać",
     "Present": {
       "FirstSingular": "ich fahre",
       "SecondSingular": "du fährst",
@@ -1587,7 +1531,7 @@
   },
   "reden": {
     "Id": 154,
-    "EnglishDescription": "to talk",
+    "EnglishDescription": "rozmawiać",
     "Present": {
       "FirstSingular": "ich rede",
       "SecondSingular": "du redest",
@@ -1611,6 +1555,1046 @@
       "FirstPlural": "wir haben geredet",
       "SecondPlural": "ihr habt geredet",
       "ThirdPlural": "Sie haben geredet"
+    }
+  },
+  "fressen": {
+    "Id": 157,
+    "EnglishDescription": "żreć",
+    "Present": {
+      "FirstSingular": "ich fresse",
+      "SecondSingular": "du frisst",
+      "ThirdSingular": "er frisst",
+      "FirstPlural": "wir fressen",
+      "SecondPlural": "ihr fresst",
+      "ThirdPlural": "Sie fressen",
+      "6": "ich fresse",
+      "7": "du frißt",
+      "8": "er/sie/es frißt",
+      "9": "wir fressen",
+      "10": "ihr freßt",
+      "11": "Sie fressen"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich fraß",
+      "SecondSingular": "du fraßest",
+      "ThirdSingular": "er fraß",
+      "FirstPlural": "wir fraßen",
+      "SecondPlural": "ihr fraßt",
+      "ThirdPlural": "Sie fraßen",
+      "6": "ich fraß",
+      "7": "du fraßt",
+      "8": "er/sie/es fraß",
+      "9": "wir fraßen",
+      "10": "ihr fraßt",
+      "11": "Sie fraßen"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich habe gefressen",
+      "SecondSingular": "du hast gefressen",
+      "ThirdSingular": "er hat gefressen",
+      "FirstPlural": "wir haben gefressen",
+      "SecondPlural": "ihr habt gefressen",
+      "ThirdPlural": "Sie haben gefressen"
+    }
+  },
+  "trinken": {
+    "Id": 160,
+    "EnglishDescription": "pić",
+    "Present": {
+      "FirstSingular": "ich trinke",
+      "SecondSingular": "du trinkst",
+      "ThirdSingular": "er trinkt",
+      "FirstPlural": "wir trinken",
+      "SecondPlural": "ihr trinkt",
+      "ThirdPlural": "Sie trinken"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich trank",
+      "SecondSingular": "du trankst",
+      "ThirdSingular": "er trank",
+      "FirstPlural": "wir tranken",
+      "SecondPlural": "ihr trankt",
+      "ThirdPlural": "Sie tranken"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich habe getrunken",
+      "SecondSingular": "du hast getrunken",
+      "ThirdSingular": "er hat getrunken",
+      "FirstPlural": "wir haben getrunken",
+      "SecondPlural": "ihr habt getrunken",
+      "ThirdPlural": "Sie haben getrunken"
+    }
+  },
+  "bekommen": {
+    "Id": 163,
+    "EnglishDescription": "dostawać",
+    "Present": {
+      "FirstSingular": "ich bekomme",
+      "SecondSingular": "du bekommst",
+      "ThirdSingular": "er bekommt",
+      "FirstPlural": "wir bekommen",
+      "SecondPlural": "ihr bekommt",
+      "ThirdPlural": "Sie bekommen"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich bekam",
+      "SecondSingular": "du bekamst",
+      "ThirdSingular": "er bekam",
+      "FirstPlural": "wir bekamen",
+      "SecondPlural": "ihr bekamt",
+      "ThirdPlural": "Sie bekamen"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich habe bekommen",
+      "SecondSingular": "du hast bekommen",
+      "ThirdSingular": "er hat bekommen",
+      "FirstPlural": "wir haben bekommen",
+      "SecondPlural": "ihr habt bekommen",
+      "ThirdPlural": "Sie haben bekommen"
+    }
+  },
+  "holen": {
+    "Id": 166,
+    "EnglishDescription": "przynosić (na h)",
+    "Present": {
+      "FirstSingular": "ich hole",
+      "SecondSingular": "du holst",
+      "ThirdSingular": "er holt",
+      "FirstPlural": "wir holen",
+      "SecondPlural": "ihr holt",
+      "ThirdPlural": "Sie holen"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich holte",
+      "SecondSingular": "du holtest",
+      "ThirdSingular": "er holte",
+      "FirstPlural": "wir holten",
+      "SecondPlural": "ihr holtet",
+      "ThirdPlural": "Sie holten"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich habe geholt",
+      "SecondSingular": "du hast geholt",
+      "ThirdSingular": "er hat geholt",
+      "FirstPlural": "wir haben geholt",
+      "SecondPlural": "ihr habt geholt",
+      "ThirdPlural": "Sie haben geholt"
+    }
+  },
+  "studieren": {
+    "Id": 169,
+    "EnglishDescription": "studiować",
+    "Present": {
+      "FirstSingular": "ich studiere",
+      "SecondSingular": "du studierst",
+      "ThirdSingular": "er studiert",
+      "FirstPlural": "wir studieren",
+      "SecondPlural": "ihr studiert",
+      "ThirdPlural": "Sie studieren"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich studierte",
+      "SecondSingular": "du studiertest",
+      "ThirdSingular": "er studierte",
+      "FirstPlural": "wir studierten",
+      "SecondPlural": "ihr studiertet",
+      "ThirdPlural": "Sie studierten"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich habe studiert",
+      "SecondSingular": "du hast studiert",
+      "ThirdSingular": "er hat studiert",
+      "FirstPlural": "wir haben studiert",
+      "SecondPlural": "ihr habt studiert",
+      "ThirdPlural": "Sie haben studiert"
+    }
+  },
+  "arbeiten": {
+    "Id": 172,
+    "EnglishDescription": "pracować",
+    "Present": {
+      "FirstSingular": "ich arbeite",
+      "SecondSingular": "du arbeitest",
+      "ThirdSingular": "er arbeitet",
+      "FirstPlural": "wir arbeiten",
+      "SecondPlural": "ihr arbeitet",
+      "ThirdPlural": "Sie arbeiten"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich arbeitete",
+      "SecondSingular": "du arbeitetest",
+      "ThirdSingular": "er arbeitete",
+      "FirstPlural": "wir arbeiteten",
+      "SecondPlural": "ihr arbeitetet",
+      "ThirdPlural": "Sie arbeiteten"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich habe gearbeitet",
+      "SecondSingular": "du hast gearbeitet",
+      "ThirdSingular": "er hat gearbeitet",
+      "FirstPlural": "wir haben gearbeitet",
+      "SecondPlural": "ihr habt gearbeitet",
+      "ThirdPlural": "Sie haben gearbeitet"
+    }
+  },
+  "warten": {
+    "Id": 175,
+    "EnglishDescription": "czekać",
+    "Present": {
+      "FirstSingular": "ich warte",
+      "SecondSingular": "du wartest",
+      "ThirdSingular": "er wartet",
+      "FirstPlural": "wir warten",
+      "SecondPlural": "ihr wartet",
+      "ThirdPlural": "Sie warten"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich wartete",
+      "SecondSingular": "du wartetest",
+      "ThirdSingular": "er wartete",
+      "FirstPlural": "wir warteten",
+      "SecondPlural": "ihr wartetet",
+      "ThirdPlural": "Sie warteten"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich habe gewartet",
+      "SecondSingular": "du hast gewartet",
+      "ThirdSingular": "er hat gewartet",
+      "FirstPlural": "wir haben gewartet",
+      "SecondPlural": "ihr habt gewartet",
+      "ThirdPlural": "Sie haben gewartet"
+    }
+  },
+  "zeigen": {
+    "Id": 178,
+    "EnglishDescription": "pokazywać (na z)",
+    "Present": {
+      "FirstSingular": "ich zeige",
+      "SecondSingular": "du zeigst",
+      "ThirdSingular": "er zeigt",
+      "FirstPlural": "wir zeigen",
+      "SecondPlural": "ihr zeigt",
+      "ThirdPlural": "Sie zeigen"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich zeigte",
+      "SecondSingular": "du zeigtest",
+      "ThirdSingular": "er zeigte",
+      "FirstPlural": "wir zeigten",
+      "SecondPlural": "ihr zeigtet",
+      "ThirdPlural": "Sie zeigten"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich habe gezeigt",
+      "SecondSingular": "du hast gezeigt",
+      "ThirdSingular": "er hat gezeigt",
+      "FirstPlural": "wir haben gezeigt",
+      "SecondPlural": "ihr habt gezeigt",
+      "ThirdPlural": "Sie haben gezeigt"
+    }
+  },
+  "verkaufen": {
+    "Id": 181,
+    "EnglishDescription": "sprzedawać",
+    "Present": {
+      "FirstSingular": "ich verkaufe",
+      "SecondSingular": "du verkaufst",
+      "ThirdSingular": "er verkauft",
+      "FirstPlural": "wir verkaufen",
+      "SecondPlural": "ihr verkauft",
+      "ThirdPlural": "Sie verkaufen"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich verkaufte",
+      "SecondSingular": "du verkauftest",
+      "ThirdSingular": "er verkaufte",
+      "FirstPlural": "wir verkauften",
+      "SecondPlural": "ihr verkauftet",
+      "ThirdPlural": "Sie verkauften"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich habe verkauft",
+      "SecondSingular": "du hast verkauft",
+      "ThirdSingular": "er hat verkauft",
+      "FirstPlural": "wir haben verkauft",
+      "SecondPlural": "ihr habt verkauft",
+      "ThirdPlural": "Sie haben verkauft"
+    }
+  },
+  "weitergehen": {
+    "Id": 184,
+    "EnglishDescription": "iść dalej",
+    "Present": {
+      "FirstSingular": "ich gehe weiter",
+      "SecondSingular": "du gehst weiter",
+      "ThirdSingular": "er geht weiter",
+      "FirstPlural": "wir gehen weiter",
+      "SecondPlural": "ihr geht weiter",
+      "ThirdPlural": "Sie gehen weiter"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich ging weiter",
+      "SecondSingular": "du gingst weiter",
+      "ThirdSingular": "er ging weiter",
+      "FirstPlural": "wir gingen weiter",
+      "SecondPlural": "ihr gingt weiter",
+      "ThirdPlural": "Sie gingen weiter"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich bin weitergegangen",
+      "SecondSingular": "du bist weitergegangen",
+      "ThirdSingular": "er ist weitergegangen",
+      "FirstPlural": "wir sind weitergegangen",
+      "SecondPlural": "ihr seid weitergegangen",
+      "ThirdPlural": "Sie sind weitergegangen"
+    }
+  },
+  "helfen": {
+    "Id": 187,
+    "EnglishDescription": "pomagać",
+    "Present": {
+      "FirstSingular": "ich helfe",
+      "SecondSingular": "du hilfst",
+      "ThirdSingular": "er hilft",
+      "FirstPlural": "wir helfen",
+      "SecondPlural": "ihr helft",
+      "ThirdPlural": "Sie helfen"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich half",
+      "SecondSingular": "du halfst",
+      "ThirdSingular": "er half",
+      "FirstPlural": "wir halfen",
+      "SecondPlural": "ihr halft",
+      "ThirdPlural": "Sie halfen"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich habe geholfen",
+      "SecondSingular": "du hast geholfen",
+      "ThirdSingular": "er hat geholfen",
+      "FirstPlural": "wir haben geholfen",
+      "SecondPlural": "ihr habt geholfen",
+      "ThirdPlural": "Sie haben geholfen"
+    }
+  },
+  "umsehen": {
+    "Id": 190,
+    "EnglishDescription": "rozglądać się",
+    "Present": {
+      "FirstSingular": "ich sehe um",
+      "SecondSingular": "du siehst um",
+      "ThirdSingular": "er sieht um",
+      "FirstPlural": "wir sehen um",
+      "SecondPlural": "ihr seht um",
+      "ThirdPlural": "Sie sehen um"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich sah um",
+      "SecondSingular": "du sahst um",
+      "ThirdSingular": "er sah um",
+      "FirstPlural": "wir sahen um",
+      "SecondPlural": "ihr saht um",
+      "ThirdPlural": "Sie sahen um"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich habe umgesehen",
+      "SecondSingular": "du hast umgesehen",
+      "ThirdSingular": "er hat umgesehen",
+      "FirstPlural": "wir haben umgesehen",
+      "SecondPlural": "ihr habt umgesehen",
+      "ThirdPlural": "Sie haben umgesehen"
+    }
+  },
+  "finden": {
+    "Id": 193,
+    "EnglishDescription": "znajdować",
+    "Present": {
+      "FirstSingular": "ich finde",
+      "SecondSingular": "du findest",
+      "ThirdSingular": "er findet",
+      "FirstPlural": "wir finden",
+      "SecondPlural": "ihr findet",
+      "ThirdPlural": "Sie finden"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich fand",
+      "SecondSingular": "du fandst",
+      "ThirdSingular": "er fand",
+      "FirstPlural": "wir fanden",
+      "SecondPlural": "ihr fandet",
+      "ThirdPlural": "Sie fanden",
+      "6": "ich fand",
+      "7": "du fandest",
+      "8": "er/sie/es fand",
+      "9": "wir fanden",
+      "10": "ihr fandet",
+      "11": "Sie fanden"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich habe gefunden",
+      "SecondSingular": "du hast gefunden",
+      "ThirdSingular": "er hat gefunden",
+      "FirstPlural": "wir haben gefunden",
+      "SecondPlural": "ihr habt gefunden",
+      "ThirdPlural": "Sie haben gefunden"
+    }
+  },
+  "probieren": {
+    "Id": 196,
+    "EnglishDescription": "próbować (na p)",
+    "Present": {
+      "FirstSingular": "ich probiere",
+      "SecondSingular": "du probierst",
+      "ThirdSingular": "er probiert",
+      "FirstPlural": "wir probieren",
+      "SecondPlural": "ihr probiert",
+      "ThirdPlural": "Sie probieren"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich probierte",
+      "SecondSingular": "du probiertest",
+      "ThirdSingular": "er probierte",
+      "FirstPlural": "wir probierten",
+      "SecondPlural": "ihr probiertet",
+      "ThirdPlural": "Sie probierten"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich habe probiert",
+      "SecondSingular": "du hast probiert",
+      "ThirdSingular": "er hat probiert",
+      "FirstPlural": "wir haben probiert",
+      "SecondPlural": "ihr habt probiert",
+      "ThirdPlural": "Sie haben probiert"
+    }
+  },
+  "passen": {
+    "Id": 199,
+    "EnglishDescription": "pasować",
+    "Present": {
+      "FirstSingular": "ich passe",
+      "SecondSingular": "du passt",
+      "ThirdSingular": "er passt",
+      "FirstPlural": "wir passen",
+      "SecondPlural": "ihr passt",
+      "ThirdPlural": "Sie passen"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich passte",
+      "SecondSingular": "du passtest",
+      "ThirdSingular": "er passte",
+      "FirstPlural": "wir passten",
+      "SecondPlural": "ihr passtet",
+      "ThirdPlural": "Sie passten"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich habe gepasst",
+      "SecondSingular": "du hast gepasst",
+      "ThirdSingular": "er hat gepasst",
+      "FirstPlural": "wir haben gepasst",
+      "SecondPlural": "ihr habt gepasst",
+      "ThirdPlural": "Sie haben gepasst"
+    }
+  },
+  "kaufen": {
+    "Id": 202,
+    "EnglishDescription": "kupować",
+    "Present": {
+      "FirstSingular": "ich kaufe",
+      "SecondSingular": "du kaufst",
+      "ThirdSingular": "er kauft",
+      "FirstPlural": "wir kaufen",
+      "SecondPlural": "ihr kauft",
+      "ThirdPlural": "Sie kaufen"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich kaufte",
+      "SecondSingular": "du kauftest",
+      "ThirdSingular": "er kaufte",
+      "FirstPlural": "wir kauften",
+      "SecondPlural": "ihr kauftet",
+      "ThirdPlural": "Sie kauften"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich habe gekauft",
+      "SecondSingular": "du hast gekauft",
+      "ThirdSingular": "er hat gekauft",
+      "FirstPlural": "wir haben gekauft",
+      "SecondPlural": "ihr habt gekauft",
+      "ThirdPlural": "Sie haben gekauft"
+    }
+  },
+  "lernen": {
+    "Id": 205,
+    "EnglishDescription": "uczyć się",
+    "Present": {
+      "FirstSingular": "ich lerne",
+      "SecondSingular": "du lernst",
+      "ThirdSingular": "er lernt",
+      "FirstPlural": "wir lernen",
+      "SecondPlural": "ihr lernt",
+      "ThirdPlural": "Sie lernen"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich lernte",
+      "SecondSingular": "du lerntest",
+      "ThirdSingular": "er lernte",
+      "FirstPlural": "wir lernten",
+      "SecondPlural": "ihr lerntet",
+      "ThirdPlural": "Sie lernten"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich habe gelernt",
+      "SecondSingular": "du hast gelernt",
+      "ThirdSingular": "er hat gelernt",
+      "FirstPlural": "wir haben gelernt",
+      "SecondPlural": "ihr habt gelernt",
+      "ThirdPlural": "Sie haben gelernt"
+    }
+  },
+  "lachen": {
+    "Id": 208,
+    "EnglishDescription": "śmiać się",
+    "Present": {
+      "FirstSingular": "ich lache",
+      "SecondSingular": "du lachst",
+      "ThirdSingular": "er lacht",
+      "FirstPlural": "wir lachen",
+      "SecondPlural": "ihr lacht",
+      "ThirdPlural": "Sie lachen"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich lachte",
+      "SecondSingular": "du lachtest",
+      "ThirdSingular": "er lachte",
+      "FirstPlural": "wir lachten",
+      "SecondPlural": "ihr lachtet",
+      "ThirdPlural": "Sie lachten"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich habe gelacht",
+      "SecondSingular": "du hast gelacht",
+      "ThirdSingular": "er hat gelacht",
+      "FirstPlural": "wir haben gelacht",
+      "SecondPlural": "ihr habt gelacht",
+      "ThirdPlural": "Sie haben gelacht"
+    }
+  },
+  "aufzeigen": {
+    "Id": 211,
+    "EnglishDescription": "pokazywać (na a)",
+    "Present": {
+      "FirstSingular": "ich zeige auf",
+      "SecondSingular": "du zeigst auf",
+      "ThirdSingular": "er zeigt auf",
+      "FirstPlural": "wir zeigen auf",
+      "SecondPlural": "ihr zeigt auf",
+      "ThirdPlural": "Sie zeigen auf"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich zeigte auf",
+      "SecondSingular": "du zeigtest auf",
+      "ThirdSingular": "er zeigte auf",
+      "FirstPlural": "wir zeigten auf",
+      "SecondPlural": "ihr zeigtet auf",
+      "ThirdPlural": "Sie zeigten auf"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich habe aufgezeigt",
+      "SecondSingular": "du hast aufgezeigt",
+      "ThirdSingular": "er hat aufgezeigt",
+      "FirstPlural": "wir haben aufgezeigt",
+      "SecondPlural": "ihr habt aufgezeigt",
+      "ThirdPlural": "Sie haben aufgezeigt"
+    }
+  },
+  "motivieren": {
+    "Id": 214,
+    "EnglishDescription": "motywować",
+    "Present": {
+      "FirstSingular": "ich motiviere",
+      "SecondSingular": "du motivierst",
+      "ThirdSingular": "er motiviert",
+      "FirstPlural": "wir motivieren",
+      "SecondPlural": "ihr motiviert",
+      "ThirdPlural": "Sie motivieren"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich motivierte",
+      "SecondSingular": "du motiviertest",
+      "ThirdSingular": "er motivierte",
+      "FirstPlural": "wir motivierten",
+      "SecondPlural": "ihr motiviertet",
+      "ThirdPlural": "Sie motivierten"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich habe motiviert",
+      "SecondSingular": "du hast motiviert",
+      "ThirdSingular": "er hat motiviert",
+      "FirstPlural": "wir haben motiviert",
+      "SecondPlural": "ihr habt motiviert",
+      "ThirdPlural": "Sie haben motiviert"
+    }
+  },
+  "laufen": {
+    "Id": 217,
+    "EnglishDescription": "biegać",
+    "Present": {
+      "FirstSingular": "ich laufe",
+      "SecondSingular": "du läufst",
+      "ThirdSingular": "er läuft",
+      "FirstPlural": "wir laufen",
+      "SecondPlural": "ihr lauft",
+      "ThirdPlural": "Sie laufen"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich lief",
+      "SecondSingular": "du liefst",
+      "ThirdSingular": "er lief",
+      "FirstPlural": "wir liefen",
+      "SecondPlural": "ihr lieft",
+      "ThirdPlural": "Sie liefen"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich bin gelaufen",
+      "SecondSingular": "du bist gelaufen",
+      "ThirdSingular": "er ist gelaufen",
+      "FirstPlural": "wir sind gelaufen",
+      "SecondPlural": "ihr seid gelaufen",
+      "ThirdPlural": "Sie sind gelaufen",
+      "6": "ich habe gelaufen",
+      "7": "du hast gelaufen",
+      "8": "er/sie/es hat gelaufen",
+      "9": "wir haben gelaufen",
+      "10": "ihr habt gelaufen",
+      "11": "Sie haben gelaufen"
+    }
+  },
+  "ziehen": {
+    "Id": 220,
+    "EnglishDescription": "ciągnąć",
+    "Present": {
+      "FirstSingular": "ich ziehe",
+      "SecondSingular": "du ziehst",
+      "ThirdSingular": "er zieht",
+      "FirstPlural": "wir ziehen",
+      "SecondPlural": "ihr zieht",
+      "ThirdPlural": "Sie ziehen"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich zog",
+      "SecondSingular": "du zogst",
+      "ThirdSingular": "er zog",
+      "FirstPlural": "wir zogen",
+      "SecondPlural": "ihr zogt",
+      "ThirdPlural": "Sie zogen"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich bin gezogen",
+      "SecondSingular": "du bist gezogen",
+      "ThirdSingular": "er ist gezogen",
+      "FirstPlural": "wir sind gezogen",
+      "SecondPlural": "ihr seid gezogen",
+      "ThirdPlural": "Sie sind gezogen",
+      "6": "ich habe gezogen",
+      "7": "du hast gezogen",
+      "8": "er/sie/es hat gezogen",
+      "9": "wir haben gezogen",
+      "10": "ihr habt gezogen",
+      "11": "Sie haben gezogen"
+    }
+  },
+  "anziehen": {
+    "Id": 223,
+    "EnglishDescription": "ubierać się",
+    "Present": {
+      "FirstSingular": "ich ziehe an",
+      "SecondSingular": "du ziehst an",
+      "ThirdSingular": "er zieht an",
+      "FirstPlural": "wir ziehen an",
+      "SecondPlural": "ihr zieht an",
+      "ThirdPlural": "Sie ziehen an"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich zog an",
+      "SecondSingular": "du zogst an",
+      "ThirdSingular": "er zog an",
+      "FirstPlural": "wir zogen an",
+      "SecondPlural": "ihr zogt an",
+      "ThirdPlural": "Sie zogen an"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich bin angezogen",
+      "SecondSingular": "du bist angezogen",
+      "ThirdSingular": "er ist angezogen",
+      "FirstPlural": "wir sind angezogen",
+      "SecondPlural": "ihr seid angezogen",
+      "ThirdPlural": "Sie sind angezogen",
+      "6": "ich habe angezogen",
+      "7": "du hast angezogen",
+      "8": "er/sie/es hat angezogen",
+      "9": "wir haben angezogen",
+      "10": "ihr habt angezogen",
+      "11": "Sie haben angezogen"
+    }
+  },
+  "ausziehen": {
+    "Id": 226,
+    "EnglishDescription": "rozbierać się",
+    "Present": {
+      "FirstSingular": "ich ziehe aus",
+      "SecondSingular": "du ziehst aus",
+      "ThirdSingular": "er zieht aus",
+      "FirstPlural": "wir ziehen aus",
+      "SecondPlural": "ihr zieht aus",
+      "ThirdPlural": "Sie ziehen aus"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich zog aus",
+      "SecondSingular": "du zogst aus",
+      "ThirdSingular": "er zog aus",
+      "FirstPlural": "wir zogen aus",
+      "SecondPlural": "ihr zogt aus",
+      "ThirdPlural": "Sie zogen aus"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich bin ausgezogen",
+      "SecondSingular": "du bist ausgezogen",
+      "ThirdSingular": "er ist ausgezogen",
+      "FirstPlural": "wir sind ausgezogen",
+      "SecondPlural": "ihr seid ausgezogen",
+      "ThirdPlural": "Sie sind ausgezogen",
+      "6": "ich habe ausgezogen",
+      "7": "du hast ausgezogen",
+      "8": "er/sie/es hat ausgezogen",
+      "9": "wir haben ausgezogen",
+      "10": "ihr habt ausgezogen",
+      "11": "Sie haben ausgezogen"
+    }
+  },
+  "geben": {
+    "Id": 229,
+    "EnglishDescription": "dawać",
+    "Present": {
+      "FirstSingular": "ich gebe",
+      "SecondSingular": "du gibst",
+      "ThirdSingular": "er gibt",
+      "FirstPlural": "wir geben",
+      "SecondPlural": "ihr gebt",
+      "ThirdPlural": "Sie geben"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich gab",
+      "SecondSingular": "du gabst",
+      "ThirdSingular": "er gab",
+      "FirstPlural": "wir gaben",
+      "SecondPlural": "ihr gabt",
+      "ThirdPlural": "Sie gaben"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich habe gegeben",
+      "SecondSingular": "du hast gegeben",
+      "ThirdSingular": "er hat gegeben",
+      "FirstPlural": "wir haben gegeben",
+      "SecondPlural": "ihr habt gegeben",
+      "ThirdPlural": "Sie haben gegeben"
+    }
+  },
+  "zahlen": {
+    "Id": 232,
+    "EnglishDescription": "płacić (na z)",
+    "Present": {
+      "FirstSingular": "ich zahle",
+      "SecondSingular": "du zahlst",
+      "ThirdSingular": "er zahlt",
+      "FirstPlural": "wir zahlen",
+      "SecondPlural": "ihr zahlt",
+      "ThirdPlural": "Sie zahlen"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich zahlte",
+      "SecondSingular": "du zahltest",
+      "ThirdSingular": "er zahlte",
+      "FirstPlural": "wir zahlten",
+      "SecondPlural": "ihr zahltet",
+      "ThirdPlural": "Sie zahlten"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich habe gezahlt",
+      "SecondSingular": "du hast gezahlt",
+      "ThirdSingular": "er hat gezahlt",
+      "FirstPlural": "wir haben gezahlt",
+      "SecondPlural": "ihr habt gezahlt",
+      "ThirdPlural": "Sie haben gezahlt"
+    }
+  },
+  "bestellen": {
+    "Id": 235,
+    "EnglishDescription": "zamawiać",
+    "Present": {
+      "FirstSingular": "ich bestelle",
+      "SecondSingular": "du bestellst",
+      "ThirdSingular": "er bestellt",
+      "FirstPlural": "wir bestellen",
+      "SecondPlural": "ihr bestellt",
+      "ThirdPlural": "Sie bestellen"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich bestellte",
+      "SecondSingular": "du bestelltest",
+      "ThirdSingular": "er bestellte",
+      "FirstPlural": "wir bestellten",
+      "SecondPlural": "ihr bestelltet",
+      "ThirdPlural": "Sie bestellten"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich habe bestellt",
+      "SecondSingular": "du hast bestellt",
+      "ThirdSingular": "er hat bestellt",
+      "FirstPlural": "wir haben bestellt",
+      "SecondPlural": "ihr habt bestellt",
+      "ThirdPlural": "Sie haben bestellt"
+    }
+  },
+  "kennen": {
+    "Id": 238,
+    "EnglishDescription": "wiedzieć (na k)",
+    "Present": {
+      "FirstSingular": "ich kenne",
+      "SecondSingular": "du kennst",
+      "ThirdSingular": "er kennt",
+      "FirstPlural": "wir kennen",
+      "SecondPlural": "ihr kennt",
+      "ThirdPlural": "Sie kennen"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich kannte",
+      "SecondSingular": "du kanntest",
+      "ThirdSingular": "er kannte",
+      "FirstPlural": "wir kannten",
+      "SecondPlural": "ihr kanntet",
+      "ThirdPlural": "Sie kannten"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich habe gekannt",
+      "SecondSingular": "du hast gekannt",
+      "ThirdSingular": "er hat gekannt",
+      "FirstPlural": "wir haben gekannt",
+      "SecondPlural": "ihr habt gekannt",
+      "ThirdPlural": "Sie haben gekannt"
+    }
+  },
+  "mögen": {
+    "Id": 241,
+    "EnglishDescription": "lubić",
+    "Present": {
+      "FirstSingular": "ich mag",
+      "SecondSingular": "du magst",
+      "ThirdSingular": "er mag",
+      "FirstPlural": "wir mögen",
+      "SecondPlural": "ihr mögt",
+      "ThirdPlural": "Sie mögen"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich mochte",
+      "SecondSingular": "du mochtest",
+      "ThirdSingular": "er mochte",
+      "FirstPlural": "wir mochten",
+      "SecondPlural": "ihr mochtet",
+      "ThirdPlural": "Sie mochten"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich habe gemocht",
+      "SecondSingular": "du hast gemocht",
+      "ThirdSingular": "er hat gemocht",
+      "FirstPlural": "wir haben gemocht",
+      "SecondPlural": "ihr habt gemocht",
+      "ThirdPlural": "Sie haben gemocht"
+    }
+  },
+  "bringen": {
+    "Id": 244,
+    "EnglishDescription": "przynosić (na b)",
+    "Present": {
+      "FirstSingular": "ich bringe",
+      "SecondSingular": "du bringst",
+      "ThirdSingular": "er bringt",
+      "FirstPlural": "wir bringen",
+      "SecondPlural": "ihr bringt",
+      "ThirdPlural": "Sie bringen"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich brachte",
+      "SecondSingular": "du brachtest",
+      "ThirdSingular": "er brachte",
+      "FirstPlural": "wir brachten",
+      "SecondPlural": "ihr brachtet",
+      "ThirdPlural": "Sie brachten"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich habe gebracht",
+      "SecondSingular": "du hast gebracht",
+      "ThirdSingular": "er hat gebracht",
+      "FirstPlural": "wir haben gebracht",
+      "SecondPlural": "ihr habt gebracht",
+      "ThirdPlural": "Sie haben gebracht"
+    }
+  },
+  "treffen": {
+    "Id": 247,
+    "EnglishDescription": "spotykać się",
+    "Present": {
+      "FirstSingular": "ich treffe",
+      "SecondSingular": "du triffst",
+      "ThirdSingular": "er trifft",
+      "FirstPlural": "wir treffen",
+      "SecondPlural": "ihr trefft",
+      "ThirdPlural": "Sie treffen"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich traf",
+      "SecondSingular": "du trafst",
+      "ThirdSingular": "er traf",
+      "FirstPlural": "wir trafen",
+      "SecondPlural": "ihr traft",
+      "ThirdPlural": "Sie trafen"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich habe getroffen",
+      "SecondSingular": "du hast getroffen",
+      "ThirdSingular": "er hat getroffen",
+      "FirstPlural": "wir haben getroffen",
+      "SecondPlural": "ihr habt getroffen",
+      "ThirdPlural": "Sie haben getroffen"
+    }
+  },
+  "überlegen": {
+    "Id": 250,
+    "EnglishDescription": "zastanawiać się",
+    "Present": {
+      "FirstSingular": "ich überlege",
+      "SecondSingular": "du überlegst",
+      "ThirdSingular": "er überlegt",
+      "FirstPlural": "wir überlegen",
+      "SecondPlural": "ihr überlegt",
+      "ThirdPlural": "Sie überlegen",
+      "6": "ich lege über",
+      "7": "du legst über",
+      "8": "er/sie/es legt über",
+      "9": "wir legen über",
+      "10": "ihr legt über",
+      "11": "Sie legen über"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich überlegte",
+      "SecondSingular": "du überlegtest",
+      "ThirdSingular": "er überlegte",
+      "FirstPlural": "wir überlegten",
+      "SecondPlural": "ihr überlegtet",
+      "ThirdPlural": "Sie überlegten",
+      "6": "ich legte über",
+      "7": "du legtest über",
+      "8": "er/sie/es legte über",
+      "9": "wir legten über",
+      "10": "ihr legtet über",
+      "11": "Sie legten über"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich habe überlegt",
+      "SecondSingular": "du hast überlegt",
+      "ThirdSingular": "er hat überlegt",
+      "FirstPlural": "wir haben überlegt",
+      "SecondPlural": "ihr habt überlegt",
+      "ThirdPlural": "Sie haben überlegt",
+      "6": "ich habe übergelegt",
+      "7": "du hast übergelegt",
+      "8": "er/sie/es hat übergelegt",
+      "9": "wir haben übergelegt",
+      "10": "ihr habt übergelegt",
+      "11": "Sie haben übergelegt"
+    }
+  },
+  "atmen": {
+    "Id": 253,
+    "EnglishDescription": "oddychać",
+    "Present": {
+      "FirstSingular": "ich atme",
+      "SecondSingular": "du atmest",
+      "ThirdSingular": "er atmet",
+      "FirstPlural": "wir atmen",
+      "SecondPlural": "ihr atmet",
+      "ThirdPlural": "Sie atmen"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich atmete",
+      "SecondSingular": "du atmetest",
+      "ThirdSingular": "er atmete",
+      "FirstPlural": "wir atmeten",
+      "SecondPlural": "ihr atmetet",
+      "ThirdPlural": "Sie atmeten"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich habe geatmet",
+      "SecondSingular": "du hast geatmet",
+      "ThirdSingular": "er hat geatmet",
+      "FirstPlural": "wir haben geatmet",
+      "SecondPlural": "ihr habt geatmet",
+      "ThirdPlural": "Sie haben geatmet"
+    }
+  },
+  "einatmen": {
+    "Id": 256,
+    "EnglishDescription": "wdychać",
+    "Present": {
+      "FirstSingular": "ich atme ein",
+      "SecondSingular": "du atmest ein",
+      "ThirdSingular": "er atmet ein",
+      "FirstPlural": "wir atmen ein",
+      "SecondPlural": "ihr atmet ein",
+      "ThirdPlural": "Sie atmen ein"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich atmete ein",
+      "SecondSingular": "du atmetest ein",
+      "ThirdSingular": "er atmete ein",
+      "FirstPlural": "wir atmeten ein",
+      "SecondPlural": "ihr atmetet ein",
+      "ThirdPlural": "Sie atmeten ein"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich habe eingeatmet",
+      "SecondSingular": "du hast eingeatmet",
+      "ThirdSingular": "er hat eingeatmet",
+      "FirstPlural": "wir haben eingeatmet",
+      "SecondPlural": "ihr habt eingeatmet",
+      "ThirdPlural": "Sie haben eingeatmet"
+    }
+  },
+  "läuten": {
+    "Id": 259,
+    "EnglishDescription": "dzwonić",
+    "Present": {
+      "FirstSingular": "ich läute",
+      "SecondSingular": "du läutest",
+      "ThirdSingular": "er läutet",
+      "FirstPlural": "wir läuten",
+      "SecondPlural": "ihr läutet",
+      "ThirdPlural": "Sie läuten"
+    },
+    "SimplePast": {
+      "FirstSingular": "ich läutete",
+      "SecondSingular": "du läutetest",
+      "ThirdSingular": "er läutete",
+      "FirstPlural": "wir läuteten",
+      "SecondPlural": "ihr läutetet",
+      "ThirdPlural": "Sie läuteten"
+    },
+    "Perfekt": {
+      "FirstSingular": "ich habe geläutet",
+      "SecondSingular": "du hast geläutet",
+      "ThirdSingular": "er hat geläutet",
+      "FirstPlural": "wir haben geläutet",
+      "SecondPlural": "ihr habt geläutet",
+      "ThirdPlural": "Sie haben geläutet"
     }
   }
 }
