@@ -6,78 +6,50 @@
         {
             Console.Title = Config.ProgramName;
 
-            UpdateFlashcardsFromCSV();
-            Train();
-        }
-
-        static void UpdateFlashcardsFromCSV()
-        {
-            var verbs = CSV.ReadVerbsFromFile(Config.VerbsPath);
-            var nouns = CSV.ReadNounsFromFile(Config.NounsPath);
-            var adjectives = CSV.ReadAdjectivesFromFile(Config.AdjectivesPath);
-
-            var singleFlashcards = SingleFlashcardSet.Load(Config.SingleFlashcardsPath);
-            var multiFlashcards = MultiFlashcardSet.Load(Config.MultiFlashcardsPath);
-
-            SingleFlashcardSet.Update(verbs, singleFlashcards);
-            SingleFlashcardSet.Update(nouns, singleFlashcards);
-            SingleFlashcardSet.Update(adjectives, singleFlashcards);
-            MultiFlashcardSet.Update(verbs, multiFlashcards);
-
-            SingleFlashcardSet.Save(Config.SingleFlashcardsPath, singleFlashcards);
-            MultiFlashcardSet.Save(Config.MultiFlashcardsPath, multiFlashcards);
-        }
-
-        static void Train()
-        {
-            var singleFlashcards = SingleFlashcardSet.Load(Config.SingleFlashcardsPath);
-            var multiFlashcards = MultiFlashcardSet.Load(Config.MultiFlashcardsPath);
-            var flashcards = new List<Flashcard>();
-
-            foreach (var flashcard in singleFlashcards)
-                flashcards.Add(flashcard);
-
-            foreach (var flashcard in multiFlashcards)
-                flashcards.Add(flashcard);
-
-            var random = new Random();
-            var statistics = new Statistics(Config.StatisticsPath);
-
-            while (true)
+            try
             {
-                var availableFlashcards = flashcards.FindAll(f => f.IsAvailable);
+                var flashcardSet = new FlashcardSet();
+                var statistics = new Statistics(Config.StatisticsPath);
 
-                if (availableFlashcards.Count == 0)
-                    break;
+                while (true)
+                {
+                    Utility.WriteLine(flashcardSet.GetVocabularyInformation());
+                    Utility.WriteLine(flashcardSet.GetFlashcardInformation()); ;
+                    Utility.WriteLine();
 
-                var availableAtTheEndOfDay = flashcards.FindAll(f => f.IsAvailableAtTheEndOfDay).Count;
+                    var flashcard = flashcardSet.GetRandomFlashcard();
 
-                Utility.WriteLine($"F<{flashcards.Count}> A<{availableFlashcards.Count}> A24<{availableAtTheEndOfDay}>");
-                Utility.WriteLine();
+                    if (flashcard == null)
+                    {
+                        Utility.WriteLine("Congratulations! You have practiced everything for the moment!", ConsoleColor.Green);
+                        break;
+                    }
 
-                var flashcard = availableFlashcards[random.Next(availableFlashcards.Count)];
+                    Utility.Write($"Translate to German '{flashcard.AskQuestion()}': ");
+                    var answer = Utility.ReadLine();
 
-                Utility.Write($"Translate to German '{flashcard.AskQuestion()}': ");
-                var answer = Utility.ReadLine();
+                    var (isCorrect, correctAnswer) = flashcard.AnswerQuestion(answer);
 
-                var (isCorrect, correctAnswer) = flashcard.AnswerQuestion(answer);
+                    Utility.WriteLine();
 
-                Utility.WriteLine();
+                    if (isCorrect)
+                        Utility.WriteLine("Correct!", ConsoleColor.Green);
+                    else
+                        Utility.WriteLine($"Incorrect! The correct answer is: '{correctAnswer}'.", ConsoleColor.Red);
 
-                if (isCorrect)
-                    Utility.WriteLine("Correct!", ConsoleColor.Green);
-                else
-                    Utility.WriteLine($"Incorrect. The correct answer is: '{correctAnswer}'", ConsoleColor.Red);
+                    statistics.OnQuestionAnswered(isCorrect);
 
-                statistics.OnQuestionAnswered(isCorrect);
+                    Utility.WriteLine();
+                    Utility.Write("Press enter to continue... ");
+                    Utility.ReadLine();
+                    Console.Clear();
 
-                Utility.WriteLine();
-                Utility.WriteLine("Press enter to continue...");
-                Utility.ReadLine();
-                Console.Clear();
-
-                SingleFlashcardSet.Save(Config.SingleFlashcardsPath, singleFlashcards);
-                MultiFlashcardSet.Save(Config.MultiFlashcardsPath, multiFlashcards);
+                    flashcardSet.Save();
+                }
+            }
+            catch (Exception ex)
+            {
+                Utility.WriteLine(ex.Message, ConsoleColor.Red);
             }
         }
     }
