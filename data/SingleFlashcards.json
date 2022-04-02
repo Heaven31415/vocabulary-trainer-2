@@ -60,8 +60,8 @@
     "Answer": "ihr wart",
     "ParentId": 1,
     "Type": 9,
-    "LastTrainingTime": "2022-03-29T01:43:38.3486865+02:00",
-    "Cooldown": "4.00:00:00"
+    "LastTrainingTime": "2022-04-02T03:11:02.0056386+02:00",
+    "Cooldown": "8.00:00:00"
   },
   {
     "Question": "wołać, krzyczeć (Präsens, ich)",
@@ -204,8 +204,8 @@
     "Answer": "du tanzt",
     "ParentId": 10,
     "Type": 1,
-    "LastTrainingTime": "2022-03-29T01:45:27.8684543+02:00",
-    "Cooldown": "4.00:00:00"
+    "LastTrainingTime": "2022-04-02T03:08:51.9905404+02:00",
+    "Cooldown": "8.00:00:00"
   },
   {
     "Question": "tańczyć (Präsens, er)",
@@ -244,8 +244,8 @@
     "Answer": "er tanzte",
     "ParentId": 10,
     "Type": 7,
-    "LastTrainingTime": "2022-03-29T01:45:03.8128678+02:00",
-    "Cooldown": "4.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:45:44.7668662+02:00",
+    "Cooldown": "8.00:00:00"
   },
   {
     "Question": "tańczyć (Präteritum, ihr)",
@@ -396,8 +396,8 @@
     "Answer": "du denkst",
     "ParentId": 19,
     "Type": 1,
-    "LastTrainingTime": "2022-03-29T01:46:24.196332+02:00",
-    "Cooldown": "4.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:24:20.1426985+02:00",
+    "Cooldown": "8.00:00:00"
   },
   {
     "Question": "myśleć (Präsens, er)",
@@ -460,8 +460,8 @@
     "Answer": "du stirbst",
     "ParentId": 22,
     "Type": 1,
-    "LastTrainingTime": "2022-03-29T01:46:45.0763283+02:00",
-    "Cooldown": "4.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:18:13.8649341+02:00",
+    "Cooldown": "8.00:00:00"
   },
   {
     "Question": "umierać (Präsens, er)",
@@ -516,8 +516,8 @@
     "Answer": "ich lebe",
     "ParentId": 25,
     "Type": 0,
-    "LastTrainingTime": "2022-03-29T01:46:11.3484357+02:00",
-    "Cooldown": "4.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:24:26.342661+02:00",
+    "Cooldown": "8.00:00:00"
   },
   {
     "Question": "żyć (Präsens, du)",
@@ -532,16 +532,16 @@
     "Answer": "er lebt",
     "ParentId": 25,
     "Type": 2,
-    "LastTrainingTime": "2022-03-29T01:46:37.2843638+02:00",
-    "Cooldown": "4.00:00:00"
+    "LastTrainingTime": "2022-04-02T03:09:12.5503344+02:00",
+    "Cooldown": "8.00:00:00"
   },
   {
     "Question": "żyć (Präsens, ihr)",
     "Answer": "ihr lebt",
     "ParentId": 25,
     "Type": 4,
-    "LastTrainingTime": "2022-03-29T01:42:20.4847752+02:00",
-    "Cooldown": "4.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:38:54.8494406+02:00",
+    "Cooldown": "8.00:00:00"
   },
   {
     "Question": "żyć (Präteritum, ich)",
@@ -580,16 +580,16 @@
     "Answer": "ich sehe",
     "ParentId": 28,
     "Type": 0,
-    "LastTrainingTime": "2022-03-29T01:43:46.7006874+02:00",
-    "Cooldown": "4.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:41:23.3284831+02:00",
+    "Cooldown": "8.00:00:00"
   },
   {
     "Question": "widzieć (Präsens, du)",
     "Answer": "du siehst",
     "ParentId": 28,
     "Type": 1,
-    "LastTrainingTime": "2022-03-29T01:44:29.0445597+02:00",
-    "Cooldown": "4.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:20:03.68835+02:00",
+    "Cooldown": "8.00:00:00"
   },
   {
     "Question": "widzieć (Präsens, er)",
@@ -660,8 +660,8 @@
     "Answer": "er holt",
     "ParentId": 166,
     "Type": 2,
-    "LastTrainingTime": "2022-03-29T01:48:00.1322354+02:00",
-    "Cooldown": "4.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:37:56.4897855+02:00",
+    "Cooldown": "8.00:00:00"
   },
   {
     "Question": "przynosić (na h) (Präsens, ihr)",
@@ -676,8 +676,8 @@
     "Answer": "ich holte",
     "ParentId": 166,
     "Type": 5,
-    "LastTrainingTime": "2022-03-29T01:44:58.4444878+02:00",
-    "Cooldown": "4.00:00:00"
+    "LastTrainingTime": "2022-04-02T03:10:14.8459315+02:00",
+    "Cooldown": "8.00:00:00"
   },
   {
     "Question": "przynosić (na h) (Präteritum, du)",
@@ -884,8 +884,8 @@
     "Answer": "die Eltern",
     "ParentId": 23,
     "Type": 12,
-    "LastTrainingTime": "2022-03-29T01:42:54.2447502+02:00",
-    "Cooldown": "4.00:00:00"
+    "LastTrainingTime": "2022-04-02T03:09:32.5341991+02:00",
+    "Cooldown": "8.00:00:00"
   },
   {
     "Question": "woda (singular)",
@@ -980,8 +980,8 @@
     "Answer": "die Schule",
     "ParentId": 44,
     "Type": 11,
-    "LastTrainingTime": "2022-03-29T01:43:49.9966408+02:00",
-    "Cooldown": "4.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:42:21.7040707+02:00",
+    "Cooldown": "8.00:00:00"
   },
   {
     "Question": "szkoła (plural)",
@@ -1012,8 +1012,8 @@
     "Answer": "der Vater",
     "ParentId": 50,
     "Type": 11,
-    "LastTrainingTime": "2022-03-29T01:45:10.8764761+02:00",
-    "Cooldown": "4.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:17:06.9374785+02:00",
+    "Cooldown": "8.00:00:00"
   },
   {
     "Question": "ojciec (plural)",
@@ -1028,8 +1028,8 @@
     "Answer": "der Tisch",
     "ParentId": 53,
     "Type": 11,
-    "LastTrainingTime": "2022-03-29T01:46:06.5803939+02:00",
-    "Cooldown": "4.00:00:00"
+    "LastTrainingTime": "2022-04-02T03:10:19.7978842+02:00",
+    "Cooldown": "8.00:00:00"
   },
   {
     "Question": "stół (plural)",
@@ -1172,16 +1172,16 @@
     "Answer": "die Scheibe",
     "ParentId": 83,
     "Type": 11,
-    "LastTrainingTime": "2022-03-28T23:30:37.1529535+02:00",
-    "Cooldown": "4.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:49:33.9494589+02:00",
+    "Cooldown": "8.00:00:00"
   },
   {
     "Question": "plaster, kromka (plural)",
     "Answer": "die Scheiben",
     "ParentId": 83,
     "Type": 12,
-    "LastTrainingTime": "2022-03-29T01:48:03.6523207+02:00",
-    "Cooldown": "4.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:45:01.8711108+02:00",
+    "Cooldown": "8.00:00:00"
   },
   {
     "Question": "chleb (singular)",
@@ -1204,8 +1204,8 @@
     "Answer": "der Schinken",
     "ParentId": 89,
     "Type": 11,
-    "LastTrainingTime": "2022-03-29T01:47:50.1084971+02:00",
-    "Cooldown": "4.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:16:03.8497706+02:00",
+    "Cooldown": "8.00:00:00"
   },
   {
     "Question": "ser (singular)",
@@ -1260,8 +1260,8 @@
     "Answer": "der Honig",
     "ParentId": 104,
     "Type": 11,
-    "LastTrainingTime": "2022-03-28T23:29:19.705027+02:00",
-    "Cooldown": "4.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:21:33.4400208+02:00",
+    "Cooldown": "8.00:00:00"
   },
   {
     "Question": "jajko (singular)",
@@ -1284,16 +1284,16 @@
     "Answer": "der Kaffee",
     "ParentId": 110,
     "Type": 11,
-    "LastTrainingTime": "2022-03-29T01:47:02.8684341+02:00",
-    "Cooldown": "4.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:23:47.2309492+02:00",
+    "Cooldown": "8.00:00:00"
   },
   {
     "Question": "herbata (singular)",
     "Answer": "der Tee",
     "ParentId": 113,
     "Type": 11,
-    "LastTrainingTime": "2022-03-29T01:45:14.5964971+02:00",
-    "Cooldown": "4.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:24:37.9826928+02:00",
+    "Cooldown": "8.00:00:00"
   },
   {
     "Question": "sok (singular)",
@@ -1324,8 +1324,8 @@
     "Answer": "ganz",
     "ParentId": 3,
     "Type": 13,
-    "LastTrainingTime": "2022-03-29T01:45:33.1724763+02:00",
-    "Cooldown": "4.00:00:00"
+    "LastTrainingTime": "2022-04-02T03:10:02.7180034+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "szczęśliwy (positive)",
@@ -1380,8 +1380,8 @@
     "Answer": "jung",
     "ParentId": 12,
     "Type": 13,
-    "LastTrainingTime": "2022-03-29T01:46:20.4283986+02:00",
-    "Cooldown": "4.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:22:39.6953182+02:00",
+    "Cooldown": "8.00:00:00"
   },
   {
     "Question": "młody (comparative)",
@@ -1436,8 +1436,8 @@
     "Answer": "wärmer",
     "ParentId": 18,
     "Type": 14,
-    "LastTrainingTime": "2022-03-29T01:46:03.4204253+02:00",
-    "Cooldown": "4.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:23:07.2711982+02:00",
+    "Cooldown": "8.00:00:00"
   },
   {
     "Question": "ciepły (superlative)",
@@ -2692,8 +2692,8 @@
     "Answer": "du duztest",
     "ParentId": 85,
     "Type": 6,
-    "LastTrainingTime": "2022-04-01T00:04:09.8467163+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:20:13.104195+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "zwracać się do kogoś na du (Präteritum, er)",
@@ -3220,8 +3220,8 @@
     "Answer": "ihr saßt",
     "ParentId": 109,
     "Type": 9,
-    "LastTrainingTime": "2022-03-31T20:18:40.8387277+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:25:55.5261484+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "czytać (Präsens, ich)",
@@ -3524,16 +3524,16 @@
     "Answer": "du flogst",
     "ParentId": 124,
     "Type": 6,
-    "LastTrainingTime": "2022-03-30T20:45:48.2893547+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:23:01.1272922+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "latać (Präteritum, er)",
     "Answer": "er flog",
     "ParentId": 124,
     "Type": 7,
-    "LastTrainingTime": "2022-03-30T20:50:36.7929123+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:26:17.7901064+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "latać (Präteritum, ihr)",
@@ -3724,8 +3724,8 @@
     "Answer": "er landete",
     "ParentId": 133,
     "Type": 7,
-    "LastTrainingTime": "2022-03-30T21:09:25.8632428+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:17:55.7690949+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "lądować (Präteritum, ihr)",
@@ -4276,16 +4276,16 @@
     "Answer": "die Änderung",
     "ParentId": 140,
     "Type": 11,
-    "LastTrainingTime": "2022-03-30T23:43:51.3529986+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:23:24.1110903+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "zmiana (plural)",
     "Answer": "die Änderungen",
     "ParentId": 140,
     "Type": 12,
-    "LastTrainingTime": "2022-03-30T23:44:40.4809568+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:43:59.1516027+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "wyjątek (singular)",
@@ -4364,8 +4364,8 @@
     "Answer": "die Leitungen",
     "ParentId": 155,
     "Type": 12,
-    "LastTrainingTime": "2022-03-30T23:51:50.7121895+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:42:27.8640556+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Question": "chęć, ochota (singular)",
@@ -4612,8 +4612,8 @@
     "Answer": "er fraß",
     "ParentId": 157,
     "Type": 7,
-    "LastTrainingTime": "2022-04-01T01:07:27.999005+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:51:23.9968671+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "żreć (Präteritum, ihr)",
@@ -4628,16 +4628,16 @@
     "Answer": "ich trinke",
     "ParentId": 160,
     "Type": 0,
-    "LastTrainingTime": "2022-04-01T01:07:27.9990145+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T03:09:49.070066+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "pić (Präsens, du)",
     "Answer": "du trinkst",
     "ParentId": 160,
     "Type": 1,
-    "LastTrainingTime": "2022-04-01T01:07:27.999019+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:23:42.9030252+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "pić (Präsens, er)",
@@ -4652,8 +4652,8 @@
     "Answer": "ihr trinkt",
     "ParentId": 160,
     "Type": 4,
-    "LastTrainingTime": "2022-04-01T01:07:27.9990281+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:46:47.6944548+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "pić (Präteritum, ich)",
@@ -4692,8 +4692,8 @@
     "Answer": "ich bekomme",
     "ParentId": 163,
     "Type": 0,
-    "LastTrainingTime": "2022-04-01T01:07:27.9990511+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:38:34.2654904+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "dostawać (Präsens, du)",
@@ -4788,8 +4788,8 @@
     "Answer": "ich studierte",
     "ParentId": 169,
     "Type": 5,
-    "LastTrainingTime": "2022-04-01T01:07:27.999158+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:22:46.0393648+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "studiować (Präteritum, du)",
@@ -4804,8 +4804,8 @@
     "Answer": "er studierte",
     "ParentId": 169,
     "Type": 7,
-    "LastTrainingTime": "2022-04-01T01:07:27.9991674+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:35:59.9944324+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "studiować (Präteritum, ihr)",
@@ -4828,24 +4828,24 @@
     "Answer": "du arbeitest",
     "ParentId": 172,
     "Type": 1,
-    "LastTrainingTime": "2022-04-01T01:07:27.9991817+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:51:09.6688428+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "pracować (Präsens, er)",
     "Answer": "er arbeitet",
     "ParentId": 172,
     "Type": 2,
-    "LastTrainingTime": "2022-04-01T01:07:27.9991882+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:51:47.7327766+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "pracować (Präsens, ihr)",
     "Answer": "ihr arbeitet",
     "ParentId": 172,
     "Type": 4,
-    "LastTrainingTime": "2022-04-01T01:07:27.9991931+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:15:26.666601+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "pracować (Präteritum, ich)",
@@ -4868,15 +4868,15 @@
     "Answer": "er arbeitete",
     "ParentId": 172,
     "Type": 7,
-    "LastTrainingTime": "2022-04-01T01:07:27.9992075+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:28:36.0052039+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "pracować (Präteritum, ihr)",
     "Answer": "ihr arbeitetet",
     "ParentId": 172,
     "Type": 9,
-    "LastTrainingTime": "2022-04-01T01:07:27.9992122+02:00",
+    "LastTrainingTime": "2022-04-02T03:08:14.1506393+02:00",
     "Cooldown": "1.00:00:00"
   },
   {
@@ -4892,8 +4892,8 @@
     "Answer": "du wartest",
     "ParentId": 175,
     "Type": 1,
-    "LastTrainingTime": "2022-04-01T01:07:27.9992218+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:47:00.9824114+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "czekać (Präsens, er)",
@@ -4916,16 +4916,16 @@
     "Answer": "ich wartete",
     "ParentId": 175,
     "Type": 5,
-    "LastTrainingTime": "2022-04-01T01:07:27.9992362+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:49:51.3253518+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "czekać (Präteritum, du)",
     "Answer": "du wartetest",
     "ParentId": 175,
     "Type": 6,
-    "LastTrainingTime": "2022-04-01T01:07:27.999241+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:35:53.7544934+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "czekać (Präteritum, er)",
@@ -5004,24 +5004,24 @@
     "Answer": "ihr zeigtet",
     "ParentId": 178,
     "Type": 9,
-    "LastTrainingTime": "2022-04-01T01:07:27.9992897+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:36:19.5463733+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "sprzedawać (Präsens, ich)",
     "Answer": "ich verkaufe",
     "ParentId": 181,
     "Type": 0,
-    "LastTrainingTime": "2022-04-01T01:07:27.9992947+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:39:44.7370904+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "sprzedawać (Präsens, du)",
     "Answer": "du verkaufst",
     "ParentId": 181,
     "Type": 1,
-    "LastTrainingTime": "2022-04-01T01:07:27.9992996+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:27:58.8453665+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "sprzedawać (Präsens, er)",
@@ -5036,8 +5036,8 @@
     "Answer": "ihr verkauft",
     "ParentId": 181,
     "Type": 4,
-    "LastTrainingTime": "2022-04-01T01:07:27.9993093+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:51:38.0447603+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "sprzedawać (Präteritum, ich)",
@@ -5052,24 +5052,24 @@
     "Answer": "du verkauftest",
     "ParentId": 181,
     "Type": 6,
-    "LastTrainingTime": "2022-04-01T01:07:27.9993193+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:18:27.3370982+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "sprzedawać (Präteritum, er)",
     "Answer": "er verkaufte",
     "ParentId": 181,
     "Type": 7,
-    "LastTrainingTime": "2022-04-01T01:07:27.9993242+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:41:33.2565366+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "sprzedawać (Präteritum, ihr)",
     "Answer": "ihr verkauftet",
     "ParentId": 181,
     "Type": 9,
-    "LastTrainingTime": "2022-04-01T01:07:27.9993291+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:51:33.6927639+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "iść dalej (Präsens, ich)",
@@ -5116,8 +5116,8 @@
     "Answer": "du gingst weiter",
     "ParentId": 184,
     "Type": 6,
-    "LastTrainingTime": "2022-04-01T01:07:27.9993589+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:45:19.7990142+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "iść dalej (Präteritum, er)",
@@ -5140,8 +5140,8 @@
     "Answer": "ich helfe",
     "ParentId": 187,
     "Type": 0,
-    "LastTrainingTime": "2022-04-01T01:07:27.9993772+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:40:45.0247095+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "pomagać (Präsens, du)",
@@ -5172,7 +5172,7 @@
     "Answer": "ich half",
     "ParentId": 187,
     "Type": 5,
-    "LastTrainingTime": "2022-04-01T01:07:27.9993972+02:00",
+    "LastTrainingTime": "2022-04-02T03:09:25.1101552+02:00",
     "Cooldown": "1.00:00:00"
   },
   {
@@ -5196,7 +5196,7 @@
     "Answer": "ihr halft",
     "ParentId": 187,
     "Type": 9,
-    "LastTrainingTime": "2022-04-01T01:07:27.9994124+02:00",
+    "LastTrainingTime": "2022-04-02T02:37:44.6977864+02:00",
     "Cooldown": "1.00:00:00"
   },
   {
@@ -5228,8 +5228,8 @@
     "Answer": "ihr seht um",
     "ParentId": 190,
     "Type": 4,
-    "LastTrainingTime": "2022-04-01T01:07:27.9994326+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:36:09.0983622+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "rozglądać się (Präteritum, ich)",
@@ -5244,24 +5244,24 @@
     "Answer": "du sahst um",
     "ParentId": 190,
     "Type": 6,
-    "LastTrainingTime": "2022-04-01T01:07:27.9994429+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:38:41.4895264+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "rozglądać się (Präteritum, er)",
     "Answer": "er sah um",
     "ParentId": 190,
     "Type": 7,
-    "LastTrainingTime": "2022-04-01T01:07:27.999448+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:40:05.2489641+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "rozglądać się (Präteritum, ihr)",
     "Answer": "ihr saht um",
     "ParentId": 190,
     "Type": 9,
-    "LastTrainingTime": "2022-04-01T01:07:27.9994531+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:39:19.6012097+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "znajdować (Präsens, ich)",
@@ -5276,24 +5276,24 @@
     "Answer": "du findest",
     "ParentId": 193,
     "Type": 1,
-    "LastTrainingTime": "2022-04-01T01:07:27.9994635+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:38:08.433626+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "znajdować (Präsens, er)",
     "Answer": "er findet",
     "ParentId": 193,
     "Type": 2,
-    "LastTrainingTime": "2022-04-01T01:07:27.9994709+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:44:57.6711407+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "znajdować (Präsens, ihr)",
     "Answer": "ihr findet",
     "ParentId": 193,
     "Type": 4,
-    "LastTrainingTime": "2022-04-01T01:07:27.9994761+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:44:34.3032965+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "znajdować (Präteritum, ich)",
@@ -5308,8 +5308,8 @@
     "Answer": "du fandst",
     "ParentId": 193,
     "Type": 6,
-    "LastTrainingTime": "2022-04-01T01:07:27.999505+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:18:09.489039+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "znajdować (Präteritum, er)",
@@ -5324,7 +5324,7 @@
     "Answer": "ihr fandet",
     "ParentId": 193,
     "Type": 9,
-    "LastTrainingTime": "2022-04-01T01:07:27.9995153+02:00",
+    "LastTrainingTime": "2022-04-02T02:20:18.3682063+02:00",
     "Cooldown": "1.00:00:00"
   },
   {
@@ -5332,8 +5332,8 @@
     "Answer": "ich probiere",
     "ParentId": 196,
     "Type": 0,
-    "LastTrainingTime": "2022-04-01T01:07:27.9995206+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:46:25.0386553+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "próbować (na p) (Präsens, du)",
@@ -5364,8 +5364,8 @@
     "Answer": "ich probierte",
     "ParentId": 196,
     "Type": 5,
-    "LastTrainingTime": "2022-04-01T01:07:27.9995414+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:26:03.542137+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "próbować (na p) (Präteritum, du)",
@@ -5404,8 +5404,8 @@
     "Answer": "du passt",
     "ParentId": 199,
     "Type": 1,
-    "LastTrainingTime": "2022-04-01T01:07:27.9995698+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:40:11.4568649+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "pasować (Präsens, er)",
@@ -5420,16 +5420,16 @@
     "Answer": "ihr passt",
     "ParentId": 199,
     "Type": 4,
-    "LastTrainingTime": "2022-04-01T01:07:27.9995803+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:40:21.6808048+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "pasować (Präteritum, ich)",
     "Answer": "ich passte",
     "ParentId": 199,
     "Type": 5,
-    "LastTrainingTime": "2022-04-01T01:07:27.9995857+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:46:44.1345037+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "pasować (Präteritum, du)",
@@ -5460,8 +5460,8 @@
     "Answer": "ich kaufe",
     "ParentId": 202,
     "Type": 0,
-    "LastTrainingTime": "2022-04-01T01:07:27.999607+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:24:29.7986687+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "kupować (Präsens, du)",
@@ -5484,23 +5484,23 @@
     "Answer": "ihr kauft",
     "ParentId": 202,
     "Type": 4,
-    "LastTrainingTime": "2022-04-01T01:07:27.9996227+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:40:58.4645577+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "kupować (Präteritum, ich)",
     "Answer": "ich kaufte",
     "ParentId": 202,
     "Type": 5,
-    "LastTrainingTime": "2022-04-01T01:07:27.9996282+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:16:42.889542+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "kupować (Präteritum, du)",
     "Answer": "du kauftest",
     "ParentId": 202,
     "Type": 6,
-    "LastTrainingTime": "2022-04-01T01:07:27.9996335+02:00",
+    "LastTrainingTime": "2022-04-02T02:43:45.7918575+02:00",
     "Cooldown": "1.00:00:00"
   },
   {
@@ -5508,8 +5508,8 @@
     "Answer": "er kaufte",
     "ParentId": 202,
     "Type": 7,
-    "LastTrainingTime": "2022-04-01T01:07:27.9996388+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:51:43.5568175+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "kupować (Präteritum, ihr)",
@@ -5556,8 +5556,8 @@
     "Answer": "ich lachte",
     "ParentId": 208,
     "Type": 5,
-    "LastTrainingTime": "2022-04-01T01:07:27.9997213+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:20:25.5923794+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "śmiać się (Präteritum, du)",
@@ -5572,24 +5572,24 @@
     "Answer": "er lachte",
     "ParentId": 208,
     "Type": 7,
-    "LastTrainingTime": "2022-04-01T01:07:27.9997322+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:38:26.6098337+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "śmiać się (Präteritum, ihr)",
     "Answer": "ihr lachtet",
     "ParentId": 208,
     "Type": 9,
-    "LastTrainingTime": "2022-04-01T01:07:27.9997376+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:22:13.6316527+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "pokazywać (na a) (Präsens, ich)",
     "Answer": "ich zeige auf",
     "ParentId": 211,
     "Type": 0,
-    "LastTrainingTime": "2022-04-01T01:07:27.9997431+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:49:39.7174695+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "pokazywać (na a) (Präsens, du)",
@@ -5644,8 +5644,8 @@
     "Answer": "ihr zeigtet auf",
     "ParentId": 211,
     "Type": 9,
-    "LastTrainingTime": "2022-04-01T01:07:27.9997812+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:45:56.0707881+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "motywować (Präsens, ich)",
@@ -5708,8 +5708,8 @@
     "Answer": "ihr motiviertet",
     "ParentId": 214,
     "Type": 9,
-    "LastTrainingTime": "2022-04-01T01:07:27.9998275+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:27:48.5174811+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "biegać (Präsens, ich)",
@@ -5732,8 +5732,8 @@
     "Answer": "er läuft",
     "ParentId": 217,
     "Type": 2,
-    "LastTrainingTime": "2022-04-01T01:07:27.9998441+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:51:52.5809777+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "biegać (Präsens, ihr)",
@@ -5756,8 +5756,8 @@
     "Answer": "du liefst",
     "ParentId": 217,
     "Type": 6,
-    "LastTrainingTime": "2022-04-01T01:07:27.9998609+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:46:16.3267215+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "biegać (Präteritum, er)",
@@ -5772,16 +5772,16 @@
     "Answer": "ihr lieft",
     "ParentId": 217,
     "Type": 9,
-    "LastTrainingTime": "2022-04-01T01:07:27.999872+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:22:26.5753825+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "ciągnąć (Präsens, ich)",
     "Answer": "ich ziehe",
     "ParentId": 220,
     "Type": 0,
-    "LastTrainingTime": "2022-04-01T01:07:27.9998777+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:40:17.8969492+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "ciągnąć (Präsens, du)",
@@ -5820,8 +5820,8 @@
     "Answer": "du zogst",
     "ParentId": 220,
     "Type": 6,
-    "LastTrainingTime": "2022-04-01T01:07:27.9999056+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T03:10:44.2857588+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "ciągnąć (Präteritum, er)",
@@ -5836,7 +5836,7 @@
     "Answer": "ihr zogt",
     "ParentId": 220,
     "Type": 9,
-    "LastTrainingTime": "2022-04-01T01:07:27.9999169+02:00",
+    "LastTrainingTime": "2022-04-02T02:16:19.209725+02:00",
     "Cooldown": "1.00:00:00"
   },
   {
@@ -5844,8 +5844,8 @@
     "Answer": "ich ziehe an",
     "ParentId": 223,
     "Type": 0,
-    "LastTrainingTime": "2022-04-01T01:07:27.9999226+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:16:58.3534696+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "ubierać się (Präsens, du)",
@@ -5860,8 +5860,8 @@
     "Answer": "er zieht an",
     "ParentId": 223,
     "Type": 2,
-    "LastTrainingTime": "2022-04-01T01:07:27.9999338+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:50:46.8530634+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "ubierać się (Präsens, ihr)",
@@ -5900,24 +5900,24 @@
     "Answer": "ihr zogt an",
     "ParentId": 223,
     "Type": 9,
-    "LastTrainingTime": "2022-04-01T01:07:27.9999623+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T03:09:45.2300998+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "rozbierać się (Präsens, ich)",
     "Answer": "ich ziehe aus",
     "ParentId": 226,
     "Type": 0,
-    "LastTrainingTime": "2022-04-01T01:07:27.9999683+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:36:30.4502429+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "rozbierać się (Präsens, du)",
     "Answer": "du ziehst aus",
     "ParentId": 226,
     "Type": 1,
-    "LastTrainingTime": "2022-04-01T01:07:27.999974+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:40:31.2329009+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "rozbierać się (Präsens, er)",
@@ -5932,15 +5932,15 @@
     "Answer": "ihr zieht aus",
     "ParentId": 226,
     "Type": 4,
-    "LastTrainingTime": "2022-04-01T01:07:27.9999853+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:41:18.4885363+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "rozbierać się (Präteritum, ich)",
     "Answer": "ich zog aus",
     "ParentId": 226,
     "Type": 5,
-    "LastTrainingTime": "2022-04-01T01:07:27.9999912+02:00",
+    "LastTrainingTime": "2022-04-02T02:21:58.3436986+02:00",
     "Cooldown": "1.00:00:00"
   },
   {
@@ -5948,8 +5948,8 @@
     "Answer": "du zogst aus",
     "ParentId": 226,
     "Type": 6,
-    "LastTrainingTime": "2022-04-01T01:07:27.9999969+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T03:09:59.6940813+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "rozbierać się (Präteritum, er)",
@@ -5964,8 +5964,8 @@
     "Answer": "ihr zogt aus",
     "ParentId": 226,
     "Type": 9,
-    "LastTrainingTime": "2022-04-01T01:07:28.0000084+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:51:04.8049604+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "dawać (Präsens, ich)",
@@ -6004,16 +6004,16 @@
     "Answer": "ich gab",
     "ParentId": 229,
     "Type": 5,
-    "LastTrainingTime": "2022-04-01T01:07:28.0000393+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T03:09:37.4941694+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "dawać (Präteritum, du)",
     "Answer": "du gabst",
     "ParentId": 229,
     "Type": 6,
-    "LastTrainingTime": "2022-04-01T01:07:28.0000451+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:45:40.1988972+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "dawać (Präteritum, er)",
@@ -6044,8 +6044,8 @@
     "Answer": "du zahlst",
     "ParentId": 232,
     "Type": 1,
-    "LastTrainingTime": "2022-04-01T01:07:28.0000683+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:45:10.3431063+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "płacić (na z) (Präsens, er)",
@@ -6060,8 +6060,8 @@
     "Answer": "ihr zahlt",
     "ParentId": 232,
     "Type": 4,
-    "LastTrainingTime": "2022-04-01T01:07:28.0000799+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:22:50.775321+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "płacić (na z) (Präteritum, ich)",
@@ -6084,8 +6084,8 @@
     "Answer": "er zahlte",
     "ParentId": 232,
     "Type": 7,
-    "LastTrainingTime": "2022-04-01T01:07:28.0000976+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:27:41.3899989+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "płacić (na z) (Präteritum, ihr)",
@@ -6108,8 +6108,8 @@
     "Answer": "du bestellst",
     "ParentId": 235,
     "Type": 1,
-    "LastTrainingTime": "2022-04-01T01:07:28.0001152+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:24:33.9026282+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "zamawiać (Präsens, er)",
@@ -6148,32 +6148,32 @@
     "Answer": "er bestellte",
     "ParentId": 235,
     "Type": 7,
-    "LastTrainingTime": "2022-04-01T01:07:28.0001448+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:17:12.5293909+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "zamawiać (Präteritum, ihr)",
     "Answer": "ihr bestelltet",
     "ParentId": 235,
     "Type": 9,
-    "LastTrainingTime": "2022-04-01T01:07:28.0001507+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:22:56.399346+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "wiedzieć (na k) (Präsens, ich)",
     "Answer": "ich kenne",
     "ParentId": 238,
     "Type": 0,
-    "LastTrainingTime": "2022-04-01T01:07:28.0001567+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:46:38.9026698+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "wiedzieć (na k) (Präsens, du)",
     "Answer": "du kennst",
     "ParentId": 238,
     "Type": 1,
-    "LastTrainingTime": "2022-04-01T01:07:28.0001626+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:26:26.1500104+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "wiedzieć (na k) (Präsens, er)",
@@ -6204,7 +6204,7 @@
     "Answer": "du kanntest",
     "ParentId": 238,
     "Type": 6,
-    "LastTrainingTime": "2022-04-01T01:07:28.0001865+02:00",
+    "LastTrainingTime": "2022-04-02T02:50:37.7970581+02:00",
     "Cooldown": "1.00:00:00"
   },
   {
@@ -6268,7 +6268,7 @@
     "Answer": "du mochtest",
     "ParentId": 241,
     "Type": 6,
-    "LastTrainingTime": "2022-04-01T01:07:28.0002376+02:00",
+    "LastTrainingTime": "2022-04-02T02:44:20.5515142+02:00",
     "Cooldown": "1.00:00:00"
   },
   {
@@ -6284,8 +6284,8 @@
     "Answer": "ihr mochtet",
     "ParentId": 241,
     "Type": 9,
-    "LastTrainingTime": "2022-04-01T01:07:28.0002497+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T03:10:37.213883+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "przynosić (na b) (Präsens, ich)",
@@ -6308,8 +6308,8 @@
     "Answer": "er bringt",
     "ParentId": 244,
     "Type": 2,
-    "LastTrainingTime": "2022-04-01T01:07:28.0002679+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:45:06.2471005+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "przynosić (na b) (Präsens, ihr)",
@@ -6332,7 +6332,7 @@
     "Answer": "du brachtest",
     "ParentId": 244,
     "Type": 6,
-    "LastTrainingTime": "2022-04-01T01:07:28.0002862+02:00",
+    "LastTrainingTime": "2022-04-02T03:11:16.3495395+02:00",
     "Cooldown": "1.00:00:00"
   },
   {
@@ -6380,8 +6380,8 @@
     "Answer": "ihr trefft",
     "ParentId": 247,
     "Type": 4,
-    "LastTrainingTime": "2022-04-01T01:07:28.0003228+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:22:09.1355131+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "spotykać się (Präteritum, ich)",
@@ -6396,7 +6396,7 @@
     "Answer": "du trafst",
     "ParentId": 247,
     "Type": 6,
-    "LastTrainingTime": "2022-04-01T01:07:28.0003352+02:00",
+    "LastTrainingTime": "2022-04-02T03:10:23.9819178+02:00",
     "Cooldown": "1.00:00:00"
   },
   {
@@ -6412,7 +6412,7 @@
     "Answer": "ihr traft",
     "ParentId": 247,
     "Type": 9,
-    "LastTrainingTime": "2022-04-01T01:07:28.0003475+02:00",
+    "LastTrainingTime": "2022-04-02T02:45:28.8789809+02:00",
     "Cooldown": "1.00:00:00"
   },
   {
@@ -6436,16 +6436,16 @@
     "Answer": "er überlegt",
     "ParentId": 250,
     "Type": 2,
-    "LastTrainingTime": "2022-04-01T01:07:28.0003663+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:36:14.4344493+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "zastanawiać się (Präsens, ihr)",
     "Answer": "ihr überlegt",
     "ParentId": 250,
     "Type": 4,
-    "LastTrainingTime": "2022-04-01T01:07:28.0003724+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:38:22.3296964+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "zastanawiać się (Präteritum, ich)",
@@ -6460,7 +6460,7 @@
     "Answer": "du überlegtest",
     "ParentId": 250,
     "Type": 6,
-    "LastTrainingTime": "2022-04-01T01:07:28.000385+02:00",
+    "LastTrainingTime": "2022-04-02T02:17:19.3933547+02:00",
     "Cooldown": "1.00:00:00"
   },
   {
@@ -6508,16 +6508,16 @@
     "Answer": "ihr atmet",
     "ParentId": 253,
     "Type": 4,
-    "LastTrainingTime": "2022-04-01T01:07:28.0004223+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:21:49.7836293+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "oddychać (Präteritum, ich)",
     "Answer": "ich atmete",
     "ParentId": 253,
     "Type": 5,
-    "LastTrainingTime": "2022-04-01T01:07:28.0004286+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:28:31.6931411+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "oddychać (Präteritum, du)",
@@ -6540,8 +6540,8 @@
     "Answer": "ihr atmetet",
     "ParentId": 253,
     "Type": 9,
-    "LastTrainingTime": "2022-04-01T01:07:28.0004495+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:16:10.6417998+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "wdychać (Präsens, ich)",
@@ -6556,8 +6556,8 @@
     "Answer": "du atmest ein",
     "ParentId": 256,
     "Type": 1,
-    "LastTrainingTime": "2022-04-01T01:07:28.0004621+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:39:13.4093764+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "wdychać (Präsens, er)",
@@ -6580,8 +6580,8 @@
     "Answer": "ich atmete ein",
     "ParentId": 256,
     "Type": 5,
-    "LastTrainingTime": "2022-04-01T01:07:28.0004833+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:18:03.1290684+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "wdychać (Präteritum, du)",
@@ -6596,8 +6596,8 @@
     "Answer": "er atmete ein",
     "ParentId": 256,
     "Type": 7,
-    "LastTrainingTime": "2022-04-01T01:07:28.000496+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:25:28.1982422+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "wdychać (Präteritum, ihr)",
@@ -6628,7 +6628,7 @@
     "Answer": "er läutet",
     "ParentId": 259,
     "Type": 2,
-    "LastTrainingTime": "2022-04-01T01:07:28.0005214+02:00",
+    "LastTrainingTime": "2022-04-02T02:43:01.1358314+02:00",
     "Cooldown": "1.00:00:00"
   },
   {
@@ -6636,7 +6636,7 @@
     "Answer": "ihr läutet",
     "ParentId": 259,
     "Type": 4,
-    "LastTrainingTime": "2022-04-01T01:07:28.0005277+02:00",
+    "LastTrainingTime": "2022-04-02T02:41:39.5285705+02:00",
     "Cooldown": "1.00:00:00"
   },
   {
@@ -6652,7 +6652,7 @@
     "Answer": "du läutetest",
     "ParentId": 259,
     "Type": 6,
-    "LastTrainingTime": "2022-04-01T01:07:28.0005405+02:00",
+    "LastTrainingTime": "2022-04-02T02:24:59.3744742+02:00",
     "Cooldown": "1.00:00:00"
   },
   {
@@ -6660,8 +6660,8 @@
     "Answer": "er läutete",
     "ParentId": 259,
     "Type": 7,
-    "LastTrainingTime": "2022-04-01T01:07:28.0005469+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-02T02:25:49.2702868+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Question": "dzwonić (Präteritum, ihr)",
