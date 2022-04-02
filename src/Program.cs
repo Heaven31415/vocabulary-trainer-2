@@ -5,6 +5,7 @@
         static void Main()
         {
             Console.Title = Config.ProgramName;
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
 
             try
             {
