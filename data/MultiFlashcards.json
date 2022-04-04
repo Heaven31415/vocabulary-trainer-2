@@ -58,7 +58,7 @@
       "wir rufen",
       "Sie rufen"
     ],
-    "ParentId": 4,
+    "ParentId": 5,
     "Type": 3,
     "LastTrainingTime": "2022-03-29T19:50:14.7022147+02:00",
     "Cooldown": "4.00:00:00"
@@ -72,7 +72,7 @@
       "wir riefen",
       "Sie riefen"
     ],
-    "ParentId": 4,
+    "ParentId": 5,
     "Type": 8,
     "LastTrainingTime": "2022-03-29T21:38:54.6192277+02:00",
     "Cooldown": "4.00:00:00"
@@ -94,7 +94,7 @@
       "ihr habt gerufen",
       "Sie haben gerufen"
     ],
-    "ParentId": 4,
+    "ParentId": 5,
     "Type": 10,
     "LastTrainingTime": "2022-03-29T19:50:45.4380259+02:00",
     "Cooldown": "4.00:00:00"
@@ -108,7 +108,7 @@
       "wir singen",
       "Sie singen"
     ],
-    "ParentId": 7,
+    "ParentId": 9,
     "Type": 3,
     "LastTrainingTime": "2022-03-29T19:45:14.3985745+02:00",
     "Cooldown": "4.00:00:00"
@@ -122,7 +122,7 @@
       "wir sangen",
       "Sie sangen"
     ],
-    "ParentId": 7,
+    "ParentId": 9,
     "Type": 8,
     "LastTrainingTime": "2022-04-02T16:29:32.2219633+02:00",
     "Cooldown": "1.00:00:00"
@@ -144,7 +144,7 @@
       "ihr habt gesungen",
       "Sie haben gesungen"
     ],
-    "ParentId": 7,
+    "ParentId": 9,
     "Type": 10,
     "LastTrainingTime": "2022-03-29T19:41:20.8552828+02:00",
     "Cooldown": "4.00:00:00"
@@ -158,7 +158,7 @@
       "wir tanzen",
       "Sie tanzen"
     ],
-    "ParentId": 10,
+    "ParentId": 13,
     "Type": 3,
     "LastTrainingTime": "2022-03-29T19:51:08.3420733+02:00",
     "Cooldown": "4.00:00:00"
@@ -172,7 +172,7 @@
       "wir tanzten",
       "Sie tanzten"
     ],
-    "ParentId": 10,
+    "ParentId": 13,
     "Type": 8,
     "LastTrainingTime": "2022-03-29T21:45:51.1385423+02:00",
     "Cooldown": "4.00:00:00"
@@ -194,37 +194,9 @@
       "ihr habt getanzt",
       "Sie haben getanzt"
     ],
-    "ParentId": 10,
+    "ParentId": 13,
     "Type": 10,
     "LastTrainingTime": "2022-03-29T20:15:32.2915477+02:00",
-    "Cooldown": "4.00:00:00"
-  },
-  {
-    "Questions": [
-      "leżeć (Präsens, wir)",
-      "leżeć (Präsens, Sie)"
-    ],
-    "Answers": [
-      "wir liegen",
-      "Sie liegen"
-    ],
-    "ParentId": 13,
-    "Type": 3,
-    "LastTrainingTime": "2022-03-30T00:01:28.5647623+02:00",
-    "Cooldown": "4.00:00:00"
-  },
-  {
-    "Questions": [
-      "leżeć (Präteritum, wir)",
-      "leżeć (Präteritum, Sie)"
-    ],
-    "Answers": [
-      "wir lagen",
-      "Sie lagen"
-    ],
-    "ParentId": 13,
-    "Type": 8,
-    "LastTrainingTime": "2022-03-29T20:23:32.1466981+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
@@ -244,10 +216,38 @@
       "ihr habt gelegen",
       "Sie haben gelegen"
     ],
-    "ParentId": 13,
+    "ParentId": 17,
     "Type": 10,
     "LastTrainingTime": "2022-04-02T16:30:00.3817982+02:00",
     "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "leżeć (Präteritum, wir)",
+      "leżeć (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir lagen",
+      "Sie lagen"
+    ],
+    "ParentId": 17,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-29T20:23:32.1466981+02:00",
+    "Cooldown": "4.00:00:00"
+  },
+  {
+    "Questions": [
+      "leżeć (Präsens, wir)",
+      "leżeć (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir liegen",
+      "Sie liegen"
+    ],
+    "ParentId": 17,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-30T00:01:28.5647623+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
@@ -258,7 +258,7 @@
       "wir haben",
       "Sie haben"
     ],
-    "ParentId": 16,
+    "ParentId": 21,
     "Type": 3,
     "LastTrainingTime": "2022-03-29T19:43:44.6227367+02:00",
     "Cooldown": "4.00:00:00"
@@ -272,7 +272,7 @@
       "wir hatten",
       "Sie hatten"
     ],
-    "ParentId": 16,
+    "ParentId": 21,
     "Type": 8,
     "LastTrainingTime": "2022-03-29T20:16:01.6435119+02:00",
     "Cooldown": "4.00:00:00"
@@ -294,7 +294,7 @@
       "ihr habt gehabt",
       "Sie haben gehabt"
     ],
-    "ParentId": 16,
+    "ParentId": 21,
     "Type": 10,
     "LastTrainingTime": "2022-03-29T19:44:13.9107465+02:00",
     "Cooldown": "4.00:00:00"
@@ -308,7 +308,7 @@
       "wir denken",
       "Sie denken"
     ],
-    "ParentId": 19,
+    "ParentId": 25,
     "Type": 3,
     "LastTrainingTime": "2022-03-29T20:17:57.7473102+02:00",
     "Cooldown": "4.00:00:00"
@@ -322,7 +322,7 @@
       "wir dachten",
       "Sie dachten"
     ],
-    "ParentId": 19,
+    "ParentId": 25,
     "Type": 8,
     "LastTrainingTime": "2022-03-29T19:49:56.0061439+02:00",
     "Cooldown": "4.00:00:00"
@@ -344,7 +344,7 @@
       "ihr habt gedacht",
       "Sie haben gedacht"
     ],
-    "ParentId": 19,
+    "ParentId": 25,
     "Type": 10,
     "LastTrainingTime": "2022-03-29T20:17:07.299364+02:00",
     "Cooldown": "4.00:00:00"
@@ -358,7 +358,7 @@
       "wir sterben",
       "Sie sterben"
     ],
-    "ParentId": 22,
+    "ParentId": 29,
     "Type": 3,
     "LastTrainingTime": "2022-03-29T20:17:39.7313002+02:00",
     "Cooldown": "4.00:00:00"
@@ -372,7 +372,7 @@
       "wir starben",
       "Sie starben"
     ],
-    "ParentId": 22,
+    "ParentId": 29,
     "Type": 8,
     "LastTrainingTime": "2022-03-29T20:49:01.8565611+02:00",
     "Cooldown": "4.00:00:00"
@@ -394,7 +394,7 @@
       "ihr seid gestorben",
       "Sie sind gestorben"
     ],
-    "ParentId": 22,
+    "ParentId": 29,
     "Type": 10,
     "LastTrainingTime": "2022-03-29T21:44:23.962651+02:00",
     "Cooldown": "4.00:00:00"
@@ -408,7 +408,7 @@
       "wir leben",
       "Sie leben"
     ],
-    "ParentId": 25,
+    "ParentId": 33,
     "Type": 3,
     "LastTrainingTime": "2022-03-29T23:58:57.7892719+02:00",
     "Cooldown": "4.00:00:00"
@@ -422,7 +422,7 @@
       "wir lebten",
       "Sie lebten"
     ],
-    "ParentId": 25,
+    "ParentId": 33,
     "Type": 8,
     "LastTrainingTime": "2022-03-29T20:59:11.9191015+02:00",
     "Cooldown": "4.00:00:00"
@@ -444,37 +444,9 @@
       "ihr habt gelebt",
       "Sie haben gelebt"
     ],
-    "ParentId": 25,
+    "ParentId": 33,
     "Type": 10,
     "LastTrainingTime": "2022-03-29T19:46:35.9344604+02:00",
-    "Cooldown": "4.00:00:00"
-  },
-  {
-    "Questions": [
-      "widzieć (Präsens, wir)",
-      "widzieć (Präsens, Sie)"
-    ],
-    "Answers": [
-      "wir sehen",
-      "Sie sehen"
-    ],
-    "ParentId": 28,
-    "Type": 3,
-    "LastTrainingTime": "2022-03-29T20:58:38.6873392+02:00",
-    "Cooldown": "4.00:00:00"
-  },
-  {
-    "Questions": [
-      "widzieć (Präteritum, wir)",
-      "widzieć (Präteritum, Sie)"
-    ],
-    "Answers": [
-      "wir sahen",
-      "Sie sahen"
-    ],
-    "ParentId": 28,
-    "Type": 8,
-    "LastTrainingTime": "2022-03-29T20:55:00.167616+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
@@ -494,137 +466,37 @@
       "ihr habt gesehen",
       "Sie haben gesehen"
     ],
-    "ParentId": 28,
+    "ParentId": 37,
     "Type": 10,
     "LastTrainingTime": "2022-03-29T19:50:37.9260306+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
-      "przynosić (na h) (Präsens, wir)",
-      "przynosić (na h) (Präsens, Sie)"
+      "widzieć (Präsens, wir)",
+      "widzieć (Präsens, Sie)"
     ],
     "Answers": [
-      "wir holen",
-      "Sie holen"
+      "wir sehen",
+      "Sie sehen"
     ],
-    "ParentId": 166,
+    "ParentId": 37,
     "Type": 3,
-    "LastTrainingTime": "2022-03-29T21:44:35.8666612+02:00",
+    "LastTrainingTime": "2022-03-29T20:58:38.6873392+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
-      "przynosić (na h) (Präteritum, wir)",
-      "przynosić (na h) (Präteritum, Sie)"
+      "widzieć (Präteritum, wir)",
+      "widzieć (Präteritum, Sie)"
     ],
     "Answers": [
-      "wir holten",
-      "Sie holten"
+      "wir sahen",
+      "Sie sahen"
     ],
-    "ParentId": 166,
+    "ParentId": 37,
     "Type": 8,
-    "LastTrainingTime": "2022-03-29T20:18:10.6352717+02:00",
-    "Cooldown": "4.00:00:00"
-  },
-  {
-    "Questions": [
-      "przynosić (na h) (Perfekt, ich)",
-      "przynosić (na h) (Perfekt, du)",
-      "przynosić (na h) (Perfekt, er)",
-      "przynosić (na h) (Perfekt, wir)",
-      "przynosić (na h) (Perfekt, ihr)",
-      "przynosić (na h) (Perfekt, Sie)"
-    ],
-    "Answers": [
-      "ich habe geholt",
-      "du hast geholt",
-      "er hat geholt",
-      "wir haben geholt",
-      "ihr habt geholt",
-      "Sie haben geholt"
-    ],
-    "ParentId": 166,
-    "Type": 10,
-    "LastTrainingTime": "2022-03-29T20:52:14.9280579+02:00",
-    "Cooldown": "4.00:00:00"
-  },
-  {
-    "Questions": [
-      "uczyć się (Präsens, wir)",
-      "uczyć się (Präsens, Sie)"
-    ],
-    "Answers": [
-      "wir lernen",
-      "Sie lernen"
-    ],
-    "ParentId": 205,
-    "Type": 3,
-    "LastTrainingTime": "2022-03-29T21:38:22.0273945+02:00",
-    "Cooldown": "4.00:00:00"
-  },
-  {
-    "Questions": [
-      "uczyć się (Präteritum, wir)",
-      "uczyć się (Präteritum, Sie)"
-    ],
-    "Answers": [
-      "wir lernten",
-      "Sie lernten"
-    ],
-    "ParentId": 205,
-    "Type": 8,
-    "LastTrainingTime": "2022-03-29T19:41:25.9749873+02:00",
-    "Cooldown": "4.00:00:00"
-  },
-  {
-    "Questions": [
-      "uczyć się (Perfekt, ich)",
-      "uczyć się (Perfekt, du)",
-      "uczyć się (Perfekt, er)",
-      "uczyć się (Perfekt, wir)",
-      "uczyć się (Perfekt, ihr)",
-      "uczyć się (Perfekt, Sie)"
-    ],
-    "Answers": [
-      "ich habe gelernt",
-      "du hast gelernt",
-      "er hat gelernt",
-      "wir haben gelernt",
-      "ihr habt gelernt",
-      "Sie haben gelernt"
-    ],
-    "ParentId": 205,
-    "Type": 10,
-    "LastTrainingTime": "2022-03-29T19:44:34.0546747+02:00",
-    "Cooldown": "4.00:00:00"
-  },
-  {
-    "Questions": [
-      "pytać (Präsens, wir)",
-      "pytać (Präsens, Sie)"
-    ],
-    "Answers": [
-      "wir fragen",
-      "Sie fragen"
-    ],
-    "ParentId": 31,
-    "Type": 3,
-    "LastTrainingTime": "2022-03-29T21:41:54.4188864+02:00",
-    "Cooldown": "4.00:00:00"
-  },
-  {
-    "Questions": [
-      "pytać (Präteritum, wir)",
-      "pytać (Präteritum, Sie)"
-    ],
-    "Answers": [
-      "wir fragten",
-      "Sie fragten"
-    ],
-    "ParentId": 31,
-    "Type": 8,
-    "LastTrainingTime": "2022-03-29T20:59:04.7671623+02:00",
+    "LastTrainingTime": "2022-03-29T20:55:00.167616+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
@@ -644,37 +516,37 @@
       "ihr habt gefragt",
       "Sie haben gefragt"
     ],
-    "ParentId": 31,
+    "ParentId": 41,
     "Type": 10,
     "LastTrainingTime": "2022-03-30T20:57:48.5842532+02:00",
     "Cooldown": "2.00:00:00"
   },
   {
     "Questions": [
-      "odpowiadać (Präsens, wir)",
-      "odpowiadać (Präsens, Sie)"
+      "pytać (Präsens, wir)",
+      "pytać (Präsens, Sie)"
     ],
     "Answers": [
-      "wir antworten",
-      "Sie antworten"
+      "wir fragen",
+      "Sie fragen"
     ],
-    "ParentId": 34,
+    "ParentId": 41,
     "Type": 3,
-    "LastTrainingTime": "2022-03-29T20:55:30.8715741+02:00",
+    "LastTrainingTime": "2022-03-29T21:41:54.4188864+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
-      "odpowiadać (Präteritum, wir)",
-      "odpowiadać (Präteritum, Sie)"
+      "pytać (Präteritum, wir)",
+      "pytać (Präteritum, Sie)"
     ],
     "Answers": [
-      "wir antworteten",
-      "Sie antworteten"
+      "wir fragten",
+      "Sie fragten"
     ],
-    "ParentId": 34,
+    "ParentId": 41,
     "Type": 8,
-    "LastTrainingTime": "2022-03-29T21:39:03.2912088+02:00",
+    "LastTrainingTime": "2022-03-29T20:59:04.7671623+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
@@ -694,37 +566,37 @@
       "ihr habt geantwortet",
       "Sie haben geantwortet"
     ],
-    "ParentId": 34,
+    "ParentId": 45,
     "Type": 10,
     "LastTrainingTime": "2022-03-29T20:18:33.6352818+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
-      "brać (Präsens, wir)",
-      "brać (Präsens, Sie)"
+      "odpowiadać (Präteritum, wir)",
+      "odpowiadać (Präteritum, Sie)"
     ],
     "Answers": [
-      "wir nehmen",
-      "Sie nehmen"
+      "wir antworteten",
+      "Sie antworteten"
     ],
-    "ParentId": 37,
-    "Type": 3,
-    "LastTrainingTime": "2022-03-29T20:22:08.0028686+02:00",
+    "ParentId": 45,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-29T21:39:03.2912088+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
-      "brać (Präteritum, wir)",
-      "brać (Präteritum, Sie)"
+      "odpowiadać (Präsens, wir)",
+      "odpowiadać (Präsens, Sie)"
     ],
     "Answers": [
-      "wir nahmen",
-      "Sie nahmen"
+      "wir antworten",
+      "Sie antworten"
     ],
-    "ParentId": 37,
-    "Type": 8,
-    "LastTrainingTime": "2022-03-29T19:48:13.6142892+02:00",
+    "ParentId": 45,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-29T20:55:30.8715741+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
@@ -744,9 +616,37 @@
       "ihr habt genommen",
       "Sie haben genommen"
     ],
-    "ParentId": 37,
+    "ParentId": 49,
     "Type": 10,
     "LastTrainingTime": "2022-03-29T21:42:29.7949072+02:00",
+    "Cooldown": "4.00:00:00"
+  },
+  {
+    "Questions": [
+      "brać (Präteritum, wir)",
+      "brać (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir nahmen",
+      "Sie nahmen"
+    ],
+    "ParentId": 49,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-29T19:48:13.6142892+02:00",
+    "Cooldown": "4.00:00:00"
+  },
+  {
+    "Questions": [
+      "brać (Präsens, wir)",
+      "brać (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir nehmen",
+      "Sie nehmen"
+    ],
+    "ParentId": 49,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-29T20:22:08.0028686+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
@@ -758,7 +658,7 @@
       "wir schlafen",
       "Sie schlafen"
     ],
-    "ParentId": 40,
+    "ParentId": 53,
     "Type": 3,
     "LastTrainingTime": "2022-03-29T20:53:57.4156622+02:00",
     "Cooldown": "4.00:00:00"
@@ -772,7 +672,7 @@
       "wir schliefen",
       "Sie schliefen"
     ],
-    "ParentId": 40,
+    "ParentId": 53,
     "Type": 8,
     "LastTrainingTime": "2022-04-02T16:17:20.5305019+02:00",
     "Cooldown": "4.00:00:00"
@@ -794,7 +694,7 @@
       "ihr habt geschlafen",
       "Sie haben geschlafen"
     ],
-    "ParentId": 40,
+    "ParentId": 53,
     "Type": 10,
     "LastTrainingTime": "2022-04-02T16:32:43.7088697+02:00",
     "Cooldown": "1.00:00:00"
@@ -808,7 +708,7 @@
       "wir wollen",
       "Sie wollen"
     ],
-    "ParentId": 43,
+    "ParentId": 57,
     "Type": 3,
     "LastTrainingTime": "2022-03-29T20:59:01.6712797+02:00",
     "Cooldown": "4.00:00:00"
@@ -822,7 +722,7 @@
       "wir wollten",
       "Sie wollten"
     ],
-    "ParentId": 43,
+    "ParentId": 57,
     "Type": 8,
     "LastTrainingTime": "2022-03-29T20:19:10.6112225+02:00",
     "Cooldown": "4.00:00:00"
@@ -844,7 +744,7 @@
       "ihr habt gewollt",
       "Sie haben gewollt"
     ],
-    "ParentId": 43,
+    "ParentId": 57,
     "Type": 10,
     "LastTrainingTime": "2022-03-29T21:44:47.0826341+02:00",
     "Cooldown": "4.00:00:00"
@@ -858,7 +758,7 @@
       "wir müssen",
       "Sie müssen"
     ],
-    "ParentId": 46,
+    "ParentId": 61,
     "Type": 3,
     "LastTrainingTime": "2022-03-29T20:19:13.8592121+02:00",
     "Cooldown": "4.00:00:00"
@@ -872,7 +772,7 @@
       "wir mussten",
       "Sie mussten"
     ],
-    "ParentId": 46,
+    "ParentId": 61,
     "Type": 8,
     "LastTrainingTime": "2022-03-29T20:22:30.8268784+02:00",
     "Cooldown": "4.00:00:00"
@@ -894,7 +794,7 @@
       "ihr habt gemusst",
       "Sie haben gemusst"
     ],
-    "ParentId": 46,
+    "ParentId": 61,
     "Type": 10,
     "LastTrainingTime": "2022-03-29T21:46:02.2425029+02:00",
     "Cooldown": "4.00:00:00"
@@ -908,23 +808,9 @@
       "wir können",
       "Sie können"
     ],
-    "ParentId": 49,
+    "ParentId": 65,
     "Type": 3,
     "LastTrainingTime": "2022-03-29T20:59:23.0791814+02:00",
-    "Cooldown": "4.00:00:00"
-  },
-  {
-    "Questions": [
-      "móc, potrafić (Präteritum, wir)",
-      "móc, potrafić (Präteritum, Sie)"
-    ],
-    "Answers": [
-      "wir konnten",
-      "Sie konnten"
-    ],
-    "ParentId": 49,
-    "Type": 8,
-    "LastTrainingTime": "2022-03-30T00:00:43.7968546+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
@@ -944,9 +830,23 @@
       "ihr habt gekonnt",
       "Sie haben gekonnt"
     ],
-    "ParentId": 49,
+    "ParentId": 65,
     "Type": 10,
     "LastTrainingTime": "2022-03-31T20:21:20.3737495+02:00",
+    "Cooldown": "4.00:00:00"
+  },
+  {
+    "Questions": [
+      "móc, potrafić (Präteritum, wir)",
+      "móc, potrafić (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir konnten",
+      "Sie konnten"
+    ],
+    "ParentId": 65,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-30T00:00:43.7968546+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
@@ -958,7 +858,7 @@
       "wir heißen",
       "Sie heißen"
     ],
-    "ParentId": 52,
+    "ParentId": 69,
     "Type": 3,
     "LastTrainingTime": "2022-03-30T00:00:06.4689767+02:00",
     "Cooldown": "4.00:00:00"
@@ -972,7 +872,7 @@
       "wir hießen",
       "Sie hießen"
     ],
-    "ParentId": 52,
+    "ParentId": 69,
     "Type": 8,
     "LastTrainingTime": "2022-03-29T21:41:50.8509418+02:00",
     "Cooldown": "4.00:00:00"
@@ -994,7 +894,7 @@
       "ihr habt geheißen",
       "Sie haben geheißen"
     ],
-    "ParentId": 52,
+    "ParentId": 69,
     "Type": 10,
     "LastTrainingTime": "2022-04-01T00:00:10.3366027+02:00",
     "Cooldown": "2.00:00:00"
@@ -1008,7 +908,7 @@
       "wir kommen",
       "Sie kommen"
     ],
-    "ParentId": 55,
+    "ParentId": 73,
     "Type": 3,
     "LastTrainingTime": "2022-03-29T20:59:30.5831779+02:00",
     "Cooldown": "4.00:00:00"
@@ -1022,7 +922,7 @@
       "wir kamen",
       "Sie kamen"
     ],
-    "ParentId": 55,
+    "ParentId": 73,
     "Type": 8,
     "LastTrainingTime": "2022-03-29T21:48:24.3542366+02:00",
     "Cooldown": "4.00:00:00"
@@ -1044,37 +944,9 @@
       "ihr seid gekommen",
       "Sie sind gekommen"
     ],
-    "ParentId": 55,
+    "ParentId": 73,
     "Type": 10,
     "LastTrainingTime": "2022-03-29T20:58:46.9192464+02:00",
-    "Cooldown": "4.00:00:00"
-  },
-  {
-    "Questions": [
-      "mieszkać (Präsens, wir)",
-      "mieszkać (Präsens, Sie)"
-    ],
-    "Answers": [
-      "wir wohnen",
-      "Sie wohnen"
-    ],
-    "ParentId": 58,
-    "Type": 3,
-    "LastTrainingTime": "2022-03-30T22:58:38.7650226+02:00",
-    "Cooldown": "4.00:00:00"
-  },
-  {
-    "Questions": [
-      "mieszkać (Präteritum, wir)",
-      "mieszkać (Präteritum, Sie)"
-    ],
-    "Answers": [
-      "wir wohnten",
-      "Sie wohnten"
-    ],
-    "ParentId": 58,
-    "Type": 8,
-    "LastTrainingTime": "2022-03-30T00:01:39.4128658+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
@@ -1094,23 +966,37 @@
       "ihr habt gewohnt",
       "Sie haben gewohnt"
     ],
-    "ParentId": 58,
+    "ParentId": 77,
     "Type": 10,
     "LastTrainingTime": "2022-03-30T00:00:16.2848961+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
-      "mówić (Präsens, wir)",
-      "mówić (Präsens, Sie)"
+      "mieszkać (Präsens, wir)",
+      "mieszkać (Präsens, Sie)"
     ],
     "Answers": [
-      "wir sprechen",
-      "Sie sprechen"
+      "wir wohnen",
+      "Sie wohnen"
     ],
-    "ParentId": 61,
+    "ParentId": 77,
     "Type": 3,
-    "LastTrainingTime": "2022-03-30T20:45:54.0176415+02:00",
+    "LastTrainingTime": "2022-03-30T22:58:38.7650226+02:00",
+    "Cooldown": "4.00:00:00"
+  },
+  {
+    "Questions": [
+      "mieszkać (Präteritum, wir)",
+      "mieszkać (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir wohnten",
+      "Sie wohnten"
+    ],
+    "ParentId": 77,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-30T00:01:39.4128658+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
@@ -1122,7 +1008,7 @@
       "wir sprachen",
       "Sie sprachen"
     ],
-    "ParentId": 61,
+    "ParentId": 81,
     "Type": 8,
     "LastTrainingTime": "2022-03-29T21:44:17.4587265+02:00",
     "Cooldown": "4.00:00:00"
@@ -1144,23 +1030,23 @@
       "ihr habt gesprochen",
       "Sie haben gesprochen"
     ],
-    "ParentId": 61,
+    "ParentId": 81,
     "Type": 10,
     "LastTrainingTime": "2022-03-30T20:57:43.1203238+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
-      "rozumieć (Präsens, wir)",
-      "rozumieć (Präsens, Sie)"
+      "mówić (Präsens, wir)",
+      "mówić (Präsens, Sie)"
     ],
     "Answers": [
-      "wir verstehen",
-      "Sie verstehen"
+      "wir sprechen",
+      "Sie sprechen"
     ],
-    "ParentId": 64,
+    "ParentId": 81,
     "Type": 3,
-    "LastTrainingTime": "2022-03-30T20:56:02.0245407+02:00",
+    "LastTrainingTime": "2022-03-30T20:45:54.0176415+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
@@ -1172,9 +1058,23 @@
       "wir verstanden",
       "Sie verstanden"
     ],
-    "ParentId": 64,
+    "ParentId": 85,
     "Type": 8,
     "LastTrainingTime": "2022-03-30T21:09:38.0713007+02:00",
+    "Cooldown": "4.00:00:00"
+  },
+  {
+    "Questions": [
+      "rozumieć (Präsens, wir)",
+      "rozumieć (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir verstehen",
+      "Sie verstehen"
+    ],
+    "ParentId": 85,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-30T20:56:02.0245407+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
@@ -1194,7 +1094,7 @@
       "ihr habt verstanden",
       "Sie haben verstanden"
     ],
-    "ParentId": 64,
+    "ParentId": 85,
     "Type": 10,
     "LastTrainingTime": "2022-04-02T16:22:55.2324768+02:00",
     "Cooldown": "1.00:00:00"
@@ -1208,7 +1108,7 @@
       "wir bedeuten",
       "Sie bedeuten"
     ],
-    "ParentId": 67,
+    "ParentId": 89,
     "Type": 3,
     "LastTrainingTime": "2022-03-29T21:38:01.4117611+02:00",
     "Cooldown": "4.00:00:00"
@@ -1222,7 +1122,7 @@
       "wir bedeuteten",
       "Sie bedeuteten"
     ],
-    "ParentId": 67,
+    "ParentId": 89,
     "Type": 8,
     "LastTrainingTime": "2022-03-29T21:48:01.5622544+02:00",
     "Cooldown": "4.00:00:00"
@@ -1244,23 +1144,9 @@
       "ihr habt bedeutet",
       "Sie haben bedeutet"
     ],
-    "ParentId": 67,
+    "ParentId": 89,
     "Type": 10,
     "LastTrainingTime": "2022-03-29T21:47:45.0103899+02:00",
-    "Cooldown": "4.00:00:00"
-  },
-  {
-    "Questions": [
-      "wiedzieć (na w) (Präsens, wir)",
-      "wiedzieć (na w) (Präsens, Sie)"
-    ],
-    "Answers": [
-      "wir wissen",
-      "Sie wissen"
-    ],
-    "ParentId": 70,
-    "Type": 3,
-    "LastTrainingTime": "2022-03-29T21:44:09.1946986+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
@@ -1272,9 +1158,23 @@
       "wir wussten",
       "Sie wussten"
     ],
-    "ParentId": 70,
+    "ParentId": 93,
     "Type": 8,
     "LastTrainingTime": "2022-03-30T00:00:33.1649162+02:00",
+    "Cooldown": "4.00:00:00"
+  },
+  {
+    "Questions": [
+      "wiedzieć (na w) (Präsens, wir)",
+      "wiedzieć (na w) (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir wissen",
+      "Sie wissen"
+    ],
+    "ParentId": 93,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-29T21:44:09.1946986+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
@@ -1294,37 +1194,9 @@
       "ihr habt gewusst",
       "Sie haben gewusst"
     ],
-    "ParentId": 70,
+    "ParentId": 93,
     "Type": 10,
     "LastTrainingTime": "2022-03-29T21:46:13.5704571+02:00",
-    "Cooldown": "4.00:00:00"
-  },
-  {
-    "Questions": [
-      "robić (na m) (Präsens, wir)",
-      "robić (na m) (Präsens, Sie)"
-    ],
-    "Answers": [
-      "wir machen",
-      "Sie machen"
-    ],
-    "ParentId": 73,
-    "Type": 3,
-    "LastTrainingTime": "2022-03-29T21:48:21.7622916+02:00",
-    "Cooldown": "4.00:00:00"
-  },
-  {
-    "Questions": [
-      "robić (na m) (Präteritum, wir)",
-      "robić (na m) (Präteritum, Sie)"
-    ],
-    "Answers": [
-      "wir machten",
-      "Sie machten"
-    ],
-    "ParentId": 73,
-    "Type": 8,
-    "LastTrainingTime": "2022-03-29T21:39:26.8271596+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
@@ -1344,9 +1216,37 @@
       "ihr habt gemacht",
       "Sie haben gemacht"
     ],
-    "ParentId": 73,
+    "ParentId": 97,
     "Type": 10,
     "LastTrainingTime": "2022-03-30T20:52:12.376766+02:00",
+    "Cooldown": "4.00:00:00"
+  },
+  {
+    "Questions": [
+      "robić (na m) (Präsens, wir)",
+      "robić (na m) (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir machen",
+      "Sie machen"
+    ],
+    "ParentId": 97,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-29T21:48:21.7622916+02:00",
+    "Cooldown": "4.00:00:00"
+  },
+  {
+    "Questions": [
+      "robić (na m) (Präteritum, wir)",
+      "robić (na m) (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir machten",
+      "Sie machten"
+    ],
+    "ParentId": 97,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-29T21:39:26.8271596+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
@@ -1358,7 +1258,7 @@
       "wir brauchen",
       "Sie brauchen"
     ],
-    "ParentId": 76,
+    "ParentId": 101,
     "Type": 3,
     "LastTrainingTime": "2022-03-30T20:57:58.8643678+02:00",
     "Cooldown": "4.00:00:00"
@@ -1372,7 +1272,7 @@
       "wir brauchten",
       "Sie brauchten"
     ],
-    "ParentId": 76,
+    "ParentId": 101,
     "Type": 8,
     "LastTrainingTime": "2022-03-30T20:56:16.1364042+02:00",
     "Cooldown": "4.00:00:00"
@@ -1394,37 +1294,9 @@
       "ihr habt gebraucht",
       "Sie haben gebraucht"
     ],
-    "ParentId": 76,
+    "ParentId": 101,
     "Type": 10,
     "LastTrainingTime": "2022-03-30T20:57:00.5523477+02:00",
-    "Cooldown": "4.00:00:00"
-  },
-  {
-    "Questions": [
-      "jeść (Präsens, wir)",
-      "jeść (Präsens, Sie)"
-    ],
-    "Answers": [
-      "wir essen",
-      "Sie essen"
-    ],
-    "ParentId": 79,
-    "Type": 3,
-    "LastTrainingTime": "2022-03-30T20:46:45.7212909+02:00",
-    "Cooldown": "4.00:00:00"
-  },
-  {
-    "Questions": [
-      "jeść (Präteritum, wir)",
-      "jeść (Präteritum, Sie)"
-    ],
-    "Answers": [
-      "wir aßen",
-      "Sie aßen"
-    ],
-    "ParentId": 79,
-    "Type": 8,
-    "LastTrainingTime": "2022-03-29T21:43:03.5390446+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
@@ -1444,9 +1316,37 @@
       "ihr habt gegessen",
       "Sie haben gegessen"
     ],
-    "ParentId": 79,
+    "ParentId": 105,
     "Type": 10,
     "LastTrainingTime": "2022-03-30T21:06:46.4954866+02:00",
+    "Cooldown": "4.00:00:00"
+  },
+  {
+    "Questions": [
+      "jeść (Präsens, wir)",
+      "jeść (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir essen",
+      "Sie essen"
+    ],
+    "ParentId": 105,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-30T20:46:45.7212909+02:00",
+    "Cooldown": "4.00:00:00"
+  },
+  {
+    "Questions": [
+      "jeść (Präteritum, wir)",
+      "jeść (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir aßen",
+      "Sie aßen"
+    ],
+    "ParentId": 105,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-29T21:43:03.5390446+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
@@ -1458,7 +1358,7 @@
       "wir sollen",
       "Sie sollen"
     ],
-    "ParentId": 82,
+    "ParentId": 109,
     "Type": 3,
     "LastTrainingTime": "2022-03-29T21:48:05.2982802+02:00",
     "Cooldown": "4.00:00:00"
@@ -1472,7 +1372,7 @@
       "wir sollten",
       "Sie sollten"
     ],
-    "ParentId": 82,
+    "ParentId": 109,
     "Type": 8,
     "LastTrainingTime": "2022-03-29T23:59:44.8050737+02:00",
     "Cooldown": "4.00:00:00"
@@ -1494,23 +1394,9 @@
       "ihr habt gesollt",
       "Sie haben gesollt"
     ],
-    "ParentId": 82,
+    "ParentId": 109,
     "Type": 10,
     "LastTrainingTime": "2022-03-30T20:52:20.8087448+02:00",
-    "Cooldown": "4.00:00:00"
-  },
-  {
-    "Questions": [
-      "zwracać się do kogoś na du (Präsens, wir)",
-      "zwracać się do kogoś na du (Präsens, Sie)"
-    ],
-    "Answers": [
-      "wir duzen",
-      "Sie duzen"
-    ],
-    "ParentId": 85,
-    "Type": 3,
-    "LastTrainingTime": "2022-03-30T23:46:54.4326712+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
@@ -1522,7 +1408,7 @@
       "wir duzten",
       "Sie duzten"
     ],
-    "ParentId": 85,
+    "ParentId": 113,
     "Type": 8,
     "LastTrainingTime": "2022-03-30T23:47:46.6406707+02:00",
     "Cooldown": "4.00:00:00"
@@ -1544,37 +1430,23 @@
       "ihr habt geduzt",
       "Sie haben geduzt"
     ],
-    "ParentId": 85,
+    "ParentId": 113,
     "Type": 10,
     "LastTrainingTime": "2022-03-30T23:50:22.3604547+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
-      "zwracać się do kogoś na Sie (Präsens, wir)",
-      "zwracać się do kogoś na Sie (Präsens, Sie)"
+      "zwracać się do kogoś na du (Präsens, wir)",
+      "zwracać się do kogoś na du (Präsens, Sie)"
     ],
     "Answers": [
-      "wir siezen",
-      "Sie siezen"
+      "wir duzen",
+      "Sie duzen"
     ],
-    "ParentId": 88,
+    "ParentId": 113,
     "Type": 3,
-    "LastTrainingTime": "2022-03-30T23:46:47.7207629+02:00",
-    "Cooldown": "4.00:00:00"
-  },
-  {
-    "Questions": [
-      "zwracać się do kogoś na Sie (Präteritum, wir)",
-      "zwracać się do kogoś na Sie (Präteritum, Sie)"
-    ],
-    "Answers": [
-      "wir siezten",
-      "Sie siezten"
-    ],
-    "ParentId": 88,
-    "Type": 8,
-    "LastTrainingTime": "2022-03-30T23:51:13.440311+02:00",
+    "LastTrainingTime": "2022-03-30T23:46:54.4326712+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
@@ -1594,23 +1466,37 @@
       "ihr habt gesiezt",
       "Sie haben gesiezt"
     ],
-    "ParentId": 88,
+    "ParentId": 117,
     "Type": 10,
     "LastTrainingTime": "2022-03-30T23:47:58.5926817+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
-      "mieć pozwolenie (Präsens, wir)",
-      "mieć pozwolenie (Präsens, Sie)"
+      "zwracać się do kogoś na Sie (Präsens, wir)",
+      "zwracać się do kogoś na Sie (Präsens, Sie)"
     ],
     "Answers": [
-      "wir dürfen",
-      "Sie dürfen"
+      "wir siezen",
+      "Sie siezen"
     ],
-    "ParentId": 91,
+    "ParentId": 117,
     "Type": 3,
-    "LastTrainingTime": "2022-03-30T23:49:56.4563816+02:00",
+    "LastTrainingTime": "2022-03-30T23:46:47.7207629+02:00",
+    "Cooldown": "4.00:00:00"
+  },
+  {
+    "Questions": [
+      "zwracać się do kogoś na Sie (Präteritum, wir)",
+      "zwracać się do kogoś na Sie (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir siezten",
+      "Sie siezten"
+    ],
+    "ParentId": 117,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-30T23:51:13.440311+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
@@ -1622,7 +1508,7 @@
       "wir durften",
       "Sie durften"
     ],
-    "ParentId": 91,
+    "ParentId": 121,
     "Type": 8,
     "LastTrainingTime": "2022-04-01T00:04:21.4386958+02:00",
     "Cooldown": "4.00:00:00"
@@ -1644,23 +1530,23 @@
       "ihr habt gedurft",
       "Sie haben gedurft"
     ],
-    "ParentId": 91,
+    "ParentId": 121,
     "Type": 10,
     "LastTrainingTime": "2022-03-30T23:51:27.2722135+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
-      "budzić się (Präsens, wir)",
-      "budzić się (Präsens, Sie)"
+      "mieć pozwolenie (Präsens, wir)",
+      "mieć pozwolenie (Präsens, Sie)"
     ],
     "Answers": [
-      "wir wachen auf",
-      "Sie wachen auf"
+      "wir dürfen",
+      "Sie dürfen"
     ],
-    "ParentId": 94,
+    "ParentId": 121,
     "Type": 3,
-    "LastTrainingTime": "2022-03-30T23:44:07.9771766+02:00",
+    "LastTrainingTime": "2022-03-30T23:49:56.4563816+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
@@ -1672,9 +1558,23 @@
       "wir wachten auf",
       "Sie wachten auf"
     ],
-    "ParentId": 94,
+    "ParentId": 125,
     "Type": 8,
     "LastTrainingTime": "2022-03-30T23:48:13.57653+02:00",
+    "Cooldown": "4.00:00:00"
+  },
+  {
+    "Questions": [
+      "budzić się (Präsens, wir)",
+      "budzić się (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir wachen auf",
+      "Sie wachen auf"
+    ],
+    "ParentId": 125,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-30T23:44:07.9771766+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
@@ -1694,7 +1594,7 @@
       "ihr seid aufgewacht",
       "Sie sind aufgewacht"
     ],
-    "ParentId": 94,
+    "ParentId": 125,
     "Type": 10,
     "LastTrainingTime": "2022-03-30T23:46:42.2246846+02:00",
     "Cooldown": "4.00:00:00"
@@ -1708,7 +1608,7 @@
       "wir stehen auf",
       "Sie stehen auf"
     ],
-    "ParentId": 97,
+    "ParentId": 129,
     "Type": 3,
     "LastTrainingTime": "2022-03-30T23:46:26.0247698+02:00",
     "Cooldown": "4.00:00:00"
@@ -1722,7 +1622,7 @@
       "wir standen auf",
       "Sie standen auf"
     ],
-    "ParentId": 97,
+    "ParentId": 129,
     "Type": 8,
     "LastTrainingTime": "2022-03-30T23:51:46.2482394+02:00",
     "Cooldown": "4.00:00:00"
@@ -1744,37 +1644,9 @@
       "ihr seid aufgestanden",
       "Sie sind aufgestanden"
     ],
-    "ParentId": 97,
+    "ParentId": 129,
     "Type": 10,
     "LastTrainingTime": "2022-03-30T23:45:45.7769227+02:00",
-    "Cooldown": "4.00:00:00"
-  },
-  {
-    "Questions": [
-      "jeść śniadanie (Präsens, wir)",
-      "jeść śniadanie (Präsens, Sie)"
-    ],
-    "Answers": [
-      "wir frühstücken",
-      "Sie frühstücken"
-    ],
-    "ParentId": 100,
-    "Type": 3,
-    "LastTrainingTime": "2022-03-31T16:53:47.6025078+02:00",
-    "Cooldown": "4.00:00:00"
-  },
-  {
-    "Questions": [
-      "jeść śniadanie (Präteritum, wir)",
-      "jeść śniadanie (Präteritum, Sie)"
-    ],
-    "Answers": [
-      "wir frühstückten",
-      "Sie frühstückten"
-    ],
-    "ParentId": 100,
-    "Type": 8,
-    "LastTrainingTime": "2022-03-31T16:50:59.1312077+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
@@ -1794,23 +1666,37 @@
       "ihr habt gefrühstückt",
       "Sie haben gefrühstückt"
     ],
-    "ParentId": 100,
+    "ParentId": 133,
     "Type": 10,
     "LastTrainingTime": "2022-03-30T21:06:13.3354691+02:00",
     "Cooldown": "2.00:00:00"
   },
   {
     "Questions": [
-      "zaczynać (Präsens, wir)",
-      "zaczynać (Präsens, Sie)"
+      "jeść śniadanie (Präsens, wir)",
+      "jeść śniadanie (Präsens, Sie)"
     ],
     "Answers": [
-      "wir beginnen",
-      "Sie beginnen"
+      "wir frühstücken",
+      "Sie frühstücken"
     ],
-    "ParentId": 103,
+    "ParentId": 133,
     "Type": 3,
-    "LastTrainingTime": "2022-03-31T16:52:29.0987572+02:00",
+    "LastTrainingTime": "2022-03-31T16:53:47.6025078+02:00",
+    "Cooldown": "4.00:00:00"
+  },
+  {
+    "Questions": [
+      "jeść śniadanie (Präteritum, wir)",
+      "jeść śniadanie (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir frühstückten",
+      "Sie frühstückten"
+    ],
+    "ParentId": 133,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-31T16:50:59.1312077+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
@@ -1822,7 +1708,7 @@
       "wir begannen",
       "Sie begannen"
     ],
-    "ParentId": 103,
+    "ParentId": 137,
     "Type": 8,
     "LastTrainingTime": "2022-04-01T16:50:36.249111+02:00",
     "Cooldown": "1.00:00:00"
@@ -1844,9 +1730,23 @@
       "ihr habt begonnen",
       "Sie haben begonnen"
     ],
-    "ParentId": 103,
+    "ParentId": 137,
     "Type": 10,
     "LastTrainingTime": "2022-03-31T16:54:07.7781014+02:00",
+    "Cooldown": "4.00:00:00"
+  },
+  {
+    "Questions": [
+      "zaczynać (Präsens, wir)",
+      "zaczynać (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir beginnen",
+      "Sie beginnen"
+    ],
+    "ParentId": 137,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-31T16:52:29.0987572+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
@@ -1858,7 +1758,7 @@
       "wir gehen",
       "Sie gehen"
     ],
-    "ParentId": 106,
+    "ParentId": 141,
     "Type": 3,
     "LastTrainingTime": "2022-03-31T16:50:14.0514823+02:00",
     "Cooldown": "4.00:00:00"
@@ -1872,7 +1772,7 @@
       "wir gingen",
       "Sie gingen"
     ],
-    "ParentId": 106,
+    "ParentId": 141,
     "Type": 8,
     "LastTrainingTime": "2022-03-31T16:49:51.0939772+02:00",
     "Cooldown": "4.00:00:00"
@@ -1894,7 +1794,7 @@
       "ihr seid gegangen",
       "Sie sind gegangen"
     ],
-    "ParentId": 106,
+    "ParentId": 141,
     "Type": 10,
     "LastTrainingTime": "2022-03-31T16:52:57.8986279+02:00",
     "Cooldown": "4.00:00:00"
@@ -1908,23 +1808,9 @@
       "wir sitzen",
       "Sie sitzen"
     ],
-    "ParentId": 109,
+    "ParentId": 145,
     "Type": 3,
     "LastTrainingTime": "2022-03-31T20:21:12.4057814+02:00",
-    "Cooldown": "4.00:00:00"
-  },
-  {
-    "Questions": [
-      "siedzieć (Präteritum, wir)",
-      "siedzieć (Präteritum, Sie)"
-    ],
-    "Answers": [
-      "wir saßen",
-      "Sie saßen"
-    ],
-    "ParentId": 109,
-    "Type": 8,
-    "LastTrainingTime": "2022-03-31T21:11:00.623862+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
@@ -1944,9 +1830,23 @@
       "ihr habt gesessen",
       "Sie haben gesessen"
     ],
-    "ParentId": 109,
+    "ParentId": 145,
     "Type": 10,
     "LastTrainingTime": "2022-03-31T22:43:49.1886317+02:00",
+    "Cooldown": "4.00:00:00"
+  },
+  {
+    "Questions": [
+      "siedzieć (Präteritum, wir)",
+      "siedzieć (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir saßen",
+      "Sie saßen"
+    ],
+    "ParentId": 145,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-31T21:11:00.623862+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
@@ -1958,24 +1858,10 @@
       "wir lesen",
       "Sie lesen"
     ],
-    "ParentId": 112,
+    "ParentId": 149,
     "Type": 3,
     "LastTrainingTime": "2022-04-02T16:37:51.3950517+02:00",
     "Cooldown": "2.00:00:00"
-  },
-  {
-    "Questions": [
-      "czytać (Präteritum, wir)",
-      "czytać (Präteritum, Sie)"
-    ],
-    "Answers": [
-      "wir lasen",
-      "Sie lasen"
-    ],
-    "ParentId": 112,
-    "Type": 8,
-    "LastTrainingTime": "2022-03-31T20:13:02.649367+02:00",
-    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
@@ -1994,37 +1880,23 @@
       "ihr habt gelesen",
       "Sie haben gelesen"
     ],
-    "ParentId": 112,
+    "ParentId": 149,
     "Type": 10,
     "LastTrainingTime": "2022-03-31T22:47:41.6352249+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
-      "słyszeć (Präsens, wir)",
-      "słyszeć (Präsens, Sie)"
+      "czytać (Präteritum, wir)",
+      "czytać (Präteritum, Sie)"
     ],
     "Answers": [
-      "wir hören",
-      "Sie hören"
+      "wir lasen",
+      "Sie lasen"
     ],
-    "ParentId": 115,
-    "Type": 3,
-    "LastTrainingTime": "2022-03-31T20:14:18.0083475+02:00",
-    "Cooldown": "4.00:00:00"
-  },
-  {
-    "Questions": [
-      "słyszeć (Präteritum, wir)",
-      "słyszeć (Präteritum, Sie)"
-    ],
-    "Answers": [
-      "wir hörten",
-      "Sie hörten"
-    ],
-    "ParentId": 115,
+    "ParentId": 149,
     "Type": 8,
-    "LastTrainingTime": "2022-03-31T21:09:53.8247121+02:00",
+    "LastTrainingTime": "2022-03-31T20:13:02.649367+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
@@ -2044,23 +1916,37 @@
       "ihr habt gehört",
       "Sie haben gehört"
     ],
-    "ParentId": 115,
+    "ParentId": 153,
     "Type": 10,
     "LastTrainingTime": "2022-03-31T22:45:58.8439391+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
-      "zauważać (Präsens, wir)",
-      "zauważać (Präsens, Sie)"
+      "słyszeć (Präteritum, wir)",
+      "słyszeć (Präteritum, Sie)"
     ],
     "Answers": [
-      "wir merken",
-      "Sie merken"
+      "wir hörten",
+      "Sie hörten"
     ],
-    "ParentId": 118,
+    "ParentId": 153,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-31T21:09:53.8247121+02:00",
+    "Cooldown": "4.00:00:00"
+  },
+  {
+    "Questions": [
+      "słyszeć (Präsens, wir)",
+      "słyszeć (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir hören",
+      "Sie hören"
+    ],
+    "ParentId": 153,
     "Type": 3,
-    "LastTrainingTime": "2022-03-31T20:21:57.5417515+02:00",
+    "LastTrainingTime": "2022-03-31T20:14:18.0083475+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
@@ -2072,9 +1958,23 @@
       "wir merkten",
       "Sie merkten"
     ],
-    "ParentId": 118,
+    "ParentId": 157,
     "Type": 8,
     "LastTrainingTime": "2022-03-31T22:48:11.994987+02:00",
+    "Cooldown": "4.00:00:00"
+  },
+  {
+    "Questions": [
+      "zauważać (Präsens, wir)",
+      "zauważać (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir merken",
+      "Sie merken"
+    ],
+    "ParentId": 157,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-31T20:21:57.5417515+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
@@ -2094,37 +1994,9 @@
       "ihr habt gemerkt",
       "Sie haben gemerkt"
     ],
-    "ParentId": 118,
+    "ParentId": 157,
     "Type": 10,
     "LastTrainingTime": "2022-03-31T22:48:28.4989352+02:00",
-    "Cooldown": "4.00:00:00"
-  },
-  {
-    "Questions": [
-      "reagować (Präsens, wir)",
-      "reagować (Präsens, Sie)"
-    ],
-    "Answers": [
-      "wir reagieren",
-      "Sie reagieren"
-    ],
-    "ParentId": 121,
-    "Type": 3,
-    "LastTrainingTime": "2022-03-31T22:48:20.2109462+02:00",
-    "Cooldown": "4.00:00:00"
-  },
-  {
-    "Questions": [
-      "reagować (Präteritum, wir)",
-      "reagować (Präteritum, Sie)"
-    ],
-    "Answers": [
-      "wir reagierten",
-      "Sie reagierten"
-    ],
-    "ParentId": 121,
-    "Type": 8,
-    "LastTrainingTime": "2022-03-31T22:46:08.7798747+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
@@ -2144,37 +2016,37 @@
       "ihr habt reagiert",
       "Sie haben reagiert"
     ],
-    "ParentId": 121,
+    "ParentId": 161,
     "Type": 10,
     "LastTrainingTime": "2022-03-31T22:43:17.4131335+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
-      "latać (Präsens, wir)",
-      "latać (Präsens, Sie)"
+      "reagować (Präteritum, wir)",
+      "reagować (Präteritum, Sie)"
     ],
     "Answers": [
-      "wir fliegen",
-      "Sie fliegen"
+      "wir reagierten",
+      "Sie reagierten"
     ],
-    "ParentId": 124,
-    "Type": 3,
-    "LastTrainingTime": "2022-03-31T22:43:40.8286735+02:00",
+    "ParentId": 161,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-31T22:46:08.7798747+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
-      "latać (Präteritum, wir)",
-      "latać (Präteritum, Sie)"
+      "reagować (Präsens, wir)",
+      "reagować (Präsens, Sie)"
     ],
     "Answers": [
-      "wir flogen",
-      "Sie flogen"
+      "wir reagieren",
+      "Sie reagieren"
     ],
-    "ParentId": 124,
-    "Type": 8,
-    "LastTrainingTime": "2022-03-31T22:45:33.4519892+02:00",
+    "ParentId": 161,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-31T22:48:20.2109462+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
@@ -2194,9 +2066,37 @@
       "ihr seid geflogen",
       "Sie sind geflogen"
     ],
-    "ParentId": 124,
+    "ParentId": 165,
     "Type": 10,
     "LastTrainingTime": "2022-03-31T20:19:34.12637+02:00",
+    "Cooldown": "4.00:00:00"
+  },
+  {
+    "Questions": [
+      "latać (Präsens, wir)",
+      "latać (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir fliegen",
+      "Sie fliegen"
+    ],
+    "ParentId": 165,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-31T22:43:40.8286735+02:00",
+    "Cooldown": "4.00:00:00"
+  },
+  {
+    "Questions": [
+      "latać (Präteritum, wir)",
+      "latać (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir flogen",
+      "Sie flogen"
+    ],
+    "ParentId": 165,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-31T22:45:33.4519892+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
@@ -2208,7 +2108,7 @@
       "wir versuchen",
       "Sie versuchen"
     ],
-    "ParentId": 127,
+    "ParentId": 169,
     "Type": 3,
     "LastTrainingTime": "2022-03-31T22:44:39.1964277+02:00",
     "Cooldown": "4.00:00:00"
@@ -2222,7 +2122,7 @@
       "wir versuchten",
       "Sie versuchten"
     ],
-    "ParentId": 127,
+    "ParentId": 169,
     "Type": 8,
     "LastTrainingTime": "2022-04-02T16:22:42.0645984+02:00",
     "Cooldown": "4.00:00:00"
@@ -2244,37 +2144,9 @@
       "ihr habt versucht",
       "Sie haben versucht"
     ],
-    "ParentId": 127,
+    "ParentId": 169,
     "Type": 10,
     "LastTrainingTime": "2022-03-31T22:47:37.1072324+02:00",
-    "Cooldown": "4.00:00:00"
-  },
-  {
-    "Questions": [
-      "patrzeć (Präsens, wir)",
-      "patrzeć (Präsens, Sie)"
-    ],
-    "Answers": [
-      "wir sehen an",
-      "Sie sehen an"
-    ],
-    "ParentId": 130,
-    "Type": 3,
-    "LastTrainingTime": "2022-03-31T21:11:19.9677394+02:00",
-    "Cooldown": "4.00:00:00"
-  },
-  {
-    "Questions": [
-      "patrzeć (Präteritum, wir)",
-      "patrzeć (Präteritum, Sie)"
-    ],
-    "Answers": [
-      "wir sahen an",
-      "Sie sahen an"
-    ],
-    "ParentId": 130,
-    "Type": 8,
-    "LastTrainingTime": "2022-04-01T00:04:55.8704532+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
@@ -2294,37 +2166,37 @@
       "ihr habt angesehen",
       "Sie haben angesehen"
     ],
-    "ParentId": 130,
+    "ParentId": 173,
     "Type": 10,
     "LastTrainingTime": "2022-03-31T22:48:04.3710829+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
-      "lądować (Präsens, wir)",
-      "lądować (Präsens, Sie)"
+      "patrzeć (Präsens, wir)",
+      "patrzeć (Präsens, Sie)"
     ],
     "Answers": [
-      "wir landen",
-      "Sie landen"
+      "wir sehen an",
+      "Sie sehen an"
     ],
-    "ParentId": 133,
+    "ParentId": 173,
     "Type": 3,
-    "LastTrainingTime": "2022-03-31T22:49:13.1226922+02:00",
+    "LastTrainingTime": "2022-03-31T21:11:19.9677394+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
-      "lądować (Präteritum, wir)",
-      "lądować (Präteritum, Sie)"
+      "patrzeć (Präteritum, wir)",
+      "patrzeć (Präteritum, Sie)"
     ],
     "Answers": [
-      "wir landeten",
-      "Sie landeten"
+      "wir sahen an",
+      "Sie sahen an"
     ],
-    "ParentId": 133,
+    "ParentId": 173,
     "Type": 8,
-    "LastTrainingTime": "2022-03-31T21:12:53.3032994+02:00",
+    "LastTrainingTime": "2022-04-01T00:04:55.8704532+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
@@ -2344,37 +2216,37 @@
       "ihr seid gelandet",
       "Sie sind gelandet"
     ],
-    "ParentId": 133,
+    "ParentId": 177,
     "Type": 10,
     "LastTrainingTime": "2022-03-31T20:20:26.2221895+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
-      "zaczynać biec (Präsens, wir)",
-      "zaczynać biec (Präsens, Sie)"
+      "lądować (Präteritum, wir)",
+      "lądować (Präteritum, Sie)"
     ],
     "Answers": [
-      "wir laufen los",
-      "Sie laufen los"
+      "wir landeten",
+      "Sie landeten"
     ],
-    "ParentId": 136,
-    "Type": 3,
-    "LastTrainingTime": "2022-04-01T00:04:29.51867+02:00",
+    "ParentId": 177,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-31T21:12:53.3032994+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
-      "zaczynać biec (Präteritum, wir)",
-      "zaczynać biec (Präteritum, Sie)"
+      "lądować (Präsens, wir)",
+      "lądować (Präsens, Sie)"
     ],
     "Answers": [
-      "wir liefen los",
-      "Sie liefen los"
+      "wir landen",
+      "Sie landen"
     ],
-    "ParentId": 136,
-    "Type": 8,
-    "LastTrainingTime": "2022-03-31T20:14:24.5683997+02:00",
+    "ParentId": 177,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-31T22:49:13.1226922+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
@@ -2394,9 +2266,37 @@
       "ihr seid losgelaufen",
       "Sie sind losgelaufen"
     ],
-    "ParentId": 136,
+    "ParentId": 181,
     "Type": 10,
     "LastTrainingTime": "2022-03-31T22:47:30.8992544+02:00",
+    "Cooldown": "4.00:00:00"
+  },
+  {
+    "Questions": [
+      "zaczynać biec (Präteritum, wir)",
+      "zaczynać biec (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir liefen los",
+      "Sie liefen los"
+    ],
+    "ParentId": 181,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-31T20:14:24.5683997+02:00",
+    "Cooldown": "4.00:00:00"
+  },
+  {
+    "Questions": [
+      "zaczynać biec (Präsens, wir)",
+      "zaczynać biec (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir laufen los",
+      "Sie laufen los"
+    ],
+    "ParentId": 181,
+    "Type": 3,
+    "LastTrainingTime": "2022-04-01T00:04:29.51867+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
@@ -2408,7 +2308,7 @@
       "wir öffnen",
       "Sie öffnen"
     ],
-    "ParentId": 139,
+    "ParentId": 185,
     "Type": 3,
     "LastTrainingTime": "2022-04-01T00:03:37.6949857+02:00",
     "Cooldown": "4.00:00:00"
@@ -2422,7 +2322,7 @@
       "wir öffneten",
       "Sie öffneten"
     ],
-    "ParentId": 139,
+    "ParentId": 185,
     "Type": 8,
     "LastTrainingTime": "2022-04-02T16:40:44.2339059+02:00",
     "Cooldown": "4.00:00:00"
@@ -2444,7 +2344,7 @@
       "ihr habt geöffnet",
       "Sie haben geöffnet"
     ],
-    "ParentId": 139,
+    "ParentId": 185,
     "Type": 10,
     "LastTrainingTime": "2022-03-31T20:16:16.4557277+02:00",
     "Cooldown": "4.00:00:00"
@@ -2458,7 +2358,7 @@
       "wir glauben",
       "Sie glauben"
     ],
-    "ParentId": 142,
+    "ParentId": 189,
     "Type": 3,
     "LastTrainingTime": "2022-03-31T22:47:52.9151652+02:00",
     "Cooldown": "4.00:00:00"
@@ -2472,7 +2372,7 @@
       "wir glaubten",
       "Sie glaubten"
     ],
-    "ParentId": 142,
+    "ParentId": 189,
     "Type": 8,
     "LastTrainingTime": "2022-03-31T20:26:31.7478689+02:00",
     "Cooldown": "4.00:00:00"
@@ -2494,23 +2394,9 @@
       "ihr habt geglaubt",
       "Sie haben geglaubt"
     ],
-    "ParentId": 142,
+    "ParentId": 189,
     "Type": 10,
     "LastTrainingTime": "2022-03-31T20:30:32.9143835+02:00",
-    "Cooldown": "4.00:00:00"
-  },
-  {
-    "Questions": [
-      "ćwiczyć (Präsens, wir)",
-      "ćwiczyć (Präsens, Sie)"
-    ],
-    "Answers": [
-      "wir üben",
-      "Sie üben"
-    ],
-    "ParentId": 145,
-    "Type": 3,
-    "LastTrainingTime": "2022-03-31T21:10:51.2079518+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
@@ -2522,7 +2408,7 @@
       "wir übten",
       "Sie übten"
     ],
-    "ParentId": 145,
+    "ParentId": 193,
     "Type": 8,
     "LastTrainingTime": "2022-03-31T22:48:16.8511277+02:00",
     "Cooldown": "4.00:00:00"
@@ -2544,9 +2430,23 @@
       "ihr habt geübt",
       "Sie haben geübt"
     ],
-    "ParentId": 145,
+    "ParentId": 193,
     "Type": 10,
     "LastTrainingTime": "2022-03-31T20:20:02.4383278+02:00",
+    "Cooldown": "4.00:00:00"
+  },
+  {
+    "Questions": [
+      "ćwiczyć (Präsens, wir)",
+      "ćwiczyć (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir üben",
+      "Sie üben"
+    ],
+    "ParentId": 193,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-31T21:10:51.2079518+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
@@ -2558,7 +2458,7 @@
       "wir gucken",
       "Sie gucken"
     ],
-    "ParentId": 148,
+    "ParentId": 197,
     "Type": 3,
     "LastTrainingTime": "2022-03-31T20:19:28.1504895+02:00",
     "Cooldown": "4.00:00:00"
@@ -2572,7 +2472,7 @@
       "wir guckten",
       "Sie guckten"
     ],
-    "ParentId": 148,
+    "ParentId": 197,
     "Type": 8,
     "LastTrainingTime": "2022-03-31T20:26:46.4197568+02:00",
     "Cooldown": "4.00:00:00"
@@ -2594,37 +2494,9 @@
       "ihr habt geguckt",
       "Sie haben geguckt"
     ],
-    "ParentId": 148,
+    "ParentId": 197,
     "Type": 10,
     "LastTrainingTime": "2022-03-31T20:14:08.2884316+02:00",
-    "Cooldown": "4.00:00:00"
-  },
-  {
-    "Questions": [
-      "jechać (Präsens, wir)",
-      "jechać (Präsens, Sie)"
-    ],
-    "Answers": [
-      "wir fahren",
-      "Sie fahren"
-    ],
-    "ParentId": 151,
-    "Type": 3,
-    "LastTrainingTime": "2022-03-31T20:17:03.2392964+02:00",
-    "Cooldown": "4.00:00:00"
-  },
-  {
-    "Questions": [
-      "jechać (Präteritum, wir)",
-      "jechać (Präteritum, Sie)"
-    ],
-    "Answers": [
-      "wir fuhren",
-      "Sie fuhren"
-    ],
-    "ParentId": 151,
-    "Type": 8,
-    "LastTrainingTime": "2022-03-31T20:14:47.632267+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
@@ -2644,9 +2516,37 @@
       "ihr seid gefahren",
       "Sie sind gefahren"
     ],
-    "ParentId": 151,
+    "ParentId": 201,
     "Type": 10,
     "LastTrainingTime": "2022-03-31T20:15:12.7679945+02:00",
+    "Cooldown": "4.00:00:00"
+  },
+  {
+    "Questions": [
+      "jechać (Präsens, wir)",
+      "jechać (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir fahren",
+      "Sie fahren"
+    ],
+    "ParentId": 201,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-31T20:17:03.2392964+02:00",
+    "Cooldown": "4.00:00:00"
+  },
+  {
+    "Questions": [
+      "jechać (Präteritum, wir)",
+      "jechać (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir fuhren",
+      "Sie fuhren"
+    ],
+    "ParentId": 201,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-31T20:14:47.632267+02:00",
     "Cooldown": "4.00:00:00"
   },
   {
@@ -2658,7 +2558,7 @@
       "wir reden",
       "Sie reden"
     ],
-    "ParentId": 154,
+    "ParentId": 205,
     "Type": 3,
     "LastTrainingTime": "2022-03-31T22:47:45.6672478+02:00",
     "Cooldown": "4.00:00:00"
@@ -2672,7 +2572,7 @@
       "wir redeten",
       "Sie redeten"
     ],
-    "ParentId": 154,
+    "ParentId": 205,
     "Type": 8,
     "LastTrainingTime": "2022-03-31T22:44:54.0202461+02:00",
     "Cooldown": "4.00:00:00"
@@ -2694,7 +2594,7 @@
       "ihr habt geredet",
       "Sie haben geredet"
     ],
-    "ParentId": 154,
+    "ParentId": 205,
     "Type": 10,
     "LastTrainingTime": "2022-03-31T20:20:17.7100813+02:00",
     "Cooldown": "4.00:00:00"
@@ -2708,7 +2608,7 @@
       "wir fressen",
       "Sie fressen"
     ],
-    "ParentId": 157,
+    "ParentId": 209,
     "Type": 3,
     "LastTrainingTime": "2022-04-02T16:15:03.2113426+02:00",
     "Cooldown": "2.00:00:00"
@@ -2722,7 +2622,7 @@
       "wir fraßen",
       "Sie fraßen"
     ],
-    "ParentId": 157,
+    "ParentId": 209,
     "Type": 8,
     "LastTrainingTime": "2022-04-02T02:37:26.6420953+02:00",
     "Cooldown": "1.00:00:00"
@@ -2744,7 +2644,7 @@
       "ihr habt gefressen",
       "Sie haben gefressen"
     ],
-    "ParentId": 157,
+    "ParentId": 209,
     "Type": 10,
     "LastTrainingTime": "2022-04-02T16:39:46.4422954+02:00",
     "Cooldown": "2.00:00:00"
@@ -2758,7 +2658,7 @@
       "wir trinken",
       "Sie trinken"
     ],
-    "ParentId": 160,
+    "ParentId": 213,
     "Type": 3,
     "LastTrainingTime": "2022-04-02T02:38:01.6977044+02:00",
     "Cooldown": "2.00:00:00"
@@ -2772,7 +2672,7 @@
       "wir tranken",
       "Sie tranken"
     ],
-    "ParentId": 160,
+    "ParentId": 213,
     "Type": 8,
     "LastTrainingTime": "2022-04-02T16:27:17.4309086+02:00",
     "Cooldown": "2.00:00:00"
@@ -2794,7 +2694,7 @@
       "ihr habt getrunken",
       "Sie haben getrunken"
     ],
-    "ParentId": 160,
+    "ParentId": 213,
     "Type": 10,
     "LastTrainingTime": "2022-04-02T16:20:47.8733302+02:00",
     "Cooldown": "2.00:00:00"
@@ -2808,7 +2708,7 @@
       "wir bekommen",
       "Sie bekommen"
     ],
-    "ParentId": 163,
+    "ParentId": 217,
     "Type": 3,
     "LastTrainingTime": "2022-04-02T02:51:17.9168594+02:00",
     "Cooldown": "2.00:00:00"
@@ -2822,7 +2722,7 @@
       "wir bekamen",
       "Sie bekamen"
     ],
-    "ParentId": 163,
+    "ParentId": 217,
     "Type": 8,
     "LastTrainingTime": "2022-04-02T02:40:41.5527212+02:00",
     "Cooldown": "2.00:00:00"
@@ -2844,38 +2744,60 @@
       "ihr habt bekommen",
       "Sie haben bekommen"
     ],
-    "ParentId": 163,
+    "ParentId": 217,
     "Type": 10,
     "LastTrainingTime": "2022-04-02T16:32:29.4610462+02:00",
     "Cooldown": "1.00:00:00"
   },
   {
     "Questions": [
-      "studiować (Präsens, wir)",
-      "studiować (Präsens, Sie)"
+      "przynosić (na h) (Präsens, wir)",
+      "przynosić (na h) (Präsens, Sie)"
     ],
     "Answers": [
-      "wir studieren",
-      "Sie studieren"
+      "wir holen",
+      "Sie holen"
     ],
-    "ParentId": 169,
+    "ParentId": 221,
     "Type": 3,
-    "LastTrainingTime": "2022-04-02T16:35:55.0996529+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T21:44:35.8666612+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
-      "studiować (Präteritum, wir)",
-      "studiować (Präteritum, Sie)"
+      "przynosić (na h) (Präteritum, wir)",
+      "przynosić (na h) (Präteritum, Sie)"
     ],
     "Answers": [
-      "wir studierten",
-      "Sie studierten"
+      "wir holten",
+      "Sie holten"
     ],
-    "ParentId": 169,
+    "ParentId": 221,
     "Type": 8,
-    "LastTrainingTime": "2022-04-02T16:34:17.372457+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-03-29T20:18:10.6352717+02:00",
+    "Cooldown": "4.00:00:00"
+  },
+  {
+    "Questions": [
+      "przynosić (na h) (Perfekt, ich)",
+      "przynosić (na h) (Perfekt, du)",
+      "przynosić (na h) (Perfekt, er)",
+      "przynosić (na h) (Perfekt, wir)",
+      "przynosić (na h) (Perfekt, ihr)",
+      "przynosić (na h) (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe geholt",
+      "du hast geholt",
+      "er hat geholt",
+      "wir haben geholt",
+      "ihr habt geholt",
+      "Sie haben geholt"
+    ],
+    "ParentId": 221,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-29T20:52:14.9280579+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
@@ -2894,37 +2816,37 @@
       "ihr habt studiert",
       "Sie haben studiert"
     ],
-    "ParentId": 169,
+    "ParentId": 225,
     "Type": 10,
     "LastTrainingTime": "2022-04-02T16:34:27.2122483+02:00",
     "Cooldown": "2.00:00:00"
   },
   {
     "Questions": [
-      "pracować (Präsens, wir)",
-      "pracować (Präsens, Sie)"
+      "studiować (Präsens, wir)",
+      "studiować (Präsens, Sie)"
     ],
     "Answers": [
-      "wir arbeiten",
-      "Sie arbeiten"
+      "wir studieren",
+      "Sie studieren"
     ],
-    "ParentId": 172,
+    "ParentId": 225,
     "Type": 3,
-    "LastTrainingTime": "2022-04-02T16:18:14.0022219+02:00",
+    "LastTrainingTime": "2022-04-02T16:35:55.0996529+02:00",
     "Cooldown": "2.00:00:00"
   },
   {
     "Questions": [
-      "pracować (Präteritum, wir)",
-      "pracować (Präteritum, Sie)"
+      "studiować (Präteritum, wir)",
+      "studiować (Präteritum, Sie)"
     ],
     "Answers": [
-      "wir arbeiteten",
-      "Sie arbeiteten"
+      "wir studierten",
+      "Sie studierten"
     ],
-    "ParentId": 172,
+    "ParentId": 225,
     "Type": 8,
-    "LastTrainingTime": "2022-04-02T02:23:52.6229651+02:00",
+    "LastTrainingTime": "2022-04-02T16:34:17.372457+02:00",
     "Cooldown": "2.00:00:00"
   },
   {
@@ -2944,9 +2866,37 @@
       "ihr habt gearbeitet",
       "Sie haben gearbeitet"
     ],
-    "ParentId": 172,
+    "ParentId": 229,
     "Type": 10,
     "LastTrainingTime": "2022-04-02T02:22:21.5434743+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "pracować (Präteritum, wir)",
+      "pracować (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir arbeiteten",
+      "Sie arbeiteten"
+    ],
+    "ParentId": 229,
+    "Type": 8,
+    "LastTrainingTime": "2022-04-02T02:23:52.6229651+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "pracować (Präsens, wir)",
+      "pracować (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir arbeiten",
+      "Sie arbeiten"
+    ],
+    "ParentId": 229,
+    "Type": 3,
+    "LastTrainingTime": "2022-04-02T16:18:14.0022219+02:00",
     "Cooldown": "2.00:00:00"
   },
   {
@@ -2958,7 +2908,7 @@
       "wir warten",
       "Sie warten"
     ],
-    "ParentId": 175,
+    "ParentId": 233,
     "Type": 3,
     "LastTrainingTime": "2022-04-02T16:14:54.5714006+02:00",
     "Cooldown": "2.00:00:00"
@@ -2972,7 +2922,7 @@
       "wir warteten",
       "Sie warteten"
     ],
-    "ParentId": 175,
+    "ParentId": 233,
     "Type": 8,
     "LastTrainingTime": "2022-04-02T16:32:07.0849792+02:00",
     "Cooldown": "2.00:00:00"
@@ -2994,38 +2944,10 @@
       "ihr habt gewartet",
       "Sie haben gewartet"
     ],
-    "ParentId": 175,
+    "ParentId": 233,
     "Type": 10,
     "LastTrainingTime": "2022-04-02T16:33:41.0364751+02:00",
     "Cooldown": "2.00:00:00"
-  },
-  {
-    "Questions": [
-      "pokazywać (na z) (Präsens, wir)",
-      "pokazywać (na z) (Präsens, Sie)"
-    ],
-    "Answers": [
-      "wir zeigen",
-      "Sie zeigen"
-    ],
-    "ParentId": 178,
-    "Type": 3,
-    "LastTrainingTime": "2022-04-02T02:23:17.631234+02:00",
-    "Cooldown": "2.00:00:00"
-  },
-  {
-    "Questions": [
-      "pokazywać (na z) (Präteritum, wir)",
-      "pokazywać (na z) (Präteritum, Sie)"
-    ],
-    "Answers": [
-      "wir zeigten",
-      "Sie zeigten"
-    ],
-    "ParentId": 178,
-    "Type": 8,
-    "LastTrainingTime": "2022-04-02T02:24:47.0225982+02:00",
-    "Cooldown": "1.00:00:00"
   },
   {
     "Questions": [
@@ -3044,9 +2966,37 @@
       "ihr habt gezeigt",
       "Sie haben gezeigt"
     ],
-    "ParentId": 178,
+    "ParentId": 237,
     "Type": 10,
     "LastTrainingTime": "2022-04-02T02:21:43.368221+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "pokazywać (na z) (Präsens, wir)",
+      "pokazywać (na z) (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir zeigen",
+      "Sie zeigen"
+    ],
+    "ParentId": 237,
+    "Type": 3,
+    "LastTrainingTime": "2022-04-02T02:23:17.631234+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "pokazywać (na z) (Präteritum, wir)",
+      "pokazywać (na z) (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir zeigten",
+      "Sie zeigten"
+    ],
+    "ParentId": 237,
+    "Type": 8,
+    "LastTrainingTime": "2022-04-02T02:24:47.0225982+02:00",
     "Cooldown": "1.00:00:00"
   },
   {
@@ -3058,7 +3008,7 @@
       "wir verkaufen",
       "Sie verkaufen"
     ],
-    "ParentId": 181,
+    "ParentId": 241,
     "Type": 3,
     "LastTrainingTime": "2022-04-02T02:39:40.5370688+02:00",
     "Cooldown": "2.00:00:00"
@@ -3072,7 +3022,7 @@
       "wir verkauften",
       "Sie verkauften"
     ],
-    "ParentId": 181,
+    "ParentId": 241,
     "Type": 8,
     "LastTrainingTime": "2022-04-02T16:26:36.8551445+02:00",
     "Cooldown": "2.00:00:00"
@@ -3094,38 +3044,10 @@
       "ihr habt verkauft",
       "Sie haben verkauft"
     ],
-    "ParentId": 181,
+    "ParentId": 241,
     "Type": 10,
     "LastTrainingTime": "2022-04-02T02:50:53.7730014+02:00",
     "Cooldown": "2.00:00:00"
-  },
-  {
-    "Questions": [
-      "iść dalej (Präsens, wir)",
-      "iść dalej (Präsens, Sie)"
-    ],
-    "Answers": [
-      "wir gehen weiter",
-      "Sie gehen weiter"
-    ],
-    "ParentId": 184,
-    "Type": 3,
-    "LastTrainingTime": "2022-04-02T03:10:51.453656+02:00",
-    "Cooldown": "1.00:00:00"
-  },
-  {
-    "Questions": [
-      "iść dalej (Präteritum, wir)",
-      "iść dalej (Präteritum, Sie)"
-    ],
-    "Answers": [
-      "wir gingen weiter",
-      "Sie gingen weiter"
-    ],
-    "ParentId": 184,
-    "Type": 8,
-    "LastTrainingTime": "2022-04-02T02:38:47.513384+02:00",
-    "Cooldown": "1.00:00:00"
   },
   {
     "Questions": [
@@ -3144,10 +3066,38 @@
       "ihr seid weitergegangen",
       "Sie sind weitergegangen"
     ],
-    "ParentId": 184,
+    "ParentId": 245,
     "Type": 10,
     "LastTrainingTime": "2022-04-02T16:15:34.3071442+02:00",
     "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "iść dalej (Präteritum, wir)",
+      "iść dalej (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir gingen weiter",
+      "Sie gingen weiter"
+    ],
+    "ParentId": 245,
+    "Type": 8,
+    "LastTrainingTime": "2022-04-02T02:38:47.513384+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "iść dalej (Präsens, wir)",
+      "iść dalej (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir gehen weiter",
+      "Sie gehen weiter"
+    ],
+    "ParentId": 245,
+    "Type": 3,
+    "LastTrainingTime": "2022-04-02T03:10:51.453656+02:00",
+    "Cooldown": "1.00:00:00"
   },
   {
     "Questions": [
@@ -3158,23 +3108,9 @@
       "wir helfen",
       "Sie helfen"
     ],
-    "ParentId": 187,
+    "ParentId": 249,
     "Type": 3,
     "LastTrainingTime": "2022-04-02T02:46:33.8945661+02:00",
-    "Cooldown": "2.00:00:00"
-  },
-  {
-    "Questions": [
-      "pomagać (Präteritum, wir)",
-      "pomagać (Präteritum, Sie)"
-    ],
-    "Answers": [
-      "wir halfen",
-      "Sie halfen"
-    ],
-    "ParentId": 187,
-    "Type": 8,
-    "LastTrainingTime": "2022-04-02T16:27:38.97475+02:00",
     "Cooldown": "2.00:00:00"
   },
   {
@@ -3194,9 +3130,23 @@
       "ihr habt geholfen",
       "Sie haben geholfen"
     ],
-    "ParentId": 187,
+    "ParentId": 249,
     "Type": 10,
     "LastTrainingTime": "2022-04-02T16:15:40.3630864+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "pomagać (Präteritum, wir)",
+      "pomagać (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir halfen",
+      "Sie halfen"
+    ],
+    "ParentId": 249,
+    "Type": 8,
+    "LastTrainingTime": "2022-04-02T16:27:38.97475+02:00",
     "Cooldown": "2.00:00:00"
   },
   {
@@ -3208,23 +3158,9 @@
       "wir sehen um",
       "Sie sehen um"
     ],
-    "ParentId": 190,
+    "ParentId": 253,
     "Type": 3,
     "LastTrainingTime": "2022-04-02T16:39:38.9703967+02:00",
-    "Cooldown": "2.00:00:00"
-  },
-  {
-    "Questions": [
-      "rozglądać się (Präteritum, wir)",
-      "rozglądać się (Präteritum, Sie)"
-    ],
-    "Answers": [
-      "wir sahen um",
-      "Sie sahen um"
-    ],
-    "ParentId": 190,
-    "Type": 8,
-    "LastTrainingTime": "2022-04-02T16:14:38.6995838+02:00",
     "Cooldown": "2.00:00:00"
   },
   {
@@ -3244,9 +3180,23 @@
       "ihr habt umgesehen",
       "Sie haben umgesehen"
     ],
-    "ParentId": 190,
+    "ParentId": 253,
     "Type": 10,
     "LastTrainingTime": "2022-04-02T02:26:40.6778488+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "rozglądać się (Präteritum, wir)",
+      "rozglądać się (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir sahen um",
+      "Sie sahen um"
+    ],
+    "ParentId": 253,
+    "Type": 8,
+    "LastTrainingTime": "2022-04-02T16:14:38.6995838+02:00",
     "Cooldown": "2.00:00:00"
   },
   {
@@ -3258,7 +3208,7 @@
       "wir finden",
       "Sie finden"
     ],
-    "ParentId": 193,
+    "ParentId": 257,
     "Type": 3,
     "LastTrainingTime": "2022-04-02T02:25:32.0302504+02:00",
     "Cooldown": "2.00:00:00"
@@ -3272,7 +3222,7 @@
       "wir fanden",
       "Sie fanden"
     ],
-    "ParentId": 193,
+    "ParentId": 257,
     "Type": 8,
     "LastTrainingTime": "2022-04-02T02:15:39.794388+02:00",
     "Cooldown": "2.00:00:00"
@@ -3294,7 +3244,7 @@
       "ihr habt gefunden",
       "Sie haben gefunden"
     ],
-    "ParentId": 193,
+    "ParentId": 257,
     "Type": 10,
     "LastTrainingTime": "2022-04-02T16:19:02.6339775+02:00",
     "Cooldown": "2.00:00:00"
@@ -3308,7 +3258,7 @@
       "wir probieren",
       "Sie probieren"
     ],
-    "ParentId": 196,
+    "ParentId": 261,
     "Type": 3,
     "LastTrainingTime": "2022-04-02T16:32:11.1169729+02:00",
     "Cooldown": "2.00:00:00"
@@ -3322,7 +3272,7 @@
       "wir probierten",
       "Sie probierten"
     ],
-    "ParentId": 196,
+    "ParentId": 261,
     "Type": 8,
     "LastTrainingTime": "2022-04-02T16:36:53.1313414+02:00",
     "Cooldown": "2.00:00:00"
@@ -3344,7 +3294,7 @@
       "ihr habt probiert",
       "Sie haben probiert"
     ],
-    "ParentId": 196,
+    "ParentId": 261,
     "Type": 10,
     "LastTrainingTime": "2022-04-02T16:18:57.2019302+02:00",
     "Cooldown": "2.00:00:00"
@@ -3358,7 +3308,7 @@
       "wir passen",
       "Sie passen"
     ],
-    "ParentId": 199,
+    "ParentId": 265,
     "Type": 3,
     "LastTrainingTime": "2022-04-02T16:24:06.5040196+02:00",
     "Cooldown": "2.00:00:00"
@@ -3372,7 +3322,7 @@
       "wir passten",
       "Sie passten"
     ],
-    "ParentId": 199,
+    "ParentId": 265,
     "Type": 8,
     "LastTrainingTime": "2022-04-02T16:21:41.1529622+02:00",
     "Cooldown": "2.00:00:00"
@@ -3394,23 +3344,9 @@
       "ihr habt gepasst",
       "Sie haben gepasst"
     ],
-    "ParentId": 199,
+    "ParentId": 265,
     "Type": 10,
     "LastTrainingTime": "2022-04-02T02:49:47.1574772+02:00",
-    "Cooldown": "2.00:00:00"
-  },
-  {
-    "Questions": [
-      "kupować (Präsens, wir)",
-      "kupować (Präsens, Sie)"
-    ],
-    "Answers": [
-      "wir kaufen",
-      "Sie kaufen"
-    ],
-    "ParentId": 202,
-    "Type": 3,
-    "LastTrainingTime": "2022-04-02T16:26:56.2470555+02:00",
     "Cooldown": "2.00:00:00"
   },
   {
@@ -3422,9 +3358,23 @@
       "wir kauften",
       "Sie kauften"
     ],
-    "ParentId": 202,
+    "ParentId": 269,
     "Type": 8,
     "LastTrainingTime": "2022-04-02T16:39:26.9703131+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "kupować (Präsens, wir)",
+      "kupować (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir kaufen",
+      "Sie kaufen"
+    ],
+    "ParentId": 269,
+    "Type": 3,
+    "LastTrainingTime": "2022-04-02T16:26:56.2470555+02:00",
     "Cooldown": "2.00:00:00"
   },
   {
@@ -3444,10 +3394,60 @@
       "ihr habt gekauft",
       "Sie haben gekauft"
     ],
-    "ParentId": 202,
+    "ParentId": 269,
     "Type": 10,
     "LastTrainingTime": "2022-04-02T02:16:49.1774804+02:00",
     "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "uczyć się (Präteritum, wir)",
+      "uczyć się (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir lernten",
+      "Sie lernten"
+    ],
+    "ParentId": 273,
+    "Type": 8,
+    "LastTrainingTime": "2022-03-29T19:41:25.9749873+02:00",
+    "Cooldown": "4.00:00:00"
+  },
+  {
+    "Questions": [
+      "uczyć się (Perfekt, ich)",
+      "uczyć się (Perfekt, du)",
+      "uczyć się (Perfekt, er)",
+      "uczyć się (Perfekt, wir)",
+      "uczyć się (Perfekt, ihr)",
+      "uczyć się (Perfekt, Sie)"
+    ],
+    "Answers": [
+      "ich habe gelernt",
+      "du hast gelernt",
+      "er hat gelernt",
+      "wir haben gelernt",
+      "ihr habt gelernt",
+      "Sie haben gelernt"
+    ],
+    "ParentId": 273,
+    "Type": 10,
+    "LastTrainingTime": "2022-03-29T19:44:34.0546747+02:00",
+    "Cooldown": "4.00:00:00"
+  },
+  {
+    "Questions": [
+      "uczyć się (Präsens, wir)",
+      "uczyć się (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir lernen",
+      "Sie lernen"
+    ],
+    "ParentId": 273,
+    "Type": 3,
+    "LastTrainingTime": "2022-03-29T21:38:22.0273945+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
@@ -3458,7 +3458,7 @@
       "wir lachen",
       "Sie lachen"
     ],
-    "ParentId": 208,
+    "ParentId": 277,
     "Type": 3,
     "LastTrainingTime": "2022-04-02T16:31:47.2613164+02:00",
     "Cooldown": "2.00:00:00"
@@ -3472,7 +3472,7 @@
       "wir lachten",
       "Sie lachten"
     ],
-    "ParentId": 208,
+    "ParentId": 277,
     "Type": 8,
     "LastTrainingTime": "2022-04-02T16:34:33.2441861+02:00",
     "Cooldown": "2.00:00:00"
@@ -3494,7 +3494,7 @@
       "ihr habt gelacht",
       "Sie haben gelacht"
     ],
-    "ParentId": 208,
+    "ParentId": 277,
     "Type": 10,
     "LastTrainingTime": "2022-04-02T02:39:25.1533025+02:00",
     "Cooldown": "2.00:00:00"
@@ -3508,7 +3508,7 @@
       "wir zeigen auf",
       "Sie zeigen auf"
     ],
-    "ParentId": 211,
+    "ParentId": 281,
     "Type": 3,
     "LastTrainingTime": "2022-04-02T16:40:58.9058532+02:00",
     "Cooldown": "2.00:00:00"
@@ -3522,7 +3522,7 @@
       "wir zeigten auf",
       "Sie zeigten auf"
     ],
-    "ParentId": 211,
+    "ParentId": 281,
     "Type": 8,
     "LastTrainingTime": "2022-04-02T16:35:05.3640053+02:00",
     "Cooldown": "2.00:00:00"
@@ -3544,7 +3544,7 @@
       "ihr habt aufgezeigt",
       "Sie haben aufgezeigt"
     ],
-    "ParentId": 211,
+    "ParentId": 281,
     "Type": 10,
     "LastTrainingTime": "2022-04-02T02:26:13.4541042+02:00",
     "Cooldown": "2.00:00:00"
@@ -3558,7 +3558,7 @@
       "wir motivieren",
       "Sie motivieren"
     ],
-    "ParentId": 214,
+    "ParentId": 285,
     "Type": 3,
     "LastTrainingTime": "2022-04-01T01:07:28.0136455+02:00",
     "Cooldown": "1.00:00:00"
@@ -3572,7 +3572,7 @@
       "wir motivierten",
       "Sie motivierten"
     ],
-    "ParentId": 214,
+    "ParentId": 285,
     "Type": 8,
     "LastTrainingTime": "2022-04-02T16:34:38.0521915+02:00",
     "Cooldown": "2.00:00:00"
@@ -3594,23 +3594,9 @@
       "ihr habt motiviert",
       "Sie haben motiviert"
     ],
-    "ParentId": 214,
+    "ParentId": 285,
     "Type": 10,
     "LastTrainingTime": "2022-04-02T02:43:40.2556716+02:00",
-    "Cooldown": "2.00:00:00"
-  },
-  {
-    "Questions": [
-      "biegać (Präsens, wir)",
-      "biegać (Präsens, Sie)"
-    ],
-    "Answers": [
-      "wir laufen",
-      "Sie laufen"
-    ],
-    "ParentId": 217,
-    "Type": 3,
-    "LastTrainingTime": "2022-04-02T02:15:46.5138177+02:00",
     "Cooldown": "2.00:00:00"
   },
   {
@@ -3622,7 +3608,7 @@
       "wir liefen",
       "Sie liefen"
     ],
-    "ParentId": 217,
+    "ParentId": 289,
     "Type": 8,
     "LastTrainingTime": "2022-04-02T02:15:55.7297518+02:00",
     "Cooldown": "2.00:00:00"
@@ -3644,9 +3630,23 @@
       "ihr seid gelaufen",
       "Sie sind gelaufen"
     ],
-    "ParentId": 217,
+    "ParentId": 289,
     "Type": 10,
     "LastTrainingTime": "2022-04-02T16:14:30.5400016+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "biegać (Präsens, wir)",
+      "biegać (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir laufen",
+      "Sie laufen"
+    ],
+    "ParentId": 289,
+    "Type": 3,
+    "LastTrainingTime": "2022-04-02T02:15:46.5138177+02:00",
     "Cooldown": "2.00:00:00"
   },
   {
@@ -3658,7 +3658,7 @@
       "wir ziehen",
       "Sie ziehen"
     ],
-    "ParentId": 220,
+    "ParentId": 293,
     "Type": 3,
     "LastTrainingTime": "2022-04-02T02:18:32.5048387+02:00",
     "Cooldown": "2.00:00:00"
@@ -3672,7 +3672,7 @@
       "wir zogen",
       "Sie zogen"
     ],
-    "ParentId": 220,
+    "ParentId": 293,
     "Type": 8,
     "LastTrainingTime": "2022-04-02T02:37:38.2979615+02:00",
     "Cooldown": "2.00:00:00"
@@ -3694,7 +3694,7 @@
       "ihr seid gezogen",
       "Sie sind gezogen"
     ],
-    "ParentId": 220,
+    "ParentId": 293,
     "Type": 10,
     "LastTrainingTime": "2022-04-02T03:09:01.6463973+02:00",
     "Cooldown": "1.00:00:00"
@@ -3708,7 +3708,7 @@
       "wir ziehen an",
       "Sie ziehen an"
     ],
-    "ParentId": 223,
+    "ParentId": 297,
     "Type": 3,
     "LastTrainingTime": "2022-04-02T16:27:47.8947644+02:00",
     "Cooldown": "2.00:00:00"
@@ -3722,7 +3722,7 @@
       "wir zogen an",
       "Sie zogen an"
     ],
-    "ParentId": 223,
+    "ParentId": 297,
     "Type": 8,
     "LastTrainingTime": "2022-04-02T16:39:55.5543379+02:00",
     "Cooldown": "2.00:00:00"
@@ -3744,7 +3744,7 @@
       "ihr seid angezogen",
       "Sie sind angezogen"
     ],
-    "ParentId": 223,
+    "ParentId": 297,
     "Type": 10,
     "LastTrainingTime": "2022-04-02T02:24:07.6308142+02:00",
     "Cooldown": "1.00:00:00"
@@ -3758,7 +3758,7 @@
       "wir ziehen aus",
       "Sie ziehen aus"
     ],
-    "ParentId": 226,
+    "ParentId": 301,
     "Type": 3,
     "LastTrainingTime": "2022-04-02T16:39:59.5143099+02:00",
     "Cooldown": "2.00:00:00"
@@ -3772,7 +3772,7 @@
       "wir zogen aus",
       "Sie zogen aus"
     ],
-    "ParentId": 226,
+    "ParentId": 301,
     "Type": 8,
     "LastTrainingTime": "2022-04-02T02:27:18.2217505+02:00",
     "Cooldown": "1.00:00:00"
@@ -3794,7 +3794,7 @@
       "ihr seid ausgezogen",
       "Sie sind ausgezogen"
     ],
-    "ParentId": 226,
+    "ParentId": 301,
     "Type": 10,
     "LastTrainingTime": "2022-04-02T02:44:50.3752356+02:00",
     "Cooldown": "1.00:00:00"
@@ -3808,7 +3808,7 @@
       "wir geben",
       "Sie geben"
     ],
-    "ParentId": 229,
+    "ParentId": 305,
     "Type": 3,
     "LastTrainingTime": "2022-04-02T16:25:00.6879118+02:00",
     "Cooldown": "2.00:00:00"
@@ -3822,7 +3822,7 @@
       "wir gaben",
       "Sie gaben"
     ],
-    "ParentId": 229,
+    "ParentId": 305,
     "Type": 8,
     "LastTrainingTime": "2022-04-02T02:46:57.1584507+02:00",
     "Cooldown": "2.00:00:00"
@@ -3844,37 +3844,9 @@
       "ihr habt gegeben",
       "Sie haben gegeben"
     ],
-    "ParentId": 229,
+    "ParentId": 305,
     "Type": 10,
     "LastTrainingTime": "2022-04-02T02:28:06.5653263+02:00",
-    "Cooldown": "2.00:00:00"
-  },
-  {
-    "Questions": [
-      "płacić (na z) (Präsens, wir)",
-      "płacić (na z) (Präsens, Sie)"
-    ],
-    "Answers": [
-      "wir zahlen",
-      "Sie zahlen"
-    ],
-    "ParentId": 232,
-    "Type": 3,
-    "LastTrainingTime": "2022-04-02T02:43:33.920035+02:00",
-    "Cooldown": "2.00:00:00"
-  },
-  {
-    "Questions": [
-      "płacić (na z) (Präteritum, wir)",
-      "płacić (na z) (Präteritum, Sie)"
-    ],
-    "Answers": [
-      "wir zahlten",
-      "Sie zahlten"
-    ],
-    "ParentId": 232,
-    "Type": 8,
-    "LastTrainingTime": "2022-04-02T16:37:29.0831378+02:00",
     "Cooldown": "2.00:00:00"
   },
   {
@@ -3894,10 +3866,38 @@
       "ihr habt gezahlt",
       "Sie haben gezahlt"
     ],
-    "ParentId": 232,
+    "ParentId": 309,
     "Type": 10,
     "LastTrainingTime": "2022-04-01T01:07:28.0136966+02:00",
     "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "płacić (na z) (Präteritum, wir)",
+      "płacić (na z) (Präteritum, Sie)"
+    ],
+    "Answers": [
+      "wir zahlten",
+      "Sie zahlten"
+    ],
+    "ParentId": 309,
+    "Type": 8,
+    "LastTrainingTime": "2022-04-02T16:37:29.0831378+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "płacić (na z) (Präsens, wir)",
+      "płacić (na z) (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir zahlen",
+      "Sie zahlen"
+    ],
+    "ParentId": 309,
+    "Type": 3,
+    "LastTrainingTime": "2022-04-02T02:43:33.920035+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Questions": [
@@ -3908,7 +3908,7 @@
       "wir bestellen",
       "Sie bestellen"
     ],
-    "ParentId": 235,
+    "ParentId": 313,
     "Type": 3,
     "LastTrainingTime": "2022-04-01T01:07:28.0136994+02:00",
     "Cooldown": "1.00:00:00"
@@ -3922,7 +3922,7 @@
       "wir bestellten",
       "Sie bestellten"
     ],
-    "ParentId": 235,
+    "ParentId": 313,
     "Type": 8,
     "LastTrainingTime": "2022-04-02T16:27:03.1429622+02:00",
     "Cooldown": "2.00:00:00"
@@ -3944,7 +3944,7 @@
       "ihr habt bestellt",
       "Sie haben bestellt"
     ],
-    "ParentId": 235,
+    "ParentId": 313,
     "Type": 10,
     "LastTrainingTime": "2022-04-02T16:15:50.4911058+02:00",
     "Cooldown": "2.00:00:00"
@@ -3958,7 +3958,7 @@
       "wir kennen",
       "Sie kennen"
     ],
-    "ParentId": 238,
+    "ParentId": 317,
     "Type": 3,
     "LastTrainingTime": "2022-04-02T16:16:28.3947687+02:00",
     "Cooldown": "2.00:00:00"
@@ -3972,7 +3972,7 @@
       "wir kannten",
       "Sie kannten"
     ],
-    "ParentId": 238,
+    "ParentId": 317,
     "Type": 8,
     "LastTrainingTime": "2022-04-02T02:40:51.2407169+02:00",
     "Cooldown": "1.00:00:00"
@@ -3994,7 +3994,7 @@
       "ihr habt gekannt",
       "Sie haben gekannt"
     ],
-    "ParentId": 238,
+    "ParentId": 317,
     "Type": 10,
     "LastTrainingTime": "2022-04-02T16:38:45.8025784+02:00",
     "Cooldown": "2.00:00:00"
@@ -4008,7 +4008,7 @@
       "wir mögen",
       "Sie mögen"
     ],
-    "ParentId": 241,
+    "ParentId": 321,
     "Type": 3,
     "LastTrainingTime": "2022-04-02T03:09:09.6463526+02:00",
     "Cooldown": "2.00:00:00"
@@ -4022,7 +4022,7 @@
       "wir mochten",
       "Sie mochten"
     ],
-    "ParentId": 241,
+    "ParentId": 321,
     "Type": 8,
     "LastTrainingTime": "2022-04-02T16:34:20.3402722+02:00",
     "Cooldown": "2.00:00:00"
@@ -4044,23 +4044,9 @@
       "ihr habt gemocht",
       "Sie haben gemocht"
     ],
-    "ParentId": 241,
+    "ParentId": 321,
     "Type": 10,
     "LastTrainingTime": "2022-04-02T02:44:09.5835026+02:00",
-    "Cooldown": "2.00:00:00"
-  },
-  {
-    "Questions": [
-      "przynosić (na b) (Präsens, wir)",
-      "przynosić (na b) (Präsens, Sie)"
-    ],
-    "Answers": [
-      "wir bringen",
-      "Sie bringen"
-    ],
-    "ParentId": 244,
-    "Type": 3,
-    "LastTrainingTime": "2022-04-02T16:24:56.7117307+02:00",
     "Cooldown": "2.00:00:00"
   },
   {
@@ -4072,7 +4058,7 @@
       "wir brachten",
       "Sie brachten"
     ],
-    "ParentId": 244,
+    "ParentId": 325,
     "Type": 8,
     "LastTrainingTime": "2022-04-02T16:29:22.34206+02:00",
     "Cooldown": "1.00:00:00"
@@ -4094,10 +4080,24 @@
       "ihr habt gebracht",
       "Sie haben gebracht"
     ],
-    "ParentId": 244,
+    "ParentId": 325,
     "Type": 10,
     "LastTrainingTime": "2022-04-02T02:28:17.0054291+02:00",
     "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "przynosić (na b) (Präsens, wir)",
+      "przynosić (na b) (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir bringen",
+      "Sie bringen"
+    ],
+    "ParentId": 325,
+    "Type": 3,
+    "LastTrainingTime": "2022-04-02T16:24:56.7117307+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Questions": [
@@ -4108,7 +4108,7 @@
       "wir treffen",
       "Sie treffen"
     ],
-    "ParentId": 247,
+    "ParentId": 329,
     "Type": 3,
     "LastTrainingTime": "2022-04-02T16:40:33.0260662+02:00",
     "Cooldown": "2.00:00:00"
@@ -4122,7 +4122,7 @@
       "wir trafen",
       "Sie trafen"
     ],
-    "ParentId": 247,
+    "ParentId": 329,
     "Type": 8,
     "LastTrainingTime": "2022-04-02T16:30:49.4455317+02:00",
     "Cooldown": "2.00:00:00"
@@ -4144,7 +4144,7 @@
       "ihr habt getroffen",
       "Sie haben getroffen"
     ],
-    "ParentId": 247,
+    "ParentId": 329,
     "Type": 10,
     "LastTrainingTime": "2022-04-02T03:11:11.1655692+02:00",
     "Cooldown": "2.00:00:00"
@@ -4158,7 +4158,7 @@
       "wir überlegen",
       "Sie überlegen"
     ],
-    "ParentId": 250,
+    "ParentId": 333,
     "Type": 3,
     "LastTrainingTime": "2022-04-02T02:18:45.0728548+02:00",
     "Cooldown": "1.00:00:00"
@@ -4172,7 +4172,7 @@
       "wir überlegten",
       "Sie überlegten"
     ],
-    "ParentId": 250,
+    "ParentId": 333,
     "Type": 8,
     "LastTrainingTime": "2022-04-02T02:16:32.075728+02:00",
     "Cooldown": "1.00:00:00"
@@ -4194,7 +4194,7 @@
       "ihr habt überlegt",
       "Sie haben überlegt"
     ],
-    "ParentId": 250,
+    "ParentId": 333,
     "Type": 10,
     "LastTrainingTime": "2022-04-02T02:26:49.9098571+02:00",
     "Cooldown": "2.00:00:00"
@@ -4208,7 +4208,7 @@
       "wir atmen",
       "Sie atmen"
     ],
-    "ParentId": 253,
+    "ParentId": 337,
     "Type": 3,
     "LastTrainingTime": "2022-04-02T16:19:28.9856852+02:00",
     "Cooldown": "2.00:00:00"
@@ -4222,7 +4222,7 @@
       "wir atmeten",
       "Sie atmeten"
     ],
-    "ParentId": 253,
+    "ParentId": 337,
     "Type": 8,
     "LastTrainingTime": "2022-04-01T01:07:28.0137516+02:00",
     "Cooldown": "1.00:00:00"
@@ -4244,23 +4244,9 @@
       "ihr habt geatmet",
       "Sie haben geatmet"
     ],
-    "ParentId": 253,
+    "ParentId": 337,
     "Type": 10,
     "LastTrainingTime": "2022-04-02T02:22:31.8794867+02:00",
-    "Cooldown": "2.00:00:00"
-  },
-  {
-    "Questions": [
-      "wdychać (Präsens, wir)",
-      "wdychać (Präsens, Sie)"
-    ],
-    "Answers": [
-      "wir atmen ein",
-      "Sie atmen ein"
-    ],
-    "ParentId": 256,
-    "Type": 3,
-    "LastTrainingTime": "2022-04-02T02:46:52.3504474+02:00",
     "Cooldown": "2.00:00:00"
   },
   {
@@ -4272,9 +4258,23 @@
       "wir atmeten ein",
       "Sie atmeten ein"
     ],
-    "ParentId": 256,
+    "ParentId": 341,
     "Type": 8,
     "LastTrainingTime": "2022-04-02T16:19:10.9297121+02:00",
+    "Cooldown": "2.00:00:00"
+  },
+  {
+    "Questions": [
+      "wdychać (Präsens, wir)",
+      "wdychać (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir atmen ein",
+      "Sie atmen ein"
+    ],
+    "ParentId": 341,
+    "Type": 3,
+    "LastTrainingTime": "2022-04-02T02:46:52.3504474+02:00",
     "Cooldown": "2.00:00:00"
   },
   {
@@ -4294,23 +4294,9 @@
       "ihr habt eingeatmet",
       "Sie haben eingeatmet"
     ],
-    "ParentId": 256,
+    "ParentId": 341,
     "Type": 10,
     "LastTrainingTime": "2022-04-02T02:26:58.6777044+02:00",
-    "Cooldown": "2.00:00:00"
-  },
-  {
-    "Questions": [
-      "dzwonić (Präsens, wir)",
-      "dzwonić (Präsens, Sie)"
-    ],
-    "Answers": [
-      "wir läuten",
-      "Sie läuten"
-    ],
-    "ParentId": 259,
-    "Type": 3,
-    "LastTrainingTime": "2022-04-02T16:25:53.1353028+02:00",
     "Cooldown": "2.00:00:00"
   },
   {
@@ -4322,10 +4308,24 @@
       "wir läuteten",
       "Sie läuteten"
     ],
-    "ParentId": 259,
+    "ParentId": 345,
     "Type": 8,
     "LastTrainingTime": "2022-04-01T01:07:28.0137695+02:00",
     "Cooldown": "1.00:00:00"
+  },
+  {
+    "Questions": [
+      "dzwonić (Präsens, wir)",
+      "dzwonić (Präsens, Sie)"
+    ],
+    "Answers": [
+      "wir läuten",
+      "Sie läuten"
+    ],
+    "ParentId": 345,
+    "Type": 3,
+    "LastTrainingTime": "2022-04-02T16:25:53.1353028+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Questions": [
@@ -4344,7 +4344,7 @@
       "ihr habt geläutet",
       "Sie haben geläutet"
     ],
-    "ParentId": 259,
+    "ParentId": 345,
     "Type": 10,
     "LastTrainingTime": "2022-04-02T02:23:32.5110379+02:00",
     "Cooldown": "1.00:00:00"
