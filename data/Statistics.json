@@ -28,5 +28,11 @@
     "GoodAnswers": 349,
     "BadAnswers": 51,
     "SuccessRatio": 0.8725
+  },
+  "2022-04-04T00:00:00+02:00": {
+    "Answers": 64,
+    "GoodAnswers": 47,
+    "BadAnswers": 17,
+    "SuccessRatio": 0.734375
   }
 }
