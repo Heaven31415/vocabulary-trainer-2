@@ -10,12 +10,12 @@ namespace VocabularyTrainer2
         {
             foreach (var noun in nouns)
             {
-                if (noun.GermanSingularForm != null)
+                if (noun.Article != null && noun.GermanSingularForm != null)
                 {
                     var singularFormFlashcard = flashcards.Find(f => f.ParentId == noun.Id && f.Type == Type.NounSingularForm);
 
-                    string question = $"{noun.EnglishDescription} (singular)";
-                    string answer = $"{noun.Gender.ToArticle()} {noun.GermanSingularForm}";
+                    string question = $"{noun.Description} (singular)";
+                    string answer = $"{noun.Article} {noun.GermanSingularForm}";
                     var flashcardCandidate = new SingleFlashcard(noun.Id, Type.NounSingularForm, question, answer);
 
                     if (singularFormFlashcard == null)
@@ -34,7 +34,7 @@ namespace VocabularyTrainer2
                 {
                     var pluralFormFlashcard = flashcards.Find(f => f.ParentId == noun.Id && f.Type == Type.NounPluralForm);
 
-                    string question = $"{noun.EnglishDescription} (plural)";
+                    string question = $"{noun.Description} (plural)";
                     string answer = noun.GermanPluralForm;
                     var flashcardCandidate = new SingleFlashcard(noun.Id, Type.NounPluralForm, question, answer);
 
@@ -59,7 +59,7 @@ namespace VocabularyTrainer2
                 {
                     var positiveDegreeFlashcard = flashcards.Find(f => f.ParentId == adjective.Id && f.Type == Type.AdjectivePositiveDegree);
 
-                    string question = $"{adjective.EnglishDescription} (positive)";
+                    string question = $"{adjective.Description} (positive)";
                     string answer = adjective.PositiveDegree;
                     var flashcardCandidate = new SingleFlashcard(adjective.Id, Type.AdjectivePositiveDegree, question, answer);
 
@@ -75,11 +75,11 @@ namespace VocabularyTrainer2
                     }
                 }
 
-                if (!string.IsNullOrEmpty(adjective.ComparativeDegree))
+                if (adjective.ComparativeDegree != null)
                 {
                     var comparativeDegreeFlashcard = flashcards.Find(f => f.ParentId == adjective.Id && f.Type == Type.AdjectiveComparativeDegree);
 
-                    string question = $"{adjective.EnglishDescription} (comparative)";
+                    string question = $"{adjective.Description} (comparative)";
                     string answer = adjective.ComparativeDegree;
                     var flashcardCandidate = new SingleFlashcard(adjective.Id, Type.AdjectiveComparativeDegree, question, answer);
 
@@ -95,11 +95,11 @@ namespace VocabularyTrainer2
                     }
                 }
 
-                if (!string.IsNullOrEmpty(adjective.SuperlativeDegree))
+                if (adjective.SuperlativeDegree != null)
                 {
                     var superlativeDegreeFlashcard = flashcards.Find(f => f.ParentId == adjective.Id && f.Type == Type.AdjectiveSuperlativeDegree);
 
-                    string question = $"{adjective.EnglishDescription} (superlative)";
+                    string question = $"{adjective.Description} (superlative)";
                     string answer = adjective.SuperlativeDegree;
                     var flashcardCandidate = new SingleFlashcard(adjective.Id, Type.AdjectiveSuperlativeDegree, question, answer);
 
@@ -156,7 +156,7 @@ namespace VocabularyTrainer2
 
                     var flashcard = flashcards.Find(f => f.ParentId == verb.Id && f.Type == type);
 
-                    string question = $"{verb.EnglishDescription} (Präsens, {suffix})";
+                    string question = $"{verb.Description} (Präsens, {suffix})";
                     string answer = verb.Present[personalPronoun];
                     var flashcardCandidate = new SingleFlashcard(verb.Id, type, question, answer);
 
@@ -181,7 +181,7 @@ namespace VocabularyTrainer2
 
                     var flashcard = flashcards.Find(f => f.ParentId == verb.Id && f.Type == type);
 
-                    string question = $"{verb.EnglishDescription} (Präteritum, {suffix})";
+                    string question = $"{verb.Description} (Präteritum, {suffix})";
                     string answer = verb.SimplePast[personalPronoun];
                     var flashcardCandidate = new SingleFlashcard(verb.Id, type, question, answer);
 

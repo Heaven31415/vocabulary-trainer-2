@@ -3,24 +3,24 @@
     internal class Adjective
     {
         public int Id { get; }
-        public string EnglishDescription { get; }
+        public string Description { get; }
         public string PositiveDegree { get; }
         public string? ComparativeDegree { get; }
         public string? SuperlativeDegree { get; }
 
-        public Adjective(int id, string englishDescription, string positiveDegree)
+        public Adjective(int id, string description, string positiveDegree)
         {
             Id = id;
-            EnglishDescription = englishDescription;
+            Description = description;
             PositiveDegree = positiveDegree;
             ComparativeDegree = null;
             SuperlativeDegree = null;
         }
 
-        public Adjective(int id, string englishDescription, string positiveDegree, string comparativeDegree, string superlativeDegree)
+        public Adjective(int id, string description, string positiveDegree, string comparativeDegree, string superlativeDegree)
         {
             Id = id;
-            EnglishDescription = englishDescription;
+            Description = description;
             PositiveDegree = positiveDegree;
             ComparativeDegree = comparativeDegree;
             SuperlativeDegree = superlativeDegree;

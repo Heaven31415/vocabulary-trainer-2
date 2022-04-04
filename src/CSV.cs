@@ -18,18 +18,18 @@ namespace VocabularyTrainer2
             while (csv.Read())
             {
                 int id = csv.GetField<int>(0);
-                string englishDescription = csv.GetField(1);
+                string description = csv.GetField(1);
                 string? germanSingularForm = csv.GetField(2);
                 string? germanPluralForm = csv.GetField(3);
+                // string? exampleSentence = csv.GetField(4);
 
-                if (string.IsNullOrEmpty(germanSingularForm))
+                if (germanSingularForm == "-")
                     germanSingularForm = null;
 
-                if (string.IsNullOrEmpty(germanPluralForm))
+                if (germanPluralForm == "-")
                     germanPluralForm = null;
 
-                var noun = new Noun(id, englishDescription, germanSingularForm, germanPluralForm);
-                nouns.Add(noun);
+                nouns.Add(new Noun(id, description, germanSingularForm, germanPluralForm));
             }
 
             return nouns;
@@ -48,15 +48,16 @@ namespace VocabularyTrainer2
             while (csv.Read())
             {
                 int id = csv.GetField<int>(0);
-                string englishDescription = csv.GetField(1);
+                string description = csv.GetField(1);
                 string positiveDegree = csv.GetField(2);
-                string? comparativeDegree = csv.GetField(3);
-                string? superlativeDegree = csv.GetField(4);
+                string comparativeDegree = csv.GetField(3);
+                string superlativeDegree = csv.GetField(4);
+                // string? exampleSentence = csv.GetField(5);
 
-                if (string.IsNullOrEmpty(comparativeDegree) && string.IsNullOrEmpty(superlativeDegree))
-                    adjectives.Add(new Adjective(id, englishDescription, positiveDegree));
+                if (comparativeDegree == "-" && superlativeDegree == "-")
+                    adjectives.Add(new Adjective(id, description, positiveDegree));
                 else
-                    adjectives.Add(new Adjective(id, englishDescription, positiveDegree, comparativeDegree, superlativeDegree));
+                    adjectives.Add(new Adjective(id, description, positiveDegree, comparativeDegree, superlativeDegree));
             }
 
             return adjectives;
@@ -76,12 +77,11 @@ namespace VocabularyTrainer2
             while (csv.Read())
             {
                 int id = csv.GetField<int>(0);
-                string englishDescription = csv.GetField(1);
+                string description = csv.GetField(1);
                 string germanInfinitive = csv.GetField(2);
-                bool verified = csv.GetField<bool>(3);
+                // string? exampleSentence = csv.GetField(3);
 
-                if (verified)
-                    verbs.Add(verbCache.Get(id, englishDescription, germanInfinitive));
+                verbs.Add(verbCache.Get(id, description, germanInfinitive));
             }
 
             return verbs;

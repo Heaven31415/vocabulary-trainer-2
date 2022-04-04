@@ -1,9 +1,9 @@
-Id,Description,Positive Degree,Comparative Degree,Superlative Degree,Example Sentence,Source,,Description Repetitions:,0
-3,cały,ganz,,,,Jens & Jakob,,Positive Degree Repetitions:,0
-6,szczęśliwy,glücklich,glücklicher,am glücklichsten,,Jens & Jakob,,Comparative Degree Repetitions:,0
-9,zimny,kalt,kälter,am kältesten,,Jens & Jakob,,Superlative Degree Repetitions:,0
-12,młody,jung,jünger,am jüngsten,,Jens & Jakob,,Number of adjectives:,8
-15,duży,groß,größer,am größten,,Jens & Jakob,,Number of flashcards:,22
-18,ciepły,warm,wärmer,am wärmsten,,Jens & Jakob,,,
-21,spokojny,ruhig,ruhiger,am ruhigsten,,Jens & Jakob,,,
-24,krótki,kurz,kürzer,am kürzesten,,Jens & Jakob,,,
+Id,Beschreibung,Positive Degree,Comparative Degree,Superlative Degree,Beispielsatz,,Adjektive:,8,Karteikarten:,22
+3,cały,ganz,-,-,-,,,,,
+7,szczęśliwy,glücklich,glücklicher,am glücklichsten,-,,,,,
+11,zimny,kalt,kälter,am kältesten,-,,,,,
+15,młody,jung,jünger,am jüngsten,-,,,,,
+19,duży,groß,größer,am größten,-,,,,,
+23,ciepły,warm,wärmer,am wärmsten,-,,,,,
+27,spokojny,ruhig,ruhiger,am ruhigsten,-,,,,,
+31,krótki,kurz,kürzer,am kürzesten,-,,,,,

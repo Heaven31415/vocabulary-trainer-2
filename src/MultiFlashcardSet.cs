@@ -16,10 +16,10 @@ namespace VocabularyTrainer2
                     var questions = new List<string>();
                     var answers = new List<string>();
 
-                    questions.Add($"{verb.EnglishDescription} (Präsens, wir)");
+                    questions.Add($"{verb.Description} (Präsens, wir)");
                     answers.Add(verb.Present[PersonalPronoun.FirstPlural]);
 
-                    questions.Add($"{verb.EnglishDescription} (Präsens, Sie)");
+                    questions.Add($"{verb.Description} (Präsens, Sie)");
                     answers.Add(verb.Present[PersonalPronoun.ThirdPlural]);
 
                     var flashcardCandidate = new MultiFlashcard(verb.Id, Type.VerbPresentFirstOrThirdPlural, questions, answers);
@@ -42,10 +42,10 @@ namespace VocabularyTrainer2
                     var questions = new List<string>();
                     var answers = new List<string>();
 
-                    questions.Add($"{verb.EnglishDescription} (Präteritum, wir)");
+                    questions.Add($"{verb.Description} (Präteritum, wir)");
                     answers.Add(verb.SimplePast[PersonalPronoun.FirstPlural]);
 
-                    questions.Add($"{verb.EnglishDescription} (Präteritum, Sie)");
+                    questions.Add($"{verb.Description} (Präteritum, Sie)");
                     answers.Add(verb.SimplePast[PersonalPronoun.ThirdPlural]);
 
                     var flashcardCandidate = new MultiFlashcard(verb.Id, Type.VerbSimplePastFirstOrThirdPlural, questions, answers);
@@ -68,22 +68,22 @@ namespace VocabularyTrainer2
                     var questions = new List<string>();
                     var answers = new List<string>();
 
-                    questions.Add($"{verb.EnglishDescription} (Perfekt, ich)");
+                    questions.Add($"{verb.Description} (Perfekt, ich)");
                     answers.Add(verb.Perfekt[PersonalPronoun.FirstSingular]);
 
-                    questions.Add($"{verb.EnglishDescription} (Perfekt, du)");
+                    questions.Add($"{verb.Description} (Perfekt, du)");
                     answers.Add(verb.Perfekt[PersonalPronoun.SecondSingular]);
 
-                    questions.Add($"{verb.EnglishDescription} (Perfekt, er)");
+                    questions.Add($"{verb.Description} (Perfekt, er)");
                     answers.Add(verb.Perfekt[PersonalPronoun.ThirdSingular]);
 
-                    questions.Add($"{verb.EnglishDescription} (Perfekt, wir)");
+                    questions.Add($"{verb.Description} (Perfekt, wir)");
                     answers.Add(verb.Perfekt[PersonalPronoun.FirstPlural]);
 
-                    questions.Add($"{verb.EnglishDescription} (Perfekt, ihr)");
+                    questions.Add($"{verb.Description} (Perfekt, ihr)");
                     answers.Add(verb.Perfekt[PersonalPronoun.SecondPlural]);
 
-                    questions.Add($"{verb.EnglishDescription} (Perfekt, Sie)");
+                    questions.Add($"{verb.Description} (Perfekt, Sie)");
                     answers.Add(verb.Perfekt[PersonalPronoun.ThirdPlural]);
 
                     var flashcardCandidate = new MultiFlashcard(verb.Id, Type.VerbPerfekt, questions, answers);
