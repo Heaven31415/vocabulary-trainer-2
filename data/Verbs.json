@@ -2873,44 +2873,32 @@
       "ThirdPlural": "Sie haben ferngesehen"
     }
   },
-  "abendessen": {
+  "zufügen": {
     "Id": 385,
-    "Description": "jeść kolację",
+    "Description": "zadawać (obrażenia)",
     "Present": {
-      "FirstSingular": "ich endesse ab",
-      "SecondSingular": "du endisst ab",
-      "ThirdSingular": "er endisst ab",
-      "FirstPlural": "wir endessen ab",
-      "SecondPlural": "ihr endesst ab",
-      "ThirdPlural": "Sie endessen ab",
-      "6": "ich endesse ab",
-      "7": "du endißt ab",
-      "8": "er/sie/es endißt ab",
-      "9": "wir endessen ab",
-      "10": "ihr endeßt ab",
-      "11": "Sie endessen ab"
+      "FirstSingular": "ich füge zu",
+      "SecondSingular": "du fügst zu",
+      "ThirdSingular": "er fügt zu",
+      "FirstPlural": "wir fügen zu",
+      "SecondPlural": "ihr fügt zu",
+      "ThirdPlural": "Sie fügen zu"
     },
     "SimplePast": {
-      "FirstSingular": "ich endaß ab",
-      "SecondSingular": "du endaßest ab",
-      "ThirdSingular": "er endaß ab",
-      "FirstPlural": "wir endaßen ab",
-      "SecondPlural": "ihr endaßt ab",
-      "ThirdPlural": "Sie endaßen ab",
-      "6": "ich endaß ab",
-      "7": "du endaßt ab",
-      "8": "er/sie/es endaß ab",
-      "9": "wir endaßen ab",
-      "10": "ihr endaßt ab",
-      "11": "Sie endaßen ab"
+      "FirstSingular": "ich fügte zu",
+      "SecondSingular": "du fügtest zu",
+      "ThirdSingular": "er fügte zu",
+      "FirstPlural": "wir fügten zu",
+      "SecondPlural": "ihr fügtet zu",
+      "ThirdPlural": "Sie fügten zu"
     },
     "Perfekt": {
-      "FirstSingular": "ich habe abgeendgessen",
-      "SecondSingular": "du hast abgeendgessen",
-      "ThirdSingular": "er hat abgeendgessen",
-      "FirstPlural": "wir haben abgeendgessen",
-      "SecondPlural": "ihr habt abgeendgessen",
-      "ThirdPlural": "Sie haben abgeendgessen"
+      "FirstSingular": "ich habe zugefügt",
+      "SecondSingular": "du hast zugefügt",
+      "ThirdSingular": "er hat zugefügt",
+      "FirstPlural": "wir haben zugefügt",
+      "SecondPlural": "ihr habt zugefügt",
+      "ThirdPlural": "Sie haben zugefügt"
     }
   },
   "stehen": {

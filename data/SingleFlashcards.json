@@ -7248,64 +7248,64 @@
     "Cooldown": "1.00:00:00"
   },
   {
-    "Question": "jeść kolację (Präsens, ich)",
-    "Answer": "ich endesse ab",
+    "Question": "zadawać (obrażenia) (Präsens, ich)",
+    "Answer": "ich füge zu",
     "ParentId": 385,
     "Type": 0,
     "LastTrainingTime": "2022-04-03T21:23:25.1668371+02:00",
     "Cooldown": "1.00:00:00"
   },
   {
-    "Question": "jeść kolację (Präsens, du)",
-    "Answer": "du endisst ab",
+    "Question": "zadawać (obrażenia) (Präsens, du)",
+    "Answer": "du fügst zu",
     "ParentId": 385,
     "Type": 1,
     "LastTrainingTime": "2022-04-03T21:23:25.1668482+02:00",
     "Cooldown": "1.00:00:00"
   },
   {
-    "Question": "jeść kolację (Präsens, er)",
-    "Answer": "er endisst ab",
+    "Question": "zadawać (obrażenia) (Präsens, er)",
+    "Answer": "er fügt zu",
     "ParentId": 385,
     "Type": 2,
     "LastTrainingTime": "2022-04-03T21:23:25.1668589+02:00",
     "Cooldown": "1.00:00:00"
   },
   {
-    "Question": "jeść kolację (Präsens, ihr)",
-    "Answer": "ihr endesst ab",
+    "Question": "zadawać (obrażenia) (Präsens, ihr)",
+    "Answer": "ihr fügt zu",
     "ParentId": 385,
     "Type": 4,
     "LastTrainingTime": "2022-04-03T21:23:25.1668692+02:00",
     "Cooldown": "1.00:00:00"
   },
   {
-    "Question": "jeść kolację (Präteritum, ich)",
-    "Answer": "ich endaß ab",
+    "Question": "zadawać (obrażenia) (Präteritum, ich)",
+    "Answer": "ich fügte zu",
     "ParentId": 385,
     "Type": 5,
     "LastTrainingTime": "2022-04-03T21:23:25.1668799+02:00",
     "Cooldown": "1.00:00:00"
   },
   {
-    "Question": "jeść kolację (Präteritum, du)",
-    "Answer": "du endaßest ab",
+    "Question": "zadawać (obrażenia) (Präteritum, du)",
+    "Answer": "du fügtest zu",
     "ParentId": 385,
     "Type": 6,
     "LastTrainingTime": "2022-04-03T21:23:25.1668906+02:00",
     "Cooldown": "1.00:00:00"
   },
   {
-    "Question": "jeść kolację (Präteritum, er)",
-    "Answer": "er endaß ab",
+    "Question": "zadawać (obrażenia) (Präteritum, er)",
+    "Answer": "er fügte zu",
     "ParentId": 385,
     "Type": 7,
     "LastTrainingTime": "2022-04-03T21:23:25.1669014+02:00",
     "Cooldown": "1.00:00:00"
   },
   {
-    "Question": "jeść kolację (Präteritum, ihr)",
-    "Answer": "ihr endaßt ab",
+    "Question": "zadawać (obrażenia) (Präteritum, ihr)",
+    "Answer": "ihr fügtet zu",
     "ParentId": 385,
     "Type": 9,
     "LastTrainingTime": "2022-04-03T21:23:25.1669121+02:00",

@@ -4801,12 +4801,12 @@
   },
   {
     "Questions": [
-      "jeść kolację (Präsens, wir)",
-      "jeść kolację (Präsens, Sie)"
+      "zadawać (obrażenia) (Präsens, wir)",
+      "zadawać (obrażenia) (Präsens, Sie)"
     ],
     "Answers": [
-      "wir endessen ab",
-      "Sie endessen ab"
+      "wir fügen zu",
+      "Sie fügen zu"
     ],
     "ParentId": 385,
     "Type": 3,
@@ -4815,12 +4815,12 @@
   },
   {
     "Questions": [
-      "jeść kolację (Präteritum, wir)",
-      "jeść kolację (Präteritum, Sie)"
+      "zadawać (obrażenia) (Präteritum, wir)",
+      "zadawać (obrażenia) (Präteritum, Sie)"
     ],
     "Answers": [
-      "wir endaßen ab",
-      "Sie endaßen ab"
+      "wir fügten zu",
+      "Sie fügten zu"
     ],
     "ParentId": 385,
     "Type": 8,
@@ -4829,20 +4829,20 @@
   },
   {
     "Questions": [
-      "jeść kolację (Perfekt, ich)",
-      "jeść kolację (Perfekt, du)",
-      "jeść kolację (Perfekt, er)",
-      "jeść kolację (Perfekt, wir)",
-      "jeść kolację (Perfekt, ihr)",
-      "jeść kolację (Perfekt, Sie)"
+      "zadawać (obrażenia) (Perfekt, ich)",
+      "zadawać (obrażenia) (Perfekt, du)",
+      "zadawać (obrażenia) (Perfekt, er)",
+      "zadawać (obrażenia) (Perfekt, wir)",
+      "zadawać (obrażenia) (Perfekt, ihr)",
+      "zadawać (obrażenia) (Perfekt, Sie)"
     ],
     "Answers": [
-      "ich habe abgeendgessen",
-      "du hast abgeendgessen",
-      "er hat abgeendgessen",
-      "wir haben abgeendgessen",
-      "ihr habt abgeendgessen",
-      "Sie haben abgeendgessen"
+      "ich habe zugefügt",
+      "du hast zugefügt",
+      "er hat zugefügt",
+      "wir haben zugefügt",
+      "ihr habt zugefügt",
+      "Sie haben zugefügt"
     ],
     "ParentId": 385,
     "Type": 10,
