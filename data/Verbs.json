@@ -2943,7 +2943,7 @@
   },
   "zugeben": {
     "Id": 393,
-    "Description": "przyznawać",
+    "Description": "przyznawać się (do błędu)",
     "Present": {
       "FirstSingular": "ich gebe zu",
       "SecondSingular": "du gibst zu",
@@ -4161,7 +4161,7 @@
   },
   "fehlen": {
     "Id": 561,
-    "Description": "brakować",
+    "Description": "brakować, dolegać",
     "Present": {
       "FirstSingular": "ich fehle",
       "SecondSingular": "du fehlst",
@@ -5065,7 +5065,7 @@
   },
   "bedienen": {
     "Id": 685,
-    "Description": "obsługiwać",
+    "Description": "obsługiwać (klientów)",
     "Present": {
       "FirstSingular": "ich bediene",
       "SecondSingular": "du bedienst",

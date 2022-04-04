@@ -4901,8 +4901,8 @@
   },
   {
     "Questions": [
-      "przyznawać (Präsens, wir)",
-      "przyznawać (Präsens, Sie)"
+      "przyznawać się (do błędu) (Präsens, wir)",
+      "przyznawać się (do błędu) (Präsens, Sie)"
     ],
     "Answers": [
       "wir geben zu",
@@ -4915,8 +4915,8 @@
   },
   {
     "Questions": [
-      "przyznawać (Präteritum, wir)",
-      "przyznawać (Präteritum, Sie)"
+      "przyznawać się (do błędu) (Präteritum, wir)",
+      "przyznawać się (do błędu) (Präteritum, Sie)"
     ],
     "Answers": [
       "wir gaben zu",
@@ -4929,12 +4929,12 @@
   },
   {
     "Questions": [
-      "przyznawać (Perfekt, ich)",
-      "przyznawać (Perfekt, du)",
-      "przyznawać (Perfekt, er)",
-      "przyznawać (Perfekt, wir)",
-      "przyznawać (Perfekt, ihr)",
-      "przyznawać (Perfekt, Sie)"
+      "przyznawać się (do błędu) (Perfekt, ich)",
+      "przyznawać się (do błędu) (Perfekt, du)",
+      "przyznawać się (do błędu) (Perfekt, er)",
+      "przyznawać się (do błędu) (Perfekt, wir)",
+      "przyznawać się (do błędu) (Perfekt, ihr)",
+      "przyznawać się (do błędu) (Perfekt, Sie)"
     ],
     "Answers": [
       "ich habe zugegeben",
@@ -7001,8 +7001,8 @@
   },
   {
     "Questions": [
-      "brakować (Präsens, wir)",
-      "brakować (Präsens, Sie)"
+      "brakować, dolegać (Präsens, wir)",
+      "brakować, dolegać (Präsens, Sie)"
     ],
     "Answers": [
       "wir fehlen",
@@ -7015,8 +7015,8 @@
   },
   {
     "Questions": [
-      "brakować (Präteritum, wir)",
-      "brakować (Präteritum, Sie)"
+      "brakować, dolegać (Präteritum, wir)",
+      "brakować, dolegać (Präteritum, Sie)"
     ],
     "Answers": [
       "wir fehlten",
@@ -7029,12 +7029,12 @@
   },
   {
     "Questions": [
-      "brakować (Perfekt, ich)",
-      "brakować (Perfekt, du)",
-      "brakować (Perfekt, er)",
-      "brakować (Perfekt, wir)",
-      "brakować (Perfekt, ihr)",
-      "brakować (Perfekt, Sie)"
+      "brakować, dolegać (Perfekt, ich)",
+      "brakować, dolegać (Perfekt, du)",
+      "brakować, dolegać (Perfekt, er)",
+      "brakować, dolegać (Perfekt, wir)",
+      "brakować, dolegać (Perfekt, ihr)",
+      "brakować, dolegać (Perfekt, Sie)"
     ],
     "Answers": [
       "ich habe gefehlt",
@@ -8551,8 +8551,8 @@
   },
   {
     "Questions": [
-      "obsługiwać (Präsens, wir)",
-      "obsługiwać (Präsens, Sie)"
+      "obsługiwać (klientów) (Präsens, wir)",
+      "obsługiwać (klientów) (Präsens, Sie)"
     ],
     "Answers": [
       "wir bedienen",
@@ -8565,8 +8565,8 @@
   },
   {
     "Questions": [
-      "obsługiwać (Präteritum, wir)",
-      "obsługiwać (Präteritum, Sie)"
+      "obsługiwać (klientów) (Präteritum, wir)",
+      "obsługiwać (klientów) (Präteritum, Sie)"
     ],
     "Answers": [
       "wir bedienten",
@@ -8579,12 +8579,12 @@
   },
   {
     "Questions": [
-      "obsługiwać (Perfekt, ich)",
-      "obsługiwać (Perfekt, du)",
-      "obsługiwać (Perfekt, er)",
-      "obsługiwać (Perfekt, wir)",
-      "obsługiwać (Perfekt, ihr)",
-      "obsługiwać (Perfekt, Sie)"
+      "obsługiwać (klientów) (Perfekt, ich)",
+      "obsługiwać (klientów) (Perfekt, du)",
+      "obsługiwać (klientów) (Perfekt, er)",
+      "obsługiwać (klientów) (Perfekt, wir)",
+      "obsługiwać (klientów) (Perfekt, ihr)",
+      "obsługiwać (klientów) (Perfekt, Sie)"
     ],
     "Answers": [
       "ich habe bedient",

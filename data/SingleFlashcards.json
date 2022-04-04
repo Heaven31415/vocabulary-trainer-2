@@ -7376,7 +7376,7 @@
     "Cooldown": "1.00:00:00"
   },
   {
-    "Question": "przyznawać (Präsens, ich)",
+    "Question": "przyznawać się (do błędu) (Präsens, ich)",
     "Answer": "ich gebe zu",
     "ParentId": 393,
     "Type": 0,
@@ -7384,7 +7384,7 @@
     "Cooldown": "1.00:00:00"
   },
   {
-    "Question": "przyznawać (Präsens, du)",
+    "Question": "przyznawać się (do błędu) (Präsens, du)",
     "Answer": "du gibst zu",
     "ParentId": 393,
     "Type": 1,
@@ -7392,7 +7392,7 @@
     "Cooldown": "1.00:00:00"
   },
   {
-    "Question": "przyznawać (Präsens, er)",
+    "Question": "przyznawać się (do błędu) (Präsens, er)",
     "Answer": "er gibt zu",
     "ParentId": 393,
     "Type": 2,
@@ -7400,7 +7400,7 @@
     "Cooldown": "1.00:00:00"
   },
   {
-    "Question": "przyznawać (Präsens, ihr)",
+    "Question": "przyznawać się (do błędu) (Präsens, ihr)",
     "Answer": "ihr gebt zu",
     "ParentId": 393,
     "Type": 4,
@@ -7408,7 +7408,7 @@
     "Cooldown": "1.00:00:00"
   },
   {
-    "Question": "przyznawać (Präteritum, ich)",
+    "Question": "przyznawać się (do błędu) (Präteritum, ich)",
     "Answer": "ich gab zu",
     "ParentId": 393,
     "Type": 5,
@@ -7416,7 +7416,7 @@
     "Cooldown": "1.00:00:00"
   },
   {
-    "Question": "przyznawać (Präteritum, du)",
+    "Question": "przyznawać się (do błędu) (Präteritum, du)",
     "Answer": "du gabst zu",
     "ParentId": 393,
     "Type": 6,
@@ -7424,7 +7424,7 @@
     "Cooldown": "1.00:00:00"
   },
   {
-    "Question": "przyznawać (Präteritum, er)",
+    "Question": "przyznawać się (do błędu) (Präteritum, er)",
     "Answer": "er gab zu",
     "ParentId": 393,
     "Type": 7,
@@ -7432,7 +7432,7 @@
     "Cooldown": "1.00:00:00"
   },
   {
-    "Question": "przyznawać (Präteritum, ihr)",
+    "Question": "przyznawać się (do błędu) (Präteritum, ihr)",
     "Answer": "ihr gabt zu",
     "ParentId": 393,
     "Type": 9,
@@ -10064,7 +10064,7 @@
     "Cooldown": "1.00:00:00"
   },
   {
-    "Question": "brakować (Präsens, ich)",
+    "Question": "brakować, dolegać (Präsens, ich)",
     "Answer": "ich fehle",
     "ParentId": 561,
     "Type": 0,
@@ -10072,7 +10072,7 @@
     "Cooldown": "1.00:00:00"
   },
   {
-    "Question": "brakować (Präsens, du)",
+    "Question": "brakować, dolegać (Präsens, du)",
     "Answer": "du fehlst",
     "ParentId": 561,
     "Type": 1,
@@ -10080,7 +10080,7 @@
     "Cooldown": "1.00:00:00"
   },
   {
-    "Question": "brakować (Präsens, er)",
+    "Question": "brakować, dolegać (Präsens, er)",
     "Answer": "er fehlt",
     "ParentId": 561,
     "Type": 2,
@@ -10088,7 +10088,7 @@
     "Cooldown": "1.00:00:00"
   },
   {
-    "Question": "brakować (Präsens, ihr)",
+    "Question": "brakować, dolegać (Präsens, ihr)",
     "Answer": "ihr fehlt",
     "ParentId": 561,
     "Type": 4,
@@ -10096,7 +10096,7 @@
     "Cooldown": "1.00:00:00"
   },
   {
-    "Question": "brakować (Präteritum, ich)",
+    "Question": "brakować, dolegać (Präteritum, ich)",
     "Answer": "ich fehlte",
     "ParentId": 561,
     "Type": 5,
@@ -10104,7 +10104,7 @@
     "Cooldown": "1.00:00:00"
   },
   {
-    "Question": "brakować (Präteritum, du)",
+    "Question": "brakować, dolegać (Präteritum, du)",
     "Answer": "du fehltest",
     "ParentId": 561,
     "Type": 6,
@@ -10112,7 +10112,7 @@
     "Cooldown": "1.00:00:00"
   },
   {
-    "Question": "brakować (Präteritum, er)",
+    "Question": "brakować, dolegać (Präteritum, er)",
     "Answer": "er fehlte",
     "ParentId": 561,
     "Type": 7,
@@ -10120,7 +10120,7 @@
     "Cooldown": "1.00:00:00"
   },
   {
-    "Question": "brakować (Präteritum, ihr)",
+    "Question": "brakować, dolegać (Präteritum, ihr)",
     "Answer": "ihr fehltet",
     "ParentId": 561,
     "Type": 9,
@@ -12048,7 +12048,7 @@
     "Cooldown": "1.00:00:00"
   },
   {
-    "Question": "obsługiwać (Präsens, ich)",
+    "Question": "obsługiwać (klientów) (Präsens, ich)",
     "Answer": "ich bediene",
     "ParentId": 685,
     "Type": 0,
@@ -12056,7 +12056,7 @@
     "Cooldown": "1.00:00:00"
   },
   {
-    "Question": "obsługiwać (Präsens, du)",
+    "Question": "obsługiwać (klientów) (Präsens, du)",
     "Answer": "du bedienst",
     "ParentId": 685,
     "Type": 1,
@@ -12064,7 +12064,7 @@
     "Cooldown": "1.00:00:00"
   },
   {
-    "Question": "obsługiwać (Präsens, er)",
+    "Question": "obsługiwać (klientów) (Präsens, er)",
     "Answer": "er bedient",
     "ParentId": 685,
     "Type": 2,
@@ -12072,7 +12072,7 @@
     "Cooldown": "1.00:00:00"
   },
   {
-    "Question": "obsługiwać (Präsens, ihr)",
+    "Question": "obsługiwać (klientów) (Präsens, ihr)",
     "Answer": "ihr bedient",
     "ParentId": 685,
     "Type": 4,
@@ -12080,7 +12080,7 @@
     "Cooldown": "1.00:00:00"
   },
   {
-    "Question": "obsługiwać (Präteritum, ich)",
+    "Question": "obsługiwać (klientów) (Präteritum, ich)",
     "Answer": "ich bediente",
     "ParentId": 685,
     "Type": 5,
@@ -12088,7 +12088,7 @@
     "Cooldown": "1.00:00:00"
   },
   {
-    "Question": "obsługiwać (Präteritum, du)",
+    "Question": "obsługiwać (klientów) (Präteritum, du)",
     "Answer": "du bedientest",
     "ParentId": 685,
     "Type": 6,
@@ -12096,7 +12096,7 @@
     "Cooldown": "1.00:00:00"
   },
   {
-    "Question": "obsługiwać (Präteritum, er)",
+    "Question": "obsługiwać (klientów) (Präteritum, er)",
     "Answer": "er bediente",
     "ParentId": 685,
     "Type": 7,
@@ -12104,7 +12104,7 @@
     "Cooldown": "1.00:00:00"
   },
   {
-    "Question": "obsługiwać (Präteritum, ihr)",
+    "Question": "obsługiwać (klientów) (Präteritum, ihr)",
     "Answer": "ihr bedientet",
     "ParentId": 685,
     "Type": 9,
