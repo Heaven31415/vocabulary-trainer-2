@@ -10,8 +10,8 @@
     ],
     "ParentId": 1,
     "Type": 3,
-    "LastTrainingTime": "2022-03-29T23:59:03.325102+02:00",
-    "Cooldown": "4.00:00:00"
+    "LastTrainingTime": "2022-04-05T15:48:07.1110677+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Questions": [
@@ -24,8 +24,8 @@
     ],
     "ParentId": 1,
     "Type": 8,
-    "LastTrainingTime": "2022-03-30T00:01:19.8288016+02:00",
-    "Cooldown": "4.00:00:00"
+    "LastTrainingTime": "2022-04-05T14:15:49.0161296+02:00",
+    "Cooldown": "8.00:00:00"
   },
   {
     "Questions": [
@@ -124,8 +124,8 @@
     ],
     "ParentId": 9,
     "Type": 8,
-    "LastTrainingTime": "2022-04-02T16:29:32.2219633+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-05T15:49:17.9348566+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Questions": [
@@ -196,8 +196,8 @@
     ],
     "ParentId": 13,
     "Type": 10,
-    "LastTrainingTime": "2022-03-29T20:15:32.2915477+02:00",
-    "Cooldown": "4.00:00:00"
+    "LastTrainingTime": "2022-04-05T14:30:21.9803852+02:00",
+    "Cooldown": "8.00:00:00"
   },
   {
     "Questions": [
@@ -260,8 +260,8 @@
     ],
     "ParentId": 21,
     "Type": 3,
-    "LastTrainingTime": "2022-03-29T19:43:44.6227367+02:00",
-    "Cooldown": "4.00:00:00"
+    "LastTrainingTime": "2022-04-05T14:13:53.3685451+02:00",
+    "Cooldown": "8.00:00:00"
   },
   {
     "Questions": [
@@ -274,8 +274,8 @@
     ],
     "ParentId": 21,
     "Type": 8,
-    "LastTrainingTime": "2022-03-29T20:16:01.6435119+02:00",
-    "Cooldown": "4.00:00:00"
+    "LastTrainingTime": "2022-04-05T14:16:00.5041195+02:00",
+    "Cooldown": "8.00:00:00"
   },
   {
     "Questions": [
@@ -310,8 +310,8 @@
     ],
     "ParentId": 25,
     "Type": 3,
-    "LastTrainingTime": "2022-03-29T20:17:57.7473102+02:00",
-    "Cooldown": "4.00:00:00"
+    "LastTrainingTime": "2022-04-05T15:47:18.247332+02:00",
+    "Cooldown": "8.00:00:00"
   },
   {
     "Questions": [
@@ -396,8 +396,8 @@
     ],
     "ParentId": 29,
     "Type": 10,
-    "LastTrainingTime": "2022-03-29T21:44:23.962651+02:00",
-    "Cooldown": "4.00:00:00"
+    "LastTrainingTime": "2022-04-05T15:45:31.7518397+02:00",
+    "Cooldown": "8.00:00:00"
   },
   {
     "Questions": [
@@ -424,8 +424,8 @@
     ],
     "ParentId": 33,
     "Type": 8,
-    "LastTrainingTime": "2022-03-29T20:59:11.9191015+02:00",
-    "Cooldown": "4.00:00:00"
+    "LastTrainingTime": "2022-04-05T14:28:01.8290615+02:00",
+    "Cooldown": "8.00:00:00"
   },
   {
     "Questions": [
@@ -532,8 +532,8 @@
     ],
     "ParentId": 41,
     "Type": 3,
-    "LastTrainingTime": "2022-03-29T21:41:54.4188864+02:00",
-    "Cooldown": "4.00:00:00"
+    "LastTrainingTime": "2022-04-05T15:45:22.3358535+02:00",
+    "Cooldown": "8.00:00:00"
   },
   {
     "Questions": [
@@ -696,7 +696,7 @@
     ],
     "ParentId": 53,
     "Type": 10,
-    "LastTrainingTime": "2022-04-02T16:32:43.7088697+02:00",
+    "LastTrainingTime": "2022-04-05T15:50:46.1905172+02:00",
     "Cooldown": "1.00:00:00"
   },
   {
@@ -760,8 +760,8 @@
     ],
     "ParentId": 61,
     "Type": 3,
-    "LastTrainingTime": "2022-03-29T20:19:13.8592121+02:00",
-    "Cooldown": "4.00:00:00"
+    "LastTrainingTime": "2022-04-05T15:44:17.7040748+02:00",
+    "Cooldown": "8.00:00:00"
   },
   {
     "Questions": [
@@ -810,8 +810,8 @@
     ],
     "ParentId": 65,
     "Type": 3,
-    "LastTrainingTime": "2022-03-29T20:59:23.0791814+02:00",
-    "Cooldown": "4.00:00:00"
+    "LastTrainingTime": "2022-04-05T14:15:23.0562116+02:00",
+    "Cooldown": "8.00:00:00"
   },
   {
     "Questions": [
@@ -996,8 +996,8 @@
     ],
     "ParentId": 77,
     "Type": 8,
-    "LastTrainingTime": "2022-03-30T00:01:39.4128658+02:00",
-    "Cooldown": "4.00:00:00"
+    "LastTrainingTime": "2022-04-05T15:44:03.3922477+02:00",
+    "Cooldown": "8.00:00:00"
   },
   {
     "Questions": [
@@ -1060,8 +1060,8 @@
     ],
     "ParentId": 85,
     "Type": 8,
-    "LastTrainingTime": "2022-03-30T21:09:38.0713007+02:00",
-    "Cooldown": "4.00:00:00"
+    "LastTrainingTime": "2022-04-05T14:17:52.3356204+02:00",
+    "Cooldown": "8.00:00:00"
   },
   {
     "Questions": [
@@ -1160,8 +1160,8 @@
     ],
     "ParentId": 93,
     "Type": 8,
-    "LastTrainingTime": "2022-03-30T00:00:33.1649162+02:00",
-    "Cooldown": "4.00:00:00"
+    "LastTrainingTime": "2022-04-05T14:30:43.1722956+02:00",
+    "Cooldown": "8.00:00:00"
   },
   {
     "Questions": [
@@ -1174,8 +1174,8 @@
     ],
     "ParentId": 93,
     "Type": 3,
-    "LastTrainingTime": "2022-03-29T21:44:09.1946986+02:00",
-    "Cooldown": "4.00:00:00"
+    "LastTrainingTime": "2022-04-05T14:31:11.2601741+02:00",
+    "Cooldown": "8.00:00:00"
   },
   {
     "Questions": [
@@ -1232,8 +1232,8 @@
     ],
     "ParentId": 97,
     "Type": 3,
-    "LastTrainingTime": "2022-03-29T21:48:21.7622916+02:00",
-    "Cooldown": "4.00:00:00"
+    "LastTrainingTime": "2022-04-05T14:28:07.7568873+02:00",
+    "Cooldown": "8.00:00:00"
   },
   {
     "Questions": [
@@ -1482,8 +1482,8 @@
     ],
     "ParentId": 117,
     "Type": 3,
-    "LastTrainingTime": "2022-03-30T23:46:47.7207629+02:00",
-    "Cooldown": "4.00:00:00"
+    "LastTrainingTime": "2022-04-05T15:50:31.2624697+02:00",
+    "Cooldown": "8.00:00:00"
   },
   {
     "Questions": [
@@ -1760,8 +1760,8 @@
     ],
     "ParentId": 141,
     "Type": 3,
-    "LastTrainingTime": "2022-03-31T16:50:14.0514823+02:00",
-    "Cooldown": "4.00:00:00"
+    "LastTrainingTime": "2022-04-05T15:47:51.183229+02:00",
+    "Cooldown": "8.00:00:00"
   },
   {
     "Questions": [
@@ -1896,8 +1896,8 @@
     ],
     "ParentId": 149,
     "Type": 8,
-    "LastTrainingTime": "2022-03-31T20:13:02.649367+02:00",
-    "Cooldown": "4.00:00:00"
+    "LastTrainingTime": "2022-04-05T14:15:43.5042399+02:00",
+    "Cooldown": "8.00:00:00"
   },
   {
     "Questions": [
@@ -1946,8 +1946,8 @@
     ],
     "ParentId": 153,
     "Type": 3,
-    "LastTrainingTime": "2022-03-31T20:14:18.0083475+02:00",
-    "Cooldown": "4.00:00:00"
+    "LastTrainingTime": "2022-04-05T15:39:31.6974188+02:00",
+    "Cooldown": "8.00:00:00"
   },
   {
     "Questions": [
@@ -2246,8 +2246,8 @@
     ],
     "ParentId": 177,
     "Type": 3,
-    "LastTrainingTime": "2022-03-31T22:49:13.1226922+02:00",
-    "Cooldown": "4.00:00:00"
+    "LastTrainingTime": "2022-04-05T14:17:42.6556894+02:00",
+    "Cooldown": "8.00:00:00"
   },
   {
     "Questions": [
@@ -2432,8 +2432,8 @@
     ],
     "ParentId": 193,
     "Type": 10,
-    "LastTrainingTime": "2022-03-31T20:20:02.4383278+02:00",
-    "Cooldown": "4.00:00:00"
+    "LastTrainingTime": "2022-04-05T15:44:27.7440755+02:00",
+    "Cooldown": "8.00:00:00"
   },
   {
     "Questions": [
@@ -2518,8 +2518,8 @@
     ],
     "ParentId": 201,
     "Type": 10,
-    "LastTrainingTime": "2022-03-31T20:15:12.7679945+02:00",
-    "Cooldown": "4.00:00:00"
+    "LastTrainingTime": "2022-04-05T15:44:55.0559656+02:00",
+    "Cooldown": "8.00:00:00"
   },
   {
     "Questions": [
@@ -2546,8 +2546,8 @@
     ],
     "ParentId": 201,
     "Type": 8,
-    "LastTrainingTime": "2022-03-31T20:14:47.632267+02:00",
-    "Cooldown": "4.00:00:00"
+    "LastTrainingTime": "2022-04-05T15:43:12.0243668+02:00",
+    "Cooldown": "8.00:00:00"
   },
   {
     "Questions": [
@@ -2846,8 +2846,8 @@
     ],
     "ParentId": 225,
     "Type": 8,
-    "LastTrainingTime": "2022-04-02T16:34:17.372457+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-04-05T15:39:47.5773577+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
@@ -3474,8 +3474,8 @@
     ],
     "ParentId": 277,
     "Type": 8,
-    "LastTrainingTime": "2022-04-02T16:34:33.2441861+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-04-05T14:16:30.7999278+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
@@ -3496,8 +3496,8 @@
     ],
     "ParentId": 277,
     "Type": 10,
-    "LastTrainingTime": "2022-04-02T02:39:25.1533025+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-04-05T15:47:54.8632303+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
@@ -3546,8 +3546,8 @@
     ],
     "ParentId": 281,
     "Type": 10,
-    "LastTrainingTime": "2022-04-02T02:26:13.4541042+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-04-05T14:12:49.2333933+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
@@ -3574,8 +3574,8 @@
     ],
     "ParentId": 285,
     "Type": 8,
-    "LastTrainingTime": "2022-04-02T16:34:38.0521915+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-04-05T14:14:03.9606059+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
@@ -3846,8 +3846,8 @@
     ],
     "ParentId": 305,
     "Type": 10,
-    "LastTrainingTime": "2022-04-02T02:28:06.5653263+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-04-05T15:37:18.0658611+02:00",
+    "Cooldown": "1.00:00:00"
   },
   {
     "Questions": [
@@ -3868,8 +3868,8 @@
     ],
     "ParentId": 309,
     "Type": 10,
-    "LastTrainingTime": "2022-04-01T01:07:28.0136966+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-05T14:16:41.6879044+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Questions": [
@@ -4024,8 +4024,8 @@
     ],
     "ParentId": 321,
     "Type": 8,
-    "LastTrainingTime": "2022-04-02T16:34:20.3402722+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-04-05T14:19:07.5831859+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
@@ -4096,8 +4096,8 @@
     ],
     "ParentId": 325,
     "Type": 3,
-    "LastTrainingTime": "2022-04-02T16:24:56.7117307+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-04-05T14:25:17.8458172+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
@@ -4110,8 +4110,8 @@
     ],
     "ParentId": 329,
     "Type": 3,
-    "LastTrainingTime": "2022-04-02T16:40:33.0260662+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-04-05T14:32:22.9399+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
@@ -4210,8 +4210,8 @@
     ],
     "ParentId": 337,
     "Type": 3,
-    "LastTrainingTime": "2022-04-02T16:19:28.9856852+02:00",
-    "Cooldown": "2.00:00:00"
+    "LastTrainingTime": "2022-04-05T14:26:44.3333942+02:00",
+    "Cooldown": "4.00:00:00"
   },
   {
     "Questions": [
@@ -4646,8 +4646,8 @@
     ],
     "ParentId": 369,
     "Type": 10,
-    "LastTrainingTime": "2022-04-03T21:23:25.1942102+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-05T14:26:10.6294176+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Questions": [
@@ -4796,8 +4796,8 @@
     ],
     "ParentId": 381,
     "Type": 10,
-    "LastTrainingTime": "2022-04-03T21:23:25.1942349+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-05T14:18:32.5513351+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Questions": [
@@ -5210,8 +5210,8 @@
     ],
     "ParentId": 417,
     "Type": 3,
-    "LastTrainingTime": "2022-04-03T21:23:25.1943046+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-05T14:16:23.4479972+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Questions": [
@@ -5260,8 +5260,8 @@
     ],
     "ParentId": 421,
     "Type": 3,
-    "LastTrainingTime": "2022-04-03T21:23:25.194313+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-05T15:49:45.4148305+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Questions": [
@@ -5274,7 +5274,7 @@
     ],
     "ParentId": 421,
     "Type": 8,
-    "LastTrainingTime": "2022-04-03T21:23:25.1943159+02:00",
+    "LastTrainingTime": "2022-04-05T15:50:17.0145043+02:00",
     "Cooldown": "1.00:00:00"
   },
   {
@@ -5596,8 +5596,8 @@
     ],
     "ParentId": 445,
     "Type": 10,
-    "LastTrainingTime": "2022-04-03T21:23:25.1943729+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-05T15:44:49.823987+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Questions": [
@@ -5696,7 +5696,7 @@
     ],
     "ParentId": 453,
     "Type": 10,
-    "LastTrainingTime": "2022-04-03T21:23:25.1943912+02:00",
+    "LastTrainingTime": "2022-04-05T14:22:47.1182787+02:00",
     "Cooldown": "1.00:00:00"
   },
   {
@@ -5710,8 +5710,8 @@
     ],
     "ParentId": 457,
     "Type": 3,
-    "LastTrainingTime": "2022-04-03T21:23:25.1943944+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-05T14:31:02.748201+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Questions": [
@@ -6010,8 +6010,8 @@
     ],
     "ParentId": 481,
     "Type": 3,
-    "LastTrainingTime": "2022-04-03T21:23:25.1944508+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-05T15:40:35.2734007+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Questions": [
@@ -6060,8 +6060,8 @@
     ],
     "ParentId": 485,
     "Type": 3,
-    "LastTrainingTime": "2022-04-03T21:23:25.1944608+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-05T15:37:00.8823742+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Questions": [
@@ -6124,7 +6124,7 @@
     ],
     "ParentId": 489,
     "Type": 8,
-    "LastTrainingTime": "2022-04-03T21:23:25.1944735+02:00",
+    "LastTrainingTime": "2022-04-05T14:12:55.4408453+02:00",
     "Cooldown": "1.00:00:00"
   },
   {
@@ -6160,8 +6160,8 @@
     ],
     "ParentId": 493,
     "Type": 3,
-    "LastTrainingTime": "2022-04-03T21:23:25.1944801+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-05T15:41:58.6567037+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Questions": [
@@ -6346,8 +6346,8 @@
     ],
     "ParentId": 505,
     "Type": 10,
-    "LastTrainingTime": "2022-04-03T21:23:25.1945168+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-05T15:39:11.1614815+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Questions": [
@@ -6396,8 +6396,8 @@
     ],
     "ParentId": 509,
     "Type": 10,
-    "LastTrainingTime": "2022-04-03T21:23:25.1945269+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-05T15:48:35.1830637+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Questions": [
@@ -6410,8 +6410,8 @@
     ],
     "ParentId": 513,
     "Type": 3,
-    "LastTrainingTime": "2022-04-03T21:23:25.1945301+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-05T14:14:57.5842962+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Questions": [
@@ -6474,7 +6474,7 @@
     ],
     "ParentId": 517,
     "Type": 8,
-    "LastTrainingTime": "2022-04-03T21:23:25.1945441+02:00",
+    "LastTrainingTime": "2022-04-05T14:19:23.4551737+02:00",
     "Cooldown": "1.00:00:00"
   },
   {
@@ -6610,8 +6610,8 @@
     ],
     "ParentId": 529,
     "Type": 3,
-    "LastTrainingTime": "2022-04-03T21:23:25.1945716+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-05T15:44:58.5040441+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Questions": [
@@ -6624,8 +6624,8 @@
     ],
     "ParentId": 529,
     "Type": 8,
-    "LastTrainingTime": "2022-04-03T21:23:25.194575+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-05T14:13:49.7045777+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Questions": [
@@ -6724,8 +6724,8 @@
     ],
     "ParentId": 537,
     "Type": 8,
-    "LastTrainingTime": "2022-04-03T21:23:25.1945963+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-05T15:45:54.5918888+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Questions": [
@@ -6810,8 +6810,8 @@
     ],
     "ParentId": 545,
     "Type": 3,
-    "LastTrainingTime": "2022-04-03T21:23:25.1946142+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-05T15:47:05.5834208+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Questions": [
@@ -6860,8 +6860,8 @@
     ],
     "ParentId": 549,
     "Type": 3,
-    "LastTrainingTime": "2022-04-03T21:23:25.1946247+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-05T15:40:13.1930688+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Questions": [
@@ -6874,7 +6874,7 @@
     ],
     "ParentId": 549,
     "Type": 8,
-    "LastTrainingTime": "2022-04-03T21:23:25.1946283+02:00",
+    "LastTrainingTime": "2022-04-05T15:48:48.4468977+02:00",
     "Cooldown": "1.00:00:00"
   },
   {
@@ -6896,7 +6896,7 @@
     ],
     "ParentId": 549,
     "Type": 10,
-    "LastTrainingTime": "2022-04-03T21:23:25.1946327+02:00",
+    "LastTrainingTime": "2022-04-05T14:17:27.3516694+02:00",
     "Cooldown": "1.00:00:00"
   },
   {
@@ -6946,8 +6946,8 @@
     ],
     "ParentId": 553,
     "Type": 10,
-    "LastTrainingTime": "2022-04-03T21:23:25.1946433+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-05T15:38:50.7294378+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Questions": [
@@ -7060,7 +7060,7 @@
     ],
     "ParentId": 565,
     "Type": 3,
-    "LastTrainingTime": "2022-04-03T21:23:25.1946686+02:00",
+    "LastTrainingTime": "2022-04-05T14:22:37.8623099+02:00",
     "Cooldown": "1.00:00:00"
   },
   {
@@ -7474,7 +7474,7 @@
     ],
     "ParentId": 597,
     "Type": 8,
-    "LastTrainingTime": "2022-04-03T21:23:25.1948132+02:00",
+    "LastTrainingTime": "2022-04-05T15:39:17.5774105+02:00",
     "Cooldown": "1.00:00:00"
   },
   {
@@ -7496,8 +7496,8 @@
     ],
     "ParentId": 597,
     "Type": 10,
-    "LastTrainingTime": "2022-04-03T21:23:25.1948171+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-05T15:38:54.9533939+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Questions": [
@@ -7510,8 +7510,8 @@
     ],
     "ParentId": 601,
     "Type": 3,
-    "LastTrainingTime": "2022-04-03T21:23:25.1948209+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-05T14:32:08.8759724+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Questions": [
@@ -7596,8 +7596,8 @@
     ],
     "ParentId": 605,
     "Type": 10,
-    "LastTrainingTime": "2022-04-03T21:23:25.1948407+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-05T15:47:15.7112981+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Questions": [
@@ -7610,8 +7610,8 @@
     ],
     "ParentId": 609,
     "Type": 3,
-    "LastTrainingTime": "2022-04-03T21:23:25.1948446+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-05T15:40:26.1849647+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Questions": [
@@ -7824,7 +7824,7 @@
     ],
     "ParentId": 625,
     "Type": 8,
-    "LastTrainingTime": "2022-04-03T21:23:25.1948965+02:00",
+    "LastTrainingTime": "2022-04-05T15:42:16.440658+02:00",
     "Cooldown": "1.00:00:00"
   },
   {
@@ -7960,8 +7960,8 @@
     ],
     "ParentId": 637,
     "Type": 3,
-    "LastTrainingTime": "2022-04-03T21:23:25.1949297+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-05T14:28:16.4529216+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Questions": [
@@ -8074,8 +8074,8 @@
     ],
     "ParentId": 645,
     "Type": 8,
-    "LastTrainingTime": "2022-04-03T21:23:25.1949594+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-05T15:40:31.4330549+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Questions": [
@@ -8260,8 +8260,8 @@
     ],
     "ParentId": 661,
     "Type": 3,
-    "LastTrainingTime": "2022-04-03T21:23:25.1950055+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-05T15:50:39.1584623+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Questions": [
@@ -8446,8 +8446,8 @@
     ],
     "ParentId": 673,
     "Type": 10,
-    "LastTrainingTime": "2022-04-03T21:23:25.1950522+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-05T15:43:49.09627+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Questions": [
@@ -8496,7 +8496,7 @@
     ],
     "ParentId": 677,
     "Type": 10,
-    "LastTrainingTime": "2022-04-03T21:23:25.1950655+02:00",
+    "LastTrainingTime": "2022-04-05T14:25:53.4856186+02:00",
     "Cooldown": "1.00:00:00"
   },
   {
@@ -9024,8 +9024,8 @@
     ],
     "ParentId": 721,
     "Type": 8,
-    "LastTrainingTime": "2022-04-03T21:23:25.1952077+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-05T15:37:11.8820032+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Questions": [
@@ -9160,7 +9160,7 @@
     ],
     "ParentId": 733,
     "Type": 3,
-    "LastTrainingTime": "2022-04-03T21:23:25.1952445+02:00",
+    "LastTrainingTime": "2022-04-05T14:24:14.1738819+02:00",
     "Cooldown": "1.00:00:00"
   },
   {
@@ -9410,8 +9410,8 @@
     ],
     "ParentId": 753,
     "Type": 3,
-    "LastTrainingTime": "2022-04-03T21:23:25.1953144+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-05T14:27:18.3173204+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Questions": [
@@ -9724,8 +9724,8 @@
     ],
     "ParentId": 777,
     "Type": 8,
-    "LastTrainingTime": "2022-04-03T21:23:25.1954052+02:00",
-    "Cooldown": "1.00:00:00"
+    "LastTrainingTime": "2022-04-05T15:45:09.0560102+02:00",
+    "Cooldown": "2.00:00:00"
   },
   {
     "Questions": [
@@ -10074,7 +10074,7 @@
     ],
     "ParentId": 805,
     "Type": 8,
-    "LastTrainingTime": "2022-04-03T21:23:25.1955095+02:00",
+    "LastTrainingTime": "2022-04-05T15:49:33.126801+02:00",
     "Cooldown": "1.00:00:00"
   },
   {
@@ -10146,7 +10146,7 @@
     ],
     "ParentId": 809,
     "Type": 10,
-    "LastTrainingTime": "2022-04-03T21:23:25.1955296+02:00",
+    "LastTrainingTime": "2022-04-05T15:46:49.6233188+02:00",
     "Cooldown": "1.00:00:00"
   }
 ]
