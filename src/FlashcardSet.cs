@@ -76,6 +76,39 @@
             if (availableFlashcards.Count == 0)
                 return null;
 
+            // Nouns
+            var singularNounFlashcards = availableFlashcards.FindAll(f => f.Type == Type.NounSingularForm);
+
+            if (singularNounFlashcards.Count != 0)
+                return singularNounFlashcards[random.Next(singularNounFlashcards.Count)];
+
+            var pluralNounFlashcards = availableFlashcards.FindAll(f => f.Type == Type.NounPluralForm);
+
+            if (pluralNounFlashcards.Count != 0)
+                return pluralNounFlashcards[random.Next(pluralNounFlashcards.Count)];
+
+            // Adjectives
+            var adjectivePositiveDegreeFlashcards = availableFlashcards.FindAll(f => f.Type == Type.AdjectivePositiveDegree);
+
+            if (adjectivePositiveDegreeFlashcards.Count != 0)
+                return adjectivePositiveDegreeFlashcards[random.Next(adjectivePositiveDegreeFlashcards.Count)];
+
+            var adjectiveComparativeDegreeFlashcards = availableFlashcards.FindAll(f => f.Type == Type.AdjectiveComparativeDegree);
+
+            if (adjectiveComparativeDegreeFlashcards.Count != 0)
+                return adjectiveComparativeDegreeFlashcards[random.Next(adjectiveComparativeDegreeFlashcards.Count)];
+
+            var adjectiveSuperlativeDegreeFlashcards = availableFlashcards.FindAll(f => f.Type == Type.AdjectiveSuperlativeDegree);
+
+            if (adjectiveSuperlativeDegreeFlashcards.Count != 0)
+                return adjectiveSuperlativeDegreeFlashcards[random.Next(adjectiveSuperlativeDegreeFlashcards.Count)];
+
+            // Verbs
+            var presentVerbFlashcards = availableFlashcards.FindAll(f => 0 <= (int)f.Type && (int)f.Type <= 4);
+
+            if (presentVerbFlashcards.Count != 0)
+                return presentVerbFlashcards[random.Next(presentVerbFlashcards.Count)];
+
             return availableFlashcards[random.Next(availableFlashcards.Count)];
         }
 
