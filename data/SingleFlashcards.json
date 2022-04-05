@@ -14094,5 +14094,29 @@
     "Type": 9,
     "LastTrainingTime": "2022-04-03T21:23:25.1798543+02:00",
     "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "smutny (positive)",
+    "Answer": "traurig",
+    "ParentId": 35,
+    "Type": 13,
+    "LastTrainingTime": "2022-04-04T18:05:58.4124286+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "smutny (comparative)",
+    "Answer": "trauriger",
+    "ParentId": 35,
+    "Type": 14,
+    "LastTrainingTime": "2022-04-04T18:05:58.4124417+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "smutny (superlative)",
+    "Answer": "am traurigsten",
+    "ParentId": 35,
+    "Type": 15,
+    "LastTrainingTime": "2022-04-04T18:05:58.4124545+02:00",
+    "Cooldown": "1.00:00:00"
   }
 ]
