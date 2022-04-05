@@ -1,6 +1,7 @@
-- Add more error checks
-- Make error messages more friendly
-- Add a simple config system
-- Download CSV files automatically
-- Refactor already exisiting code
-- Add information about the number of verbs, nouns and adjectives
+- Add more validations and error checks
+- Refactor already existing code
+- Download CSV files automatically via Google Drive API
+- Improve VerbCache
+- Implement new kind of object: Other
+- Implement new algorithm for choosing flashcards from the pool
+- Show messages when downloading CSV files, building flashcards
