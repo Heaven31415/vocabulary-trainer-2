@@ -4501,8 +4501,8 @@
   },
   {
     "Questions": [
-      "przedstawiać (Präsens, wir)",
-      "przedstawiać (Präsens, Sie)"
+      "przedstawiać (kogoś) (Präsens, wir)",
+      "przedstawiać (kogoś) (Präsens, Sie)"
     ],
     "Answers": [
       "wir stellen vor",
@@ -4515,8 +4515,8 @@
   },
   {
     "Questions": [
-      "przedstawiać (Präteritum, wir)",
-      "przedstawiać (Präteritum, Sie)"
+      "przedstawiać (kogoś) (Präteritum, wir)",
+      "przedstawiać (kogoś) (Präteritum, Sie)"
     ],
     "Answers": [
       "wir stellten vor",
@@ -4529,12 +4529,12 @@
   },
   {
     "Questions": [
-      "przedstawiać (Perfekt, ich)",
-      "przedstawiać (Perfekt, du)",
-      "przedstawiać (Perfekt, er)",
-      "przedstawiać (Perfekt, wir)",
-      "przedstawiać (Perfekt, ihr)",
-      "przedstawiać (Perfekt, Sie)"
+      "przedstawiać (kogoś) (Perfekt, ich)",
+      "przedstawiać (kogoś) (Perfekt, du)",
+      "przedstawiać (kogoś) (Perfekt, er)",
+      "przedstawiać (kogoś) (Perfekt, wir)",
+      "przedstawiać (kogoś) (Perfekt, ihr)",
+      "przedstawiać (kogoś) (Perfekt, Sie)"
     ],
     "Answers": [
       "ich habe vorgestellt",

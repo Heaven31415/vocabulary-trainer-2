@@ -6864,7 +6864,7 @@
     "Cooldown": "1.00:00:00"
   },
   {
-    "Question": "przedstawiać (Präsens, ich)",
+    "Question": "przedstawiać (kogoś) (Präsens, ich)",
     "Answer": "ich stelle vor",
     "ParentId": 361,
     "Type": 0,
@@ -6872,7 +6872,7 @@
     "Cooldown": "1.00:00:00"
   },
   {
-    "Question": "przedstawiać (Präsens, du)",
+    "Question": "przedstawiać (kogoś) (Präsens, du)",
     "Answer": "du stellst vor",
     "ParentId": 361,
     "Type": 1,
@@ -6880,7 +6880,7 @@
     "Cooldown": "1.00:00:00"
   },
   {
-    "Question": "przedstawiać (Präsens, er)",
+    "Question": "przedstawiać (kogoś) (Präsens, er)",
     "Answer": "er stellt vor",
     "ParentId": 361,
     "Type": 2,
@@ -6888,7 +6888,7 @@
     "Cooldown": "2.00:00:00"
   },
   {
-    "Question": "przedstawiać (Präsens, ihr)",
+    "Question": "przedstawiać (kogoś) (Präsens, ihr)",
     "Answer": "ihr stellt vor",
     "ParentId": 361,
     "Type": 4,
@@ -6896,7 +6896,7 @@
     "Cooldown": "2.00:00:00"
   },
   {
-    "Question": "przedstawiać (Präteritum, ich)",
+    "Question": "przedstawiać (kogoś) (Präteritum, ich)",
     "Answer": "ich stellte vor",
     "ParentId": 361,
     "Type": 5,
@@ -6904,7 +6904,7 @@
     "Cooldown": "2.00:00:00"
   },
   {
-    "Question": "przedstawiać (Präteritum, du)",
+    "Question": "przedstawiać (kogoś) (Präteritum, du)",
     "Answer": "du stelltest vor",
     "ParentId": 361,
     "Type": 6,
@@ -6912,7 +6912,7 @@
     "Cooldown": "1.00:00:00"
   },
   {
-    "Question": "przedstawiać (Präteritum, er)",
+    "Question": "przedstawiać (kogoś) (Präteritum, er)",
     "Answer": "er stellte vor",
     "ParentId": 361,
     "Type": 7,
@@ -6920,7 +6920,7 @@
     "Cooldown": "1.00:00:00"
   },
   {
-    "Question": "przedstawiać (Präteritum, ihr)",
+    "Question": "przedstawiać (kogoś) (Präteritum, ihr)",
     "Answer": "ihr stelltet vor",
     "ParentId": 361,
     "Type": 9,

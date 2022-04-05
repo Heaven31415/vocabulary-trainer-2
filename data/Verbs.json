@@ -2701,7 +2701,7 @@
   },
   "vorstellen": {
     "Id": 361,
-    "Description": "przedstawiać",
+    "Description": "przedstawiać (kogoś)",
     "Present": {
       "FirstSingular": "ich stelle vor",
       "SecondSingular": "du stellst vor",
