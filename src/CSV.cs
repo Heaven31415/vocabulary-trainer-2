@@ -1,10 +1,50 @@
 ﻿using CsvHelper;
+using Google.Apis.Auth.OAuth2;
+using Google.Apis.Download;
+using Google.Apis.Drive.v3;
+using Google.Apis.Services;
+using Google.Apis.Util.Store;
 using System.Globalization;
 
 namespace VocabularyTrainer2
 {
     internal class CSV
     {
+        public static void DownloadSheetsFromGoogleDriveFolder()
+        {
+            UserCredential credential;
+
+            using (var stream = new FileStream(Config.CredentialsPath, FileMode.Open, FileAccess.Read))
+            {
+                credential = GoogleWebAuthorizationBroker.AuthorizeAsync(
+                    GoogleClientSecrets.FromStream(stream).Secrets,
+                    new string[] { DriveService.Scope.DriveReadonly },
+                    "user",
+                    CancellationToken.None,
+                    new FileDataStore(Config.UserCredentialPath, true)).Result;
+
+                Utility.WriteLine($"Successfully saved user credential");
+            }
+
+            var service = new DriveService(new BaseClientService.Initializer()
+            {
+                HttpClientInitializer = credential,
+                ApplicationName = Config.ProgramName,
+            });
+
+            var key = Config.SpreadsheetKey;
+            var names = Config.SpreadsheetNames;
+            var downloader = new MediaDownloader(service);
+
+            foreach (var name in names)
+            {
+                var url = $"https://docs.google.com/spreadsheets/d/{key}/gviz/tq?tqx=out:csv&sheet={name}";
+                using var stream = new FileStream($"data/{name}.csv", FileMode.Create, FileAccess.Write);
+                downloader.Download(url, stream);
+                Utility.WriteLine($"Downloaded '{name}.csv'");
+            }
+        }
+
         public static List<Noun> ReadNounsFromFile(string path)
         {
             var nouns = new List<Noun>();
