@@ -364,3 +364,5 @@ FodyWeavers.xsd
 
 # My custom needs
 Properties/
+user/
+credentials.json
