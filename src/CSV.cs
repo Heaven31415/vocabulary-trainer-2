@@ -40,8 +40,8 @@ namespace VocabularyTrainer2
             {
                 var url = $"https://docs.google.com/spreadsheets/d/{key}/gviz/tq?tqx=out:csv&sheet={name}";
                 using var stream = new FileStream($"data/{name}.csv", FileMode.Create, FileAccess.Write);
+                Utility.WriteLine($"Downloading '{name}.csv'...");
                 downloader.Download(url, stream);
-                Utility.WriteLine($"Downloaded '{name}.csv'");
             }
         }
 

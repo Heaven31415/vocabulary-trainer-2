@@ -14,16 +14,29 @@
 
         public FlashcardSet()
         {
+            CSV.DownloadSheetsFromGoogleDriveFolder();
+
+            Utility.WriteLine("Reading verbs from CSV file...");
             verbs = CSV.ReadVerbsFromFile(Config.VerbsPath);
+
+            Utility.WriteLine("Reading nouns from CSV file...");
             nouns = CSV.ReadNounsFromFile(Config.NounsPath);
+
+            Utility.WriteLine("Reading adjectives from CSV file...");
             adjectives = CSV.ReadAdjectivesFromFile(Config.AdjectivesPath);
 
+            Utility.WriteLine("Loading single flashcards from file...");
             singleFlashcards = SingleFlashcardSet.Load(Config.SingleFlashcardsPath);
+
+            Utility.WriteLine("Updating single flashcards...");
             SingleFlashcardSet.Update(verbs, singleFlashcards);
             SingleFlashcardSet.Update(nouns, singleFlashcards);
             SingleFlashcardSet.Update(adjectives, singleFlashcards);
 
+            Utility.WriteLine("Loading multi flashcards from file...");
             multiFlashcards = MultiFlashcardSet.Load(Config.MultiFlashcardsPath);
+
+            Utility.WriteLine("Updating multi flashcards...");
             MultiFlashcardSet.Update(verbs, multiFlashcards);
 
             foreach (var f in singleFlashcards)
@@ -32,7 +45,14 @@
             foreach (var f in multiFlashcards)
                 flashcards.Add(f);
 
+            Utility.WriteLine("Saving flashcards to files...");
             Save();
+
+            Utility.WriteLine("Success!", ConsoleColor.Green);
+
+            Utility.Write("Press enter to continue... ");
+            Utility.ReadLine();
+            Console.Clear();
         }
 
         public int Available => flashcards.FindAll(f => f.IsAvailable).Count;
