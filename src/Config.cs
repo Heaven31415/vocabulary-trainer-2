@@ -1,12 +1,12 @@
-﻿namespace VocabularyTrainer2
+namespace VocabularyTrainer2
 {
     internal class Config
     {
         public static string ProgramName = "Vocabulary Trainer 2";
 
-        public static string VerbsPath = "data/Verbs.csv";
-        public static string NounsPath = "data/Nouns.csv";
-        public static string AdjectivesPath = "data/Adjectives.csv";
+        public static string VerbsPath = "data/Verben.csv";
+        public static string NounsPath = "data/Nomen.csv";
+        public static string AdjectivesPath = "data/Adjektive.csv";
 
         public static string SingleFlashcardsPath = "data/SingleFlashcards.json";
         public static string MultiFlashcardsPath = "data/MultiFlashcards.json";
