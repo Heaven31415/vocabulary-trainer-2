@@ -1,7 +1,4 @@
 - Add more validations and error checks
 - Refactor already existing code
-- Download CSV files automatically via Google Drive API
 - Improve VerbCache
 - Implement new kind of object: Other
-- Implement new algorithm for choosing flashcards from the pool
-- Show messages when downloading CSV files, building flashcards
