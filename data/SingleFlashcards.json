@@ -14382,5 +14382,381 @@
     "Type": 15,
     "LastTrainingTime": "2022-04-04T19:44:35.2649834+02:00",
     "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "poniedziałek (singular)",
+    "Answer": "der Montag",
+    "ParentId": 258,
+    "Type": 11,
+    "LastTrainingTime": "2022-04-05T20:21:15.8202781+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "poniedziałek (plural)",
+    "Answer": "die Montage",
+    "ParentId": 258,
+    "Type": 12,
+    "LastTrainingTime": "2022-04-05T20:21:15.8202915+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "wtorek (singular)",
+    "Answer": "der Dienstag",
+    "ParentId": 262,
+    "Type": 11,
+    "LastTrainingTime": "2022-04-05T20:21:15.8203045+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "wtorek (plural)",
+    "Answer": "die Dienstage",
+    "ParentId": 262,
+    "Type": 12,
+    "LastTrainingTime": "2022-04-05T20:21:15.8203175+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "środa (singular)",
+    "Answer": "der Mittwoch",
+    "ParentId": 266,
+    "Type": 11,
+    "LastTrainingTime": "2022-04-05T20:21:15.8203306+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "środa (plural)",
+    "Answer": "die Mittwoche",
+    "ParentId": 266,
+    "Type": 12,
+    "LastTrainingTime": "2022-04-05T20:21:15.8203436+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "czwartek (singular)",
+    "Answer": "der Donnerstag",
+    "ParentId": 270,
+    "Type": 11,
+    "LastTrainingTime": "2022-04-05T20:21:15.8203566+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "czwartek (plural)",
+    "Answer": "die Donnerstage",
+    "ParentId": 270,
+    "Type": 12,
+    "LastTrainingTime": "2022-04-05T20:21:15.8203696+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "piątek (singular)",
+    "Answer": "der Freitag",
+    "ParentId": 274,
+    "Type": 11,
+    "LastTrainingTime": "2022-04-05T20:21:15.8203826+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "piątek (plural)",
+    "Answer": "die Freitage",
+    "ParentId": 274,
+    "Type": 12,
+    "LastTrainingTime": "2022-04-05T20:21:15.8203955+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "sobota (singular)",
+    "Answer": "der Samstag",
+    "ParentId": 278,
+    "Type": 11,
+    "LastTrainingTime": "2022-04-05T20:21:15.8204085+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "sobota (plural)",
+    "Answer": "die Samstage",
+    "ParentId": 278,
+    "Type": 12,
+    "LastTrainingTime": "2022-04-05T20:21:15.8204215+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "niedziela (singular)",
+    "Answer": "der Sonntag",
+    "ParentId": 282,
+    "Type": 11,
+    "LastTrainingTime": "2022-04-05T20:21:15.8204346+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "niedziela (plural)",
+    "Answer": "die Sonntage",
+    "ParentId": 282,
+    "Type": 12,
+    "LastTrainingTime": "2022-04-05T20:21:15.8204476+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "styczeń (singular)",
+    "Answer": "der Januar",
+    "ParentId": 286,
+    "Type": 11,
+    "LastTrainingTime": "2022-04-05T20:21:15.8204607+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "styczeń (plural)",
+    "Answer": "die Januare",
+    "ParentId": 286,
+    "Type": 12,
+    "LastTrainingTime": "2022-04-05T20:21:15.8204738+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "luty (singular)",
+    "Answer": "der Februar",
+    "ParentId": 290,
+    "Type": 11,
+    "LastTrainingTime": "2022-04-05T20:21:15.8204868+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "luty (plural)",
+    "Answer": "die Februare",
+    "ParentId": 290,
+    "Type": 12,
+    "LastTrainingTime": "2022-04-05T20:21:15.8204999+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "marzec (singular)",
+    "Answer": "der März",
+    "ParentId": 294,
+    "Type": 11,
+    "LastTrainingTime": "2022-04-05T20:21:15.8205129+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "marzec (plural)",
+    "Answer": "die Märze",
+    "ParentId": 294,
+    "Type": 12,
+    "LastTrainingTime": "2022-04-05T20:21:15.820526+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "kwiecień (singular)",
+    "Answer": "der April",
+    "ParentId": 298,
+    "Type": 11,
+    "LastTrainingTime": "2022-04-05T20:21:15.8205396+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "kwiecień (plural)",
+    "Answer": "die Aprile",
+    "ParentId": 298,
+    "Type": 12,
+    "LastTrainingTime": "2022-04-05T20:21:15.8205526+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "maj (singular)",
+    "Answer": "der Mai",
+    "ParentId": 302,
+    "Type": 11,
+    "LastTrainingTime": "2022-04-05T20:21:15.8205657+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "maj (plural)",
+    "Answer": "die Maie",
+    "ParentId": 302,
+    "Type": 12,
+    "LastTrainingTime": "2022-04-05T20:21:15.8205788+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "czerwiec (singular)",
+    "Answer": "der Juni",
+    "ParentId": 306,
+    "Type": 11,
+    "LastTrainingTime": "2022-04-05T20:21:15.820592+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "czerwiec (plural)",
+    "Answer": "die Junis",
+    "ParentId": 306,
+    "Type": 12,
+    "LastTrainingTime": "2022-04-05T20:21:15.8206051+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "lipiec (singular)",
+    "Answer": "der Juli",
+    "ParentId": 310,
+    "Type": 11,
+    "LastTrainingTime": "2022-04-05T20:21:15.8206183+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "lipiec (plural)",
+    "Answer": "die Julis",
+    "ParentId": 310,
+    "Type": 12,
+    "LastTrainingTime": "2022-04-05T20:21:15.8206314+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "sierpień (singular)",
+    "Answer": "der August",
+    "ParentId": 314,
+    "Type": 11,
+    "LastTrainingTime": "2022-04-05T20:21:15.8206445+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "sierpień (plural)",
+    "Answer": "die Auguste",
+    "ParentId": 314,
+    "Type": 12,
+    "LastTrainingTime": "2022-04-05T20:21:15.8206576+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "wrzesień (singular)",
+    "Answer": "der September",
+    "ParentId": 318,
+    "Type": 11,
+    "LastTrainingTime": "2022-04-05T20:21:15.8206708+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "wrzesień (plural)",
+    "Answer": "die September",
+    "ParentId": 318,
+    "Type": 12,
+    "LastTrainingTime": "2022-04-05T20:21:15.8206839+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "październik (singular)",
+    "Answer": "der Oktober",
+    "ParentId": 322,
+    "Type": 11,
+    "LastTrainingTime": "2022-04-05T20:21:15.8206971+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "październik (plural)",
+    "Answer": "die Oktober",
+    "ParentId": 322,
+    "Type": 12,
+    "LastTrainingTime": "2022-04-05T20:21:15.8207103+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "listopad (singular)",
+    "Answer": "der November",
+    "ParentId": 326,
+    "Type": 11,
+    "LastTrainingTime": "2022-04-05T20:21:15.8207235+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "listopad (plural)",
+    "Answer": "die November",
+    "ParentId": 326,
+    "Type": 12,
+    "LastTrainingTime": "2022-04-05T20:21:15.8207367+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "grudzień (singular)",
+    "Answer": "der Dezember",
+    "ParentId": 330,
+    "Type": 11,
+    "LastTrainingTime": "2022-04-05T20:21:15.8207499+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "grudzień (plural)",
+    "Answer": "die Dezember",
+    "ParentId": 330,
+    "Type": 12,
+    "LastTrainingTime": "2022-04-05T20:21:15.8207631+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "dziwny (positive)",
+    "Answer": "komisch",
+    "ParentId": 83,
+    "Type": 13,
+    "LastTrainingTime": "2022-04-05T20:21:15.8221136+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "dziwny (comparative)",
+    "Answer": "komischer",
+    "ParentId": 83,
+    "Type": 14,
+    "LastTrainingTime": "2022-04-05T20:21:15.8221269+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "dziwny (superlative)",
+    "Answer": "am komischsten",
+    "ParentId": 83,
+    "Type": 15,
+    "LastTrainingTime": "2022-04-05T20:21:15.8221402+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "biedny (positive)",
+    "Answer": "arm",
+    "ParentId": 87,
+    "Type": 13,
+    "LastTrainingTime": "2022-04-05T20:21:15.8221538+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "biedny (comparative)",
+    "Answer": "ärmer",
+    "ParentId": 87,
+    "Type": 14,
+    "LastTrainingTime": "2022-04-05T20:21:15.822167+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "biedny (superlative)",
+    "Answer": "am ärmsten",
+    "ParentId": 87,
+    "Type": 15,
+    "LastTrainingTime": "2022-04-05T20:21:15.8221802+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "bogaty (positive)",
+    "Answer": "reich",
+    "ParentId": 91,
+    "Type": 13,
+    "LastTrainingTime": "2022-04-05T20:21:15.8221937+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "bogaty (comparative)",
+    "Answer": "reicher",
+    "ParentId": 91,
+    "Type": 14,
+    "LastTrainingTime": "2022-04-05T20:21:15.8222069+02:00",
+    "Cooldown": "1.00:00:00"
+  },
+  {
+    "Question": "bogaty (superlative)",
+    "Answer": "am reichsten",
+    "ParentId": 91,
+    "Type": 15,
+    "LastTrainingTime": "2022-04-05T20:21:15.8222201+02:00",
+    "Cooldown": "1.00:00:00"
   }
 ]
