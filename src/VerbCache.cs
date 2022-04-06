@@ -11,24 +11,30 @@ namespace VocabularyTrainer2
 
         public VerbCache(string path)
         {
-            var json = File.ReadAllText(path);
-            var verbs = JsonSerializer.Deserialize<Dictionary<string, Verb>>(json);
+            if (!File.Exists(path))
+                verbs = new Dictionary<string, Verb>();
+            else
+            {
+                var json = File.ReadAllText(path);
+                var verbs = JsonSerializer.Deserialize<Dictionary<string, Verb>>(json);
 
-            if (verbs == null)
-                throw new Exception($"Unable to deserialize verbs from this path: '{path}'.");
+                if (verbs == null)
+                    throw new Exception($"Unable to deserialize cached verbs from this path: '{path}'.");
+
+                this.verbs = verbs;
+            }
 
             this.path = path;
-            this.verbs = verbs;
         }
 
-        public Verb Get(int id, string englishDescription, string germanVerbInfinitive)
+        public Verb Get(int id, string description, string germanVerbInfinitive)
         {
             if (verbs.ContainsKey(germanVerbInfinitive))
                 return verbs[germanVerbInfinitive];
 
             var allVerbEndings = VerbDownloader.Download(germanVerbInfinitive);
 
-            var verb = new Verb(id, englishDescription)
+            var verb = new Verb(id, description)
             {
                 Present = allVerbEndings[0],
                 SimplePast = allVerbEndings[1],

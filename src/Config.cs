@@ -10,7 +10,7 @@
 
         public static string SingleFlashcardsPath = "data/SingleFlashcards.json";
         public static string MultiFlashcardsPath = "data/MultiFlashcards.json";
-        public static string VerbCachePath = "data/Verbs.json";
+        public static string VerbCachePath = "cache/Verbs.json";
         public static string StatisticsPath = "data/Statistics.json";
 
         public static string CredentialsPath = "credentials.json";
