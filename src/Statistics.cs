@@ -27,6 +27,8 @@ namespace VocabularyTrainer2
 
             this.path = path;
             this.data = data;
+
+            Display();
         }
 
         public void OnQuestionAnswered(bool success)
@@ -48,6 +50,29 @@ namespace VocabularyTrainer2
             data.SuccessRatio = (float)data.GoodAnswers / data.Answers;
 
             Save();
+        }
+
+        private void Display()
+        {
+            var total = new Data();
+
+            foreach (var (_, data) in data)
+            {
+                total.Answers += data.Answers;
+                total.GoodAnswers += data.GoodAnswers;
+                total.BadAnswers += data.BadAnswers;
+            }
+
+            total.SuccessRatio = (float)total.GoodAnswers / total.Answers;
+
+            var answers = total.Answers;
+            var successRatio = (total.SuccessRatio * 100).ToString("0.00");
+
+            Utility.WriteLine($"You answered already {answers} flashcards with {successRatio}% success ratio!");
+
+            Utility.Write("Press enter to continue... ");
+            Utility.ReadLine();
+            Console.Clear();
         }
 
         private void Save()
