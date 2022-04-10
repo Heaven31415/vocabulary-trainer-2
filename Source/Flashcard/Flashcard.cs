@@ -4,22 +4,23 @@
     {
         public enum FlashcardType
         {
-            VerbPresentFirstSingular,
-            VerbPresentSecondSingular,
-            VerbPresentThirdSingular,
-            VerbPresentFirstOrThirdPlural,
-            VerbPresentSecondPlural,
-            VerbSimplePastFirstSingular,
-            VerbSimplePastSecondSingular,
-            VerbSimplePastThirdSingular,
-            VerbSimplePastFirstOrThirdPlural,
-            VerbSimplePastSecondPlural,
-            VerbPerfekt,
-            NounSingularForm,
-            NounPluralForm,
-            AdjectivePositiveDegree,
-            AdjectiveComparativeDegree,
-            AdjectiveSuperlativeDegree
+            VerbPresentFirstSingular = 0,
+            VerbPresentSecondSingular = 1,
+            VerbPresentThirdSingular = 2,
+            VerbPresentFirstOrThirdPlural = 4,
+            VerbPresentSecondPlural = 3,
+            VerbSimplePastFirstSingular = 5,
+            VerbSimplePastSecondSingular = 6,
+            VerbSimplePastThirdSingular = 7,
+            VerbSimplePastFirstOrThirdPlural = 9,
+            VerbSimplePastSecondPlural = 8,
+            VerbPerfekt = 10,
+            NounSingularForm = 11,
+            NounPluralForm = 12,
+            AdjectivePositiveDegree = 13,
+            AdjectiveComparativeDegree = 14,
+            AdjectiveSuperlativeDegree = 15,
+            Other = 16
         }
 
         public class Result
