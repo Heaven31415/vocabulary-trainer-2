@@ -1,8 +1,9 @@
-using System.Text.Json;
+﻿using System.Text.Json;
 using System.Text.Json.Serialization;
 using VocabularyTrainer2.Source.Common;
 using VocabularyTrainer2.Source.Word;
 using static VocabularyTrainer2.Source.Flashcard.Flashcard;
+using static VocabularyTrainer2.Source.Word.Verb;
 
 namespace VocabularyTrainer2.Source.Flashcard
 {
@@ -218,7 +219,59 @@ namespace VocabularyTrainer2.Source.Flashcard
 
         public void AddFlashcardsFromVerbs(List<Verb> verbs)
         {
-            throw new NotImplementedException();
+            var suffixes = new string[] { "ich", "du", "er", "ihr" };
+
+            foreach (var verb in verbs)
+            {
+                AddPresentFlashcards(verb, "Präsens", suffixes);
+                AddSimplePastFlashcards(verb, "Präteritum", suffixes);
+            }
+        }
+
+        private void AddPresentFlashcards(Verb verb, string prefix, string[] suffixes)
+        {
+            for (int i = 0; i < 4; i++)
+            {
+                var id = verb.Id;
+                var type = (FlashcardType)i;
+                var description = verb.Description;
+                var personalPronoun = (PersonalPronoun)i;
+                var suffix = suffixes[i];
+
+                var flashcard = _flashcards.Find(f => f.ParentId == id && f.Type == type);
+                var candidate = new SingleFlashcard(id, type, $"{description} ({prefix}, {suffix})", verb.Present[personalPronoun]);
+
+                if (flashcard == null)
+                    _flashcards.Add(candidate);
+                else if (flashcard.ComputeHash() != candidate.ComputeHash())
+                {
+                    flashcard.Question = candidate.Question;
+                    flashcard.Answer = candidate.Answer;
+                }
+            }
+        }
+
+        private void AddSimplePastFlashcards(Verb verb, string prefix, string[] suffixes)
+        {
+            for (int i = 0; i < 4; i++)
+            {
+                var id = verb.Id;
+                var type = (FlashcardType)(i + 5);
+                var description = verb.Description;
+                var personalPronoun = (PersonalPronoun)i;
+                var suffix = suffixes[i];
+
+                var flashcard = _flashcards.Find(f => f.ParentId == id && f.Type == type);
+                var candidate = new SingleFlashcard(id, type, $"{description} ({prefix}, {suffix})", verb.SimplePast[personalPronoun]);
+
+                if (flashcard == null)
+                    _flashcards.Add(candidate);
+                else if (flashcard.ComputeHash() != candidate.ComputeHash())
+                {
+                    flashcard.Question = candidate.Question;
+                    flashcard.Answer = candidate.Answer;
+                }
+            }
         }
     }
 }
