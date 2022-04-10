@@ -1,5 +1,7 @@
-using System.Text.Json;
+﻿using System.Text.Json;
 using VocabularyTrainer2.Source.Common;
+using VocabularyTrainer2.Source.Word;
+using static VocabularyTrainer2.Source.Flashcard.Flashcard;
 
 namespace VocabularyTrainer2.Source.Flashcard
 {
@@ -159,7 +161,7 @@ namespace VocabularyTrainer2.Source.Flashcard
             if (flashcard == null)
                 _flashcards.Add(candidate);
             else if (flashcard.ComputeHash() != candidate.ComputeHash())
-        {
+            {
                 flashcard.Question = candidate.Question;
                 flashcard.Answer = candidate.Answer;
             }
@@ -181,18 +183,18 @@ namespace VocabularyTrainer2.Source.Flashcard
             if (flashcard == null)
                 _flashcards.Add(candidate);
             else if (flashcard.ComputeHash() != candidate.ComputeHash())
-        {
+            {
                 flashcard.Question = candidate.Question;
                 flashcard.Answer = candidate.Answer;
             }
         }
 
-        public void AddFlashcardsFromOthers(List<Word.Other> others)
+        public void AddFlashcardsFromOthers(List<Other> others)
         {
             throw new NotImplementedException();
         }
 
-        public void AddFlashcardsFromVerbs(List<Word.Verb> verbs)
+        public void AddFlashcardsFromVerbs(List<Verb> verbs)
         {
             throw new NotImplementedException();
         }
