@@ -1,4 +1,4 @@
-using VocabularyTrainer2.Source.Common;
+﻿using VocabularyTrainer2.Source.Common;
 using VocabularyTrainer2.Source.Word;
 
 namespace VocabularyTrainer2.Source.Flashcard
@@ -92,7 +92,7 @@ namespace VocabularyTrainer2.Source.Flashcard
                     throw new Exception($"Unable to find a matching noun to a flashcard with {parentId} id.");
 
                 return noun.ExampleSentence;
-        }
+            }
             else if (parentId < 300_000)
             {
                 var other = _others.Find(a => a.Id == parentId);
@@ -103,7 +103,7 @@ namespace VocabularyTrainer2.Source.Flashcard
                 return other.ExampleSentence;
             }
             else
-        {
+            {
                 var verb = _verbs.Find(a => a.Id == parentId);
 
                 if (verb == null)
