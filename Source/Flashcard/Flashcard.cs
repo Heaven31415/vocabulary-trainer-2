@@ -26,6 +26,12 @@
         {
             public bool IsSuccessful { get; set; }
             public DateTime Time { get; set; }
+
+            public Result(bool isSuccessful, DateTime time)
+            {
+                IsSuccessful = isSuccessful;
+                Time = time;
+            }
         }
 
         public int ParentId { get; set; }

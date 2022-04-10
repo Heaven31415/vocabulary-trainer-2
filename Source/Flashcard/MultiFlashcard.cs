@@ -43,6 +43,8 @@ namespace VocabularyTrainer2.Source.Flashcard
 
             var isCorrect = Answers[_index] == answer;
 
+            Results.Add(new Result(isCorrect, LastTrainingTime));
+
             if (isCorrect && Cooldown.Days < Config.MaximalFlashcardCooldownInDays)
                 Cooldown *= 2;
             else

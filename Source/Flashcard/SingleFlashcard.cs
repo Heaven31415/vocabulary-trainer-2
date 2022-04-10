@@ -28,7 +28,11 @@ namespace VocabularyTrainer2.Source.Flashcard
         {
             LastTrainingTime = DateTime.Now;
 
-            if (Answer == answer && Cooldown.Days < Config.MaximalFlashcardCooldownInDays)
+            var isCorrect = Answer == answer;
+
+            Results.Add(new Result(isCorrect, LastTrainingTime));
+
+            if (isCorrect && Cooldown.Days < Config.MaximalFlashcardCooldownInDays)
                 Cooldown *= 2;
             else
             {
@@ -36,7 +40,7 @@ namespace VocabularyTrainer2.Source.Flashcard
                     Cooldown /= 2;
             }
 
-            return (Answer == answer, Answer);
+            return (isCorrect, Answer);
         }
 
         public override string AskQuestion() => Question;
