@@ -1,4 +1,4 @@
-﻿using System.Text.Json;
+using System.Text.Json;
 using VocabularyTrainer2.Source.Common;
 
 namespace VocabularyTrainer2.Source.Flashcard
@@ -61,14 +61,57 @@ namespace VocabularyTrainer2.Source.Flashcard
             Utility.SaveToFileAsJson(_fileName, _flashcards);
         }
 
-        public void AddFlashcardsFromAdjectives(List<Word.Adjective> adjectives)
+        public void AddFlashcardsFromNouns(List<Noun> nouns)
         {
-            throw new NotImplementedException();
+            foreach (var noun in nouns)
+            {
+                AddSingularFormFlashcard(noun, "singular");
+                AddPluralFormFlashcard(noun, "plural");
+            }
         }
 
-        public void AddFlashcardsFromNouns(List<Word.Noun> nouns)
+        private void AddSingularFormFlashcard(Noun noun, string suffix)
         {
-            throw new NotImplementedException();
+            if (noun.SingularForm == null)
+                return;
+
+            var id = noun.Id;
+            var type = FlashcardType.NounSingularForm;
+            var description = noun.Description;
+            var singularForm = noun.SingularForm;
+
+            var flashcard = _flashcards.Find(f => f.ParentId == id && f.Type == type);
+            var candidate = new SingleFlashcard(id, type, $"{description} ({suffix})", singularForm);
+
+            if (flashcard == null)
+                _flashcards.Add(candidate);
+            else if (flashcard.ComputeHash() != candidate.ComputeHash())
+        {
+                flashcard.Question = candidate.Question;
+                flashcard.Answer = candidate.Answer;
+            }
+        }
+
+        private void AddPluralFormFlashcard(Noun noun, string suffix)
+        {
+            if (noun.PluralForm == null)
+                return;
+
+            var id = noun.Id;
+            var type = FlashcardType.NounPluralForm;
+            var description = noun.Description;
+            var pluralForm = noun.PluralForm;
+
+            var flashcard = _flashcards.Find(f => f.ParentId == id && f.Type == type);
+            var candidate = new SingleFlashcard(id, type, $"{description} ({suffix})", pluralForm);
+
+            if (flashcard == null)
+                _flashcards.Add(candidate);
+            else if (flashcard.ComputeHash() != candidate.ComputeHash())
+        {
+                flashcard.Question = candidate.Question;
+                flashcard.Answer = candidate.Answer;
+            }
         }
 
         public void AddFlashcardsFromOthers(List<Word.Other> others)
