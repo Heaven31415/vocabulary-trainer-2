@@ -35,32 +35,32 @@ namespace VocabularyTrainer2.Source.Flashcard
             if (extension == null || extension != ".json")
                 throw new ArgumentException("fileName needs to have a .json extension.", nameof(fileName));
 
-            if (File.Exists(fileName))
+            if (!File.Exists(fileName))
+                return;
+
+            var json = File.ReadAllText(fileName);
+            var options = new JsonSerializerOptions
             {
-                var json = File.ReadAllText(fileName);
-                var options = new JsonSerializerOptions
+                Converters = { new JsonStringEnumConverter(JsonNamingPolicy.CamelCase) }
+            };
+            var rawFlashcards = JsonSerializer.Deserialize<List<SingleFlashcard.Raw>>(json, options);
+
+            if (rawFlashcards == null)
+                throw new IOException($"{fileName} contains invalid content. Unable to deserialize it.");
+
+            foreach (var rawFlashcard in rawFlashcards)
+            {
+                var parentId = rawFlashcard.ParentId;
+                var type = rawFlashcard.Type;
+                var question = rawFlashcard.Question;
+                var answer = rawFlashcard.Answer;
+
+                _flashcards.Add(new SingleFlashcard(parentId, type, question, answer)
                 {
-                    Converters = { new JsonStringEnumConverter(JsonNamingPolicy.CamelCase) }
-                };
-                var rawFlashcards = JsonSerializer.Deserialize<List<SingleFlashcard.Raw>>(json, options);
-
-                if (rawFlashcards == null)
-                    throw new IOException($"{fileName} contains invalid content. Unable to deserialize it.");
-
-                foreach (var rawFlashcard in rawFlashcards)
-                {
-                    var parentId = rawFlashcard.ParentId;
-                    var type = rawFlashcard.Type;
-                    var question = rawFlashcard.Question;
-                    var answer = rawFlashcard.Answer;
-
-                    _flashcards.Add(new SingleFlashcard(parentId, type, question, answer)
-                    {
-                        LastTrainingTime = rawFlashcard.LastTrainingTime,
-                        Cooldown = rawFlashcard.Cooldown,
-                        Results = rawFlashcard.Results
-                    });
-                }
+                    LastTrainingTime = rawFlashcard.LastTrainingTime,
+                    Cooldown = rawFlashcard.Cooldown,
+                    Results = rawFlashcard.Results
+                });
             }
         }
 

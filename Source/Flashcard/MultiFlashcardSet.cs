@@ -32,32 +32,32 @@ namespace VocabularyTrainer2.Source.Flashcard
             if (extension == null || extension != ".json")
                 throw new ArgumentException("fileName needs to have a .json extension.", nameof(fileName));
 
-            if (File.Exists(fileName))
+            if (!File.Exists(fileName))
+                return;
+
+            var json = File.ReadAllText(fileName);
+            var options = new JsonSerializerOptions
             {
-                var json = File.ReadAllText(fileName);
-                var options = new JsonSerializerOptions
+                Converters = { new JsonStringEnumConverter(JsonNamingPolicy.CamelCase) }
+            };
+            var rawFlashcards = JsonSerializer.Deserialize<List<MultiFlashcard.Raw>>(json, options);
+
+            if (rawFlashcards == null)
+                throw new IOException($"{fileName} contains invalid content. Unable to deserialize it.");
+
+            foreach (var rawFlashcard in rawFlashcards)
+            {
+                var parentId = rawFlashcard.ParentId;
+                var type = rawFlashcard.Type;
+                var questions = rawFlashcard.Questions;
+                var answers = rawFlashcard.Answers;
+
+                _flashcards.Add(new MultiFlashcard(parentId, type, questions, answers)
                 {
-                    Converters = { new JsonStringEnumConverter(JsonNamingPolicy.CamelCase) }
-                };
-                var rawFlashcards = JsonSerializer.Deserialize<List<MultiFlashcard.Raw>>(json, options);
-
-                if (rawFlashcards == null)
-                    throw new IOException($"{fileName} contains invalid content. Unable to deserialize it.");
-
-                foreach (var rawFlashcard in rawFlashcards)
-                {
-                    var parentId = rawFlashcard.ParentId;
-                    var type = rawFlashcard.Type;
-                    var questions = rawFlashcard.Questions;
-                    var answers = rawFlashcard.Answers;
-
-                    _flashcards.Add(new MultiFlashcard(parentId, type, questions, answers)
-                    {
-                        LastTrainingTime = rawFlashcard.LastTrainingTime,
-                        Cooldown = rawFlashcard.Cooldown,
-                        Results = rawFlashcard.Results
-                    });
-                }
+                    LastTrainingTime = rawFlashcard.LastTrainingTime,
+                    Cooldown = rawFlashcard.Cooldown,
+                    Results = rawFlashcard.Results
+                });
             }
         }
 
