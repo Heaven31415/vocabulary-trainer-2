@@ -36,7 +36,7 @@
 
         public int ParentId { get; set; }
         public FlashcardType Type { get; set; }
-        public DateTime LastTrainingTime { get; set; } = DateTime.Now.AddDays(-1);
+        public DateTime LastTrainingTime { get; set; } = DateTime.Now;
         public TimeSpan Cooldown { get; set; } = TimeSpan.FromDays(1);
         public List<Result> Results { get; set; } = new List<Result>();
 
