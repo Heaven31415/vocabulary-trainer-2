@@ -1,4 +1,4 @@
-﻿using System.Text.Json;
+using System.Text.Json;
 using System.Text.Json.Serialization;
 using VocabularyTrainer2.Source.Common;
 using VocabularyTrainer2.Source.Word;
@@ -196,7 +196,24 @@ namespace VocabularyTrainer2.Source.Flashcard
 
         public void AddFlashcardsFromOthers(List<Other> others)
         {
-            throw new NotImplementedException();
+            foreach (var other in others)
+            {
+                var id = other.Id;
+                var type = FlashcardType.Other;
+                var question = other.Question;
+                var answer = other.Answer;
+
+                var flashcard = _flashcards.Find(f => f.ParentId == id && f.Type == type);
+                var candidate = new SingleFlashcard(id, type, question, answer);
+
+                if (flashcard == null)
+                    _flashcards.Add(candidate);
+                else if (flashcard.ComputeHash() != candidate.ComputeHash())
+                {
+                    flashcard.Question = candidate.Question;
+                    flashcard.Answer = candidate.Answer;
+                }
+            }
         }
 
         public void AddFlashcardsFromVerbs(List<Verb> verbs)
