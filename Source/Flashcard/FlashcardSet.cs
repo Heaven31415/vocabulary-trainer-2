@@ -1,4 +1,4 @@
-﻿using VocabularyTrainer2.Source.Common;
+using VocabularyTrainer2.Source.Common;
 using VocabularyTrainer2.Source.Word;
 
 namespace VocabularyTrainer2.Source.Flashcard
@@ -52,20 +52,65 @@ namespace VocabularyTrainer2.Source.Flashcard
             SaveToFileAsJson();
         }
 
-        public Flashcard? GetRandomFlashcard()
-        {
-            var availableFlashcards = _flashcards.FindAll(f => f.IsAvailable());
-
-            if (availableFlashcards.Count == 0)
-                return null;
-
-            return availableFlashcards[_random.Next(availableFlashcards.Count)];
-        }
-
         public void SaveToFileAsJson()
         {
             _singleFlashcardSet.SaveToFileAsJson();
             _multiFlashcardSet.SaveToFileAsJson();
+        }
+
+        public (Flashcard?, string) GetRandomFlashcard()
+        {
+            var availableFlashcards = _flashcards.FindAll(f => f.IsAvailable());
+
+            if (availableFlashcards.Count == 0)
+                return (null, "");
+
+            var flashcard = availableFlashcards[_random.Next(availableFlashcards.Count)];
+            var exampleSentence = GetExampleSentence(flashcard);
+
+            return (flashcard, exampleSentence);
+        }
+
+        private string GetExampleSentence(Flashcard flashcard)
+        {
+            var parentId = flashcard.ParentId;
+
+            if (parentId < 100_000)
+            {
+                var adjective = _adjectives.Find(a => a.Id == parentId);
+
+                if (adjective == null)
+                    throw new Exception($"Unable to find a matching adjective to a flashcard with {parentId} id.");
+
+                return adjective.ExampleSentence;
+            }
+            else if (parentId < 200_000)
+            {
+                var noun = _nouns.Find(a => a.Id == parentId);
+
+                if (noun == null)
+                    throw new Exception($"Unable to find a matching noun to a flashcard with {parentId} id.");
+
+                return noun.ExampleSentence;
+        }
+            else if (parentId < 300_000)
+            {
+                var other = _others.Find(a => a.Id == parentId);
+
+                if (other == null)
+                    throw new Exception($"Unable to find a matching other to a flashcard with {parentId} id.");
+
+                return other.ExampleSentence;
+            }
+            else
+        {
+                var verb = _verbs.Find(a => a.Id == parentId);
+
+                if (verb == null)
+                    throw new Exception($"Unable to find a matching verb to a flashcard with {parentId} id.");
+
+                return verb.ExampleSentence;
+            }
         }
     }
 }
