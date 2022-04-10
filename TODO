@@ -1,3 +1,5 @@
-- Add more validations and error checks
-- Refactor already existing code
-- Implement new kind of object: Other
+- Add duplicate checks to specific columns in all sheets
+- Add a Logger class and log anything that might seem important
+- Check if nouns are capitalized, articles are correct and so on
+- Scan entire source code once again
+- Make a lot of manual tests to verify that everything is working as it should
