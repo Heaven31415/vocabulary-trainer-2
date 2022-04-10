@@ -1,4 +1,5 @@
 ﻿using System.Text.Json;
+using System.Text.Json.Serialization;
 using VocabularyTrainer2.Source.Common;
 using VocabularyTrainer2.Source.Word;
 using static VocabularyTrainer2.Source.Flashcard.Flashcard;
@@ -36,7 +37,11 @@ namespace VocabularyTrainer2.Source.Flashcard
             if (File.Exists(fileName))
             {
                 var json = File.ReadAllText(fileName);
-                var rawFlashcards = JsonSerializer.Deserialize<List<SingleFlashcard.Raw>>(json);
+                var options = new JsonSerializerOptions
+                {
+                    Converters = { new JsonStringEnumConverter(JsonNamingPolicy.CamelCase) }
+                };
+                var rawFlashcards = JsonSerializer.Deserialize<List<SingleFlashcard.Raw>>(json, options);
 
                 if (rawFlashcards == null)
                     throw new IOException($"{fileName} contains invalid content. Unable to deserialize it.");

@@ -2,6 +2,7 @@
 using System.Text;
 using System.Text.Encodings.Web;
 using System.Text.Json;
+using System.Text.Json.Serialization;
 using System.Text.Unicode;
 
 namespace VocabularyTrainer2.Source.Common
@@ -75,6 +76,10 @@ namespace VocabularyTrainer2.Source.Common
 
             var json = JsonSerializer.Serialize(data, new JsonSerializerOptions
             {
+                Converters =
+                {
+                    new JsonStringEnumConverter(JsonNamingPolicy.CamelCase)
+                },
                 Encoder = JavaScriptEncoder.Create(UnicodeRanges.All),
                 WriteIndented = true
             });
