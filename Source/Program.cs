@@ -1,4 +1,6 @@
-﻿namespace VocabularyTrainer2.Source
+﻿using VocabularyTrainer2.Source.Common;
+
+namespace VocabularyTrainer2.Source
 {
     internal class Program
     {
@@ -6,12 +8,12 @@
         {
             try
             {
-                var application = new Source.Application();
+                var application = new Application();
                 application.Run();
             }
             catch (Exception ex)
             {
-                Source.Common.Utility.WriteRedLine(ex.Message);
+                Utility.WriteRedLine(ex.Message);
             }
         }
     }

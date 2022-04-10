@@ -46,7 +46,6 @@ namespace VocabularyTrainer2.Source
                 else
                     Utility.WriteRedLine($"Incorrect! The correct answer is: '{correctAnswer}'.");
 
-
                 Console.WriteLine();
                 Console.Write("Press enter to continue... ");
                 Console.ReadLine();
