@@ -61,6 +61,79 @@ namespace VocabularyTrainer2.Source.Flashcard
             Utility.SaveToFileAsJson(_fileName, _flashcards);
         }
 
+        public void AddFlashcardsFromAdjectives(List<Adjective> adjectives)
+        {
+            foreach (var adjective in adjectives)
+            {
+                AddPositiveDegreeFlashcard(adjective, "positive");
+                AddComparativeDegreeFlashcard(adjective, "comparative");
+                AddSuperlativeDegreeFlashcard(adjective, "superlative");
+            }
+        }
+
+        private void AddPositiveDegreeFlashcard(Adjective adjective, string suffix)
+        {
+            var id = adjective.Id;
+            var type = FlashcardType.AdjectivePositiveDegree;
+            var description = adjective.Description;
+            var positiveDegree = adjective.PositiveDegree;
+
+            var flashcard = _flashcards.Find(f => f.ParentId == id && f.Type == type);
+            var candidate = new SingleFlashcard(id, type, $"{description} ({suffix})", positiveDegree);
+
+            if (flashcard == null)
+                _flashcards.Add(candidate);
+            else if (flashcard.ComputeHash() != candidate.ComputeHash())
+            {
+                flashcard.Question = candidate.Question;
+                flashcard.Answer = candidate.Answer;
+            }
+        }
+
+        private void AddComparativeDegreeFlashcard(Adjective adjective, string suffix)
+        {
+            if (adjective.ComparativeDegree == null)
+                return;
+
+            var id = adjective.Id;
+            var type = FlashcardType.AdjectiveComparativeDegree;
+            var description = adjective.Description;
+            var comparativeDegree = adjective.ComparativeDegree;
+
+            var flashcard = _flashcards.Find(f => f.ParentId == id && f.Type == type);
+            var candidate = new SingleFlashcard(id, type, $"{description} ({suffix})", comparativeDegree);
+
+            if (flashcard == null)
+                _flashcards.Add(candidate);
+            else if (flashcard.ComputeHash() != candidate.ComputeHash())
+            {
+                flashcard.Question = candidate.Question;
+                flashcard.Answer = candidate.Answer;
+            }
+        }
+
+        private void AddSuperlativeDegreeFlashcard(Adjective adjective, string suffix)
+        {
+            if (adjective.SuperlativeDegree == null)
+                return;
+
+            var id = adjective.Id;
+            var type = FlashcardType.AdjectiveSuperlativeDegree;
+            var description = adjective.Description;
+            var superlativeDegree = adjective.SuperlativeDegree;
+
+            var flashcard = _flashcards.Find(f => f.ParentId == id && f.Type == type);
+            var candidate = new SingleFlashcard(id, type, $"{description} ({suffix})", superlativeDegree);
+
+            if (flashcard == null)
+                _flashcards.Add(candidate);
+            else if (flashcard.ComputeHash() != candidate.ComputeHash())
+            {
+                flashcard.Question = candidate.Question;
+                flashcard.Answer = candidate.Answer;
+            }
+        }
+
         public void AddFlashcardsFromNouns(List<Noun> nouns)
         {
             foreach (var noun in nouns)
