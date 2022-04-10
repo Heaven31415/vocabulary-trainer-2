@@ -1,6 +1,9 @@
 ﻿using System.Text.Json;
 using System.Text.Json.Serialization;
 using VocabularyTrainer2.Source.Common;
+using VocabularyTrainer2.Source.Word;
+using static VocabularyTrainer2.Source.Flashcard.Flashcard;
+using static VocabularyTrainer2.Source.Word.Verb;
 
 namespace VocabularyTrainer2.Source.Flashcard
 {
@@ -66,9 +69,101 @@ namespace VocabularyTrainer2.Source.Flashcard
             Utility.SaveToFileAsJson(_fileName, _flashcards);
         }
 
-        public void AddFlashcardsFromVerbs(List<Word.Verb> verbs)
+        public void AddFlashcardsFromVerbs(List<Verb> verbs)
         {
-            throw new NotImplementedException();
+            var suffixes = new string[] { "wir", "Sie" };
+            var perfektSuffixes = new string[] { "ich", "du", "er", "wir", "ihr", "Sie" };
+
+            foreach (var verb in verbs)
+            {
+                AddPresentFlashcard(verb, "Präsens", suffixes);
+                AddSimplePastFlashcard(verb, "Präteritum", suffixes);
+                AddPerfektFlashcard(verb, "Perfekt", perfektSuffixes);
+            }
+        }
+
+        private void AddPresentFlashcard(Verb verb, string prefix, string[] suffixes)
+        {
+            var flashcard = _flashcards.Find(f => f.ParentId == verb.Id && f.Type == FlashcardType.VerbPresentFirstOrThirdPlural);
+
+            var questions = new List<string>();
+            var answers = new List<string>();
+
+            questions.Add($"{verb.Description} ({prefix}, {suffixes[0]})");
+            answers.Add(verb.Present[PersonalPronoun.FirstPlural]);
+
+            questions.Add($"{verb.Description} ({prefix}, {suffixes[1]})");
+            answers.Add(verb.Present[PersonalPronoun.ThirdPlural]);
+
+            var candidate = new MultiFlashcard(verb.Id, FlashcardType.VerbPresentFirstOrThirdPlural, questions, answers);
+
+            if (flashcard == null)
+                _flashcards.Add(candidate);
+            else if (flashcard.ComputeHash() != candidate.ComputeHash())
+            {
+                flashcard.Questions = candidate.Questions;
+                flashcard.Answers = candidate.Answers;
+            }
+        }
+
+        private void AddSimplePastFlashcard(Verb verb, string prefix, string[] suffixes)
+        {
+            var flashcard = _flashcards.Find(f => f.ParentId == verb.Id && f.Type == FlashcardType.VerbSimplePastFirstOrThirdPlural);
+
+            var questions = new List<string>();
+            var answers = new List<string>();
+
+            questions.Add($"{verb.Description} ({prefix}, {suffixes[0]})");
+            answers.Add(verb.SimplePast[PersonalPronoun.FirstPlural]);
+
+            questions.Add($"{verb.Description} ({prefix}, {suffixes[1]})");
+            answers.Add(verb.SimplePast[PersonalPronoun.ThirdPlural]);
+
+            var candidate = new MultiFlashcard(verb.Id, FlashcardType.VerbSimplePastFirstOrThirdPlural, questions, answers);
+
+            if (flashcard == null)
+                _flashcards.Add(candidate);
+            else if (flashcard.ComputeHash() != candidate.ComputeHash())
+            {
+                flashcard.Questions = candidate.Questions;
+                flashcard.Answers = candidate.Answers;
+            }
+        }
+
+        private void AddPerfektFlashcard(Verb verb, string prefix, string[] suffixes)
+        {
+            var flashcard = _flashcards.Find(f => f.ParentId == verb.Id && f.Type == FlashcardType.VerbPerfekt);
+
+            var questions = new List<string>();
+            var answers = new List<string>();
+
+            questions.Add($"{verb.Description} ({prefix}, {suffixes[0]})");
+            answers.Add(verb.Perfekt[PersonalPronoun.FirstSingular]);
+
+            questions.Add($"{verb.Description} ({prefix}, {suffixes[1]})");
+            answers.Add(verb.Perfekt[PersonalPronoun.SecondSingular]);
+
+            questions.Add($"{verb.Description} ({prefix}, {suffixes[2]})");
+            answers.Add(verb.Perfekt[PersonalPronoun.ThirdSingular]);
+
+            questions.Add($"{verb.Description} ({prefix}, {suffixes[3]})");
+            answers.Add(verb.Perfekt[PersonalPronoun.FirstPlural]);
+
+            questions.Add($"{verb.Description} ({prefix}, {suffixes[4]})");
+            answers.Add(verb.Perfekt[PersonalPronoun.SecondPlural]);
+
+            questions.Add($"{verb.Description} ({prefix}, {suffixes[5]})");
+            answers.Add(verb.Perfekt[PersonalPronoun.ThirdPlural]);
+
+            var candidate = new MultiFlashcard(verb.Id, FlashcardType.VerbPerfekt, questions, answers);
+
+            if (flashcard == null)
+                _flashcards.Add(candidate);
+            else if (flashcard.ComputeHash() != candidate.ComputeHash())
+            {
+                flashcard.Questions = candidate.Questions;
+                flashcard.Answers = candidate.Answers;
+            }
         }
     }
 }
