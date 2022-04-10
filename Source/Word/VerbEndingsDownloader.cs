@@ -24,7 +24,7 @@ namespace VocabularyTrainer2.Source.Word
             {
                 verbEndings.Add((Verb.PersonalPronoun)i, n.InnerText);
 
-                if (i == 5) 
+                if (i == 5)
                     break;
 
                 i++;
