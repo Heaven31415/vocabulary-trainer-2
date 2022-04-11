@@ -52,9 +52,6 @@ namespace VocabularyTrainer2.Source.Word
             return allVerbEndings;
         }
 
-        private void SaveToFileAsJson()
-        {
-            Utility.SaveToFileAsJson(_fileName, _verbEndings);
-        }
+        private void SaveToFileAsJson() => Utility.SaveToFileAsJson(_fileName, _verbEndings);
     }
 }

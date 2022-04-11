@@ -1,21 +1,23 @@
-﻿using VocabularyTrainer2.Source.Common;
+﻿using System.Text;
+using VocabularyTrainer2.Source.Common;
+using VocabularyTrainer2.Source.Flashcard;
 
 namespace VocabularyTrainer2.Source
 {
     public class Application
     {
         private readonly SheetsDownloader _sheetsDownloader;
-        private readonly Flashcard.FlashcardSet _flashcardSet;
+        private readonly FlashcardSet _flashcardSet;
 
         public Application()
         {
             Console.Title = Config.ProgramName;
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
+            Console.OutputEncoding = Encoding.UTF8;
 
             _sheetsDownloader = new SheetsDownloader(Config.CredentialsFilePath, Config.UserCredentialDirectoryPath);
             DownloadSheets();
 
-            _flashcardSet = new Flashcard.FlashcardSet();
+            _flashcardSet = new FlashcardSet();
         }
 
         public void Run()

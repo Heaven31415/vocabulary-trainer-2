@@ -1,6 +1,7 @@
 ﻿global using VerbEndings = System.Collections.Generic.Dictionary<VocabularyTrainer2.Source.Word.Verb.PersonalPronoun, string>;
 using CsvHelper;
 using System.Globalization;
+using VocabularyTrainer2.Source.Common;
 
 namespace VocabularyTrainer2.Source.Word
 {
@@ -8,12 +9,12 @@ namespace VocabularyTrainer2.Source.Word
     {
         public enum PersonalPronoun
         {
-            FirstSingular = 0,
+            FirstSingular  = 0,
             SecondSingular = 1,
-            ThirdSingular = 2,
-            FirstPlural = 4,
-            SecondPlural = 3,
-            ThirdPlural = 5
+            ThirdSingular  = 2,
+            FirstPlural    = 4,
+            SecondPlural   = 3,
+            ThirdPlural    = 5,
         }
 
         public int Id { get; }
@@ -50,7 +51,7 @@ namespace VocabularyTrainer2.Source.Word
             csvReader.ReadHeader();
 
             var verbs = new List<Verb>();
-            var id = 300_000;
+            var id = Config.MinimalVerbId;
 
             while (csvReader.Read())
             {

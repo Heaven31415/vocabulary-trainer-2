@@ -19,9 +19,9 @@ namespace VocabularyTrainer2.Source.Flashcard
 
         public int AvailableAtDaysEnd => _flashcards.FindAll(f => f.IsAvailableAtDaysEnd()).Count;
 
-        public string VocabularyInformation => $"V<{_verbs.Count}> N<{_nouns.Count}> A<{_adjectives.Count}>";
+        public string VocabularyInformation => $"A:{_adjectives.Count} N:{_nouns.Count} O:{_others.Count} V:{_verbs.Count}";
 
-        public string FlashcardInformation => $"F<{_flashcards.Count}> A<{Available}> A24<{AvailableAtDaysEnd}>";
+        public string FlashcardInformation => $"F:{_flashcards.Count} A:{Available} A24:{AvailableAtDaysEnd}";
 
         public FlashcardSet()
         {
@@ -75,7 +75,7 @@ namespace VocabularyTrainer2.Source.Flashcard
         {
             var parentId = flashcard.ParentId;
 
-            if (parentId < 100_000)
+            if (Config.MinimalAdjectiveId <= parentId && parentId < Config.MinimalNounId)
             {
                 var adjective = _adjectives.Find(a => a.Id == parentId);
 
@@ -84,7 +84,7 @@ namespace VocabularyTrainer2.Source.Flashcard
 
                 return adjective.ExampleSentence;
             }
-            else if (parentId < 200_000)
+            else if (Config.MinimalNounId <= parentId && parentId < Config.MinimalOtherId)
             {
                 var noun = _nouns.Find(a => a.Id == parentId);
 
@@ -93,7 +93,7 @@ namespace VocabularyTrainer2.Source.Flashcard
 
                 return noun.ExampleSentence;
             }
-            else if (parentId < 300_000)
+            else if (Config.MinimalOtherId <= parentId && parentId < Config.MinimalVerbId)
             {
                 var other = _others.Find(a => a.Id == parentId);
 

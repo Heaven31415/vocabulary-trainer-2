@@ -2,18 +2,18 @@
 
 namespace VocabularyTrainer2.Source
 {
-    internal class Program
+    public class Program
     {
         static void Main()
         {
             try
             {
-                var application = new Application();
-                application.Run();
+                var app = new Application();
+                app.Run();
             }
-            catch (Exception ex)
+            catch (Exception exception)
             {
-                Utility.WriteRedLine(ex.Message);
+                Utility.WriteRedLine(exception.Message);
             }
         }
     }

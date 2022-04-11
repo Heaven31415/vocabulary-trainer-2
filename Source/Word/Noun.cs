@@ -1,5 +1,6 @@
 ﻿using CsvHelper;
 using System.Globalization;
+using VocabularyTrainer2.Source.Common;
 
 namespace VocabularyTrainer2.Source.Word
 {
@@ -41,7 +42,7 @@ namespace VocabularyTrainer2.Source.Word
             csvReader.ReadHeader();
 
             var nouns = new List<Noun>();
-            var id = 100_000;
+            var id = Config.MinimalNounId;
 
             while (csvReader.Read())
             {

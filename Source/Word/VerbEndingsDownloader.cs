@@ -1,14 +1,10 @@
 ﻿using HtmlAgilityPack;
+using VocabularyTrainer2.Source.Common;
 
 namespace VocabularyTrainer2.Source.Word
 {
     public class VerbEndingsDownloader
     {
-        private static string GetURL(string infinitive)
-        {
-            return $"https://conjugator.reverso.net/conjugation-german-verb-{infinitive.Trim()}.html";
-        }
-
         private static string GetXPath(string mobileTitle)
         {
             return $"//div[@mobile-title='{mobileTitle}']//ul";
@@ -39,7 +35,7 @@ namespace VocabularyTrainer2.Source.Word
         public static List<VerbEndings> Download(string infinitive)
         {
             var web = new HtmlWeb();
-            var document = web.Load(GetURL(infinitive));
+            var document = web.Load($"{Config.VerbEndingsUrl}-{infinitive.Trim()}.html");
 
             var presentTenseEndings = DownloadEndings(document, GetXPath("Indikativ Präsens"));
             var simplePastEndings = DownloadEndings(document, GetXPath("Indikativ Präteritum"));
