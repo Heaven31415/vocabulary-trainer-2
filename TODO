@@ -1,6 +1,3 @@
-- Add duplicate checks to specific columns in all sheets
 - Add a Logger class and log anything that might seem important
 - Check if nouns are capitalized, articles are correct and so on
-- Scan entire source code once again
-- Make a lot of manual tests to verify that everything is working as it should
 - Add a new algorithm for getting a random flashcard from set
