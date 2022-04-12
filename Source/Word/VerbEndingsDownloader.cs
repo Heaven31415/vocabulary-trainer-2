@@ -10,9 +10,13 @@ namespace VocabularyTrainer2.Source.Word
             return $"//div[@mobile-title='{mobileTitle}']//ul";
         }
 
-        private static VerbEndings DownloadEndings(HtmlDocument document, string xpath)
+        private static VerbEndings DownloadEndings(string infinitive, HtmlDocument document, string xpath)
         {
             HtmlNode node = document.DocumentNode.SelectSingleNode(xpath);
+
+            if (node == null)
+                throw new Exception($"Unable to download verb endings for '{infinitive}'.");
+
             var verbEndings = new VerbEndings();
 
             var i = 0;
@@ -37,9 +41,9 @@ namespace VocabularyTrainer2.Source.Word
             var web = new HtmlWeb();
             var document = web.Load($"{Config.VerbEndingsUrl}-{infinitive.Trim()}.html");
 
-            var presentTenseEndings = DownloadEndings(document, GetXPath("Indikativ Präsens"));
-            var simplePastEndings = DownloadEndings(document, GetXPath("Indikativ Präteritum"));
-            var perfektEndings = DownloadEndings(document, GetXPath("Indikativ Perfekt"));
+            var presentTenseEndings = DownloadEndings(infinitive, document, GetXPath("Indikativ Präsens"));
+            var simplePastEndings = DownloadEndings(infinitive, document, GetXPath("Indikativ Präteritum"));
+            var perfektEndings = DownloadEndings(infinitive, document, GetXPath("Indikativ Perfekt"));
 
             return new List<VerbEndings> { presentTenseEndings, simplePastEndings, perfektEndings };
         }
