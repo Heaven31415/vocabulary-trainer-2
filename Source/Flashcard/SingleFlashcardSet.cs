@@ -230,12 +230,28 @@ namespace VocabularyTrainer2.Source.Flashcard
 
         private void AddPresentFlashcards(Verb verb, string prefix, string[] suffixes)
         {
+            var types = new FlashcardType[] 
+            {
+                FlashcardType.VerbPresentFirstSingular,
+                FlashcardType.VerbPresentSecondSingular,
+                FlashcardType.VerbPresentThirdSingular,
+                FlashcardType.VerbPresentSecondPlural,
+            };
+
+            var personalPronouns = new PersonalPronoun[]
+            {
+                PersonalPronoun.FirstSingular,
+                PersonalPronoun.SecondSingular,
+                PersonalPronoun.ThirdSingular,
+                PersonalPronoun.SecondPlural,
+            };
+
             for (int i = 0; i < 4; i++)
             {
                 var id = verb.Id;
-                var type = (FlashcardType)i;
+                var type = types[i];
                 var description = verb.Description;
-                var personalPronoun = (PersonalPronoun)i;
+                var personalPronoun = personalPronouns[i];
                 var suffix = suffixes[i];
 
                 var flashcard = _flashcards.Find(f => f.ParentId == id && f.Type == type);
@@ -253,12 +269,28 @@ namespace VocabularyTrainer2.Source.Flashcard
 
         private void AddSimplePastFlashcards(Verb verb, string prefix, string[] suffixes)
         {
+            var types = new FlashcardType[]
+            {
+                FlashcardType.VerbSimplePastFirstSingular,
+                FlashcardType.VerbSimplePastSecondSingular,
+                FlashcardType.VerbSimplePastThirdSingular,
+                FlashcardType.VerbSimplePastSecondPlural,
+            };
+
+            var personalPronouns = new PersonalPronoun[]
+            {
+                PersonalPronoun.FirstSingular,
+                PersonalPronoun.SecondSingular,
+                PersonalPronoun.ThirdSingular,
+                PersonalPronoun.SecondPlural,
+            };
+
             for (int i = 0; i < 4; i++)
             {
                 var id = verb.Id;
-                var type = (FlashcardType)(i + 5);
+                var type = types[i];
                 var description = verb.Description;
-                var personalPronoun = (PersonalPronoun)i;
+                var personalPronoun = personalPronouns[i];
                 var suffix = suffixes[i];
 
                 var flashcard = _flashcards.Find(f => f.ParentId == id && f.Type == type);

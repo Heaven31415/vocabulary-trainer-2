@@ -12,8 +12,8 @@ namespace VocabularyTrainer2.Source.Word
             FirstSingular  = 0,
             SecondSingular = 1,
             ThirdSingular  = 2,
-            FirstPlural    = 4,
-            SecondPlural   = 3,
+            FirstPlural    = 3,
+            SecondPlural   = 4,
             ThirdPlural    = 5,
         }
 
