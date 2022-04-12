@@ -9,12 +9,12 @@ namespace VocabularyTrainer2.Source.Word
     {
         public enum PersonalPronoun
         {
-            FirstSingular  = 0,
+            FirstSingular = 0,
             SecondSingular = 1,
-            ThirdSingular  = 2,
-            FirstPlural    = 3,
-            SecondPlural   = 4,
-            ThirdPlural    = 5,
+            ThirdSingular = 2,
+            FirstPlural = 3,
+            SecondPlural = 4,
+            ThirdPlural = 5,
         }
 
         public int Id { get; }

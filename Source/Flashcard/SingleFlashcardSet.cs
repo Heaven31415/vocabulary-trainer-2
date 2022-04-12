@@ -230,7 +230,7 @@ namespace VocabularyTrainer2.Source.Flashcard
 
         private void AddPresentFlashcards(Verb verb, string prefix, string[] suffixes)
         {
-            var types = new FlashcardType[] 
+            var types = new FlashcardType[]
             {
                 FlashcardType.VerbPresentFirstSingular,
                 FlashcardType.VerbPresentSecondSingular,
