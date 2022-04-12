@@ -33,6 +33,10 @@ namespace VocabularyTrainer2.Source
                 if (flashcard == null)
                 {
                     Utility.WriteGreenLine("Congratulations! You have practiced everything for the moment!");
+                    Console.WriteLine();
+                    Console.Write("Press enter to continue...");
+                    Console.ReadLine();
+                    Console.Clear();
                     break;
                 }
 
@@ -51,7 +55,7 @@ namespace VocabularyTrainer2.Source
                 Console.WriteLine();
                 Console.WriteLine($"Example Sentence: '{exampleSentence}'");
                 Console.WriteLine();
-                Console.Write("Press enter to continue... ");
+                Console.Write("Press enter to continue...");
                 Console.ReadLine();
                 Console.Clear();
 
