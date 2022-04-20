@@ -4,6 +4,7 @@ using System.Text.Encodings.Web;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Text.Unicode;
+using System;
 
 namespace VocabularyTrainer2.Source.Common
 {
@@ -85,6 +86,11 @@ namespace VocabularyTrainer2.Source.Common
             });
 
             File.WriteAllText(fileName, json);
+        }
+
+        public static string Capitalize(string input)
+        {
+            return string.Concat(input[..1].ToUpper(), input.AsSpan(1));
         }
     }
 }

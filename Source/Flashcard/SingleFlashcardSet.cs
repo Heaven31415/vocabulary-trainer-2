@@ -225,6 +225,7 @@ namespace VocabularyTrainer2.Source.Flashcard
             {
                 AddPresentFlashcards(verb, "Präsens", suffixes);
                 AddSimplePastFlashcards(verb, "Präteritum", suffixes);
+                AddImperativeFlashcards(verb, "Imperativ", new string[] { "du", "ihr", "Sie" });
             }
         }
 
@@ -295,6 +296,46 @@ namespace VocabularyTrainer2.Source.Flashcard
 
                 var flashcard = _flashcards.Find(f => f.ParentId == id && f.Type == type);
                 var candidate = new SingleFlashcard(id, type, $"{description} ({prefix}, {suffix})", verb.SimplePast[personalPronoun]);
+
+                if (flashcard == null)
+                    _flashcards.Add(candidate);
+                else if (flashcard.ComputeHash() != candidate.ComputeHash())
+                {
+                    flashcard.Question = candidate.Question;
+                    flashcard.Answer = candidate.Answer;
+                }
+            }
+        }
+
+        private void AddImperativeFlashcards(Verb verb, string prefix, string[] suffixes)
+        {
+            if (verb.Imperative == null)
+                return;
+
+            var types = new FlashcardType[]
+            {
+                FlashcardType.VerbImperativeSecondSingular,
+                FlashcardType.VerbImperativeSecondPlural,
+                FlashcardType.VerbImperativeThirdPlural,
+            };
+
+            var personalPronouns = new PersonalPronoun[]
+            {
+                PersonalPronoun.SecondSingular,
+                PersonalPronoun.SecondPlural,
+                PersonalPronoun.ThirdPlural
+            };
+
+            for (int i = 0; i < 3; i++)
+            {
+                var id = verb.Id;
+                var type = types[i];
+                var description = verb.Description;
+                var personalPronoun = personalPronouns[i];
+                var suffix = suffixes[i];
+
+                var flashcard = _flashcards.Find(f => f.ParentId == id && f.Type == type);
+                var candidate = new SingleFlashcard(id, type, $"{description} ({prefix}, {suffix})", verb.Imperative[personalPronoun]);
 
                 if (flashcard == null)
                     _flashcards.Add(candidate);

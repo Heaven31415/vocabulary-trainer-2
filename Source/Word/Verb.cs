@@ -22,15 +22,31 @@ namespace VocabularyTrainer2.Source.Word
         public VerbEndings Present { get; }
         public VerbEndings SimplePast { get; }
         public VerbEndings Perfekt { get; }
+        public VerbEndings? Imperative { get; } = null;
         public string ExampleSentence { get; }
 
-        public Verb(int id, string description, VerbEndings present, VerbEndings simplePast, VerbEndings perfekt, string exampleSentence)
+        public Verb(int id, string description, List<VerbEndings> allVerbEndings, string exampleSentence)
         {
             Id = id;
             Description = description;
-            Present = present;
-            SimplePast = simplePast;
-            Perfekt = perfekt;
+
+            switch (allVerbEndings.Count)
+            {
+                case 3:
+                    Present = allVerbEndings[0];
+                    SimplePast = allVerbEndings[1];
+                    Perfekt = allVerbEndings[2];
+                    break;
+                case 4:
+                    Present = allVerbEndings[0];
+                    SimplePast = allVerbEndings[1];
+                    Perfekt = allVerbEndings[2];
+                    Imperative = allVerbEndings[3];
+                    break;
+                default:
+                    throw new ArgumentException($"allVerbEndings must contain 3 or 4 elements, not {allVerbEndings.Count}.", nameof(allVerbEndings));
+            }
+
             ExampleSentence = exampleSentence;
         }
 
@@ -78,8 +94,8 @@ namespace VocabularyTrainer2.Source.Word
                 if (string.IsNullOrWhiteSpace(exampleSentence))
                     throw new IOException("exampleSentence cannot be null, empty or whitespace.");
 
-                List<VerbEndings> verbEndings = cache.Get(infinitive);
-                verbs.Add(new Verb(id, description, verbEndings[0], verbEndings[1], verbEndings[2], exampleSentence));
+                List<VerbEndings> allVerbEndings = cache.Get(infinitive);
+                verbs.Add(new Verb(id, description, allVerbEndings, exampleSentence));
                 id++;
             }
 
