@@ -1,4 +1,4 @@
-using HtmlAgilityPack;
+﻿using HtmlAgilityPack;
 using VocabularyTrainer2.Source.Common;
 
 namespace VocabularyTrainer2.Source.Word
@@ -36,6 +36,22 @@ namespace VocabularyTrainer2.Source.Word
             return verbEndings;
         }
 
+        private static void FixWebsiteBug(VerbEndings verbEndings)
+        {
+            if (verbEndings[Verb.PersonalPronoun.FirstSingular].Split(" ").Length != 4)
+                return;
+
+            foreach (var key in verbEndings.Keys)
+            {
+                var parts = verbEndings[key].Split(" ");
+
+                if (parts.Length != 4)
+                    throw new Exception("Unable to fix verb endings.");
+
+                verbEndings[key] = $"{parts[0]} {parts[1]} {parts[3]} {parts[2]}";
+            }
+        }
+
         private static VerbEndings? DownloadImperativeEndings(string infinitive, HtmlDocument document)
         {
             HtmlNode node = document.DocumentNode.SelectSingleNode(GetXPath("Imperativ Präsens"));
@@ -71,6 +87,9 @@ namespace VocabularyTrainer2.Source.Word
                 DownloadEndings(infinitive, document, GetXPath("Indikativ Präteritum")),
                 DownloadEndings(infinitive, document, GetXPath("Indikativ Perfekt"))
             };
+
+            FixWebsiteBug(allVerbEndings[0]);
+            FixWebsiteBug(allVerbEndings[1]);
 
             var imperativeEndings = DownloadImperativeEndings(infinitive, document);
 
