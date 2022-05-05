@@ -45,11 +45,11 @@ namespace VocabularyTrainer2.Source.Flashcard
 
             Results.Add(new Result(isCorrect, LastTrainingTime));
 
-            if (isCorrect && Cooldown.Days < Config.MaximalFlashcardCooldownInDays)
+            if (isCorrect && Cooldown.Days < Config.Instance.MaximalFlashcardCooldownInDays)
                 Cooldown *= 2;
             else
             {
-                if (Cooldown.Days > Config.MinimalFlashcardCooldownInDays)
+                if (Cooldown.Days > Config.Instance.MinimalFlashcardCooldownInDays)
                     Cooldown /= 2;
             }
 

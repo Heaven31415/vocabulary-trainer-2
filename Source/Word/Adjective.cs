@@ -52,7 +52,7 @@ namespace VocabularyTrainer2.Source.Word
             csvReader.ReadHeader();
 
             var adjectives = new List<Adjective>();
-            var id = Config.MinimalAdjectiveId;
+            var id = Config.Instance.MinimalAdjectiveId;
 
             while (csvReader.Read())
             {

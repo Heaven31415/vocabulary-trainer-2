@@ -1,0 +1,26 @@
+{
+  "ProgramName": "Vocabulary Trainer 2",
+  "MinimalAdjectiveId": 0,
+  "MinimalNounId": 100000,
+  "MinimalOtherId": 200000,
+  "MinimalVerbId": 300000,
+  "AdjectivesCsvFilePath": "Data/Adjectives.csv",
+  "NounsCsvFilePath": "Data/Nouns.csv",
+  "OthersCsvFilePath": "Data/Others.csv",
+  "VerbsCsvFilePath": "Data/Verbs.csv",
+  "VerbEndingsCacheFilePath": "Cache/VerbEndings.json",
+  "VerbEndingsUrl": "https://conjugator.reverso.net/conjugation-german-verb",
+  "SingleFlashcardsFilePath": "Data/SingleFlashcards.json",
+  "MultiFlashcardsFilePath": "Data/MultiFlashcards.json",
+  "MinimalFlashcardCooldownInDays": 1,
+  "MaximalFlashcardCooldownInDays": 32,
+  "CredentialsFilePath": "Credentials.json",
+  "UserCredentialDirectoryPath": "User",
+  "SpreadsheetKey": "1eP9-mlyuen3XezQn79EuPTQMMsponFWxlCxzK5qllMY",
+  "SpreadsheetNames": [
+    "Adjectives",
+    "Nouns",
+    "Others",
+    "Verbs"
+  ]
+}

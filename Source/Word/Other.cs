@@ -36,7 +36,7 @@ namespace VocabularyTrainer2.Source.Word
             csvReader.ReadHeader();
 
             var others = new List<Other>();
-            var id = Config.MinimalOtherId;
+            var id = Config.Instance.MinimalOtherId;
 
             while (csvReader.Read())
             {

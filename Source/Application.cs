@@ -11,10 +11,12 @@ namespace VocabularyTrainer2.Source
 
         public Application()
         {
-            Console.Title = Config.ProgramName;
+            Console.Title = Config.Instance.ProgramName;
             Console.OutputEncoding = Encoding.UTF8;
 
-            _sheetsDownloader = new SheetsDownloader(Config.CredentialsFilePath, Config.UserCredentialDirectoryPath);
+            var credentialsFilePath = Config.Instance.CredentialsFilePath;
+            var userCredentialDirectoryPath = Config.Instance.UserCredentialDirectoryPath;
+            _sheetsDownloader = new SheetsDownloader(credentialsFilePath, userCredentialDirectoryPath);
             DownloadSheets();
 
             _flashcardSet = new FlashcardSet();
@@ -65,8 +67,8 @@ namespace VocabularyTrainer2.Source
 
         private void DownloadSheets()
         {
-            foreach (var sheetName in Config.SpreadsheetNames)
-                _sheetsDownloader.Download(Config.SpreadsheetKey, sheetName, $"Data/{sheetName}.csv");
+            foreach (var sheetName in Config.Instance.SpreadsheetNames)
+                _sheetsDownloader.Download(Config.Instance.SpreadsheetKey, sheetName, $"Data/{sheetName}.csv");
         }
     }
 }

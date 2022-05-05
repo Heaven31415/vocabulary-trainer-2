@@ -79,7 +79,7 @@ namespace VocabularyTrainer2.Source.Word
         public static List<VerbEndings> Download(string infinitive)
         {
             var web = new HtmlWeb();
-            var document = web.Load($"{Config.VerbEndingsUrl}-{infinitive.Trim()}.html");
+            var document = web.Load($"{Config.Instance.VerbEndingsUrl}-{infinitive.Trim()}.html");
 
             var allVerbEndings = new List<VerbEndings>
             {

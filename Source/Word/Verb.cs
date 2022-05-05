@@ -67,7 +67,7 @@ namespace VocabularyTrainer2.Source.Word
             csvReader.ReadHeader();
 
             var verbs = new List<Verb>();
-            var id = Config.MinimalVerbId;
+            var id = Config.Instance.MinimalVerbId;
 
             while (csvReader.Read())
             {

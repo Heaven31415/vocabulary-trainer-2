@@ -1,25 +1,57 @@
-﻿namespace VocabularyTrainer2.Source.Common
+﻿using System.Text.Json;
+
+namespace VocabularyTrainer2.Source.Common
 {
-    public static class Config
+    public class Config
     {
-        public const string ProgramName = "Vocabulary Trainer 2";
-        public const int MinimalAdjectiveId = 0;
-        public const int MinimalNounId = 100_000;
-        public const int MinimalOtherId = 200_000;
-        public const int MinimalVerbId = 300_000;
-        public const string AdjectivesCsvFilePath = "Data/Adjectives.csv";
-        public const string NounsCsvFilePath = "Data/Nouns.csv";
-        public const string OthersCsvFilePath = "Data/Others.csv";
-        public const string VerbsCsvFilePath = "Data/Verbs.csv";
-        public const string VerbEndingsCacheFilePath = "Cache/VerbEndings.json";
-        public const string VerbEndingsUrl = "https://conjugator.reverso.net/conjugation-german-verb";
-        public const string SingleFlashcardsFilePath = "Data/SingleFlashcards.json";
-        public const string MultiFlashcardsFilePath = "Data/MultiFlashcards.json";
-        public const int MinimalFlashcardCooldownInDays = 1;
-        public const int MaximalFlashcardCooldownInDays = 32;
-        public const string CredentialsFilePath = "Credentials.json";
-        public const string UserCredentialDirectoryPath = "User";
-        public const string SpreadsheetKey = "1eP9-mlyuen3XezQn79EuPTQMMsponFWxlCxzK5qllMY";
-        public static readonly string[] SpreadsheetNames = new string[] { "Adjectives", "Nouns", "Others", "Verbs" };
+        private const string FileName = "Config.json";
+        private static Config? _instance;
+
+        public static Config Instance
+        {
+            get
+            {
+                if (_instance == null)
+                {
+                    if (!File.Exists(FileName))
+                    {
+                        _instance = new Config();
+                        Utility.SaveToFileAsJson(FileName, _instance);
+                    }
+                    else
+                    {
+                        var json = File.ReadAllText(FileName);
+                        var config = JsonSerializer.Deserialize<Config>(json);
+
+                        if (config == null)
+                            throw new IOException($"{FileName} contains invalid content. Unable to deserialize it.");
+
+                        _instance = config;
+                    }
+                }
+
+                return _instance;
+            }
+        }
+
+        public string ProgramName { get; set; } = "Vocabulary Trainer 2";
+        public int MinimalAdjectiveId { get; set; } = 0;
+        public int MinimalNounId { get; set; } = 100_000;
+        public int MinimalOtherId { get; set; } = 200_000;
+        public int MinimalVerbId { get; set; } = 300_000;
+        public string AdjectivesCsvFilePath { get; set; } = "Data/Adjectives.csv";
+        public string NounsCsvFilePath { get; set; } = "Data/Nouns.csv";
+        public string OthersCsvFilePath { get; set; } = "Data/Others.csv";
+        public string VerbsCsvFilePath { get; set; } = "Data/Verbs.csv";
+        public string VerbEndingsCacheFilePath { get; set; } = "Cache/VerbEndings.json";
+        public string VerbEndingsUrl { get; set; } = "https://conjugator.reverso.net/conjugation-german-verb";
+        public string SingleFlashcardsFilePath { get; set; } = "Data/SingleFlashcards.json";
+        public string MultiFlashcardsFilePath { get; set; } = "Data/MultiFlashcards.json";
+        public int MinimalFlashcardCooldownInDays { get; set; } = 1;
+        public int MaximalFlashcardCooldownInDays { get; set; } = 32;
+        public string CredentialsFilePath { get; set; } = "Credentials.json";
+        public string UserCredentialDirectoryPath { get; set; } = "User";
+        public string SpreadsheetKey { get; set; } = "1eP9-mlyuen3XezQn79EuPTQMMsponFWxlCxzK5qllMY";
+        public string[] SpreadsheetNames { get; set; } = new string[] { "Adjectives", "Nouns", "Others", "Verbs" };
     }
 }

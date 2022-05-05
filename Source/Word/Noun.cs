@@ -42,7 +42,7 @@ namespace VocabularyTrainer2.Source.Word
             csvReader.ReadHeader();
 
             var nouns = new List<Noun>();
-            var id = Config.MinimalNounId;
+            var id = Config.Instance.MinimalNounId;
 
             while (csvReader.Read())
             {
