@@ -23,9 +23,9 @@ namespace VocabularyTrainer2.Source.Word
         public VerbEndings SimplePast { get; }
         public VerbEndings Perfekt { get; }
         public VerbEndings? Imperative { get; } = null;
-        public string ExampleSentence { get; }
+        public string ControlCode { get; }
 
-        public Verb(int id, string description, List<VerbEndings> allVerbEndings, string exampleSentence)
+        public Verb(int id, string description, List<VerbEndings> allVerbEndings, string controlCode)
         {
             Id = id;
             Description = description;
@@ -47,7 +47,7 @@ namespace VocabularyTrainer2.Source.Word
                     throw new ArgumentException($"allVerbEndings must contain 3 or 4 elements, not {allVerbEndings.Count}.", nameof(allVerbEndings));
             }
 
-            ExampleSentence = exampleSentence;
+            ControlCode = controlCode;
         }
 
         public static List<Verb> ReadVerbsFromCsvFile(string fileName, VerbEndingsCache cache)
@@ -89,13 +89,13 @@ namespace VocabularyTrainer2.Source.Word
                 if (string.IsNullOrWhiteSpace(infinitive))
                     throw new IOException("infinitive cannot be null, empty or whitespace.");
 
-                var exampleSentence = csvReader.GetField<string>(3);
+                var controlCode = csvReader.GetField<string>(3);
 
-                if (string.IsNullOrWhiteSpace(exampleSentence))
-                    throw new IOException("exampleSentence cannot be null, empty or whitespace.");
+                if (string.IsNullOrWhiteSpace(controlCode))
+                    throw new IOException("controlCode cannot be null, empty or whitespace.");
 
                 List<VerbEndings> allVerbEndings = cache.Get(infinitive);
-                verbs.Add(new Verb(id, description, allVerbEndings, exampleSentence));
+                verbs.Add(new Verb(id, description, allVerbEndings, controlCode));
                 id++;
             }
 

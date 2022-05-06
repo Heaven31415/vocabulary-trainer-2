@@ -10,9 +10,8 @@ namespace VocabularyTrainer2.Source.Word
         public string Description { get; }
         public string? SingularForm { get; }
         public string? PluralForm { get; }
-        public string ExampleSentence { get; }
 
-        public Noun(int id, string description, string? singularForm, string? pluralForm, string exampleSentence)
+        public Noun(int id, string description, string? singularForm, string? pluralForm)
         {
             Id = id;
             Description = description;
@@ -22,7 +21,6 @@ namespace VocabularyTrainer2.Source.Word
 
             SingularForm = singularForm;
             PluralForm = pluralForm;
-            ExampleSentence = exampleSentence;
         }
 
         public static List<Noun> ReadNounsFromCsvFile(string fileName)
@@ -69,18 +67,13 @@ namespace VocabularyTrainer2.Source.Word
                 if (string.IsNullOrWhiteSpace(pluralForm))
                     throw new IOException("pluralForm cannot be null, empty or whitespace.");
 
-                var exampleSentence = csvReader.GetField<string>(4);
-
-                if (string.IsNullOrWhiteSpace(exampleSentence))
-                    throw new IOException("exampleSentence cannot be null, empty or whitespace.");
-
                 if (singularForm == "-")
                     singularForm = null;
 
                 if (pluralForm == "-")
                     pluralForm = null;
 
-                nouns.Add(new Noun(id, description, singularForm, pluralForm, exampleSentence));
+                nouns.Add(new Noun(id, description, singularForm, pluralForm));
                 id++;
             }
 

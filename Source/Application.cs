@@ -30,7 +30,7 @@ namespace VocabularyTrainer2.Source
                 Console.WriteLine(_flashcardSet.FlashcardInformation);
                 Console.WriteLine();
 
-                var (flashcard, exampleSentence) = _flashcardSet.GetRandomFlashcard();
+                var flashcard = _flashcardSet.GetRandomFlashcard();
 
                 if (flashcard == null)
                 {
@@ -54,8 +54,6 @@ namespace VocabularyTrainer2.Source
                 else
                     Utility.WriteRedLine($"Incorrect! The correct answer is: '{correctAnswer}'.");
 
-                Console.WriteLine();
-                Console.WriteLine($"Example Sentence: '{exampleSentence}'");
                 Console.WriteLine();
                 Console.Write("Press enter to continue...");
                 Console.ReadLine();

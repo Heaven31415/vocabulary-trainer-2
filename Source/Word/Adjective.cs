@@ -11,9 +11,8 @@ namespace VocabularyTrainer2.Source.Word
         public string PositiveDegree { get; }
         public string? ComparativeDegree { get; } = null;
         public string? SuperlativeDegree { get; } = null;
-        public string ExampleSentence { get; }
 
-        public Adjective(int id, string description, string[] degrees, string exampleSentence)
+        public Adjective(int id, string description, string[] degrees)
         {
             Id = id;
             Description = description;
@@ -31,8 +30,6 @@ namespace VocabularyTrainer2.Source.Word
                 default:
                     throw new ArgumentException($"degrees must contain 1 or 3 elements, not {degrees.Length}.", nameof(degrees));
             }
-
-            ExampleSentence = exampleSentence;
         }
 
         public static List<Adjective> ReadAdjectivesFromCsvFile(string fileName)
@@ -84,11 +81,6 @@ namespace VocabularyTrainer2.Source.Word
                 if (string.IsNullOrWhiteSpace(superlativeDegree))
                     throw new IOException("superlativeDegree cannot be null, empty or whitespace.");
 
-                var exampleSentence = csvReader.GetField<string>(5);
-
-                if (string.IsNullOrWhiteSpace(exampleSentence))
-                    throw new IOException("exampleSentence cannot be null, empty or whitespace.");
-
                 string[] degrees;
 
                 if (comparativeDegree == "-" && superlativeDegree == "-")
@@ -96,7 +88,7 @@ namespace VocabularyTrainer2.Source.Word
                 else
                     degrees = new string[] { positiveDegree, comparativeDegree, superlativeDegree };
 
-                adjectives.Add(new Adjective(id, description, degrees, exampleSentence));
+                adjectives.Add(new Adjective(id, description, degrees));
                 id++;
             }
 

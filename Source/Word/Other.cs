@@ -9,14 +9,12 @@ namespace VocabularyTrainer2.Source.Word
         public int Id { get; }
         public string Question { get; }
         public string Answer { get; }
-        public string ExampleSentence { get; }
 
-        public Other(int id, string question, string answer, string exampleSentence)
+        public Other(int id, string question, string answer)
         {
             Id = id;
             Question = question;
             Answer = answer;
-            ExampleSentence = exampleSentence;
         }
 
         public static List<Other> ReadOthersFromCsvFile(string fileName)
@@ -58,12 +56,7 @@ namespace VocabularyTrainer2.Source.Word
                 if (string.IsNullOrWhiteSpace(answer))
                     throw new IOException("answer cannot be null, empty or whitespace.");
 
-                var exampleSentence = csvReader.GetField<string>(3);
-
-                if (string.IsNullOrWhiteSpace(exampleSentence))
-                    throw new IOException("exampleSentence cannot be null, empty or whitespace.");
-
-                others.Add(new Other(id, question, answer, exampleSentence));
+                others.Add(new Other(id, question, answer));
                 id++;
             }
 
