@@ -364,6 +364,7 @@ FodyWeavers.xsd
 
 # My custom needs
 Properties/
-user/
-cache/
-credentials.json
+Credentials.json
+Cache/
+Data/
+User/
