@@ -10,25 +10,25 @@ namespace VocabularyTrainer2.Source.Word
             return $"//div[@mobile-title='{mobileTitle}']//ul";
         }
 
-        private static VerbEndings DownloadEndings(string infinitive, HtmlDocument document, string xpath)
+        private static VerbEndings DownloadEndings(string infinitive, int controlCode, HtmlDocument document, string xpath)
         {
             HtmlNode node = document.DocumentNode.SelectSingleNode(xpath);
 
             if (node == null)
-                throw new Exception($"Unable to download verb endings for '{infinitive}'.");
+                throw new Exception($"Unable to download {xpath} verb endings for '{infinitive}'.");
+
+            if (controlCode != 1 && controlCode != 2)
+                throw new ArgumentException("controlCode must be equal to 1 or 2.", nameof(controlCode));
+
+            var offset = 6 * (controlCode - 1); // 0 or 6
+
+            if (node.ChildNodes.Count < 6 + offset)
+                throw new Exception($"Invalid amount of {xpath} verb endings for '{infinitive}'.");
 
             var verbEndings = new VerbEndings();
 
-            var i = 0;
-            foreach (var n in node.ChildNodes)
-            {
-                verbEndings.Add((Verb.PersonalPronoun)i, n.InnerText);
-
-                if (i == 5)
-                    break;
-
-                i++;
-            }
+            for (int i = 0; i < 6; i++)
+                verbEndings.Add((Verb.PersonalPronoun)i, node.ChildNodes[i + offset].InnerText);
 
             var thirdSingular = Verb.PersonalPronoun.ThirdSingular;
             verbEndings[thirdSingular] = verbEndings[thirdSingular].Replace("er/sie/es", "er");
@@ -52,46 +52,51 @@ namespace VocabularyTrainer2.Source.Word
             }
         }
 
-        private static VerbEndings? DownloadImperativeEndings(string infinitive, HtmlDocument document)
+        private static VerbEndings? DownloadImperativeEndings(string infinitive, int controlCode, HtmlDocument document)
         {
             HtmlNode node = document.DocumentNode.SelectSingleNode(GetXPath("Imperativ Präsens"));
 
             if (node == null)
                 return null;
 
-            if (node.ChildNodes.Count < 4)
+            if (controlCode != 1 && controlCode != 2)
+                throw new ArgumentException("controlCode must be equal to 1 or 2.", nameof(controlCode));
+
+            var offset = 4 * (controlCode - 1); // 0 or 4
+
+            if (node.ChildNodes.Count < 4 + offset)
                 throw new Exception($"Invalid amount of imperative verb endings for '{infinitive}'.");
 
             var verbEndings = new VerbEndings();
 
-            var secondSingularEnding = Utility.Capitalize($"{node.ChildNodes[0].InnerText.Replace(" (du)", "")}!");
+            var secondSingularEnding = Utility.Capitalize($"{node.ChildNodes[0 + offset].InnerText.Replace(" (du)", "")}!");
             verbEndings.Add(Verb.PersonalPronoun.SecondSingular, secondSingularEnding);
 
-            var secondPluralEnding = Utility.Capitalize($"{node.ChildNodes[2].InnerText.Replace(" ihr", "")}!");
+            var secondPluralEnding = Utility.Capitalize($"{node.ChildNodes[2 + offset].InnerText.Replace(" ihr", "")}!");
             verbEndings.Add(Verb.PersonalPronoun.SecondPlural, secondPluralEnding);
 
-            var thirdPluralEnding = Utility.Capitalize($"{node.ChildNodes[3].InnerText}!");
+            var thirdPluralEnding = Utility.Capitalize($"{node.ChildNodes[3 + offset].InnerText}!");
             verbEndings.Add(Verb.PersonalPronoun.ThirdPlural, thirdPluralEnding);
 
             return verbEndings;
         }
 
-        public static List<VerbEndings> Download(string infinitive)
+        public static List<VerbEndings> Download(string infinitive, List<int> controlCodes)
         {
             var web = new HtmlWeb();
             var document = web.Load($"{Config.Instance.VerbEndingsUrl}-{infinitive.Trim()}.html");
 
             var allVerbEndings = new List<VerbEndings>
             {
-                DownloadEndings(infinitive, document, GetXPath("Indikativ Präsens")),
-                DownloadEndings(infinitive, document, GetXPath("Indikativ Präteritum")),
-                DownloadEndings(infinitive, document, GetXPath("Indikativ Perfekt"))
+                DownloadEndings(infinitive, controlCodes[0], document, GetXPath("Indikativ Präsens")),
+                DownloadEndings(infinitive, controlCodes[1], document, GetXPath("Indikativ Präteritum")),
+                DownloadEndings(infinitive, controlCodes[2], document, GetXPath("Indikativ Perfekt"))
             };
 
             FixWebsiteBug(allVerbEndings[0]);
             FixWebsiteBug(allVerbEndings[1]);
 
-            var imperativeEndings = DownloadImperativeEndings(infinitive, document);
+            var imperativeEndings = DownloadImperativeEndings(infinitive, controlCodes[3], document);
 
             if (imperativeEndings != null)
                 allVerbEndings.Add(imperativeEndings);

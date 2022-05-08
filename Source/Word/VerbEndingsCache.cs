@@ -36,7 +36,7 @@ namespace VocabularyTrainer2.Source.Word
             SaveToFileAsJson();
         }
 
-        public List<VerbEndings> Get(string infinitive)
+        public List<VerbEndings> Get(string infinitive, List<int> controlCodes)
         {
             if (string.IsNullOrWhiteSpace(infinitive))
                 throw new ArgumentException("infinitive cannot be null, empty or whitespace.", nameof(infinitive));
@@ -44,7 +44,7 @@ namespace VocabularyTrainer2.Source.Word
             if (_verbEndings.ContainsKey(infinitive))
                 return _verbEndings[infinitive];
 
-            var allVerbEndings = VerbEndingsDownloader.Download(infinitive);
+            var allVerbEndings = VerbEndingsDownloader.Download(infinitive, controlCodes);
             _verbEndings.Add(infinitive, allVerbEndings);
 
             SaveToFileAsJson();

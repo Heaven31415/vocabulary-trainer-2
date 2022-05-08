@@ -23,9 +23,8 @@ namespace VocabularyTrainer2.Source.Word
         public VerbEndings SimplePast { get; }
         public VerbEndings Perfekt { get; }
         public VerbEndings? Imperative { get; } = null;
-        public string ControlCode { get; }
 
-        public Verb(int id, string description, List<VerbEndings> allVerbEndings, string controlCode)
+        public Verb(int id, string description, List<VerbEndings> allVerbEndings)
         {
             Id = id;
             Description = description;
@@ -46,8 +45,6 @@ namespace VocabularyTrainer2.Source.Word
                 default:
                     throw new ArgumentException($"allVerbEndings must contain 3 or 4 elements, not {allVerbEndings.Count}.", nameof(allVerbEndings));
             }
-
-            ControlCode = controlCode;
         }
 
         public static List<Verb> ReadVerbsFromCsvFile(string fileName, VerbEndingsCache cache)
@@ -89,17 +86,50 @@ namespace VocabularyTrainer2.Source.Word
                 if (string.IsNullOrWhiteSpace(infinitive))
                     throw new IOException("infinitive cannot be null, empty or whitespace.");
 
-                var controlCode = csvReader.GetField<string>(3);
+                var controlCodes = ParseRawControlCodes(csvReader.GetField<string>(3));
 
-                if (string.IsNullOrWhiteSpace(controlCode))
-                    throw new IOException("controlCode cannot be null, empty or whitespace.");
-
-                List<VerbEndings> allVerbEndings = cache.Get(infinitive);
-                verbs.Add(new Verb(id, description, allVerbEndings, controlCode));
+                List<VerbEndings> allVerbEndings = cache.Get(infinitive, controlCodes);
+                verbs.Add(new Verb(id, description, allVerbEndings));
                 id++;
             }
 
             return verbs;
+        }
+
+        private static List<int> ParseRawControlCodes(string rawControlCodes)
+        {
+            if (string.IsNullOrWhiteSpace(rawControlCodes))
+              throw new ArgumentException("rawControlCodes cannot be null, empty or whitespace.", nameof(rawControlCodes));
+
+            if (rawControlCodes == "-")
+                return new List<int> { 1, 1, 1, 1 };
+
+            var splitControlCodes = rawControlCodes.Trim().Split(' ');
+
+            if (splitControlCodes.Length != 8)
+                throw new ArgumentException($"rawControlCodes must contain 8 elements, not {splitControlCodes.Length}.", nameof(rawControlCodes));
+
+            if (splitControlCodes[0] != "Pre")
+                throw new ArgumentException($"rawControlCodes contains invalid control code name. Expected 'Pre' got '{splitControlCodes[0]}'", nameof(rawControlCodes));
+
+            var presentControlCode = int.Parse(splitControlCodes[1]);
+
+            if (splitControlCodes[2] != "Sim")
+                throw new ArgumentException($"rawControlCodes contains invalid control code name. Expected 'Sim' got '{splitControlCodes[2]}'", nameof(rawControlCodes));
+
+            var simplePastControlCode = int.Parse(splitControlCodes[3]);
+
+            if (splitControlCodes[4] != "Per")
+                throw new ArgumentException($"rawControlCodes contains invalid control code name. Expected 'Per' got '{splitControlCodes[4]}'", nameof(rawControlCodes));
+
+            var perfektControlCode = int.Parse(splitControlCodes[5]);
+
+            if (splitControlCodes[6] != "Imp")
+                throw new ArgumentException($"rawControlCodes contains invalid control code name. Expected 'Imp' got '{splitControlCodes[6]}'", nameof(rawControlCodes));
+
+            var imperativeControlCode = int.Parse(splitControlCodes[7]);
+
+            return new List<int> { presentControlCode, simplePastControlCode, perfektControlCode, imperativeControlCode };
         }
     }
 }
