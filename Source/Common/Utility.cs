@@ -87,10 +87,5 @@ namespace VocabularyTrainer2.Source.Common
 
             File.WriteAllText(fileName, json);
         }
-
-        public static string Capitalize(string input)
-        {
-            return string.Concat(input[..1].ToUpper(), input.AsSpan(1));
-        }
     }
 }

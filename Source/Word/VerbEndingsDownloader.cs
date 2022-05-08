@@ -69,13 +69,16 @@ namespace VocabularyTrainer2.Source.Word
 
             var verbEndings = new VerbEndings();
 
-            var secondSingularEnding = Utility.Capitalize($"{node.ChildNodes[0 + offset].InnerText.Replace(" (du)", "")}!");
+            var secondSingularEnding = node.ChildNodes[0 + offset].InnerText;
+            secondSingularEnding = secondSingularEnding.Capitalize().Replace(" (du)", "") + "!";
             verbEndings.Add(Verb.PersonalPronoun.SecondSingular, secondSingularEnding);
 
-            var secondPluralEnding = Utility.Capitalize($"{node.ChildNodes[2 + offset].InnerText.Replace(" ihr", "")}!");
+            var secondPluralEnding = node.ChildNodes[2 + offset].InnerText;
+            secondPluralEnding = secondPluralEnding.Capitalize().Replace(" ihr", "") + "!";
             verbEndings.Add(Verb.PersonalPronoun.SecondPlural, secondPluralEnding);
 
-            var thirdPluralEnding = Utility.Capitalize($"{node.ChildNodes[3 + offset].InnerText}!");
+            var thirdPluralEnding = node.ChildNodes[3 + offset].InnerText;
+            thirdPluralEnding = thirdPluralEnding.Capitalize() + "!";
             verbEndings.Add(Verb.PersonalPronoun.ThirdPlural, thirdPluralEnding);
 
             return verbEndings;
