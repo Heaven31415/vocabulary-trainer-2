@@ -99,7 +99,7 @@ namespace VocabularyTrainer2.Source.Word
         private static List<int> ParseRawControlCodes(string rawControlCodes)
         {
             if (string.IsNullOrWhiteSpace(rawControlCodes))
-              throw new ArgumentException("rawControlCodes cannot be null, empty or whitespace.", nameof(rawControlCodes));
+                throw new ArgumentException("rawControlCodes cannot be null, empty or whitespace.", nameof(rawControlCodes));
 
             if (rawControlCodes == "-")
                 return new List<int> { 1, 1, 1, 1 };
