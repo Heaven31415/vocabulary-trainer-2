@@ -45,8 +45,7 @@ namespace VocabularyTrainer2.Source.Common
         public string VerbsCsvFilePath { get; set; } = "Data/Verbs.csv";
         public string VerbEndingsCacheFilePath { get; set; } = "Cache/VerbEndings.json";
         public string VerbEndingsUrl { get; set; } = "https://conjugator.reverso.net/conjugation-german-verb";
-        public string SingleFlashcardsFilePath { get; set; } = "Data/SingleFlashcards.json";
-        public string MultiFlashcardsFilePath { get; set; } = "Data/MultiFlashcards.json";
+        public string FlashcardsFilePath { get; set; } = "Data/Flashcards.json";
         public int MinimalFlashcardCooldownInDays { get; set; } = 1;
         public int MaximalFlashcardCooldownInDays { get; set; } = 32;
         public string CredentialsFilePath { get; set; } = "Credentials.json";
