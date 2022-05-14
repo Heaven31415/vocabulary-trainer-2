@@ -29,10 +29,10 @@ namespace VocabularyTrainer2.Source.Flashcard
         {
             _fileName = Config.Instance.FlashcardsFilePath;
             _verbEndingsCache = new VerbEndingsCache(Config.Instance.VerbEndingsCacheFilePath);
-            _adjectives = Adjective.ReadAdjectivesFromCsvFile(Config.Instance.AdjectivesCsvFilePath);
-            _nouns = Noun.ReadNounsFromCsvFile(Config.Instance.NounsCsvFilePath);
-            _others = Other.ReadOthersFromCsvFile(Config.Instance.OthersCsvFilePath);
-            _verbs = Verb.ReadVerbsFromCsvFile(Config.Instance.VerbsCsvFilePath, _verbEndingsCache);
+            _adjectives = Adjective.ReadAllFromCsvFile(Config.Instance.AdjectivesCsvFilePath);
+            _nouns = Noun.ReadAllFromCsvFile(Config.Instance.NounsCsvFilePath);
+            _others = Other.ReadAllFromCsvFile(Config.Instance.OthersCsvFilePath);
+            _verbs = Verb.ReadAllFromCsvFile(Config.Instance.VerbsCsvFilePath, _verbEndingsCache);
 
             _flashcards = new List<Flashcard>();
             AddFlashcardsFromAdjectives(_adjectives);
@@ -424,9 +424,6 @@ namespace VocabularyTrainer2.Source.Flashcard
 
         private void AddImperativeFlashcard(Verb verb, string prefix)
         {
-            if (verb.Imperative == null)
-                return;
-
             var types = new FlashcardType[]
             {
                 FlashcardType.VerbImperativeSecondSingular,

@@ -17,16 +17,8 @@ namespace VocabularyTrainer2.Source.Word
             Answer = answer;
         }
 
-        public static List<Other> ReadOthersFromCsvFile(string fileName)
+        public static List<Other> ReadAllFromCsvFile(string fileName)
         {
-            if (string.IsNullOrWhiteSpace(fileName))
-                throw new ArgumentException("fileName cannot be null, empty or whitespace.", nameof(fileName));
-
-            var extension = Path.GetExtension(fileName);
-
-            if (extension == null || extension != ".csv")
-                throw new ArgumentException("fileName needs to have a .csv extension.", nameof(fileName));
-
             using var streamReader = new StreamReader(fileName);
             using var csvReader = new CsvReader(streamReader, CultureInfo.InvariantCulture);
 
@@ -34,33 +26,34 @@ namespace VocabularyTrainer2.Source.Word
             csvReader.ReadHeader();
 
             var others = new List<Other>();
-            var id = Config.Instance.MinimalOtherId;
 
-            while (csvReader.Read())
+            for (var id = 2; csvReader.Read(); id += 10)
             {
-                var verified = csvReader.GetField<bool>(0);
-
-                if (!verified)
-                {
-                    id++;
+                if (!csvReader.GetField<bool>(0))
                     continue;
-                }
 
                 var question = csvReader.GetField<string>(1);
-
-                if (string.IsNullOrWhiteSpace(question))
-                    throw new IOException("question cannot be null, empty or whitespace.");
-
                 var answer = csvReader.GetField<string>(2);
 
-                if (string.IsNullOrWhiteSpace(answer))
-                    throw new IOException("answer cannot be null, empty or whitespace.");
+                ValidateQuestion(question);
+                ValidateAnswer(answer);
 
                 others.Add(new Other(id, question, answer));
-                id++;
             }
 
             return others;
+        }
+
+        private static void ValidateQuestion(string question)
+        {
+            if (question.Length == 0)
+                throw new ArgumentException("Other question cannot be empty.");
+        }
+
+        private static void ValidateAnswer(string answer)
+        {
+            if (answer.Length == 0)
+                throw new ArgumentException("Other answer cannot be empty.");
         }
     }
 }

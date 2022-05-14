@@ -8,8 +8,8 @@ namespace VocabularyTrainer2.Source.Word
     {
         public int Id { get; }
         public string Description { get; }
-        public string? SingularForm { get; }
-        public string? PluralForm { get; }
+        public string? SingularForm { get; } = null;
+        public string? PluralForm { get; } = null;
 
         public Noun(int id, string description, string? singularForm, string? pluralForm)
         {
@@ -17,22 +17,14 @@ namespace VocabularyTrainer2.Source.Word
             Description = description;
 
             if (singularForm == null && pluralForm == null)
-                throw new Exception("Singular and plural form cannot be null at the same time.");
+                throw new Exception("Noun singular form and plural form cannot be null at the same time.");
 
             SingularForm = singularForm;
             PluralForm = pluralForm;
         }
 
-        public static List<Noun> ReadNounsFromCsvFile(string fileName)
+        public static List<Noun> ReadAllFromCsvFile(string fileName)
         {
-            if (string.IsNullOrWhiteSpace(fileName))
-                throw new ArgumentException("fileName cannot be null, empty or whitespace.", nameof(fileName));
-
-            var extension = Path.GetExtension(fileName);
-
-            if (extension == null || extension != ".csv")
-                throw new ArgumentException("fileName needs to have a .csv extension.", nameof(fileName));
-
             using var streamReader = new StreamReader(fileName);
             using var csvReader = new CsvReader(streamReader, CultureInfo.InvariantCulture);
 
@@ -40,44 +32,83 @@ namespace VocabularyTrainer2.Source.Word
             csvReader.ReadHeader();
 
             var nouns = new List<Noun>();
-            var id = Config.Instance.MinimalNounId;
 
-            while (csvReader.Read())
+            for (var id = 1; csvReader.Read(); id += 10)
             {
-                var verified = csvReader.GetField<bool>(0);
-
-                if (!verified)
-                {
-                    id++;
+                if (!csvReader.GetField<bool>(0)) 
                     continue;
-                }
 
                 var description = csvReader.GetField<string>(1);
-
-                if (string.IsNullOrWhiteSpace(description))
-                    throw new IOException("description cannot be null, empty or whitespace.");
-
                 var singularForm = csvReader.GetField<string>(2);
-
-                if (string.IsNullOrWhiteSpace(singularForm))
-                    throw new IOException("singularForm cannot be null, empty or whitespace.");
-
                 var pluralForm = csvReader.GetField<string>(3);
 
-                if (string.IsNullOrWhiteSpace(pluralForm))
-                    throw new IOException("pluralForm cannot be null, empty or whitespace.");
+                ValidateDescription(description);
+                ValidateSingularForm(singularForm);
+                ValidatePluralForm(pluralForm);
 
-                if (singularForm == "-")
+                if (singularForm.Length == 0)
                     singularForm = null;
 
-                if (pluralForm == "-")
+                if (pluralForm.Length == 0)
                     pluralForm = null;
 
                 nouns.Add(new Noun(id, description, singularForm, pluralForm));
-                id++;
             }
 
             return nouns;
+        }
+
+        private static void ValidateDescription(string description)
+        {
+            if (description.Length == 0)
+                throw new ArgumentException("Noun description cannot be empty.");
+        }
+
+        private static void ValidateSingularForm(string singularForm)
+        {
+            if (singularForm.Length == 0)
+                return;
+
+            var parts = singularForm.Split(' ');
+
+            if (parts.Length != 2)
+                throw new ArgumentException($"Singular form noun should be made of 2 parts instead of {parts.Length}.");
+
+            var article = parts[0];
+            var noun = parts[1];
+
+            switch (article)
+            {
+                case "der":
+                case "die":
+                case "das":
+                    break;
+                default:
+                    throw new ArgumentException($"Singular form article should be 'der', 'die' or 'das', not '{article}'.");
+            }
+
+            if (!noun.IsCapitalized())
+                throw new ArgumentException("Singular form noun should be capitalized.");
+        }
+
+        private static void ValidatePluralForm(string pluralForm)
+        {
+            if (pluralForm.Length == 0)
+                return;
+
+            var parts = pluralForm.Split(' ');
+
+            if (parts.Length != 2)
+                throw new ArgumentException($"Plural form noun should be made of 2 parts instead of {parts.Length}.");
+
+            var article = parts[0];
+            var noun = parts[1];
+
+            if (article != "die")
+                throw new ArgumentException($"Plural form article should be equal to 'die' instead of '{article}'.");
+
+            if (!noun.IsCapitalized())
+                throw new ArgumentException("Plural forum noun should be capitalized.");
         }
     }
 }

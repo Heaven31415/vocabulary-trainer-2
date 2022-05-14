@@ -6,15 +6,15 @@ namespace VocabularyTrainer2.Source
     {
         static void Main()
         {
-            try
+            // try
             {
                 var app = new Application();
                 app.Run();
             }
-            catch (Exception exception)
+            /*catch (Exception exception)
             {
                 Utility.WriteRedLine(exception.Message);
-            }
+            }*/
         }
     }
 }

@@ -10,20 +10,24 @@ namespace VocabularyTrainer2.Source.Word
             return $"//div[@mobile-title='{mobileTitle}']//ul";
         }
 
-        private static VerbEndings DownloadEndings(string infinitive, int controlCode, HtmlDocument document, string xpath)
+        private static HtmlDocument DownloadDocument(string infinitive)
         {
-            HtmlNode node = document.DocumentNode.SelectSingleNode(xpath);
+            return new HtmlWeb().Load($"{Config.Instance.VerbEndingsUrl}-{infinitive.Trim()}.html");
+        }
+
+        private static VerbEndings DownloadEndings(string infinitive, int controlCodeDigit, HtmlDocument document, string mobileTitle)
+        {
+            var xpath = GetXPath(mobileTitle);
+            var node = document.DocumentNode.SelectSingleNode(xpath);
 
             if (node == null)
-                throw new Exception($"Unable to download {xpath} verb endings for '{infinitive}'.");
+                throw new Exception($"Unable to find '{xpath}' verb endings for '{infinitive}'.");
 
-            if (controlCode != 1 && controlCode != 2)
-                throw new ArgumentException("controlCode must be equal to 1 or 2.", nameof(controlCode));
+            var offset = 6 * (controlCodeDigit - 1); // 0 or 6
+            var endingsCount = node.ChildNodes.Count;
 
-            var offset = 6 * (controlCode - 1); // 0 or 6
-
-            if (node.ChildNodes.Count < 6 + offset)
-                throw new Exception($"Invalid amount of {xpath} verb endings for '{infinitive}'.");
+            if (endingsCount != 6 && endingsCount != 12)
+                throw new Exception($"Invalid amount of '{xpath}' verb endings for '{infinitive}'. Expected 6 or 12, got {endingsCount}.");
 
             var verbEndings = new VerbEndings();
 
@@ -36,36 +40,19 @@ namespace VocabularyTrainer2.Source.Word
             return verbEndings;
         }
 
-        private static void FixWebsiteBug(VerbEndings verbEndings)
+        private static VerbEndings DownloadImperativeEndings(string infinitive, int controlCodeDigit, HtmlDocument document, string mobileTitle)
         {
-            if (verbEndings[Verb.PersonalPronoun.FirstSingular].Split(" ").Length != 4)
-                return;
-
-            foreach (var key in verbEndings.Keys)
-            {
-                var parts = verbEndings[key].Split(" ");
-
-                if (parts.Length != 4)
-                    throw new Exception("Unable to fix verb endings.");
-
-                verbEndings[key] = $"{parts[0]} {parts[1]} {parts[3]} {parts[2]}";
-            }
-        }
-
-        private static VerbEndings? DownloadImperativeEndings(string infinitive, int controlCode, HtmlDocument document)
-        {
-            HtmlNode node = document.DocumentNode.SelectSingleNode(GetXPath("Imperativ Präsens"));
+            var xpath = GetXPath(mobileTitle);
+            var node = document.DocumentNode.SelectSingleNode(xpath);
 
             if (node == null)
-                return null;
+                return FixImperativeEndingsBug(infinitive, controlCodeDigit, mobileTitle);
 
-            if (controlCode != 1 && controlCode != 2)
-                throw new ArgumentException("controlCode must be equal to 1 or 2.", nameof(controlCode));
+            var offset = 4 * (controlCodeDigit - 1); // 0 or 4
+            var endingsCount = node.ChildNodes.Count;
 
-            var offset = 4 * (controlCode - 1); // 0 or 4
-
-            if (node.ChildNodes.Count < 4 + offset)
-                throw new Exception($"Invalid amount of imperative verb endings for '{infinitive}'.");
+            if (endingsCount != 4 && endingsCount != 8)
+                throw new Exception($"Invalid amount of '{xpath}' verb endings for '{infinitive}'. Expected 4 or 8, got {endingsCount}.");
 
             var verbEndings = new VerbEndings();
 
@@ -84,25 +71,61 @@ namespace VocabularyTrainer2.Source.Word
             return verbEndings;
         }
 
-        public static List<VerbEndings> Download(string infinitive, List<int> controlCodes)
+        // A bug that appens only for verbs like 'sich anziehen'
+        private static VerbEndings FixImperativeEndingsBug(string infinitive, int controlCodeDigit, string mobileTitle)
         {
-            var web = new HtmlWeb();
-            var document = web.Load($"{Config.Instance.VerbEndingsUrl}-{infinitive.Trim()}.html");
+            var incompleteInfinitive = infinitive.Split(' ')[1];
+            var document = DownloadDocument(incompleteInfinitive);
+
+            var verbEndings = DownloadImperativeEndings(incompleteInfinitive, controlCodeDigit, document, mobileTitle);
+
+            foreach (var key in verbEndings.Keys)
+            {
+                var missingPiece = key switch {
+                    Verb.PersonalPronoun.SecondSingular => "dich",
+                    Verb.PersonalPronoun.SecondPlural => "euch",
+                    Verb.PersonalPronoun.ThirdPlural => "sich",
+                    _ => throw new Exception("Unable to fix imperative endings bug."),
+                };
+
+                var parts = verbEndings[key].Split(' ');
+
+                if (key == Verb.PersonalPronoun.ThirdPlural)
+                    verbEndings[key] = $"{parts[0]} {parts[1]} {missingPiece} {parts[2]}";
+                else
+                    verbEndings[key] = $"{parts[0]} {missingPiece} {parts[1]}";
+            }
+
+            return verbEndings;
+        }
+
+        // A bug that appens only for verbs like 'sich anziehen'
+        private static void FixSeparablePrefixBug(VerbEndings verbEndings)
+        {
+            if (verbEndings[Verb.PersonalPronoun.FirstSingular].Split(' ').Length != 4)
+                return;
+
+            foreach (var key in verbEndings.Keys)
+            {
+                var parts = verbEndings[key].Split(' ');
+                verbEndings[key] = $"{parts[0]} {parts[1]} {parts[3]} {parts[2]}";
+            }
+        }
+
+        public static List<VerbEndings> Download(string infinitive, int controlCode)
+        {
+            var document = DownloadDocument(infinitive);
 
             var allVerbEndings = new List<VerbEndings>
             {
-                DownloadEndings(infinitive, controlCodes[0], document, GetXPath("Indikativ Präsens")),
-                DownloadEndings(infinitive, controlCodes[1], document, GetXPath("Indikativ Präteritum")),
-                DownloadEndings(infinitive, controlCodes[2], document, GetXPath("Indikativ Perfekt"))
+                DownloadEndings(infinitive, controlCode.Digit(4), document, "Indikativ Präsens"),
+                DownloadEndings(infinitive, controlCode.Digit(3), document, "Indikativ Präteritum"),
+                DownloadEndings(infinitive, controlCode.Digit(2), document, "Indikativ Perfekt"),
+                DownloadImperativeEndings(infinitive, controlCode.Digit(1), document, "Imperativ Präsens")
             };
 
-            FixWebsiteBug(allVerbEndings[0]);
-            FixWebsiteBug(allVerbEndings[1]);
-
-            var imperativeEndings = DownloadImperativeEndings(infinitive, controlCodes[3], document);
-
-            if (imperativeEndings != null)
-                allVerbEndings.Add(imperativeEndings);
+            FixSeparablePrefixBug(allVerbEndings[0]);
+            FixSeparablePrefixBug(allVerbEndings[1]);
 
             return allVerbEndings;
         }
