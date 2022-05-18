@@ -8,10 +8,11 @@ namespace VocabularyTrainer2.Source.Word
     {
         public int Id { get; }
         public string Description { get; }
-        public string? SingularForm { get; } = null;
-        public string? PluralForm { get; } = null;
+        public string? SingularForm { get; }
+        public string? PluralForm { get; }
+        public string? Bonus { get; }
 
-        public Noun(int id, string description, string? singularForm, string? pluralForm)
+        public Noun(int id, string description, string? singularForm, string? pluralForm, string? bonus = null)
         {
             Id = id;
             Description = description;
@@ -21,11 +22,12 @@ namespace VocabularyTrainer2.Source.Word
 
             SingularForm = singularForm;
             PluralForm = pluralForm;
+            Bonus = bonus;
         }
 
-        public static List<Noun> ReadAllFromCsvFile(string fileName)
+        public static List<Noun> ReadAllFromCsvFile()
         {
-            using var streamReader = new StreamReader(fileName);
+            using var streamReader = new StreamReader(Config.Instance.NounsCsvFilePath);
             using var csvReader = new CsvReader(streamReader, CultureInfo.InvariantCulture);
 
             csvReader.Read();

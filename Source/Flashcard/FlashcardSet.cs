@@ -9,56 +9,29 @@ namespace VocabularyTrainer2.Source.Flashcard
     public class FlashcardSet
     {
         private readonly Random _random = new();
-        private readonly string _fileName;
-        private readonly VerbEndingsCache _verbEndingsCache;
-        private readonly List<Adjective> _adjectives;
-        private readonly List<Noun> _nouns;
-        private readonly List<Other> _others;
-        private readonly List<Verb> _verbs;
-        private List<Flashcard> _flashcards;
+        private readonly string _fileName = Config.Instance.FlashcardsFilePath;
+        private List<Flashcard> _flashcards = new();
 
-        public int Available => _flashcards.FindAll(f => f.IsAvailable()).Count;
+        public List<Flashcard> Flashcards { get { return _flashcards; } }
 
-        public int AvailableAtDaysEnd => _flashcards.FindAll(f => f.IsAvailableAtDaysEnd()).Count;
-
-        public string VocabularyInformation => $"A:{_adjectives.Count} N:{_nouns.Count} O:{_others.Count} V:{_verbs.Count}";
-
-        public string FlashcardInformation => $"F:{_flashcards.Count} A:{Available} A24:{AvailableAtDaysEnd}";
-
-        public FlashcardSet()
+        public FlashcardSet(List<Adjective> adjectives, List<Noun> nouns, List<Other> others, List<Verb> verbs)
         {
-            _fileName = Config.Instance.FlashcardsFilePath;
-            _verbEndingsCache = new VerbEndingsCache(Config.Instance.VerbEndingsCacheFilePath);
-            _adjectives = Adjective.ReadAllFromCsvFile(Config.Instance.AdjectivesCsvFilePath);
-            _nouns = Noun.ReadAllFromCsvFile(Config.Instance.NounsCsvFilePath);
-            _others = Other.ReadAllFromCsvFile(Config.Instance.OthersCsvFilePath);
-            _verbs = Verb.ReadAllFromCsvFile(Config.Instance.VerbsCsvFilePath, _verbEndingsCache);
+            LoadFlashcardsFromFile();
 
-            _flashcards = new List<Flashcard>();
-            AddFlashcardsFromAdjectives(_adjectives);
-            AddFlashcardsFromNouns(_nouns);
-            AddFlashcardsFromOthers(_others);
-            AddFlashcardsFromVerbs(_verbs);
-
-            LoadFlashcardsFromFile(_fileName);
+            AddFlashcardsFromAdjectives(adjectives);
+            AddFlashcardsFromNouns(nouns);
+            AddFlashcardsFromOthers(others);
+            AddFlashcardsFromVerbs(verbs);
 
             SaveToFileAsJson();
         }
 
-        private void LoadFlashcardsFromFile(string fileName)
+        private void LoadFlashcardsFromFile()
         {
-            if (string.IsNullOrWhiteSpace(fileName))
-                throw new ArgumentException("fileName cannot be null, empty or whitespace.", nameof(fileName));
-
-            var extension = Path.GetExtension(fileName);
-
-            if (extension == null || extension != ".json")
-                throw new ArgumentException("fileName needs to have a .json extension.", nameof(fileName));
-
-            if (!File.Exists(fileName))
+            if (!File.Exists(_fileName))
                 return;
 
-            var json = File.ReadAllText(fileName);
+            var json = File.ReadAllText(_fileName);
             var options = new JsonSerializerOptions
             {
                 Converters = { new JsonStringEnumConverter(JsonNamingPolicy.CamelCase) }
@@ -66,7 +39,7 @@ namespace VocabularyTrainer2.Source.Flashcard
             var flashcards = JsonSerializer.Deserialize<List<Flashcard>>(json, options);
 
             if (flashcards == null)
-                throw new IOException($"{fileName} contains invalid content. Unable to deserialize it.");
+                throw new IOException($"File '{_fileName}' contains invalid content. Unable to deserialize it.");
 
             _flashcards = flashcards;
         }
@@ -109,7 +82,7 @@ namespace VocabularyTrainer2.Source.Flashcard
 
             if (flashcard == null)
                 _flashcards.Add(candidate);
-            else if (flashcard.ComputeHash() != candidate.ComputeHash())
+            else if (flashcard.Hash() != candidate.Hash())
             {
                 flashcard.Questions = candidate.Questions;
                 flashcard.Answers = candidate.Answers;
@@ -132,7 +105,7 @@ namespace VocabularyTrainer2.Source.Flashcard
 
             if (flashcard == null)
                 _flashcards.Add(candidate);
-            else if (flashcard.ComputeHash() != candidate.ComputeHash())
+            else if (flashcard.Hash() != candidate.Hash())
             {
                 flashcard.Questions = candidate.Questions;
                 flashcard.Answers = candidate.Answers;
@@ -155,7 +128,7 @@ namespace VocabularyTrainer2.Source.Flashcard
 
             if (flashcard == null)
                 _flashcards.Add(candidate);
-            else if (flashcard.ComputeHash() != candidate.ComputeHash())
+            else if (flashcard.Hash() != candidate.Hash())
             {
                 flashcard.Questions = candidate.Questions;
                 flashcard.Answers = candidate.Answers;
@@ -187,7 +160,7 @@ namespace VocabularyTrainer2.Source.Flashcard
 
             if (flashcard == null)
                 _flashcards.Add(candidate);
-            else if (flashcard.ComputeHash() != candidate.ComputeHash())
+            else if (flashcard.Hash() != candidate.Hash())
             {
                 flashcard.Questions = candidate.Questions;
                 flashcard.Answers = candidate.Answers;
@@ -210,7 +183,7 @@ namespace VocabularyTrainer2.Source.Flashcard
 
             if (flashcard == null)
                 _flashcards.Add(candidate);
-            else if (flashcard.ComputeHash() != candidate.ComputeHash())
+            else if (flashcard.Hash() != candidate.Hash())
             {
                 flashcard.Questions = candidate.Questions;
                 flashcard.Answers = candidate.Answers;
@@ -232,7 +205,7 @@ namespace VocabularyTrainer2.Source.Flashcard
 
                 if (flashcard == null)
                     _flashcards.Add(candidate);
-                else if (flashcard.ComputeHash() != candidate.ComputeHash())
+                else if (flashcard.Hash() != candidate.Hash())
                 {
                     flashcard.Questions = candidate.Questions;
                     flashcard.Answers = candidate.Answers;
@@ -286,7 +259,7 @@ namespace VocabularyTrainer2.Source.Flashcard
 
                 if (flashcard == null)
                     _flashcards.Add(candidate);
-                else if (flashcard.ComputeHash() != candidate.ComputeHash())
+                else if (flashcard.Hash() != candidate.Hash())
                 {
                     flashcard.Questions = candidate.Questions;
                     flashcard.Answers = candidate.Answers;
@@ -312,7 +285,7 @@ namespace VocabularyTrainer2.Source.Flashcard
 
             if (flashcard == null)
                 _flashcards.Add(candidate);
-            else if (flashcard.ComputeHash() != candidate.ComputeHash())
+            else if (flashcard.Hash() != candidate.Hash())
             {
                 flashcard.Questions = candidate.Questions;
                 flashcard.Answers = candidate.Answers;
@@ -352,7 +325,7 @@ namespace VocabularyTrainer2.Source.Flashcard
 
                 if (flashcard == null)
                     _flashcards.Add(candidate);
-                else if (flashcard.ComputeHash() != candidate.ComputeHash())
+                else if (flashcard.Hash() != candidate.Hash())
                 {
                     flashcard.Questions = candidate.Questions;
                     flashcard.Answers = candidate.Answers;
@@ -378,7 +351,7 @@ namespace VocabularyTrainer2.Source.Flashcard
 
             if (flashcard == null)
                 _flashcards.Add(candidate);
-            else if (flashcard.ComputeHash() != candidate.ComputeHash())
+            else if (flashcard.Hash() != candidate.Hash())
             {
                 flashcard.Questions = candidate.Questions;
                 flashcard.Answers = candidate.Answers;
@@ -393,29 +366,17 @@ namespace VocabularyTrainer2.Source.Flashcard
             var questions = new List<string>();
             var answers = new List<string>();
 
-            questions.Add($"{verb.Description} ({prefix}, {suffixes[0]})");
-            answers.Add(verb.Perfekt[Verb.PersonalPronoun.FirstSingular]);
-
-            questions.Add($"{verb.Description} ({prefix}, {suffixes[1]})");
-            answers.Add(verb.Perfekt[Verb.PersonalPronoun.SecondSingular]);
-
-            questions.Add($"{verb.Description} ({prefix}, {suffixes[2]})");
-            answers.Add(verb.Perfekt[Verb.PersonalPronoun.ThirdSingular]);
-
-            questions.Add($"{verb.Description} ({prefix}, {suffixes[3]})");
-            answers.Add(verb.Perfekt[Verb.PersonalPronoun.FirstPlural]);
-
-            questions.Add($"{verb.Description} ({prefix}, {suffixes[4]})");
-            answers.Add(verb.Perfekt[Verb.PersonalPronoun.SecondPlural]);
-
-            questions.Add($"{verb.Description} ({prefix}, {suffixes[5]})");
-            answers.Add(verb.Perfekt[Verb.PersonalPronoun.ThirdPlural]);
+            for (var i = 0; i < 6; i++)
+            {
+                questions.Add($"{verb.Description} ({prefix}, {suffixes[i]})");
+                answers.Add(verb.Perfekt[(Verb.PersonalPronoun)i]);
+            }
 
             var candidate = new Flashcard(verb.Id, FlashcardType.VerbPerfekt, questions, answers);
 
             if (flashcard == null)
                 _flashcards.Add(candidate);
-            else if (flashcard.ComputeHash() != candidate.ComputeHash())
+            else if (flashcard.Hash() != candidate.Hash())
             {
                 flashcard.Questions = candidate.Questions;
                 flashcard.Answers = candidate.Answers;
@@ -453,7 +414,7 @@ namespace VocabularyTrainer2.Source.Flashcard
 
                 if (flashcard == null)
                     _flashcards.Add(candidate);
-                else if (flashcard.ComputeHash() != candidate.ComputeHash())
+                else if (flashcard.Hash() != candidate.Hash())
                 {
                     flashcard.Questions = candidate.Questions;
                     flashcard.Answers = candidate.Answers;

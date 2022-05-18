@@ -4,17 +4,17 @@ namespace VocabularyTrainer2.Source
 {
     public class Program
     {
-        static void Main()
+        public static void Main(string[] args)
         {
-            // try
+            try
             {
                 var app = new Application();
-                app.Run();
+                app.ProcessArgs(args);
             }
-            /*catch (Exception exception)
+            catch (Exception exception)
             {
-                Utility.WriteRedLine(exception.Message);
-            }*/
+                Utility.WriteRedLine($"Error! {exception.Message}");
+            }
         }
     }
 }

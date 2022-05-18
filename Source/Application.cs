@@ -1,12 +1,17 @@
 ﻿using System.Text;
 using VocabularyTrainer2.Source.Common;
 using VocabularyTrainer2.Source.Flashcard;
+using VocabularyTrainer2.Source.Word;
 
 namespace VocabularyTrainer2.Source
 {
     public class Application
     {
-        private readonly SheetsDownloader _sheetsDownloader;
+        private readonly VerbEndingsCache _verbEndingsCache;
+        private readonly List<Adjective> _adjectives;
+        private readonly List<Noun> _nouns;
+        private readonly List<Other> _others;
+        private readonly List<Verb> _verbs;
         private readonly FlashcardSet _flashcardSet;
 
         public Application()
@@ -14,27 +19,94 @@ namespace VocabularyTrainer2.Source
             Console.Title = Config.Instance.ProgramName;
             Console.OutputEncoding = Encoding.UTF8;
 
-            var credentialsFilePath = Config.Instance.CredentialsFilePath;
-            var userCredentialDirectoryPath = Config.Instance.UserCredentialDirectoryPath;
-            _sheetsDownloader = new SheetsDownloader(credentialsFilePath, userCredentialDirectoryPath);
-            DownloadSheets();
+            if (Config.Instance.OnlineMode)
+            {
+                var sheetsDownloader = new SheetsDownloader();
+                sheetsDownloader.DownloadAll();
+            }
 
-            _flashcardSet = new FlashcardSet();
+            _verbEndingsCache = new VerbEndingsCache();
+            _adjectives = Adjective.ReadAllFromCsvFile();
+            _nouns = Noun.ReadAllFromCsvFile();
+            _others = Other.ReadAllFromCsvFile();
+            _verbs = Verb.ReadAllFromCsvFile(_verbEndingsCache);
+
+            _flashcardSet = new FlashcardSet(_adjectives, _nouns, _others, _verbs);
         }
 
-        public void Run()
+        public void ProcessArgs(string[] args)
+        {
+            switch (args.Length)
+            {
+                case 0:
+                    Run();
+                    break;
+                case 1:
+                    switch (args[0])
+                    {
+                        case "-c":
+                        case "--clear-cache":
+                            File.Delete(Config.Instance.VerbEndingsCacheFilePath);
+                            break;
+
+                        case "-s":
+                        case "--stats":
+                            Console.WriteLine("Vocabulary:");
+                            Console.WriteLine($"  Adjectives: {_adjectives.Count}");
+                            Console.WriteLine($"  Nouns: {_nouns.Count}");
+                            Console.WriteLine($"  Others: {_others.Count}");
+                            Console.WriteLine($"  Verbs: {_verbs.Count}");
+
+                            var flashcards = _flashcardSet.Flashcards;
+                            var available = flashcards.FindAll(f => f.IsAvailable()).Count;
+                            var availableAtDaysEnd = flashcards.FindAll(f => f.IsAvailableAtDaysEnd()).Count;
+
+                            Console.WriteLine("Flashcards: ");
+                            Console.WriteLine($"  All: {flashcards.Count}");
+                            Console.WriteLine($"  Available: {available}");
+                            Console.WriteLine($"  Available at days end: {availableAtDaysEnd}");
+
+                            var results = 0;
+                            var successfulResults = 0;
+
+                            foreach (var f in flashcards)
+                            {
+                                foreach (var r in f.Results)
+                                {
+                                    results++;
+
+                                    if (r.IsSuccessful)
+                                        successfulResults++;
+                                }
+                            }
+
+                            var pct = 100.0 * successfulResults / results;
+
+                            Console.WriteLine("Results: ");
+                            Console.WriteLine($"  All: {results}");
+                            Console.WriteLine($"  Successful: {successfulResults} ({pct:0.00}%)");
+                                
+                            break;
+                        default:
+                            Utility.WriteRedLine($"Invalid option: '{args[0]}'");
+                            break;
+                    }
+                    break;
+                default:
+                    Utility.WriteRedLine($"Invalid number of arguments: {args.Length}");
+                    break;
+            }
+        }
+
+        private void Run()
         {
             while (true)
             {
-                Console.WriteLine(_flashcardSet.VocabularyInformation);
-                Console.WriteLine(_flashcardSet.FlashcardInformation);
-                Console.WriteLine();
-
                 var flashcard = _flashcardSet.GetRandomFlashcard();
 
                 if (flashcard == null)
                 {
-                    Utility.WriteGreenLine("Congratulations! You have practiced everything for the moment!");
+                    Utility.WriteGreenLine("Congratulations! There is nothing else to practice.");
                     Console.WriteLine();
                     Console.Write("Press enter to continue...");
                     Console.ReadLine();
@@ -42,7 +114,7 @@ namespace VocabularyTrainer2.Source
                     break;
                 }
 
-                Console.Write($"Translate to German '{flashcard.AskQuestion()}': ");
+                Console.Write($"Answer question '{flashcard.AskQuestion()}': ");
                 var answer = Utility.ReadLine();
 
                 var (isCorrect, correctAnswer) = flashcard.AnswerQuestion(answer);
@@ -61,12 +133,6 @@ namespace VocabularyTrainer2.Source
 
                 _flashcardSet.SaveToFileAsJson();
             }
-        }
-
-        private void DownloadSheets()
-        {
-            foreach (var sheetName in Config.Instance.SpreadsheetNames)
-                _sheetsDownloader.Download(Config.Instance.SpreadsheetKey, sheetName, $"Data/{sheetName}.csv");
         }
     }
 }

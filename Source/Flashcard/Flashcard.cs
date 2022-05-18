@@ -43,7 +43,7 @@ namespace VocabularyTrainer2.Source.Flashcard
         public int ParentId { get; set; }
         public FlashcardType Type { get; set; }
         public DateTime LastTrainingTime { get; set; } = DateTime.Now;
-        public TimeSpan Cooldown { get; set; } = TimeSpan.FromDays(1);
+        public TimeSpan Cooldown { get; set; } = TimeSpan.FromHours(Config.Instance.InitialFlashcardCooldownInHours);
         public List<Result> Results { get; set; } = new List<Result>();
         public List<string> Questions { get; set; }
         public List<string> Answers { get; set; }
@@ -57,13 +57,13 @@ namespace VocabularyTrainer2.Source.Flashcard
         public Flashcard(int parentId, FlashcardType type, List<string> questions, List<string> answers)
         {
             if (questions.Count == 0)
-                throw new ArgumentException("questions needs to have at least 1 element.", nameof(questions));
+                throw new ArgumentException("Questions should have at least 1 element.");
 
             if (answers.Count == 0)
-                throw new ArgumentException("answers needs to have at least 1 element.", nameof(answers));
+                throw new ArgumentException("Answers should have at least 1 element.");
 
             if (questions.Count != answers.Count)
-                throw new Exception("questions and answers need to have the same amount of elements.");
+                throw new Exception("Questions and answers should have the same amount of elements.");
 
             ParentId = parentId;
             Type = type;
@@ -97,6 +97,6 @@ namespace VocabularyTrainer2.Source.Flashcard
 
         public string AskQuestion() => Questions[_index];
 
-        public string ComputeHash() => Utility.ComputeHash($"{string.Join("", Questions)}{string.Join("", Answers)}");
+        public string Hash() => (string.Join("", Questions) + string.Join("", Answers)).Hash();
     }
 }

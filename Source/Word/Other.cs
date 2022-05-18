@@ -9,17 +9,19 @@ namespace VocabularyTrainer2.Source.Word
         public int Id { get; }
         public string Question { get; }
         public string Answer { get; }
+        public string? Bonus { get; }
 
-        public Other(int id, string question, string answer)
+        public Other(int id, string question, string answer, string? bonus = null)
         {
             Id = id;
             Question = question;
             Answer = answer;
+            Bonus = bonus;
         }
 
-        public static List<Other> ReadAllFromCsvFile(string fileName)
+        public static List<Other> ReadAllFromCsvFile()
         {
-            using var streamReader = new StreamReader(fileName);
+            using var streamReader = new StreamReader(Config.Instance.OthersCsvFilePath);
             using var csvReader = new CsvReader(streamReader, CultureInfo.InvariantCulture);
 
             csvReader.Read();

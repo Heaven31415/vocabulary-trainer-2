@@ -71,7 +71,7 @@ namespace VocabularyTrainer2.Source.Word
             return verbEndings;
         }
 
-        // A bug that appens only for verbs like 'sich anziehen'
+        // A bug that happens only for verbs like 'sich anziehen'
         private static VerbEndings FixImperativeEndingsBug(string infinitive, int controlCodeDigit, string mobileTitle)
         {
             var incompleteInfinitive = infinitive.Split(' ')[1];
@@ -99,7 +99,7 @@ namespace VocabularyTrainer2.Source.Word
             return verbEndings;
         }
 
-        // A bug that appens only for verbs like 'sich anziehen'
+        // A bug that happens only for verbs like 'sich anziehen'
         private static void FixSeparablePrefixBug(VerbEndings verbEndings)
         {
             if (verbEndings[Verb.PersonalPronoun.FirstSingular].Split(' ').Length != 4)
@@ -112,8 +112,11 @@ namespace VocabularyTrainer2.Source.Word
             }
         }
 
-        public static List<VerbEndings> Download(string infinitive, int controlCode)
+        public static List<VerbEndings>? Download(string infinitive, int controlCode)
         {
+            if (!Config.Instance.OnlineMode)
+                return null;
+
             var document = DownloadDocument(infinitive);
 
             var allVerbEndings = new List<VerbEndings>

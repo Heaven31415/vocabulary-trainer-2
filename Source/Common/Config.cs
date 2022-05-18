@@ -24,7 +24,7 @@ namespace VocabularyTrainer2.Source.Common
                         var config = JsonSerializer.Deserialize<Config>(json);
 
                         if (config == null)
-                            throw new IOException($"{FileName} contains invalid content. Unable to deserialize it.");
+                            throw new IOException($"File '{FileName}' contains invalid content. Unable to deserialize it.");
 
                         _instance = config;
                     }
@@ -46,7 +46,9 @@ namespace VocabularyTrainer2.Source.Common
         public readonly string UserCredentialDirectoryPath = "User";
 
         // User Configurable Properties
+        public bool OnlineMode { get; set; } = true;
         public string VerbEndingsUrl { get; set; } = "https://conjugator.reverso.net/conjugation-german-verb";
+        public int InitialFlashcardCooldownInHours { get; set; } = 24;
         public int MinimalFlashcardCooldownInDays { get; set; } = 1;
         public int MaximalFlashcardCooldownInDays { get; set; } = 32;
         public string SpreadsheetKey { get; set; } = "1eP9-mlyuen3XezQn79EuPTQMMsponFWxlCxzK5qllMY";

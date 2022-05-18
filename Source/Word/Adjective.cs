@@ -9,10 +9,11 @@ namespace VocabularyTrainer2.Source.Word
         public int Id { get; }
         public string Description { get; }
         public string PositiveDegree { get; }
-        public string? ComparativeDegree { get; } = null;
-        public string? SuperlativeDegree { get; } = null;
+        public string? ComparativeDegree { get; }
+        public string? SuperlativeDegree { get; }
+        public string? Bonus { get; }
 
-        public Adjective(int id, string description, string positiveDegree, string? comparativeDegree, string? superlativeDegree)
+        public Adjective(int id, string description, string positiveDegree, string? comparativeDegree, string? superlativeDegree, string? bonus = null)
         {
             Id = id;
             Description = description;
@@ -23,11 +24,12 @@ namespace VocabularyTrainer2.Source.Word
             PositiveDegree = positiveDegree;
             ComparativeDegree = comparativeDegree;
             SuperlativeDegree = superlativeDegree;
+            Bonus = bonus;
         }
 
-        public static List<Adjective> ReadAllFromCsvFile(string fileName)
+        public static List<Adjective> ReadAllFromCsvFile()
         {
-            using var streamReader = new StreamReader(fileName);
+            using var streamReader = new StreamReader(Config.Instance.AdjectivesCsvFilePath);
             using var csvReader = new CsvReader(streamReader, CultureInfo.InvariantCulture);
 
             csvReader.Read();

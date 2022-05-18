@@ -24,8 +24,9 @@ namespace VocabularyTrainer2.Source.Word
         public VerbEndings SimplePast { get; }
         public VerbEndings Perfekt { get; }
         public VerbEndings Imperative { get; }
+        public string? Bonus { get; }
 
-        public Verb(int id, string description, List<VerbEndings> endings)
+        public Verb(int id, string description, List<VerbEndings> endings, string? bonus = null)
         {
             Id = id;
             Description = description;
@@ -37,11 +38,12 @@ namespace VocabularyTrainer2.Source.Word
             SimplePast = endings[1];
             Perfekt = endings[2];
             Imperative = endings[3];
+            Bonus = bonus;
         }
 
-        public static List<Verb> ReadAllFromCsvFile(string fileName, VerbEndingsCache cache)
+        public static List<Verb> ReadAllFromCsvFile(VerbEndingsCache cache)
         {
-            using var streamReader = new StreamReader(fileName);
+            using var streamReader = new StreamReader(Config.Instance.VerbsCsvFilePath);
             using var csvReader = new CsvReader(streamReader, CultureInfo.InvariantCulture);
 
             csvReader.Read();
@@ -64,7 +66,8 @@ namespace VocabularyTrainer2.Source.Word
 
                 var allVerbEndings = cache.Get(infinitive, controlCode.Length == 0 ? 1111 : int.Parse(controlCode));
 
-                verbs.Add(new Verb(id, description, allVerbEndings));
+                if (allVerbEndings != null)
+                    verbs.Add(new Verb(id, description, allVerbEndings));
             }
 
             return verbs;
