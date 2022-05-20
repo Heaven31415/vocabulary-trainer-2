@@ -80,12 +80,15 @@ namespace VocabularyTrainer2.Source
                                 }
                             }
 
-                            var pct = 100.0 * successfulResults / results;
+                            var pct = 0.0;
+
+                            if (results != 0)
+                                pct = 100.0 * successfulResults / results;
 
                             Console.WriteLine("Results: ");
                             Console.WriteLine($"  All: {results}");
                             Console.WriteLine($"  Successful: {successfulResults} ({pct:0.00}%)");
-                                
+
                             break;
                         default:
                             Utility.WriteRedLine($"Invalid option: '{args[0]}'");
@@ -126,6 +129,14 @@ namespace VocabularyTrainer2.Source
                 else
                     Utility.WriteRedLine($"Incorrect! The correct answer is: '{correctAnswer}'.");
 
+                var bonus = FindFlashcardBonus(flashcard);
+
+                if (bonus != null)
+                {
+                    Console.WriteLine();
+                    Console.WriteLine($"Additional information: {bonus}");
+                }
+
                 Console.WriteLine();
                 Console.Write("Press enter to continue...");
                 Console.ReadLine();
@@ -133,6 +144,18 @@ namespace VocabularyTrainer2.Source
 
                 _flashcardSet.SaveToFileAsJson();
             }
+        }
+
+        private string? FindFlashcardBonus(Flashcard.Flashcard flashcard)
+        {
+            return (flashcard.ParentId % 10) switch
+            {
+                0 => _adjectives.Find(a => a.Id == flashcard.ParentId)?.Bonus,
+                1 => _nouns.Find(n => n.Id == flashcard.ParentId)?.Bonus,
+                2 => _others.Find(o => o.Id == flashcard.ParentId)?.Bonus,
+                3 => _verbs.Find(v => v.Id == flashcard.ParentId)?.Bonus,
+                _ => throw new Exception("Unknown type of object. Unable to find flashcard bonus."),
+            };
         }
     }
 }

@@ -13,7 +13,7 @@ namespace VocabularyTrainer2.Source.Word
         public string? SuperlativeDegree { get; }
         public string? Bonus { get; }
 
-        public Adjective(int id, string description, string positiveDegree, string? comparativeDegree, string? superlativeDegree, string? bonus = null)
+        public Adjective(int id, string description, string positiveDegree, string? comparativeDegree, string? superlativeDegree, string? bonus)
         {
             Id = id;
             Description = description;
@@ -39,15 +39,14 @@ namespace VocabularyTrainer2.Source.Word
 
             for (var id = 0; csvReader.Read(); id += 10)
             {
-                if (!csvReader.GetField<bool>(0)) 
+                if (!csvReader.GetField<bool>(0))
                     continue;
 
                 var description = csvReader.GetField<string>(1);
                 var positiveDegree = csvReader.GetField<string>(2);
                 var comparativeDegree = csvReader.GetField<string>(3);
                 var superlativeDegree = csvReader.GetField<string>(4);
-
-                var degrees = new List<string> { positiveDegree };
+                var bonus = csvReader.GetField<string>(5);
 
                 ValidateDescription(description);
                 ValidatePositiveDegree(positiveDegree);
@@ -60,7 +59,10 @@ namespace VocabularyTrainer2.Source.Word
                 if (superlativeDegree.Length == 0)
                     superlativeDegree = null;
 
-                adjectives.Add(new Adjective(id, description, positiveDegree, comparativeDegree, superlativeDegree));
+                if (bonus.Length == 0)
+                    bonus = null;
+
+                adjectives.Add(new Adjective(id, description, positiveDegree, comparativeDegree, superlativeDegree, bonus));
             }
 
             return adjectives;
@@ -70,6 +72,9 @@ namespace VocabularyTrainer2.Source.Word
         {
             if (description.Length == 0)
                 throw new ArgumentException("Adjective description cannot be empty.");
+
+            if (!description.IsLower())
+                throw new ArgumentException("Adjective description needs to be lowercase.");
         }
 
         private static void ValidatePositiveDegree(string positiveDegree)

@@ -1,7 +1,7 @@
 {
   "OnlineMode": true,
   "VerbEndingsUrl": "https://conjugator.reverso.net/conjugation-german-verb",
-  "InitialFlashcardCooldownInHours": 24,
+  "InitialFlashcardCooldownInHours": 12,
   "MinimalFlashcardCooldownInDays": 1,
   "MaximalFlashcardCooldownInDays": 32,
   "SpreadsheetKey": "1eP9-mlyuen3XezQn79EuPTQMMsponFWxlCxzK5qllMY",

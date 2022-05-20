@@ -12,7 +12,7 @@ namespace VocabularyTrainer2.Source.Word
         public string? PluralForm { get; }
         public string? Bonus { get; }
 
-        public Noun(int id, string description, string? singularForm, string? pluralForm, string? bonus = null)
+        public Noun(int id, string description, string? singularForm, string? pluralForm, string? bonus)
         {
             Id = id;
             Description = description;
@@ -37,12 +37,13 @@ namespace VocabularyTrainer2.Source.Word
 
             for (var id = 1; csvReader.Read(); id += 10)
             {
-                if (!csvReader.GetField<bool>(0)) 
+                if (!csvReader.GetField<bool>(0))
                     continue;
 
                 var description = csvReader.GetField<string>(1);
                 var singularForm = csvReader.GetField<string>(2);
                 var pluralForm = csvReader.GetField<string>(3);
+                var bonus = csvReader.GetField<string>(4);
 
                 ValidateDescription(description);
                 ValidateSingularForm(singularForm);
@@ -54,7 +55,10 @@ namespace VocabularyTrainer2.Source.Word
                 if (pluralForm.Length == 0)
                     pluralForm = null;
 
-                nouns.Add(new Noun(id, description, singularForm, pluralForm));
+                if (bonus.Length == 0)
+                    bonus = null;
+
+                nouns.Add(new Noun(id, description, singularForm, pluralForm, bonus));
             }
 
             return nouns;

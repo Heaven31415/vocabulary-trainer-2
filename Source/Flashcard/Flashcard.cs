@@ -30,8 +30,8 @@ namespace VocabularyTrainer2.Source.Flashcard
 
         public class Result
         {
-            public bool IsSuccessful { get; set; }
-            public DateTime Time { get; set; }
+            public bool IsSuccessful { get; }
+            public DateTime Time { get; }
 
             public Result(bool isSuccessful, DateTime time)
             {
@@ -40,11 +40,11 @@ namespace VocabularyTrainer2.Source.Flashcard
             }
         }
 
-        public int ParentId { get; set; }
-        public FlashcardType Type { get; set; }
-        public DateTime LastTrainingTime { get; set; } = DateTime.Now;
-        public TimeSpan Cooldown { get; set; } = TimeSpan.FromHours(Config.Instance.InitialFlashcardCooldownInHours);
-        public List<Result> Results { get; set; } = new List<Result>();
+        public int ParentId { get; }
+        public FlashcardType Type { get; }
+        public List<Result> Results { get; } = new List<Result>();
+        public DateTime LastTrainingTime { get; set; }
+        public TimeSpan Cooldown { get; set; }
         public List<string> Questions { get; set; }
         public List<string> Answers { get; set; }
 
@@ -67,6 +67,8 @@ namespace VocabularyTrainer2.Source.Flashcard
 
             ParentId = parentId;
             Type = type;
+            LastTrainingTime = DateTime.Now - TimeSpan.FromDays(1) + TimeSpan.FromHours(Config.Instance.InitialFlashcardCooldownInHours);
+            Cooldown = TimeSpan.FromDays(1);
             Questions = questions;
             Answers = answers;
 
@@ -83,11 +85,8 @@ namespace VocabularyTrainer2.Source.Flashcard
 
             if (isCorrect && Cooldown.Days < Config.Instance.MaximalFlashcardCooldownInDays)
                 Cooldown *= 2;
-            else
-            {
-                if (Cooldown.Days > Config.Instance.MinimalFlashcardCooldownInDays)
-                    Cooldown /= 2;
-            }
+            else if (Cooldown.Days > Config.Instance.MinimalFlashcardCooldownInDays)
+                Cooldown /= 2;
 
             var correctAnswer = Answers[_index];
             _index = _random.Next(0, Questions.Count);

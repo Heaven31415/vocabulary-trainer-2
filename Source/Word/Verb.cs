@@ -26,7 +26,7 @@ namespace VocabularyTrainer2.Source.Word
         public VerbEndings Imperative { get; }
         public string? Bonus { get; }
 
-        public Verb(int id, string description, List<VerbEndings> endings, string? bonus = null)
+        public Verb(int id, string description, List<VerbEndings> endings, string? bonus)
         {
             Id = id;
             Description = description;
@@ -59,15 +59,19 @@ namespace VocabularyTrainer2.Source.Word
                 var description = csvReader.GetField<string>(1);
                 var infinitive = csvReader.GetField<string>(2);
                 var controlCode = csvReader.GetField<string>(3);
+                var bonus = csvReader.GetField<string>(4);
 
                 ValidateDescription(description);
                 ValidateInfinitive(infinitive);
                 ValidateControlCode(controlCode);
 
+                if (bonus.Length == 0)
+                    bonus = null;
+
                 var allVerbEndings = cache.Get(infinitive, controlCode.Length == 0 ? 1111 : int.Parse(controlCode));
 
                 if (allVerbEndings != null)
-                    verbs.Add(new Verb(id, description, allVerbEndings));
+                    verbs.Add(new Verb(id, description, allVerbEndings, bonus));
             }
 
             return verbs;
@@ -77,6 +81,9 @@ namespace VocabularyTrainer2.Source.Word
         {
             if (description.Length == 0)
                 throw new ArgumentException("Verb description cannot be empty.");
+
+            if (!description.IsLower())
+                throw new ArgumentException("Verb description needs to be lowercase.");
         }
 
         private static void ValidateInfinitive(string infinitive)

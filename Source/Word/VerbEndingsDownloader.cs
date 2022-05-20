@@ -81,7 +81,8 @@ namespace VocabularyTrainer2.Source.Word
 
             foreach (var key in verbEndings.Keys)
             {
-                var missingPiece = key switch {
+                var missingPiece = key switch
+                {
                     Verb.PersonalPronoun.SecondSingular => "dich",
                     Verb.PersonalPronoun.SecondPlural => "euch",
                     Verb.PersonalPronoun.ThirdPlural => "sich",

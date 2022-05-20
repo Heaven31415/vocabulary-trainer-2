@@ -11,7 +11,7 @@ namespace VocabularyTrainer2.Source.Word
         public string Answer { get; }
         public string? Bonus { get; }
 
-        public Other(int id, string question, string answer, string? bonus = null)
+        public Other(int id, string question, string answer, string? bonus)
         {
             Id = id;
             Question = question;
@@ -36,11 +36,15 @@ namespace VocabularyTrainer2.Source.Word
 
                 var question = csvReader.GetField<string>(1);
                 var answer = csvReader.GetField<string>(2);
+                var bonus = csvReader.GetField<string>(3);
 
                 ValidateQuestion(question);
                 ValidateAnswer(answer);
 
-                others.Add(new Other(id, question, answer));
+                if (bonus.Length == 0)
+                    bonus = null;
+
+                others.Add(new Other(id, question, answer, bonus));
             }
 
             return others;
