@@ -35,16 +35,6 @@ namespace VocabularyTrainer2.Source.Common
             Console.ResetColor();
         }
 
-        public static string ReadLine()
-        {
-            var line = Console.ReadLine();
-
-            if (line == null)
-                throw new IOException("Unable to read line from standard input.");
-
-            return line;
-        }
-
         public static void SaveToFileAsJson<T>(string fileName, T data)
         {
             var json = JsonSerializer.Serialize(data, new JsonSerializerOptions

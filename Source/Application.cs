@@ -118,7 +118,13 @@ namespace VocabularyTrainer2.Source
                 }
 
                 Console.Write($"Answer question '{flashcard.AskQuestion()}': ");
-                var answer = Utility.ReadLine();
+                var answer = Console.ReadLine();
+
+                if (answer == null)
+                {
+                    _flashcardSet.SaveToFileAsJson();
+                    break;
+                }
 
                 var (isCorrect, correctAnswer) = flashcard.AnswerQuestion(answer);
 

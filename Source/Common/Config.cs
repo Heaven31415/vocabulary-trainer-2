@@ -48,7 +48,7 @@ namespace VocabularyTrainer2.Source.Common
         // User Configurable Properties
         public bool OnlineMode { get; set; } = true;
         public string VerbEndingsUrl { get; set; } = "https://conjugator.reverso.net/conjugation-german-verb";
-        public int InitialFlashcardCooldownInHours { get; set; } = 24;
+        public int InitialFlashcardCooldownInHours { get; set; } = 12;
         public int MinimalFlashcardCooldownInDays { get; set; } = 1;
         public int MaximalFlashcardCooldownInDays { get; set; } = 32;
         public string SpreadsheetKey { get; set; } = "1eP9-mlyuen3XezQn79EuPTQMMsponFWxlCxzK5qllMY";
