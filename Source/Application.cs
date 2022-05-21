@@ -121,12 +121,11 @@ namespace VocabularyTrainer2.Source
                 var answer = Console.ReadLine();
 
                 if (answer == null)
-                {
-                    _flashcardSet.SaveToFileAsJson();
                     break;
-                }
 
                 var (isCorrect, correctAnswer) = flashcard.AnswerQuestion(answer);
+
+                _flashcardSet.SaveToFileAsJson();
 
                 Console.WriteLine();
 
@@ -147,8 +146,6 @@ namespace VocabularyTrainer2.Source
                 Console.Write("Press enter to continue...");
                 Console.ReadLine();
                 Console.Clear();
-
-                _flashcardSet.SaveToFileAsJson();
             }
         }
 
