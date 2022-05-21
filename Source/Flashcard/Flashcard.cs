@@ -42,7 +42,7 @@ namespace VocabularyTrainer2.Source.Flashcard
 
         public int ParentId { get; }
         public FlashcardType Type { get; }
-        public List<Result> Results { get; } = new List<Result>();
+        public List<Result> Results { get; set; } = new List<Result>();
         public DateTime LastTrainingTime { get; set; }
         public TimeSpan Cooldown { get; set; }
         public List<string> Questions { get; set; }
