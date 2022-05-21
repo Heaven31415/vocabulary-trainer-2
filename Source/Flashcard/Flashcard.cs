@@ -85,7 +85,7 @@ namespace VocabularyTrainer2.Source.Flashcard
 
             if (isCorrect && Cooldown.Days < Config.Instance.MaximalFlashcardCooldownInDays)
                 Cooldown *= 2;
-            else if (Cooldown.Days > Config.Instance.MinimalFlashcardCooldownInDays)
+            else if (!isCorrect && Cooldown.Days > Config.Instance.MinimalFlashcardCooldownInDays)
                 Cooldown /= 2;
 
             var correctAnswer = Answers[_index];
