@@ -21,13 +21,13 @@ namespace VocabularyTrainer2.Source.Word
             var node = document.DocumentNode.SelectSingleNode(xpath);
 
             if (node == null)
-                throw new Exception($"Unable to find '{xpath}' verb endings for '{infinitive}'.");
+                throw new Exception($"Unable to find '{mobileTitle}' verb endings for '{infinitive}'.");
 
             var offset = 6 * (controlCodeDigit - 1); // 0 or 6
             var endingsCount = node.ChildNodes.Count;
 
             if (endingsCount != 6 && endingsCount != 12)
-                throw new Exception($"Invalid amount of '{xpath}' verb endings for '{infinitive}'. Expected 6 or 12, got {endingsCount}.");
+                throw new Exception($"Invalid amount of '{mobileTitle}' verb endings for '{infinitive}'. Expected 6 or 12, got {endingsCount}.");
 
             var verbEndings = new VerbEndings();
 
@@ -52,7 +52,7 @@ namespace VocabularyTrainer2.Source.Word
             var endingsCount = node.ChildNodes.Count;
 
             if (endingsCount != 4 && endingsCount != 8)
-                throw new Exception($"Invalid amount of '{xpath}' verb endings for '{infinitive}'. Expected 4 or 8, got {endingsCount}.");
+                throw new Exception($"Invalid amount of '{mobileTitle}' verb endings for '{infinitive}'. Expected 4 or 8, got {endingsCount}.");
 
             var verbEndings = new VerbEndings();
 
