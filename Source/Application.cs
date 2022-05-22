@@ -46,49 +46,12 @@ namespace VocabularyTrainer2.Source
                     {
                         case "-c":
                         case "--clear-cache":
-                            File.Delete(Config.Instance.VerbEndingsCacheFilePath);
+                            ClearCache();
                             break;
 
                         case "-s":
                         case "--stats":
-                            Console.WriteLine("Vocabulary:");
-                            Console.WriteLine($"  Adjectives: {_adjectives.Count}");
-                            Console.WriteLine($"  Nouns: {_nouns.Count}");
-                            Console.WriteLine($"  Others: {_others.Count}");
-                            Console.WriteLine($"  Verbs: {_verbs.Count}");
-
-                            var flashcards = _flashcardSet.Flashcards;
-                            var available = flashcards.FindAll(f => f.IsAvailable()).Count;
-                            var availableAtDaysEnd = flashcards.FindAll(f => f.IsAvailableAtDaysEnd()).Count;
-
-                            Console.WriteLine("Flashcards: ");
-                            Console.WriteLine($"  All: {flashcards.Count}");
-                            Console.WriteLine($"  Available: {available}");
-                            Console.WriteLine($"  Available at days end: {availableAtDaysEnd}");
-
-                            var results = 0;
-                            var successfulResults = 0;
-
-                            foreach (var f in flashcards)
-                            {
-                                foreach (var r in f.Results)
-                                {
-                                    results++;
-
-                                    if (r.IsSuccessful)
-                                        successfulResults++;
-                                }
-                            }
-
-                            var pct = 0.0;
-
-                            if (results != 0)
-                                pct = 100.0 * successfulResults / results;
-
-                            Console.WriteLine("Results: ");
-                            Console.WriteLine($"  All: {results}");
-                            Console.WriteLine($"  Successful: {successfulResults} ({pct:0.00}%)");
-
+                            Stats();
                             break;
                         default:
                             Utility.WriteRedLine($"Invalid option: '{args[0]}'");
@@ -159,6 +122,105 @@ namespace VocabularyTrainer2.Source
                 3 => _verbs.Find(v => v.Id == flashcard.ParentId)?.Bonus,
                 _ => throw new Exception("Unknown type of object. Unable to find flashcard bonus."),
             };
+        }
+
+        private void ClearCache()
+        {
+            File.Delete(Config.Instance.VerbEndingsCacheFilePath);
+        }
+
+        private void Stats()
+        {
+            Utility.WriteGreenLine("Vocabulary:");
+            Console.WriteLine($"  Adjectives: {_adjectives.Count}");
+            Console.WriteLine($"  Nouns: {_nouns.Count}");
+            Console.WriteLine($"  Others: {_others.Count}");
+            Console.WriteLine($"  Verbs: {_verbs.Count}");
+
+            var flashcards = _flashcardSet.Flashcards;
+            var available = flashcards.FindAll(f => f.IsAvailable()).Count;
+            var availableAtDaysEnd = flashcards.FindAll(f => f.IsAvailableAtDaysEnd()).Count;
+
+            Utility.WriteGreenLine("Flashcards:");
+            Console.WriteLine($"  All: {flashcards.Count}");
+            Console.WriteLine($"  Available: {available}");
+            Console.WriteLine($"  Available at days end: {availableAtDaysEnd}");
+
+            var answeredLifetime = 0;
+            var successfulLifetime = 0;
+
+            foreach (var f in flashcards)
+            {
+                foreach (var r in f.Results)
+                {
+                    answeredLifetime++;
+
+                    if (r.IsSuccessful)
+                        successfulLifetime++;
+                }
+            }
+
+            var pctLifetime = 0.0;
+
+            if (answeredLifetime != 0)
+                pctLifetime = 100.0 * successfulLifetime / answeredLifetime;
+
+            Utility.WriteGreenLine("Results:");
+            Console.WriteLine("  Lifetime:");
+            Console.WriteLine($"    Answered: {answeredLifetime}");
+            Console.WriteLine($"    Successful: {successfulLifetime} ({pctLifetime:0.00}%)");
+
+            var answeredToday = 0;
+            var successfulToday = 0;
+
+            foreach (var f in flashcards)
+            {
+                foreach (var r in f.Results)
+                {
+                    if (DateTime.Today <= r.Time && r.Time < DateTime.Today.AddDays(1))
+                    {
+                        answeredToday++;
+
+                        if (r.IsSuccessful)
+                            successfulToday++;
+                    }
+                }
+            }
+
+            var pctToday = 0.0;
+
+            if (answeredToday != 0)
+                pctToday = 100.0 * successfulToday / answeredToday;
+
+            Console.WriteLine("  Today:");
+            Console.WriteLine($"    Answered: {answeredToday}");
+            Console.WriteLine($"    Successful: {successfulToday} ({pctToday:0.00}%)");
+            Console.WriteLine("  Yesterday:");
+
+            var answeredYesterday = 0;
+            var successfulYesterday = 0;
+
+            foreach (var f in flashcards)
+            {
+                foreach (var r in f.Results)
+                {
+                    if (DateTime.Today.AddDays(-1) <= r.Time && r.Time < DateTime.Today)
+                    {
+                        answeredYesterday++;
+
+                        if (r.IsSuccessful)
+                            successfulYesterday++;
+                    }
+                }
+            }
+
+            var pctYesterday = 0.0;
+
+            if (answeredYesterday != 0)
+                pctYesterday = 100.0 * successfulYesterday / answeredYesterday;
+
+            Console.WriteLine($"    Answered: {answeredYesterday}");
+            Console.WriteLine($"    Successful: {successfulYesterday} ({pctYesterday:0.00}%)");
         }
     }
 }
