@@ -26,8 +26,8 @@ namespace VocabularyTrainer2.Source.Word
             var offset = 6 * (controlCodeDigit - 1); // 0 or 6
             var endingsCount = node.ChildNodes.Count;
 
-            if (controlCodeDigit == 1 && endingsCount != 6)
-                throw new Exception($"Invalid amount of '{mobileTitle}' verb endings for '{infinitive}'. Expected 6, got {endingsCount}.");
+            if (controlCodeDigit == 1 && endingsCount != 6 && endingsCount != 12)
+                throw new Exception($"Invalid amount of '{mobileTitle}' verb endings for '{infinitive}'. Expected 6 or 12, got {endingsCount}.");
 
             if (controlCodeDigit == 2 && endingsCount != 12)
                 throw new Exception($"Invalid amount of '{mobileTitle}' verb endings for '{infinitive}'. Expected 12, got {endingsCount}.");
@@ -54,8 +54,8 @@ namespace VocabularyTrainer2.Source.Word
             var offset = 4 * (controlCodeDigit - 1); // 0 or 4
             var endingsCount = node.ChildNodes.Count;
 
-            if (controlCodeDigit == 1 && endingsCount != 4)
-                throw new Exception($"Invalid amount of '{mobileTitle}' verb endings for '{infinitive}'. Expected 4, got {endingsCount}.");
+            if (controlCodeDigit == 1 && endingsCount != 4 && endingsCount != 8)
+                throw new Exception($"Invalid amount of '{mobileTitle}' verb endings for '{infinitive}'. Expected 4 or 8, got {endingsCount}.");
 
             if (controlCodeDigit == 2 && endingsCount != 8)
                 throw new Exception($"Invalid amount of '{mobileTitle}' verb endings for '{infinitive}'. Expected 8, got {endingsCount}.");
