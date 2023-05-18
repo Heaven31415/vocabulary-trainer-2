@@ -1,7 +1,7 @@
 # Vocabulary Trainer 2
 
 `Vocabulary Trainer 2` is an CLI program that helps you to learn German
-vocabulary in more efficient manner by applying a simple spaced repetition algorithm
+vocabulary in more efficient manner by applying a simple spaced repetition algorithm.
 
 ## How does the spaced repetition algorithm works?
 
