@@ -58,16 +58,43 @@ namespace VocabularyTrainer2.Source
                             break;
                     }
                     break;
+                case 2:
+                    switch (args[0])
+                    {
+                        case "-l":
+                        case "--limit":
+                            if (int.TryParse(args[1], out int limit) && limit > 0)
+                                Run(limit);
+                            else
+                                Utility.WriteRedLine($"Option '{args[0]}' first arg should be a positive int");
+                            break;
+                        default:
+                            Utility.WriteRedLine($"Invalid option: '{args[0]}'");
+                            break;
+                    }
+                    break;
                 default:
                     Utility.WriteRedLine($"Invalid number of arguments: {args.Length}");
                     break;
             }
         }
 
-        private void Run()
+        private void Run(int? limit = null)
         {
+            var counter = 0;
+
             while (true)
             {
+                if (limit != null && limit > 0 && limit == counter)
+                {
+                    Utility.WriteGreenLine($"Congratulations! You have reached your flashcards limit of {limit}.");
+                    Console.WriteLine();
+                    Console.Write("Press enter to continue...");
+                    Console.ReadLine();
+                    Console.Clear();
+                    break;
+                }
+
                 var flashcard = _flashcardSet.GetRandomFlashcard();
 
                 if (flashcard == null)
@@ -104,6 +131,8 @@ namespace VocabularyTrainer2.Source
                     Console.WriteLine();
                     Console.WriteLine($"Additional information: {bonus}");
                 }
+
+                counter++;
 
                 Console.WriteLine();
                 Console.Write("Press enter to continue...");
