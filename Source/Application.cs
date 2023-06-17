@@ -160,6 +160,7 @@ namespace VocabularyTrainer2.Source
 
         private void Stats()
         {
+            // TODO: Refactor this into separate methods, this is getting a little bit too long
             Utility.WriteGreenLine("Vocabulary:");
             Console.WriteLine($"  Adjectives: {_adjectives.Count}");
             Console.WriteLine($"  Nouns: {_nouns.Count}");
@@ -250,6 +251,27 @@ namespace VocabularyTrainer2.Source
 
             Console.WriteLine($"    Answered: {answeredYesterday}");
             Console.WriteLine($"    Successful: {successfulYesterday} ({pctYesterday:0.00}%)");
+
+            var flashcardCooldowns = new Dictionary<TimeSpan, int>();
+
+            foreach (var flashcard in flashcards)
+            {
+                if (flashcardCooldowns.ContainsKey(flashcard.Cooldown))
+                    flashcardCooldowns[flashcard.Cooldown]++;
+                else
+                    flashcardCooldowns[flashcard.Cooldown] = 1;
+            }
+
+            Utility.WriteGreenLine("Cooldowns:");
+
+            foreach (var (cooldown, count) in flashcardCooldowns.OrderBy(item => item.Key))
+            {
+                var days = cooldown.Days;
+                var isPlural = days > 1;
+                var pct = 100.0 * count / flashcards.Count;
+
+                Console.WriteLine($"  {cooldown.Days} {(isPlural ? "days" : "day")}: {count} ({pct:0.00}%)");
+            }
         }
     }
 }
