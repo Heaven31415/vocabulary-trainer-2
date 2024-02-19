@@ -368,3 +368,4 @@ Credentials.json
 Cache/
 Data/
 User/
+deploy.sh

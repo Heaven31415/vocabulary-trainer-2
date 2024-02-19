@@ -50,6 +50,11 @@ The structure of that file should be identical to this:
 5. Create folders `Cache` and `Data` in that same directory
 6. Make sure that the value of `SpreadsheetKey` in `Config.json` is identical to that obtained previously
 
+## Deployment
+
+1. Build the project in release configuration using Visual Studio
+2. Run deployment script with 2 arguments: `./deployment.sh <source-directory> <target-directory>`
+
 ## How does the spaced repetition algorithm works?
 
 Every added word is converted into a set of flashcards. Every flashcard has a
