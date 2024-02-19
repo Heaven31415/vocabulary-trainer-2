@@ -81,6 +81,8 @@ namespace VocabularyTrainer2.Source
 
         private void Run(int? limit = null)
         {
+            Console.Clear();
+
             var counter = 0;
 
             while (true)
