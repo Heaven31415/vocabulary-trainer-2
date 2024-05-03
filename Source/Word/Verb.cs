@@ -81,9 +81,6 @@ namespace VocabularyTrainer2.Source.Word
         {
             if (description.Length == 0)
                 throw new ArgumentException("Verb description cannot be empty.");
-
-            if (!description.IsLower())
-                throw new ArgumentException("Verb description needs to be lowercase.");
         }
 
         private static void ValidateInfinitive(string infinitive)
