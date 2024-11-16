@@ -51,8 +51,7 @@ namespace VocabularyTrainer2.Source.Flashcard
         private readonly static Random _random = new();
         private int _index;
 
-        public bool IsAvailable() => DateTime.Now > LastTrainingTime.Add(Cooldown);
-        public bool IsAvailableAtDaysEnd() => DateTime.Today.AddDays(1) > LastTrainingTime.Add(Cooldown);
+        public bool IsAvailable(DateTime? dateTime = null) => (dateTime != null ? dateTime : DateTime.Now) > LastTrainingTime.Add(Cooldown);
 
         public Flashcard(int parentId, FlashcardType type, List<string> questions, List<string> answers)
         {

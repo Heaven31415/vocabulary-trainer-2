@@ -1,5 +1,6 @@
 ﻿using System.Text;
 using VocabularyTrainer2.Source.Common;
+using VocabularyTrainer2.Source.Common.Statistics;
 using VocabularyTrainer2.Source.Flashcard;
 using VocabularyTrainer2.Source.Word;
 
@@ -51,7 +52,7 @@ namespace VocabularyTrainer2.Source
 
                         case "-s":
                         case "--stats":
-                            Stats();
+                            DisplayStatistics();
                             break;
                         default:
                             Utility.WriteRedLine($"Invalid option: '{args[0]}'");
@@ -155,125 +156,67 @@ namespace VocabularyTrainer2.Source
             };
         }
 
-        private void ClearCache()
+        private static void ClearCache()
         {
             File.Delete(Config.Instance.VerbEndingsCacheFilePath);
         }
 
-        private void Stats()
+        private void DisplayStatistics()
         {
-            // TODO: Refactor this into separate methods, this is getting a little bit too long
-            Utility.WriteGreenLine("Vocabulary:");
-            Console.WriteLine($"  Adjectives: {_adjectives.Count}");
-            Console.WriteLine($"  Nouns: {_nouns.Count}");
-            Console.WriteLine($"  Others: {_others.Count}");
-            Console.WriteLine($"  Verbs: {_verbs.Count}");
+            var statistics = new Statistics(_adjectives, _nouns, _others, _verbs, _flashcardSet);
 
-            var flashcards = _flashcardSet.Flashcards;
-            var available = flashcards.FindAll(f => f.IsAvailable()).Count;
-            var availableAtDaysEnd = flashcards.FindAll(f => f.IsAvailableAtDaysEnd()).Count;
+            Utility.WriteBlueLine("Vocabulary:");
+            Utility.WriteYellow($"  {"Adjectives:",-11} ");
+            Console.WriteLine($"{statistics.AdjectivesCount,4}");
+            Utility.WriteYellow($"  {"Nouns:",-11} ");
+            Console.WriteLine($"{statistics.NounsCount,4}");
+            Utility.WriteYellow($"  {"Others:",-11} ");
+            Console.WriteLine($"{statistics.OthersCount,4}");
+            Utility.WriteYellow($"  {"Verbs:",-11} ");
+            Console.WriteLine($"{statistics.VerbsCount,4}");
+            Utility.WriteYellow($"  {"Total:",-11} ");
+            Console.WriteLine($"{statistics.VocabularyCount,4}");
 
-            Utility.WriteGreenLine("Flashcards:");
-            Console.WriteLine($"  All: {flashcards.Count}");
-            Console.WriteLine($"  Available: {available}");
-            Console.WriteLine($"  Available at days end: {availableAtDaysEnd}");
+            Utility.WriteBlueLine("Flashcards:");
+            Utility.WriteYellow($"  {"Available (now):",-26}");
+            Console.WriteLine($"{statistics.FlashcardsAvailableNow,5}");
+            Utility.WriteYellow($"  {"Available (next 24 hours):",-26}");
+            Console.WriteLine($"{statistics.FlashcardsAvailableNext24Hours,5}");
+            Utility.WriteYellow($"  {"Available (next 7 days):",-26}");
+            Console.WriteLine($"{statistics.FlashcardsAvailableNext7Days,5}");
+            Utility.WriteYellow($"  {"All:",-26}");
+            Console.WriteLine($"{statistics.FlashcardsCount,5}");
 
-            var answeredLifetime = 0;
-            var successfulLifetime = 0;
+            Utility.WriteBlueLine("Results:");
+            ShowFlashcardsStatistics("  Today:", statistics.FlashcardsToday);
+            ShowFlashcardsStatistics("  Last 7 days:", statistics.FlashcardsLast7Days);
+            ShowFlashcardsStatistics("  Last 30 days:", statistics.FlashcardsLast30Days);
+            ShowFlashcardsStatistics("  Lifetime:", statistics.FlashcardsLifetime);
 
-            foreach (var f in flashcards)
+            Utility.WriteBlueLine("Cooldowns:");
+            foreach (var cooldown in statistics.FlashcardsCooldowns.Keys.OrderBy(item => item))
             {
-                foreach (var r in f.Results)
-                {
-                    answeredLifetime++;
+                var count = statistics.FlashcardsCooldowns[cooldown];
+                var percentage = statistics.FlashcardsCooldownsPercentages[cooldown];
+                var days = cooldown.Days > 1 ? "days" : "day";
 
-                    if (r.IsSuccessful)
-                        successfulLifetime++;
-                }
+                Utility.WriteYellow($"  {cooldown.Days,3} {days,4}:");
+                Console.WriteLine($"{count,4} ({percentage:00.00}%)");
             }
+        }
 
-            var pctLifetime = 0.0;
-
-            if (answeredLifetime != 0)
-                pctLifetime = 100.0 * successfulLifetime / answeredLifetime;
-
-            Utility.WriteGreenLine("Results:");
-            Console.WriteLine("  Lifetime:");
-            Console.WriteLine($"    Answered: {answeredLifetime}");
-            Console.WriteLine($"    Successful: {successfulLifetime} ({pctLifetime:0.00}%)");
-
-            var answeredToday = 0;
-            var successfulToday = 0;
-
-            foreach (var f in flashcards)
-            {
-                foreach (var r in f.Results)
-                {
-                    if (DateTime.Today <= r.Time && r.Time < DateTime.Today.AddDays(1))
-                    {
-                        answeredToday++;
-
-                        if (r.IsSuccessful)
-                            successfulToday++;
-                    }
-                }
-            }
-
-            var pctToday = 0.0;
-
-            if (answeredToday != 0)
-                pctToday = 100.0 * successfulToday / answeredToday;
-
-            Console.WriteLine("  Today:");
-            Console.WriteLine($"    Answered: {answeredToday}");
-            Console.WriteLine($"    Successful: {successfulToday} ({pctToday:0.00}%)");
-            Console.WriteLine("  Yesterday:");
-
-            var answeredYesterday = 0;
-            var successfulYesterday = 0;
-
-            foreach (var f in flashcards)
-            {
-                foreach (var r in f.Results)
-                {
-                    if (DateTime.Today.AddDays(-1) <= r.Time && r.Time < DateTime.Today)
-                    {
-                        answeredYesterday++;
-
-                        if (r.IsSuccessful)
-                            successfulYesterday++;
-                    }
-                }
-            }
-
-            var pctYesterday = 0.0;
-
-            if (answeredYesterday != 0)
-                pctYesterday = 100.0 * successfulYesterday / answeredYesterday;
-
-            Console.WriteLine($"    Answered: {answeredYesterday}");
-            Console.WriteLine($"    Successful: {successfulYesterday} ({pctYesterday:0.00}%)");
-
-            var flashcardCooldowns = new Dictionary<TimeSpan, int>();
-
-            foreach (var flashcard in flashcards)
-            {
-                if (flashcardCooldowns.ContainsKey(flashcard.Cooldown))
-                    flashcardCooldowns[flashcard.Cooldown]++;
-                else
-                    flashcardCooldowns[flashcard.Cooldown] = 1;
-            }
-
-            Utility.WriteGreenLine("Cooldowns:");
-
-            foreach (var (cooldown, count) in flashcardCooldowns.OrderBy(item => item.Key))
-            {
-                var days = cooldown.Days;
-                var isPlural = days > 1;
-                var pct = 100.0 * count / flashcards.Count;
-
-                Console.WriteLine($"  {cooldown.Days} {(isPlural ? "days" : "day")}: {count} ({pct:0.00}%)");
-            }
+        private static void ShowFlashcardsStatistics(string description, FlashcardsStatistics statistics)
+        {
+            Console.WriteLine(description);
+            Utility.WriteYellow($"    {"Practiced:",-15} ");
+            Console.WriteLine($"{statistics.Practiced,6}");
+            Utility.WriteYellow($"    {"Successfully:",-15} ");
+            Utility.WriteGreen($"{statistics.PracticedSuccessfully,6} ");
+            Console.WriteLine($"({statistics.PracticedSuccessfullyPercentage:00.00}%)");
+            Utility.WriteYellow($"    {"Unsuccessfully:",-15} ");
+            Utility.WriteRed($"{statistics.PracticedUnsuccessfully,6} ");
+            Console.Write($"({statistics.PracticedUnsuccessfullyPercentage:00.00}%)");
+            Console.WriteLine();
         }
     }
 }

@@ -35,6 +35,34 @@ namespace VocabularyTrainer2.Source.Common
             Console.ResetColor();
         }
 
+        public static void WriteBlue(string? value = null)
+        {
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.Write(value);
+            Console.ResetColor();
+        }
+
+        public static void WriteBlueLine(string? value = null)
+        {
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine(value);
+            Console.ResetColor();
+        }
+
+        public static void WriteYellow(string? value = null)
+        {
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.Write(value);
+            Console.ResetColor();
+        }
+
+        public static void WriteYellowLine(string? value = null)
+        {
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine(value);
+            Console.ResetColor();
+        }
+
         public static void SaveToFileAsJson<T>(string fileName, T data)
         {
             var json = JsonSerializer.Serialize(data, new JsonSerializerOptions
