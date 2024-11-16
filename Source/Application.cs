@@ -64,8 +64,15 @@ namespace VocabularyTrainer2.Source
                     {
                         case "-l":
                         case "--limit":
-                            if (int.TryParse(args[1], out int limit) && limit > 0)
-                                Run(limit);
+                            if (int.TryParse(args[1], out int flashcardLimit) && flashcardLimit > 0)
+                                Run(flashcardLimit: flashcardLimit);
+                            else
+                                Utility.WriteRedLine($"Option '{args[0]}' first arg should be a positive int");
+                            break;
+                        case "-t":
+                        case "--time":
+                            if (int.TryParse(args[1], out int timeLimit) && timeLimit > 0)
+                                Run(timeLimit: timeLimit);
                             else
                                 Utility.WriteRedLine($"Option '{args[0]}' first arg should be a positive int");
                             break;
@@ -80,17 +87,33 @@ namespace VocabularyTrainer2.Source
             }
         }
 
-        private void Run(int? limit = null)
+        private void Run(int? flashcardLimit = null, int? timeLimit = null)
         {
+            if (flashcardLimit != null && timeLimit != null)
+                throw new Exception("Cannot use flashcard and time limit at the same time.");
+
             Console.Clear();
 
             var counter = 0;
+            var startTime = DateTime.Now;
 
             while (true)
             {
-                if (limit != null && limit > 0 && limit == counter)
+                if (flashcardLimit != null && flashcardLimit > 0 && flashcardLimit == counter)
                 {
-                    Utility.WriteGreenLine($"Congratulations! You have reached your flashcards limit of {limit}.");
+                    Utility.WriteGreenLine($"Congratulations! You have reached your flashcards limit of {flashcardLimit}.");
+                    Console.WriteLine();
+                    Console.Write("Press enter to continue...");
+                    Console.ReadLine();
+                    Console.Clear();
+                    break;
+                }
+
+                if (timeLimit != null && DateTime.Now > startTime.AddMinutes((double)timeLimit))
+                {
+                    var minutes = timeLimit > 1 ? "minutes" : "minute";
+
+                    Utility.WriteGreenLine($"Congratulations! You have reached your time limit of {timeLimit} {minutes}.");
                     Console.WriteLine();
                     Console.Write("Press enter to continue...");
                     Console.ReadLine();
