@@ -40,7 +40,7 @@ namespace VocabularyTrainer2.Source
             switch (args.Length)
             {
                 case 0:
-                    Run();
+                    RunWithoutAnyLimit();
                     break;
                 case 1:
                     switch (args[0])
@@ -51,7 +51,7 @@ namespace VocabularyTrainer2.Source
                             break;
 
                         case "-s":
-                        case "--stats":
+                        case "--statistics":
                             DisplayStatistics();
                             break;
                         default:
@@ -62,17 +62,17 @@ namespace VocabularyTrainer2.Source
                 case 2:
                     switch (args[0])
                     {
-                        case "-l":
-                        case "--limit":
+                        case "-f":
+                        case "--flashcard-limit":
                             if (int.TryParse(args[1], out int flashcardLimit) && flashcardLimit > 0)
-                                Run(flashcardLimit: flashcardLimit);
+                                RunWithFlashcardLimit(flashcardLimit);
                             else
                                 Utility.WriteRedLine($"Option '{args[0]}' first arg should be a positive int");
                             break;
                         case "-t":
-                        case "--time":
+                        case "--time-limit":
                             if (int.TryParse(args[1], out int timeLimit) && timeLimit > 0)
-                                Run(timeLimit: timeLimit);
+                                RunWithTimeLimit(timeLimit);
                             else
                                 Utility.WriteRedLine($"Option '{args[0]}' first arg should be a positive int");
                             break;
@@ -87,21 +87,17 @@ namespace VocabularyTrainer2.Source
             }
         }
 
-        private void Run(int? flashcardLimit = null, int? timeLimit = null)
+        private void RunWithoutAnyLimit()
         {
-            if (flashcardLimit != null && timeLimit != null)
-                throw new Exception("Cannot use flashcard and time limit at the same time.");
-
             Console.Clear();
-
-            var counter = 0;
-            var startTime = DateTime.Now;
 
             while (true)
             {
-                if (flashcardLimit != null && flashcardLimit > 0 && flashcardLimit == counter)
+                var flashcard = _flashcardSet.GetRandomFlashcard();
+
+                if (flashcard == null)
                 {
-                    Utility.WriteGreenLine($"Congratulations! You have reached your flashcards limit of {flashcardLimit}.");
+                    Utility.WriteGreenLine("Congratulations! There is nothing else to practice.");
                     Console.WriteLine();
                     Console.Write("Press enter to continue...");
                     Console.ReadLine();
@@ -109,11 +105,49 @@ namespace VocabularyTrainer2.Source
                     break;
                 }
 
-                if (timeLimit != null && DateTime.Now > startTime.AddMinutes((double)timeLimit))
-                {
-                    var minutes = timeLimit > 1 ? "minutes" : "minute";
+                Console.Write($"Answer question '{flashcard.AskQuestion()}': ");
+                var answer = Console.ReadLine();
 
-                    Utility.WriteGreenLine($"Congratulations! You have reached your time limit of {timeLimit} {minutes}.");
+                if (answer == null)
+                    break;
+
+                var (isCorrect, correctAnswer) = flashcard.AnswerQuestion(answer);
+
+                _flashcardSet.SaveToFileAsJson();
+
+                Console.WriteLine();
+
+                if (isCorrect)
+                    Utility.WriteGreenLine("Correct!");
+                else
+                    Utility.WriteRedLine($"Incorrect! The correct answer is: '{correctAnswer}'.");
+
+                var bonus = FindFlashcardBonus(flashcard);
+
+                if (bonus != null)
+                {
+                    Console.WriteLine();
+                    Console.WriteLine($"Additional information: {bonus}");
+                }
+
+                Console.WriteLine();
+                Console.Write("Press enter to continue...");
+                Console.ReadLine();
+                Console.Clear();
+            }
+        }
+
+        private void RunWithFlashcardLimit(int flashcardLimit)
+        {
+            Console.Clear();
+
+            var counter = 0;
+
+            while (true)
+            {
+                if (flashcardLimit == counter)
+                {
+                    Utility.WriteGreenLine($"Congratulations! You have reached your flashcards limit of {flashcardLimit}.");
                     Console.WriteLine();
                     Console.Write("Press enter to continue...");
                     Console.ReadLine();
@@ -167,6 +201,70 @@ namespace VocabularyTrainer2.Source
             }
         }
 
+        private void RunWithTimeLimit(int timeLimit)
+        {
+            Console.Clear();
+
+            var endTime = DateTime.Now.AddMinutes(timeLimit);
+
+            while (true)
+            {
+                if (DateTime.Now >= endTime)
+                {
+                    var minutes = timeLimit > 1 ? "minutes" : "minute";
+
+                    Utility.WriteGreenLine($"Congratulations! You have reached your time limit of {timeLimit} {minutes}.");
+                    Console.WriteLine();
+                    Console.Write("Press enter to continue...");
+                    Console.ReadLine();
+                    Console.Clear();
+                    break;
+                }
+
+                var flashcard = _flashcardSet.GetRandomFlashcard();
+
+                if (flashcard == null)
+                {
+                    Utility.WriteGreenLine("Congratulations! There is nothing else to practice.");
+                    Console.WriteLine();
+                    Console.Write("Press enter to continue...");
+                    Console.ReadLine();
+                    Console.Clear();
+                    break;
+                }
+
+                Console.Write($"Answer question '{flashcard.AskQuestion()}': ");
+                var answer = Console.ReadLine();
+
+                if (answer == null)
+                    break;
+
+                var (isCorrect, correctAnswer) = flashcard.AnswerQuestion(answer);
+
+                _flashcardSet.SaveToFileAsJson();
+
+                Console.WriteLine();
+
+                if (isCorrect)
+                    Utility.WriteGreenLine("Correct!");
+                else
+                    Utility.WriteRedLine($"Incorrect! The correct answer is: '{correctAnswer}'.");
+
+                var bonus = FindFlashcardBonus(flashcard);
+
+                if (bonus != null)
+                {
+                    Console.WriteLine();
+                    Console.WriteLine($"Additional information: {bonus}");
+                }
+
+                Console.WriteLine();
+                Console.Write("Press enter to continue...");
+                Console.ReadLine();
+                Console.Clear();
+            }
+        }
+
         private string? FindFlashcardBonus(Flashcard.Flashcard flashcard)
         {
             return (flashcard.ParentId % 10) switch
@@ -177,11 +275,6 @@ namespace VocabularyTrainer2.Source
                 3 => _verbs.Find(v => v.Id == flashcard.ParentId)?.Bonus,
                 _ => throw new Exception("Unknown type of object. Unable to find flashcard bonus."),
             };
-        }
-
-        private static void ClearCache()
-        {
-            File.Delete(Config.Instance.VerbEndingsCacheFilePath);
         }
 
         private void DisplayStatistics()
@@ -240,6 +333,11 @@ namespace VocabularyTrainer2.Source
             Utility.WriteRed($"{statistics.PracticedUnsuccessfully,6} ");
             Console.Write($"({statistics.PracticedUnsuccessfullyPercentage:00.00}%)");
             Console.WriteLine();
+        }
+
+        private static void ClearCache()
+        {
+            File.Delete(Config.Instance.VerbEndingsCacheFilePath);
         }
     }
 }
