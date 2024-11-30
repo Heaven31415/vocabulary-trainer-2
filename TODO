@@ -1,0 +1,30 @@
+# TODO
+
+1. Przetłumaczyć program na inne języki (niemiecki, polski) oraz umożliwić
+wybieranie języka z pomocą już istniejącego pliku konfiguracyjnego
+2. Przebudować program w taki sposób, żeby można było go uruchomić
+z dowolnego folderu
+3. Zmienić algorytm wybierania fiszek w taki sposób, żeby niemożliwe było
+wylosowanie z rzędu 2 różnych fiszek dotyczących np. tego samego czasownika
+4. Dodać wsparcie dla sytuacji w których istnieje więcej niż jedna prawidłowa odpowiedź
+- niektóre rzeczowniki posiadają więcej niż jeden rodzajnik np. der/die Paprika
+- niektóre czasowniki wspierają więcej niż jedną formę odmiany np. du aßt, du aßest
+- niektóre przymiotniki odmieniają się na więcej niż jeden sposób np. am blausten, am blauesten
+5. Stworzyć moduł umożliwiający tworzenie fiszek specjalnego rodzaju, które byłyby dostępne raz
+na dzień i byłyby wybierane przed wszystkimi innymi
+- możliwość ćwiczenia zasad odmiany liczebników, przymiotników oraz zaimków wraz z rzeczownikami (RESE NESE MoRMoN)
+- możliwość ćwiczenia zamiany liczebnika głównego na tekst np. 2 => zwei
+- możliwość ćwiczenia zamiany liczebnika porządkowego na tekst np. 2 => zweite
+- możliwość ćwiczenia zamiany czasu na tekst np. 15:30 -> Es ist halb vier
+6. Zmienić sposób wyświetlania statystyk w taki sposób, żeby przerwy między słowami
+były liczone w sposób automatyczny
+7. Naprawić tworzenie fiszek z takich czasowników jak: 
+- wollen
+- müssen
+- können
+- sollen
+- dürfen
+- mögen
+- sich gewöhnen
+8. Podzielić klasę Adjective na 3 osobne: Adjective, AdjectiveValidator, AdjectiveCsvFileReader (analogicznie zrobić to samo
+dla klas Noun, Other i Verb)
