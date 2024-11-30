@@ -2,61 +2,13 @@
 {
     public class ConsoleStatistics
     {
-        private enum Text
-        {
-            Vocabulary,
-            Adjectives,
-            Nouns,
-            Others,
-            Verbs,
-            Total,
-            Flashcards,
-            FlashcardsAvailable,
-            FlashcardsAvailableNow,
-            FlashcardsAvailableNext24Hours,
-            FlashcardsAvailableNext7Days,
-            FlashcardsResults,
-            FlashcardsResultsToday,
-            FlashcardsResultsLast7Days,
-            FlashcardsResultsLast30Days,
-            FlashcardsResultsLifetime,
-            FlashcardsResultsPracticed,
-            FlashcardsResultsPracticedSuccessfully,
-            FlashcardsResultsPracticedUnsuccessfully,
-            FlashcardsCooldowns,
-            FlashcardsCooldownsDays
-        }
-
         private readonly Statistics _statistics;
         private readonly Dictionary<Text, string> _data;
 
-        public ConsoleStatistics(Statistics statistics)
+        public ConsoleStatistics(Statistics statistics, Dictionary<Text, string> data)
         {
             _statistics = statistics;
-            _data = new Dictionary<Text, string>()
-            {
-                {Text.Vocabulary, "Vocabulary"},
-                {Text.Adjectives,"Adjectives:"},
-                {Text.Nouns,"Nouns:"},
-                {Text.Others,"Others:"},
-                {Text.Verbs,"Verbs:"},
-                {Text.Total,"Total:"},
-                {Text.Flashcards, "Flashcards"},
-                {Text.FlashcardsAvailable, "Available"},
-                {Text.FlashcardsAvailableNow, "Now:"},
-                {Text.FlashcardsAvailableNext24Hours, "24 hours:"},
-                {Text.FlashcardsAvailableNext7Days, "7 days:"},
-                {Text.FlashcardsResults, "Results"},
-                {Text.FlashcardsResultsToday, "Today"},
-                {Text.FlashcardsResultsLast7Days, "7 days"},
-                {Text.FlashcardsResultsLast30Days, "30 days"},
-                {Text.FlashcardsResultsLifetime, "Lifetime"},
-                {Text.FlashcardsResultsPracticed, "Practiced:"},
-                {Text.FlashcardsResultsPracticedSuccessfully, "Successfully:"},
-                {Text.FlashcardsResultsPracticedUnsuccessfully, "Unsuccessfully:"},
-                {Text.FlashcardsCooldowns, "Cooldowns"},
-                {Text.FlashcardsCooldownsDays, "Days"}
-            };
+            _data = data;
         }
 
         public void DisplayAll()

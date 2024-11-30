@@ -281,8 +281,97 @@ namespace VocabularyTrainer2.Source
         {
             var statistics = new Statistics(_adjectives, _nouns, _others, _verbs, _flashcardSet);
 
-            var consoleStatistics = new ConsoleStatistics(statistics);
+            Dictionary<Text, string> data;
 
+            switch (Config.Instance.Language)
+            {
+                case "en_US":
+                    data = new Dictionary<Text, string>()
+                    {
+                        {Text.Vocabulary, "Vocabulary"},
+                        {Text.Adjectives, "Adjectives:"},
+                        {Text.Nouns, "Nouns:"},
+                        {Text.Others, "Others:"},
+                        {Text.Verbs, "Verbs:"},
+                        {Text.Total, "Total:"},
+                        {Text.Flashcards, "Flashcards"},
+                        {Text.FlashcardsAvailable, "Available"},
+                        {Text.FlashcardsAvailableNow, "Now:"},
+                        {Text.FlashcardsAvailableNext24Hours, "24 hours:"},
+                        {Text.FlashcardsAvailableNext7Days, "7 days:"},
+                        {Text.FlashcardsResults, "Results"},
+                        {Text.FlashcardsResultsToday, "Today"},
+                        {Text.FlashcardsResultsLast7Days, "7 days"},
+                        {Text.FlashcardsResultsLast30Days, "30 days"},
+                        {Text.FlashcardsResultsLifetime, "Lifetime"},
+                        {Text.FlashcardsResultsPracticed, "Practiced:"},
+                        {Text.FlashcardsResultsPracticedSuccessfully, "Successfully:"},
+                        {Text.FlashcardsResultsPracticedUnsuccessfully, "Unsuccessfully:"},
+                        {Text.FlashcardsCooldowns, "Cooldowns"},
+                        {Text.FlashcardsCooldownsDays, "Days"}
+                    };
+                    break;
+
+                case "de_DE":
+                    data = new Dictionary<Text, string>()
+                    {
+                        {Text.Vocabulary, "Wortschatz"},
+                        {Text.Adjectives,"Adjektive:"},
+                        {Text.Nouns, "Nomen:"},
+                        {Text.Others, "Andere:"},
+                        {Text.Verbs, "Verben:"},
+                        {Text.Total, "Gesamt:"},
+                        {Text.Flashcards, "Karteikarten"},
+                        {Text.FlashcardsAvailable, "Verfügbar"},
+                        {Text.FlashcardsAvailableNow, "Jetzt:"},
+                        {Text.FlashcardsAvailableNext24Hours, "24 Stunden:"},
+                        {Text.FlashcardsAvailableNext7Days, "7 Tage:"},
+                        {Text.FlashcardsResults, "Ergebnisse"},
+                        {Text.FlashcardsResultsToday, "Heute"},
+                        {Text.FlashcardsResultsLast7Days, "7 Tage"},
+                        {Text.FlashcardsResultsLast30Days, "30 Tage"},
+                        {Text.FlashcardsResultsLifetime, "Lebenszeit"},
+                        {Text.FlashcardsResultsPracticed, "Geübt:"},
+                        {Text.FlashcardsResultsPracticedSuccessfully, "Erfolgreich:"},
+                        {Text.FlashcardsResultsPracticedUnsuccessfully, "Erfolglos:"},
+                        {Text.FlashcardsCooldowns, "Abklingzeiten"},
+                        {Text.FlashcardsCooldownsDays, "Tage"}
+                    };
+                    break;
+
+                case "pl_PL":
+                    data = new Dictionary<Text, string>()
+                    {
+                        {Text.Vocabulary, "Słownictwo"},
+                        {Text.Adjectives, "Przymiotniki:"},
+                        {Text.Nouns, "Rzeczowniki:"},
+                        {Text.Others, "Inne:"},
+                        {Text.Verbs, "Czasowniki:"},
+                        {Text.Total, "Razem:"},
+                        {Text.Flashcards, "Fiszki"},
+                        {Text.FlashcardsAvailable, "Dostępne"},
+                        {Text.FlashcardsAvailableNow, "Teraz:"},
+                        {Text.FlashcardsAvailableNext24Hours, "24 godziny:"},
+                        {Text.FlashcardsAvailableNext7Days, "7 dni:"},
+                        {Text.FlashcardsResults, "Wyniki"},
+                        {Text.FlashcardsResultsToday, "Dzisiaj"},
+                        {Text.FlashcardsResultsLast7Days, "7 dni"},
+                        {Text.FlashcardsResultsLast30Days, "30 dni"},
+                        {Text.FlashcardsResultsLifetime, "Cały czas"},
+                        {Text.FlashcardsResultsPracticed, "Przećwiczone:"},
+                        {Text.FlashcardsResultsPracticedSuccessfully, "Dobrze:"},
+                        {Text.FlashcardsResultsPracticedUnsuccessfully, "Źle:"},
+                        {Text.FlashcardsCooldowns, "Czasy odnowienia"},
+                        {Text.FlashcardsCooldownsDays, "Dni"}
+                    };
+                    break;
+
+                default:
+                    throw new ArgumentException($"Invalid language value: {Config.Instance.Language}.");
+            }
+
+
+            var consoleStatistics = new ConsoleStatistics(statistics, data);
             consoleStatistics.DisplayAll();
         }
 

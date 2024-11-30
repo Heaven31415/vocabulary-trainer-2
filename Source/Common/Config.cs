@@ -53,5 +53,6 @@ namespace VocabularyTrainer2.Source.Common
         public int MaximalFlashcardCooldownInDays { get; set; } = 32;
         public string SpreadsheetKey { get; set; } = "1eP9-mlyuen3XezQn79EuPTQMMsponFWxlCxzK5qllMY";
         public string[] SpreadsheetNames { get; set; } = new string[] { "Adjectives", "Nouns", "Others", "Verbs" };
+        public string Language { get; set; } = "en_US"; // Supported values: en_US, de_DE, pl_PL
     }
 }
