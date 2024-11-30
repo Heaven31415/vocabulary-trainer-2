@@ -16,9 +16,7 @@ na dzień i byłyby wybierane przed wszystkimi innymi
 - możliwość ćwiczenia zamiany liczebnika głównego na tekst np. 2 => zwei
 - możliwość ćwiczenia zamiany liczebnika porządkowego na tekst np. 2 => zweite
 - możliwość ćwiczenia zamiany czasu na tekst np. 15:30 -> Es ist halb vier
-6. Zmienić sposób wyświetlania statystyk w taki sposób, żeby przerwy między słowami
-były liczone w sposób automatyczny
-7. Naprawić tworzenie fiszek z takich czasowników jak: 
+6. Naprawić tworzenie fiszek z takich czasowników jak: 
 - wollen
 - müssen
 - können
@@ -26,5 +24,5 @@ były liczone w sposób automatyczny
 - dürfen
 - mögen
 - sich gewöhnen
-8. Podzielić klasę Adjective na 3 osobne: Adjective, AdjectiveValidator, AdjectiveCsvFileReader (analogicznie zrobić to samo
+7. Podzielić klasę Adjective na 3 osobne: Adjective, AdjectiveValidator, AdjectiveCsvFileReader (analogicznie zrobić to samo
 dla klas Noun, Other i Verb)

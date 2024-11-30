@@ -12,8 +12,11 @@ namespace VocabularyTrainer2.Source.Common.Statistics
         public int VocabularyCount { get; }
         public int FlashcardsCount { get; }
         public int FlashcardsAvailableNow { get; }
+        public float FlashcardsAvailableNowPercentage { get; }
         public int FlashcardsAvailableNext24Hours { get; }
+        public float FlashcardsAvailableNext24HoursPercentage { get; }
         public int FlashcardsAvailableNext7Days { get; }
+        public float FlashcardsAvailableNext7DaysPercentage { get; }
         public FlashcardsStatistics FlashcardsToday { get; }
         public FlashcardsStatistics FlashcardsLast7Days { get; }
         public FlashcardsStatistics FlashcardsLast30Days { get; }
@@ -31,8 +34,11 @@ namespace VocabularyTrainer2.Source.Common.Statistics
 
             FlashcardsCount = flashcardSet.Flashcards.Count;
             FlashcardsAvailableNow = flashcardSet.Flashcards.FindAll(f => f.IsAvailable()).Count;
+            FlashcardsAvailableNowPercentage = 100f * FlashcardsAvailableNow / FlashcardsCount;
             FlashcardsAvailableNext24Hours = flashcardSet.Flashcards.FindAll(f => f.IsAvailable(DateTime.Now.AddHours(24))).Count;
+            FlashcardsAvailableNext24HoursPercentage = 100f * FlashcardsAvailableNext24Hours / FlashcardsCount;
             FlashcardsAvailableNext7Days = flashcardSet.Flashcards.FindAll(f => f.IsAvailable(DateTime.Now.AddDays(7))).Count;
+            FlashcardsAvailableNext7DaysPercentage = 100f * FlashcardsAvailableNext7Days / FlashcardsCount;
 
             FlashcardsToday = new FlashcardsStatistics(flashcardSet.Flashcards, r => DateTime.Today <= r.Time && r.Time < DateTime.Today.AddDays(1));
             FlashcardsLast7Days = new FlashcardsStatistics(flashcardSet.Flashcards, r => DateTime.Today.AddDays(-7) <= r.Time && r.Time < DateTime.Today.AddDays(1));

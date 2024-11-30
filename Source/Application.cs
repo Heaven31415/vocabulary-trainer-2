@@ -281,58 +281,9 @@ namespace VocabularyTrainer2.Source
         {
             var statistics = new Statistics(_adjectives, _nouns, _others, _verbs, _flashcardSet);
 
-            Utility.WriteBlueLine("Vocabulary:");
-            Utility.WriteYellow($"  {"Adjectives:",-11} ");
-            Console.WriteLine($"{statistics.AdjectivesCount,4}");
-            Utility.WriteYellow($"  {"Nouns:",-11} ");
-            Console.WriteLine($"{statistics.NounsCount,4}");
-            Utility.WriteYellow($"  {"Others:",-11} ");
-            Console.WriteLine($"{statistics.OthersCount,4}");
-            Utility.WriteYellow($"  {"Verbs:",-11} ");
-            Console.WriteLine($"{statistics.VerbsCount,4}");
-            Utility.WriteYellow($"  {"Total:",-11} ");
-            Console.WriteLine($"{statistics.VocabularyCount,4}");
+            var consoleStatistics = new ConsoleStatistics(statistics);
 
-            Utility.WriteBlueLine("Flashcards:");
-            Utility.WriteYellow($"  {"Available (now):",-26}");
-            Console.WriteLine($"{statistics.FlashcardsAvailableNow,5}");
-            Utility.WriteYellow($"  {"Available (next 24 hours):",-26}");
-            Console.WriteLine($"{statistics.FlashcardsAvailableNext24Hours,5}");
-            Utility.WriteYellow($"  {"Available (next 7 days):",-26}");
-            Console.WriteLine($"{statistics.FlashcardsAvailableNext7Days,5}");
-            Utility.WriteYellow($"  {"All:",-26}");
-            Console.WriteLine($"{statistics.FlashcardsCount,5}");
-
-            Utility.WriteBlueLine("Results:");
-            ShowFlashcardsStatistics("  Today:", statistics.FlashcardsToday);
-            ShowFlashcardsStatistics("  Last 7 days:", statistics.FlashcardsLast7Days);
-            ShowFlashcardsStatistics("  Last 30 days:", statistics.FlashcardsLast30Days);
-            ShowFlashcardsStatistics("  Lifetime:", statistics.FlashcardsLifetime);
-
-            Utility.WriteBlueLine("Cooldowns:");
-            foreach (var cooldown in statistics.FlashcardsCooldowns.Keys.OrderBy(item => item))
-            {
-                var count = statistics.FlashcardsCooldowns[cooldown];
-                var percentage = statistics.FlashcardsCooldownsPercentages[cooldown];
-                var days = cooldown.Days > 1 ? "days" : "day";
-
-                Utility.WriteYellow($"  {cooldown.Days,3} {days,4}:");
-                Console.WriteLine($"{count,4} ({percentage:00.00}%)");
-            }
-        }
-
-        private static void ShowFlashcardsStatistics(string description, FlashcardsStatistics statistics)
-        {
-            Console.WriteLine(description);
-            Utility.WriteYellow($"    {"Practiced:",-15} ");
-            Console.WriteLine($"{statistics.Practiced,6}");
-            Utility.WriteYellow($"    {"Successfully:",-15} ");
-            Utility.WriteGreen($"{statistics.PracticedSuccessfully,6} ");
-            Console.WriteLine($"({statistics.PracticedSuccessfullyPercentage:00.00}%)");
-            Utility.WriteYellow($"    {"Unsuccessfully:",-15} ");
-            Utility.WriteRed($"{statistics.PracticedUnsuccessfully,6} ");
-            Console.Write($"({statistics.PracticedUnsuccessfullyPercentage:00.00}%)");
-            Console.WriteLine();
+            consoleStatistics.DisplayAll();
         }
 
         private static void ClearCache()

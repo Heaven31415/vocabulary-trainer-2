@@ -2,11 +2,63 @@
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Text.Unicode;
+using VocabularyTrainer2.Source.Common.Statistics;
 
 namespace VocabularyTrainer2.Source.Common
 {
     public class Utility
     {
+        public static int CommonPadding<T>(IEnumerable<T> values)
+        {
+            var padding = 0;
+
+            foreach (var value in values)
+            {
+                if (value != null)
+                {
+                    var stringRepresentation = value.ToString();
+
+                    if (stringRepresentation != null)
+                    {
+                        if (stringRepresentation.Length > padding)
+                        {
+                            padding = stringRepresentation.Length;
+                        }
+                    }
+                }
+            }
+
+            return padding;
+        }
+
+        public static int CommonPadding(FlashcardsStatistics statistics)
+        {
+            return new[] {
+                $"{statistics.Practiced}",
+                $"{statistics.PracticedSuccessfully}",
+                $"{statistics.PracticedUnsuccessfully}"
+            }.Max(v => v.Length);
+        }
+
+        public static void Space(int count)
+        {
+            Console.Write(" ".Repeat(count));
+        }
+
+        public static void Write(ConsoleColor color, string? value = null)
+        {
+            Console.ForegroundColor = color;
+            Console.Write(value);
+            Console.ResetColor();
+        }
+
+        public static void WriteLine(ConsoleColor color, string? value = null)
+        {
+            Console.ForegroundColor = color;
+            Console.WriteLine(value);
+            Console.ResetColor();
+        }
+
         public static void WriteRed(string? value = null)
         {
             Console.ForegroundColor = ConsoleColor.Red;
