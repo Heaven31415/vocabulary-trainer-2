@@ -24,5 +24,9 @@ na dzień i byłyby wybierane przed wszystkimi innymi
 - dürfen
 - mögen
 - sich gewöhnen
+- sich verlieben
+- sich erinnern
 7. Podzielić klasę Adjective na 3 osobne: Adjective, AdjectiveValidator, AdjectiveCsvFileReader (analogicznie zrobić to samo
 dla klas Noun, Other i Verb)
+8. Naprawić błąd w klasie VerbEndingsCache, który powoduje że pomimo zmiany kodu kontrolnego
+czasownika aplikacja dalej korzysta z już zapisanej na dysku wersji
