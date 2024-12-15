@@ -2,21 +2,9 @@
 
 1. Przetłumaczyć program na inne języki (niemiecki, polski) oraz umożliwić
 wybieranie języka z pomocą już istniejącego pliku konfiguracyjnego
-2. Przebudować program w taki sposób, żeby można było go uruchomić
-z dowolnego folderu
-3. Zmienić algorytm wybierania fiszek w taki sposób, żeby niemożliwe było
+2. Zmienić algorytm wybierania fiszek w taki sposób, żeby niemożliwe było
 wylosowanie z rzędu 2 różnych fiszek dotyczących np. tego samego czasownika
-4. Dodać wsparcie dla sytuacji w których istnieje więcej niż jedna prawidłowa odpowiedź
-- niektóre rzeczowniki posiadają więcej niż jeden rodzajnik np. der/die Paprika
-- niektóre czasowniki wspierają więcej niż jedną formę odmiany np. du aßt, du aßest
-- niektóre przymiotniki odmieniają się na więcej niż jeden sposób np. am blausten, am blauesten
-5. Stworzyć moduł umożliwiający tworzenie fiszek specjalnego rodzaju, które byłyby dostępne raz
-na dzień i byłyby wybierane przed wszystkimi innymi
-- możliwość ćwiczenia zasad odmiany liczebników, przymiotników oraz zaimków wraz z rzeczownikami (RESE NESE MoRMoN)
-- możliwość ćwiczenia zamiany liczebnika głównego na tekst np. 2 => zwei
-- możliwość ćwiczenia zamiany liczebnika porządkowego na tekst np. 2 => zweite
-- możliwość ćwiczenia zamiany czasu na tekst np. 15:30 -> Es ist halb vier
-6. Naprawić tworzenie fiszek z takich czasowników jak: 
+3. Naprawić tworzenie fiszek z takich czasowników jak: 
 - wollen
 - müssen
 - können
@@ -26,7 +14,24 @@ na dzień i byłyby wybierane przed wszystkimi innymi
 - sich gewöhnen
 - sich verlieben
 - sich erinnern
-7. Podzielić klasę Adjective na 3 osobne: Adjective, AdjectiveValidator, AdjectiveCsvFileReader (analogicznie zrobić to samo
-dla klas Noun, Other i Verb)
-8. Naprawić błąd w klasie VerbEndingsCache, który powoduje że pomimo zmiany kodu kontrolnego
-czasownika aplikacja dalej korzysta z już zapisanej na dysku wersji
+4. Podzielić klasę Adjective na 3 osobne: Adjective, AdjectiveValidator, AdjectiveCsvFileReader
+(analogicznie zrobić to samo dla klas Noun, Other i Verb)
+5. Naprawić błąd w klasie VerbEndingsCache, który powoduje że pomimo zmiany kodu kontrolnego
+czasownika aplikacja dalej korzysta z już zapisanej wersji na dysku z innym kodem
+6. Przebudować program w taki sposób, żeby można było uruchomić go z dowolnego folderu
+7. Dodać wsparcie dla sytuacji w których istnieje więcej niż jedna prawidłowa odpowiedź
+- niektóre rzeczowniki posiadają więcej niż jeden rodzajnik np. der/die Paprika
+- niektóre czasowniki wspierają więcej niż jedną formę odmiany np. du aßt, du aßest
+- niektóre przymiotniki odmieniają się na więcej niż jeden sposób np. am blausten, am blauesten
+8. Stworzyć moduł umożliwiający tworzenie fiszek specjalnego rodzaju, które byłyby dostępne raz
+na dzień i byłyby wybierane przed wszystkimi innymi
+- możliwość ćwiczenia zasad odmiany liczebników, przymiotników oraz zaimków wraz z rzeczownikami (RESE NESE MoRMoN)
+- możliwość ćwiczenia zamiany liczebnika głównego na tekst np. 2 => zwei
+- możliwość ćwiczenia zamiany liczebnika porządkowego na tekst np. 2 => zweite
+- możliwość ćwiczenia zamiany czasu na tekst np. 15:30 -> Es ist halb vier
+9. Dodać możliwość generowania raportów w formacie CSV ukazujących:
+- ile było całkowicie przećwiczonych fiszek w danym dniu
+- ile istniało słów w danym dniu
+10. Przebudować klasę Config w taki sposób, żeby można było ją normalnie wstrzykiwać
+11. Zmienić sposób generowania fiszek dla czasowników w trzeciej osobie liczby pojedynczej, żeby
+uwzględnić możliwość pojawienia się 3 różnych zaimków osobowych: er, sie, es
