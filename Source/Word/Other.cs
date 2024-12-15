@@ -53,13 +53,13 @@ namespace VocabularyTrainer2.Source.Word
         private static void ValidateQuestion(string question)
         {
             if (question.Length == 0)
-                throw new ArgumentException("Other question cannot be empty.");
+                throw new ArgumentException("Other question cannot be empty");
         }
 
         private static void ValidateAnswer(string answer)
         {
             if (answer.Length == 0)
-                throw new ArgumentException("Other answer cannot be empty.");
+                throw new ArgumentException("Other answer cannot be empty");
         }
     }
 }

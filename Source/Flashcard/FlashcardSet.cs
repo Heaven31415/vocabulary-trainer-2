@@ -1,4 +1,4 @@
-﻿using System.Text.Json;
+using System.Text.Json;
 using System.Text.Json.Serialization;
 using VocabularyTrainer2.Source.Common;
 using VocabularyTrainer2.Source.Word;
@@ -39,7 +39,7 @@ namespace VocabularyTrainer2.Source.Flashcard
             var flashcards = JsonSerializer.Deserialize<List<Flashcard>>(json, options);
 
             if (flashcards == null)
-                throw new IOException($"File '{_fileName}' contains invalid content. Unable to deserialize it.");
+                throw new IOException($"File '{_fileName}' contains invalid content. Unable to deserialize it");
 
             _flashcards = flashcards;
         }

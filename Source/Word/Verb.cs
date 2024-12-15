@@ -1,4 +1,4 @@
-﻿global using VerbEndings = System.Collections.Generic.Dictionary<VocabularyTrainer2.Source.Word.Verb.PersonalPronoun, string>;
+global using VerbEndings = System.Collections.Generic.Dictionary<VocabularyTrainer2.Source.Word.Verb.PersonalPronoun, string>;
 
 using CsvHelper;
 using System.Globalization;
@@ -80,26 +80,26 @@ namespace VocabularyTrainer2.Source.Word
         private static void ValidateDescription(string description)
         {
             if (description.Length == 0)
-                throw new ArgumentException("Verb description cannot be empty.");
+                throw new ArgumentException("Verb description cannot be empty");
         }
 
         private static void ValidateInfinitive(string infinitive)
         {
             if (infinitive.Length == 0)
-                throw new ArgumentException("Verb infinitive cannot be empty.");
+                throw new ArgumentException("Verb infinitive cannot be empty");
 
             if (!infinitive.IsLower())
-                throw new ArgumentException("Verb infinitive needs to be lowercase.");
+                throw new ArgumentException("Verb infinitive needs to be lowercase");
         }
 
         private static void ValidateControlCode(string controlCode)
         {
             if (controlCode.Length != 0 && controlCode.Length != 4)
-                throw new ArgumentException("Verb control code must be empty or have 4 characters.");
+                throw new ArgumentException("Verb control code must be empty or have 4 characters");
 
             foreach (var c in controlCode)
                 if (c != '1' && c != '2')
-                    throw new ArgumentException("Verb control code can only have '1' or '2' as characters.");
+                    throw new ArgumentException("Verb control code can only have '1' or '2' as characters");
         }
     }
 }

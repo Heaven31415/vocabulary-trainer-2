@@ -56,13 +56,13 @@ namespace VocabularyTrainer2.Source.Flashcard
         public Flashcard(int parentId, FlashcardType type, List<string> questions, List<string> answers)
         {
             if (questions.Count == 0)
-                throw new ArgumentException("Questions should have at least 1 element.");
+                throw new ArgumentException("Questions should have at least 1 element");
 
             if (answers.Count == 0)
-                throw new ArgumentException("Answers should have at least 1 element.");
+                throw new ArgumentException("Answers should have at least 1 element");
 
             if (questions.Count != answers.Count)
-                throw new Exception("Questions and answers should have the same amount of elements.");
+                throw new Exception("Questions and answers should have the same amount of elements");
 
             ParentId = parentId;
             Type = type;

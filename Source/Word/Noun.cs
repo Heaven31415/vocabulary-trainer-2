@@ -18,7 +18,7 @@ namespace VocabularyTrainer2.Source.Word
             Description = description;
 
             if (singularForm == null && pluralForm == null)
-                throw new Exception("Noun singular form and plural form cannot be null at the same time.");
+                throw new Exception("Noun singular form and plural form cannot be null at the same time");
 
             SingularForm = singularForm;
             PluralForm = pluralForm;
@@ -67,7 +67,7 @@ namespace VocabularyTrainer2.Source.Word
         private static void ValidateDescription(string description)
         {
             if (description.Length == 0)
-                throw new ArgumentException("Noun description cannot be empty.");
+                throw new ArgumentException("Noun description cannot be empty");
         }
 
         private static void ValidateSingularForm(string singularForm)
@@ -78,7 +78,7 @@ namespace VocabularyTrainer2.Source.Word
             var parts = singularForm.Split(' ');
 
             if (parts.Length != 2)
-                throw new ArgumentException($"Singular form noun should be made of 2 parts instead of {parts.Length}.");
+                throw new ArgumentException($"Singular form noun should be made of 2 parts instead of {parts.Length}");
 
             var article = parts[0];
             var noun = parts[1];
@@ -90,11 +90,11 @@ namespace VocabularyTrainer2.Source.Word
                 case "das":
                     break;
                 default:
-                    throw new ArgumentException($"Singular form article should be 'der', 'die' or 'das', not '{article}'.");
+                    throw new ArgumentException($"Singular form article should be 'der', 'die' or 'das', not '{article}'");
             }
 
             if (!noun.IsCapitalized())
-                throw new ArgumentException("Singular form noun should be capitalized.");
+                throw new ArgumentException("Singular form noun should be capitalized");
         }
 
         private static void ValidatePluralForm(string pluralForm)
@@ -105,16 +105,16 @@ namespace VocabularyTrainer2.Source.Word
             var parts = pluralForm.Split(' ');
 
             if (parts.Length != 2)
-                throw new ArgumentException($"Plural form noun should be made of 2 parts instead of {parts.Length}.");
+                throw new ArgumentException($"Plural form noun should be made of 2 parts instead of {parts.Length}");
 
             var article = parts[0];
             var noun = parts[1];
 
             if (article != "die")
-                throw new ArgumentException($"Plural form article should be equal to 'die' instead of '{article}'.");
+                throw new ArgumentException($"Plural form article should be equal to 'die' instead of '{article}'");
 
             if (!noun.IsCapitalized())
-                throw new ArgumentException("Plural forum noun should be capitalized.");
+                throw new ArgumentException("Plural forum noun should be capitalized");
         }
     }
 }

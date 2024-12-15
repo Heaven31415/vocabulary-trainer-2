@@ -19,7 +19,7 @@ namespace VocabularyTrainer2.Source.Word
             Description = description;
 
             if (string.IsNullOrEmpty(comparativeDegree) != string.IsNullOrEmpty(superlativeDegree))
-                throw new Exception("Adjective comparative degree and superlative degree have to be null or non-null at the same time.");
+                throw new Exception("Adjective comparative degree and superlative degree have to be null or non-null at the same time");
 
             PositiveDegree = positiveDegree;
             ComparativeDegree = comparativeDegree;
@@ -71,19 +71,19 @@ namespace VocabularyTrainer2.Source.Word
         private static void ValidateDescription(string description)
         {
             if (description.Length == 0)
-                throw new ArgumentException("Adjective description cannot be empty.");
+                throw new ArgumentException("Adjective description cannot be empty");
 
             if (!description.IsLower())
-                throw new ArgumentException("Adjective description needs to be lowercase.");
+                throw new ArgumentException("Adjective description needs to be lowercase");
         }
 
         private static void ValidatePositiveDegree(string positiveDegree)
         {
             if (positiveDegree.Length == 0)
-                throw new ArgumentException("Adjective positive degree cannot be empty.");
+                throw new ArgumentException("Adjective positive degree cannot be empty");
 
             if (!positiveDegree.IsLower())
-                throw new ArgumentException("Adjective positive degree needs to be lowercase.");
+                throw new ArgumentException("Adjective positive degree needs to be lowercase");
         }
 
         private static void ValidateComparativeDegree(string comparativeDegree)
@@ -92,7 +92,7 @@ namespace VocabularyTrainer2.Source.Word
                 return;
 
             if (!comparativeDegree.IsLower())
-                throw new ArgumentException("Adjective comparative degree needs to be lowercase.");
+                throw new ArgumentException("Adjective comparative degree needs to be lowercase");
         }
 
         private static void ValidateSuperlativeDegree(string superlativeDegree)
@@ -101,12 +101,12 @@ namespace VocabularyTrainer2.Source.Word
                 return;
 
             if (!superlativeDegree.IsLower())
-                throw new ArgumentException("Adjective superlative degree needs to be lowercase.");
+                throw new ArgumentException("Adjective superlative degree needs to be lowercase");
 
             var parts = superlativeDegree.Split(' ');
 
             if (parts.Length != 2)
-                throw new ArgumentException($"Superlative degree should be made of 2 parts instead of {parts.Length}.");
+                throw new ArgumentException($"Superlative degree should be made of 2 parts instead of {parts.Length}");
 
             if (parts[0] != "am")
                 throw new ArgumentException("Superlative degree first part should be equal to 'am'");

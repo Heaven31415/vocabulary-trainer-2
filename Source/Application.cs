@@ -1,4 +1,4 @@
-﻿using System.Text;
+using System.Text;
 using VocabularyTrainer2.Source.Common;
 using VocabularyTrainer2.Source.Common.Statistics;
 using VocabularyTrainer2.Source.Flashcard;
@@ -97,7 +97,7 @@ namespace VocabularyTrainer2.Source
 
                 if (flashcard == null)
                 {
-                    Utility.WriteGreenLine("Congratulations! There is nothing else to practice.");
+                    Utility.WriteGreenLine("Congratulations! There is nothing else to practice");
                     Console.WriteLine();
                     Console.Write("Press enter to continue...");
                     Console.ReadLine();
@@ -120,7 +120,7 @@ namespace VocabularyTrainer2.Source
                 if (isCorrect)
                     Utility.WriteGreenLine("Correct!");
                 else
-                    Utility.WriteRedLine($"Incorrect! The correct answer is: '{correctAnswer}'.");
+                    Utility.WriteRedLine($"Incorrect! The correct answer is: '{correctAnswer}'");
 
                 var bonus = FindFlashcardBonus(flashcard);
 
@@ -147,7 +147,7 @@ namespace VocabularyTrainer2.Source
             {
                 if (flashcardLimit == counter)
                 {
-                    Utility.WriteGreenLine($"Congratulations! You have reached your flashcards limit of {flashcardLimit}.");
+                    Utility.WriteGreenLine($"Congratulations! You have reached your flashcards limit of {flashcardLimit}");
                     Console.WriteLine();
                     Console.Write("Press enter to continue...");
                     Console.ReadLine();
@@ -159,7 +159,7 @@ namespace VocabularyTrainer2.Source
 
                 if (flashcard == null)
                 {
-                    Utility.WriteGreenLine("Congratulations! There is nothing else to practice.");
+                    Utility.WriteGreenLine("Congratulations! There is nothing else to practice");
                     Console.WriteLine();
                     Console.Write("Press enter to continue...");
                     Console.ReadLine();
@@ -182,7 +182,7 @@ namespace VocabularyTrainer2.Source
                 if (isCorrect)
                     Utility.WriteGreenLine("Correct!");
                 else
-                    Utility.WriteRedLine($"Incorrect! The correct answer is: '{correctAnswer}'.");
+                    Utility.WriteRedLine($"Incorrect! The correct answer is: '{correctAnswer}'");
 
                 var bonus = FindFlashcardBonus(flashcard);
 
@@ -213,7 +213,7 @@ namespace VocabularyTrainer2.Source
                 {
                     var minutes = timeLimit > 1 ? "minutes" : "minute";
 
-                    Utility.WriteGreenLine($"Congratulations! You have reached your time limit of {timeLimit} {minutes}.");
+                    Utility.WriteGreenLine($"Congratulations! You have reached your time limit of {timeLimit} {minutes}");
                     Console.WriteLine();
                     Console.Write("Press enter to continue...");
                     Console.ReadLine();
@@ -225,7 +225,7 @@ namespace VocabularyTrainer2.Source
 
                 if (flashcard == null)
                 {
-                    Utility.WriteGreenLine("Congratulations! There is nothing else to practice.");
+                    Utility.WriteGreenLine("Congratulations! There is nothing else to practice");
                     Console.WriteLine();
                     Console.Write("Press enter to continue...");
                     Console.ReadLine();
@@ -248,7 +248,7 @@ namespace VocabularyTrainer2.Source
                 if (isCorrect)
                     Utility.WriteGreenLine("Correct!");
                 else
-                    Utility.WriteRedLine($"Incorrect! The correct answer is: '{correctAnswer}'.");
+                    Utility.WriteRedLine($"Incorrect! The correct answer is: '{correctAnswer}'");
 
                 var bonus = FindFlashcardBonus(flashcard);
 
@@ -273,7 +273,7 @@ namespace VocabularyTrainer2.Source
                 1 => _nouns.Find(n => n.Id == flashcard.ParentId)?.Bonus,
                 2 => _others.Find(o => o.Id == flashcard.ParentId)?.Bonus,
                 3 => _verbs.Find(v => v.Id == flashcard.ParentId)?.Bonus,
-                _ => throw new Exception("Unknown type of object. Unable to find flashcard bonus."),
+                _ => throw new Exception("Unknown type of object. Unable to find flashcard bonus"),
             };
         }
 
@@ -367,7 +367,7 @@ namespace VocabularyTrainer2.Source
                     break;
 
                 default:
-                    throw new ArgumentException($"Invalid language value: {Config.Instance.Language}.");
+                    throw new ArgumentException($"Invalid language value: {Config.Instance.Language}");
             }
 
 

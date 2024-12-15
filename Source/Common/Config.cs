@@ -24,7 +24,7 @@ namespace VocabularyTrainer2.Source.Common
                         var config = JsonSerializer.Deserialize<Config>(json);
 
                         if (config == null)
-                            throw new IOException($"File '{FileName}' contains invalid content. Unable to deserialize it.");
+                            throw new IOException($"File '{FileName}' contains invalid content. Unable to deserialize it");
 
                         _instance = config;
                     }
