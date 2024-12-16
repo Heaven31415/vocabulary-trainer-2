@@ -35,3 +35,4 @@ na dzień i byłyby wybierane przed wszystkimi innymi
 10. Przebudować klasę Config w taki sposób, żeby można było ją normalnie wstrzykiwać
 11. Zmienić sposób generowania fiszek dla czasowników w trzeciej osobie liczby pojedynczej, żeby
 uwzględnić możliwość pojawienia się 3 różnych zaimków osobowych: er, sie, es
+12. Dodać automatyczne logowanie sesji nauki z konsoli do pliku
